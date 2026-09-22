@@ -211,16 +211,72 @@ add('equipment', 'Equipment', async () => {
   CharaID earlier in the project.</div>`;
 });
 
+const kb = (b) => b >= 1048576 ? (b / 1048576).toFixed(1) + ' MB' : Math.round(b / 1024) + ' KB';
+const ago = (iso) => {
+  if (!iso) return '—';
+  const h = (Date.now() - new Date(iso).getTime()) / 3.6e6;
+  if (h < 1) return Math.max(1, Math.round(h * 60)) + 'm ago';
+  if (h < 48) return h.toFixed(h < 10 ? 1 : 0) + 'h ago';
+  return Math.round(h / 24) + 'd ago';
+};
+
 add('saves', 'Saves', async () => {
   const s = await load('saves.json');
-  if (!s) return `<h1>Saves</h1>
-    <p class="lede">Save slot data is written by the forge's save scanner, which is not wired up yet.</p>
-    <div class="note">Known so far: a new game overwrote <code>data004Slot.bin</code> at 12:38 on 2026-09-20,
-    and a 12:27 backup preserved that morning's work. Backups before destructive phases are the rule that
-    saved it, and this tab exists to make that rule visible instead of remembered.</div>`;
-  return `<h1>Saves</h1>${table(['Slot', 'File', 'Size', 'Modified'],
-    (s.slots || []).map(x => [esc(x.slot), `<span class="mono">${esc(x.file)}</span>`,
-      `<span class="mono">${num(x.bytes)}</span>`, `<span class="mono">${esc(x.modified)}</span>`]))}`;
+  if (!s || s.error) return `<h1>Saves</h1>
+    <div class="empty">No <code>saves.json</code> yet — run <code>tools\\scan-saves.ps1</code>.
+    ${s?.error ? esc(s.error) : ''}</div>`;
+
+  const sum = s.summary || {};
+  const slots = (s.slots || []);
+  const exposed = slots.filter(x => x.isSlot && !x.backedUp);
+  const guard = exposed.length === 0
+    ? chip('ok', 'every slot is backed up')
+    : chip('bad', `${exposed.length} slot${exposed.length > 1 ? 's' : ''} not in the latest backup`);
+
+  const slotRows = slots.slice().sort((a, b) => (a.modified < b.modified ? 1 : -1)).map(x => [
+    esc(x.label),
+    `<span class="mono">${esc(x.file)}</span>`,
+    `<span class="mono">${kb(x.bytes)}</span>`,
+    `<span class="mono">${esc(String(x.modified).replace('T', ' '))}</span>`,
+    `<span class="mono">${ago(x.modified)}</span>`,
+    x.backedUp ? chip('ok', 'in backup') : chip('bad', 'exposed'),
+  ]);
+
+  const backupRows = (s.backups || []).map(b => [
+    `<span class="mono">${esc(b.name)}</span>`,
+    `<span class="mono">${esc(String(b.taken).replace('T', ' '))}</span>`,
+    `<span class="mono">${b.files}</span>`,
+    `<span class="mono">${kb(b.bytes)}</span>`,
+    `<span class="mono">${ago(b.taken)}</span>`,
+  ]);
+
+  return `<h1>Saves</h1>
+  <p class="lede">Read straight off the Steam cloud folder for app ${esc(s.steamAppId)}. The scanner never
+  writes into the save folder; the only thing it creates is a timestamped copy in the vault.</p>
+  <div class="grid g4" style="margin-top:20px">
+    ${tile(String(sum.slotCount ?? '—'), 'save slots', `${sum.fileCount ?? '—'} files total`)}
+    ${tile(String(sum.backupCount ?? 0), 'backups held', sum.lastBackup ? `newest ${ago(sum.lastBackup)}` : 'none yet')}
+    ${tile(kb(sum.totalBytes || 0), 'save data', 'across all files')}
+    ${tile(String(sum.unprotectedSlots ?? 0), 'slots exposed', 'not in the latest backup')}
+  </div>
+  <p style="margin:16px 0 0">${guard}</p>
+  <h2>Slots</h2>
+  ${table(['Slot', 'File', 'Size', 'Modified', 'Age', 'Backup'], slotRows)}
+  <h2>Backup vault</h2>
+  <p class="lede"><code>${esc(s.vaultDir)}</code> — newest first, oldest pruned past 40.</p>
+  ${backupRows.length ? table(['Backup', 'Taken', 'Files', 'Size', 'Age'], backupRows)
+    : `<div class="empty">No backups yet. Run the scanner with <code>-Backup</code>.</div>`}
+  <h2>Why this tab exists</h2>
+  <div class="note">On 2026-09-20 a new game overwrote <code>data004Slot.bin</code> at 12:38, and only a
+  copy taken eleven minutes earlier preserved that morning's work. That was luck wearing the costume of
+  discipline. Every slot here carries whether it is actually inside the newest backup, so the answer is a
+  status rather than a memory — and <code>data001Slot.bin</code> being 5.4&nbsp;MB against everything
+  else's 320&nbsp;KB is the old completed playthrough, worth never losing.</div>
+  <h2>Running it</h2>
+  <p class="lede">Scan only, writes nothing but the report:</p>
+  <p><code>powershell -ExecutionPolicy Bypass -File tools\\scan-saves.ps1</code></p>
+  <p class="lede">Take a backup first, then scan — do this before any destructive phase:</p>
+  <p><code>powershell -ExecutionPolicy Bypass -File tools\\scan-saves.ps1 -Backup</code></p>`;
 });
 
 add('mods', 'Mods', async () => {
