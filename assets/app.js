@@ -164,19 +164,44 @@ add('characters', 'Characters', async () => {
     `<div class="empty">No phase28.json.</div>`}`;
 });
 
+// DD2 equip slot indices, read off the probe rather than assumed: the dump's
+// `slot` field is the loadout position, not the item category.
+const SLOT = { 0: 'Primary', 1: 'Secondary', 2: 'Head', 3: 'Body', 4: 'Legs', 5: 'Cloak', 6: 'Ring', 7: 'Ring' };
+
 add('equipment', 'Equipment', async () => {
   const probe = await load('enhance_probe.json');
-  if (!probe) return `<h1>Equipment</h1><div class="empty">No <code>enhance_probe.json</code> yet.</div>`;
-  const list = Array.isArray(probe) ? probe : (probe.items || probe.written || probe.records || []);
-  const rows = (Array.isArray(list) ? list : []).slice(0, 600).map(r => [
-    esc(r.name || r.Name || r.item || '—'),
-    `<span class="mono">${esc(r.id ?? r.Id ?? '')}</span>`,
-    `<span class="mono">${esc(r.level ?? r.Level ?? r.enhance ?? '')}</span>`,
-    `<span class="mono">${esc(r.owner || r.who || '')}</span>`]);
+  const list = probe?.equipped;
+  if (!Array.isArray(list) || !list.length) {
+    return `<h1>Equipment</h1><div class="empty">No <code>equipped</code> array in
+      <code>enhance_probe.json</code> yet — press the gear-upgrade probe in game, then refresh the data.</div>`;
+  }
+  const maxed = list.filter(r => r.enhNum >= 4).length;
+  const avg = (list.reduce((a, r) => a + (r.enhNum || 0), 0) / list.length).toFixed(1);
+  const lvl = (n) => n >= 4 ? chip('ok', `+${n}`) : n >= 2 ? chip('warn', `+${n}`) : chip('bad', `+${n}`);
+  const rows = list.slice().sort((a, b) => (a.slot ?? 99) - (b.slot ?? 99)).map(r => [
+    esc(r.name || '—'),
+    `<span class="mono">${esc(r.itemId)}</span>`,
+    esc(SLOT[r.slot] ?? `slot ${r.slot}`),
+    lvl(r.enhNum ?? 0),
+    `<span class="mono">${[r.enhType0, r.enhType1, r.enhType2].join(' / ')}</span>`,
+  ]);
   return `<h1>Equipment</h1>
-  <p class="lede">What the upgrade probe last read back from the game. Gear was taken to +4 across
-  ${num(rows.length)} records; cloaks are not upgradable and are correctly absent.</p>
-  ${table(['Item', 'ID', 'Level', 'Owner'], rows)}`;
+  <p class="lede">What the upgrade probe last read back from the live game — not a claim, a measurement.
+  <code>enhNum</code> is the upgrade level and <code>enhType0/1/2</code> are the three Dragonforge
+  enhancement tracks.</p>
+  <div class="grid g4" style="margin-top:20px">
+    ${tile(String(list.length), 'pieces read', 'on the probed character')}
+    ${tile(`${maxed}/${list.length}`, 'at +4', 'fully upgraded')}
+    ${tile(`+${avg}`, 'average level', 'across all pieces')}
+    ${tile(String(new Set(list.map(r => r.slot)).size), 'slots filled', 'of 8')}
+  </div>
+  <h2>Upgrade level by piece</h2>
+  ${bars(list.slice().sort((a, b) => (b.enhNum || 0) - (a.enhNum || 0)).map(r => ({ n: r.name, v: r.enhNum || 0 })))}
+  <h2>Loadout</h2>
+  ${table(['Item', 'ID', 'Slot', 'Upgrade', 'Enhance tracks'], rows)}
+  <div class="note">Cloaks are not upgradable in DD2, so a cloak showing +0 here is correct rather than a
+  missed write. The probe reports the character context id it read from, which is how we caught a stale
+  CharaID earlier in the project.</div>`;
 });
 
 add('saves', 'Saves', async () => {
