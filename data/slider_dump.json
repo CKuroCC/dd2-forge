@@ -1,0 +1,2692 @@
+{
+  "Characters": [
+    {
+      "Body": {
+        "ApplyEditValues": [
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 750713856,
+            "DisplayName": "Lower",
+            "Hash": 750713856,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Fat_Lower",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 813011489,
+            "DisplayName": "Lower",
+            "Hash": 813011489,
+            "LastRatio": 0.7099999785423279,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Muscle_Lower",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.7099999785423279,
+            "RawRatio": 0.7099999785423279,
+            "RawValue": 71.0,
+            "Value": 71.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2092571651,
+            "DisplayName": "Shoulder Size",
+            "Hash": 2092571651,
+            "LastRatio": 0.14000000059604645,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Arms_Shoulder__Size",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.14000000059604645,
+            "RawRatio": 0.14000000059604645,
+            "RawValue": 14.0,
+            "Value": 14.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1137593827,
+            "DisplayName": "Head Width",
+            "Hash": 1137593827,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Width",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3827629560,
+            "DisplayName": "Upper",
+            "Hash": 3827629560,
+            "LastRatio": 0.7300000190734863,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Legs_Thickness_Upper",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.7300000190734863,
+            "RawRatio": 0.7300000190734863,
+            "RawValue": 73.0,
+            "Value": 73.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 323033925,
+            "DisplayName": "Head Size",
+            "Hash": 323033925,
+            "LastRatio": -0.19999998807907104,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Size",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.19999998807907104,
+            "RawRatio": -0.19999998807907104,
+            "RawValue": -20.0,
+            "Value": -20.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 762781798,
+            "DisplayName": "Mass",
+            "Hash": 762781798,
+            "LastRatio": 0.33000001311302185,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Fat_Upper_Mass",
+            "ParentRatio": 0.33000001311302185,
+            "ParentValue": 33.0,
+            "Ratio": 0.33000001311302185,
+            "RawRatio": 0.0,
+            "RawValue": 33.0,
+            "Value": 33.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3467158119,
+            "DisplayName": "Chest Depth",
+            "Hash": 3467158119,
+            "LastRatio": -0.06999999284744263,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Torso_Chest__Depth",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.06999999284744263,
+            "RawRatio": -0.06999999284744263,
+            "RawValue": -7.0,
+            "Value": -7.0
+          },
+          {
+            "Children": [
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Upper",
+                "Hash": 3827629560,
+                "LastRatio": 0.7300000190734863,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "Arms__0__Legs_Legs_Thickness_Upper",
+                "ParentRatio": 0.0,
+                "ParentValue": 0.0,
+                "Ratio": 0.7300000190734863,
+                "RawRatio": 0.7300000190734863,
+                "RawValue": 73.0,
+                "Value": 73.0
+              },
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Lower",
+                "Hash": 3517878099,
+                "LastRatio": 0.30000001192092896,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "Arms__0__Legs_Legs_Thickness_Lower",
+                "ParentRatio": 0.0,
+                "ParentValue": 0.0,
+                "Ratio": 0.30000001192092896,
+                "RawRatio": 0.30000001192092896,
+                "RawValue": 30.0,
+                "Value": 30.0
+              }
+            ],
+            "DefaultValue": 0.0,
+            "DictKey": 1766348416,
+            "DisplayName": "Thickness",
+            "Hash": 1766348416,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Legs_Thickness",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2964025353,
+            "DisplayName": "Height Adjust",
+            "Hash": 2964025353,
+            "LastRatio": 0.6857143640518188,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Height_Height__Adjust",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.6857143640518188,
+            "RawRatio": 0.6857143640518188,
+            "RawValue": 68.5714340209961,
+            "Value": 68.5714340209961
+          },
+          {
+            "DefaultValue": 180.0,
+            "DictKey": 1497737450,
+            "DisplayName": "Height",
+            "Hash": 1497737450,
+            "LastRatio": 0.6857143044471741,
+            "MaxValue": 215.0,
+            "MinValue": 140.0,
+            "Name": "General_Height_Height",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.6857143044471741,
+            "RawRatio": 0.6857143044471741,
+            "RawValue": 204.0,
+            "Value": 204.0
+          },
+          {
+            "Children": [
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Mass",
+                "Hash": 762781798,
+                "LastRatio": 0.33000001311302185,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "General_Fat_Upper_Mass",
+                "ParentRatio": 0.33000001311302185,
+                "ParentValue": 33.0,
+                "Ratio": 0.33000001311302185,
+                "RawRatio": 0.0,
+                "RawValue": 33.0,
+                "Value": 33.0
+              },
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Subcutaneous",
+                "Hash": 389874767,
+                "LastRatio": -0.25,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "General_Fat_Upper_Subcutaneous",
+                "ParentRatio": 0.33000001311302185,
+                "ParentValue": 33.0,
+                "Ratio": -0.25,
+                "RawRatio": -0.5800000429153442,
+                "RawValue": -25.0,
+                "Value": -25.0
+              }
+            ],
+            "DefaultValue": 0.0,
+            "DictKey": 1757076811,
+            "DisplayName": "Upper",
+            "Hash": 1757076811,
+            "LastRatio": 0.33000001311302185,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Fat_Upper",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.33000001311302185,
+            "RawRatio": 0.33000001311302185,
+            "RawValue": 33.0,
+            "Value": 33.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 932575279,
+            "DisplayName": "Length",
+            "Hash": 932575279,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Arms_Length",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3845860653,
+            "DisplayName": "Torso Length",
+            "Hash": 3845860653,
+            "LastRatio": -0.04000002145767212,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Height_Torso__Length",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.04000002145767212,
+            "RawRatio": -0.04000002145767212,
+            "RawValue": -4.0,
+            "Value": -4.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1061052512,
+            "DisplayName": "Lower",
+            "Hash": 1061052512,
+            "LastRatio": 0.17000000178813934,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Arms_Thickness_Lower",
+            "ParentRatio": -0.25,
+            "ParentValue": -25.0,
+            "Ratio": 0.17000000178813934,
+            "RawRatio": 0.42000001668930054,
+            "RawValue": 17.0,
+            "Value": 17.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 4206872559,
+            "DisplayName": "Width",
+            "Hash": 4206872559,
+            "LastRatio": -0.3500000238418579,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Pelvis_Width",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.3500000238418579,
+            "RawRatio": -0.3500000238418579,
+            "RawValue": -35.0,
+            "Value": -35.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 4206130288,
+            "DisplayName": "Traps Size",
+            "Hash": 4206130288,
+            "LastRatio": 0.2199999988079071,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Traps__Size",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.2199999988079071,
+            "RawRatio": 0.2199999988079071,
+            "RawValue": 22.0,
+            "Value": 22.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3702242246,
+            "DisplayName": "Upper",
+            "Hash": 3702242246,
+            "LastRatio": 0.14000000059604645,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Arms_Thickness_Upper",
+            "ParentRatio": -0.25,
+            "ParentValue": -25.0,
+            "Ratio": 0.14000000059604645,
+            "RawRatio": 0.38999998569488525,
+            "RawValue": 14.0,
+            "Value": 14.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1332362251,
+            "DisplayName": "Head Length",
+            "Hash": 1332362251,
+            "LastRatio": 0.20000000298023224,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Length",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.20000000298023224,
+            "RawRatio": 0.20000000298023224,
+            "RawValue": 20.0,
+            "Value": 20.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3517878099,
+            "DisplayName": "Lower",
+            "Hash": 3517878099,
+            "LastRatio": 0.30000001192092896,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Legs_Thickness_Lower",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.30000001192092896,
+            "RawRatio": 0.30000001192092896,
+            "RawValue": 30.0,
+            "Value": 30.0
+          },
+          {
+            "Children": [
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Upper",
+                "Hash": 3702242246,
+                "LastRatio": 0.14000000059604645,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "Arms__0__Legs_Arms_Thickness_Upper",
+                "ParentRatio": -0.25,
+                "ParentValue": -25.0,
+                "Ratio": 0.14000000059604645,
+                "RawRatio": 0.38999998569488525,
+                "RawValue": 14.0,
+                "Value": 14.0
+              },
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Lower",
+                "Hash": 1061052512,
+                "LastRatio": 0.17000000178813934,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "Arms__0__Legs_Arms_Thickness_Lower",
+                "ParentRatio": -0.25,
+                "ParentValue": -25.0,
+                "Ratio": 0.17000000178813934,
+                "RawRatio": 0.42000001668930054,
+                "RawValue": 17.0,
+                "Value": 17.0
+              }
+            ],
+            "DefaultValue": 0.0,
+            "DictKey": 3288601300,
+            "DisplayName": "Thickness",
+            "Hash": 3288601300,
+            "LastRatio": -0.25,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Arms_Thickness",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.25,
+            "RawRatio": -0.25,
+            "RawValue": -25.0,
+            "Value": -25.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1673052757,
+            "DisplayName": "Bust Size",
+            "Hash": 1673052757,
+            "LastRatio": 1.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Torso_Bust__Size",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 1.0,
+            "RawRatio": 1.0,
+            "RawValue": 100.0,
+            "Value": 100.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 4099443574,
+            "DisplayName": "Head Depth",
+            "Hash": 4099443574,
+            "LastRatio": 0.10000000149011612,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Depth",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.10000000149011612,
+            "RawRatio": 0.10000000149011612,
+            "RawValue": 10.0,
+            "Value": 10.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2908557143,
+            "DisplayName": "Chest Width",
+            "Hash": 2908557143,
+            "LastRatio": 0.949999988079071,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Torso_Chest__Width",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.949999988079071,
+            "RawRatio": 0.949999988079071,
+            "RawValue": 95.0,
+            "Value": 95.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2157976120,
+            "DisplayName": "Depth",
+            "Hash": 2157976120,
+            "LastRatio": -0.19999998807907104,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Pelvis_Depth",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.19999998807907104,
+            "RawRatio": -0.19999998807907104,
+            "RawValue": -20.0,
+            "Value": -20.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 175188792,
+            "DisplayName": "Neck Thickness",
+            "Hash": 175188792,
+            "LastRatio": -0.1499999761581421,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Neck__Thickness",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.1499999761581421,
+            "RawRatio": -0.1499999761581421,
+            "RawValue": -15.0,
+            "Value": -15.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2640155802,
+            "DisplayName": "Waist Depth",
+            "Hash": 2640155802,
+            "LastRatio": -0.25999999046325684,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Torso_Waist__Depth",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.25999999046325684,
+            "RawRatio": -0.25999999046325684,
+            "RawValue": -26.0,
+            "Value": -26.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2127619803,
+            "DisplayName": "Waist Width",
+            "Hash": 2127619803,
+            "LastRatio": 0.15000000596046448,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Torso_Waist__Width",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.15000000596046448,
+            "RawRatio": 0.15000000596046448,
+            "RawValue": 15.0,
+            "Value": 15.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 389874767,
+            "DisplayName": "Subcutaneous",
+            "Hash": 389874767,
+            "LastRatio": -0.25,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Fat_Upper_Subcutaneous",
+            "ParentRatio": 0.33000001311302185,
+            "ParentValue": 33.0,
+            "Ratio": -0.25,
+            "RawRatio": -0.5800000429153442,
+            "RawValue": -25.0,
+            "Value": -25.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3572613277,
+            "DisplayName": "Upper",
+            "Hash": 3572613277,
+            "LastRatio": 0.75,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Muscle_Upper",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.75,
+            "RawRatio": 0.75,
+            "RawValue": 75.0,
+            "Value": 75.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1458806590,
+            "DisplayName": "Neck Length",
+            "Hash": 1458806590,
+            "LastRatio": -0.10000002384185791,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Neck__Length",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.10000002384185791,
+            "RawRatio": -0.10000002384185791,
+            "RawValue": -10.0,
+            "Value": -10.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1638947135,
+            "DisplayName": "Buttock Size",
+            "Hash": 1638947135,
+            "LastRatio": 0.10999999940395355,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Pelvis_Buttock__Size",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.10999999940395355,
+            "RawRatio": 0.10999999940395355,
+            "RawValue": 11.0,
+            "Value": 11.0
+          }
+        ],
+        "BodyHeight": 204.0,
+        "BodyScale": [
+          {
+            "key": "0",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          {
+            "key": "3536738305",
+            "x": 1.0650885105133057,
+            "y": 1.3629200458526611,
+            "z": 1.189842939376831
+          },
+          {
+            "key": "1739409282",
+            "x": 1.1615543365478516,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "626968387",
+            "x": 1.13234281539917,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "1801196998",
+            "x": 1.13234281539917,
+            "y": 1.3503621816635132,
+            "z": 1.4202624559402466
+          },
+          {
+            "key": "2515714632",
+            "x": 1.1745655536651611,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "1549972489",
+            "x": 1.13234281539917,
+            "y": 1.0405113697052002,
+            "z": 1.1041828393936157
+          },
+          {
+            "key": "2245788235",
+            "x": 1.1564701795578003,
+            "y": 1.1192240715026855,
+            "z": 1.1283199787139893
+          },
+          {
+            "key": "250570190",
+            "x": 1.1745655536651611,
+            "y": 1.4015809297561646,
+            "z": 1.4015809297561646
+          },
+          {
+            "key": "2946273487",
+            "x": 1.1615543365478516,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "1951860438",
+            "x": 1.0650885105133057,
+            "y": 1.287988543510437,
+            "z": 1.1148428916931152
+          },
+          {
+            "key": "3974011611",
+            "x": 1.2693142890930176,
+            "y": 1.13234281539917,
+            "z": 1.125342845916748
+          },
+          {
+            "key": "1808059485",
+            "x": 1.13234281539917,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "3381022175",
+            "x": 1.1745655536651611,
+            "y": 1.317552924156189,
+            "z": 1.317552924156189
+          },
+          {
+            "key": "3992101857",
+            "x": 1.0650885105133057,
+            "y": 1.0952661037445068,
+            "z": 1.2630128860473633
+          },
+          {
+            "key": "1091167843",
+            "x": 1.0650885105133057,
+            "y": 1.1739203929901123,
+            "z": 1.1173568964004517
+          },
+          {
+            "key": "2170883620",
+            "x": 1.1745655536651611,
+            "y": 1.3305808305740356,
+            "z": 1.3305808305740356
+          },
+          {
+            "key": "3718465829",
+            "x": 1.1745655536651611,
+            "y": 1.4015809297561646,
+            "z": 1.4015809297561646
+          },
+          {
+            "key": "403905640",
+            "x": 1.13234281539917,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "3276980779",
+            "x": 1.13234281539917,
+            "y": 1.0474857091903687,
+            "z": 1.0474857091903687
+          },
+          {
+            "key": "3960407916",
+            "x": 1.161554217338562,
+            "y": 1.3689104318618774,
+            "z": 1.46116042137146
+          },
+          {
+            "key": "1115268717",
+            "x": 1.081902027130127,
+            "y": 1.1494215726852417,
+            "z": 1.1498488187789917
+          },
+          {
+            "key": "4020480302",
+            "x": 1.0919902324676514,
+            "y": 1.1304293870925903,
+            "z": 1.1180368661880493
+          },
+          {
+            "key": "1040346479",
+            "x": 1.161554217338562,
+            "y": 1.3955740928649902,
+            "z": 1.443788766860962
+          },
+          {
+            "key": "4015156656",
+            "x": 1.1745655536651611,
+            "y": 1.317552924156189,
+            "z": 1.317552924156189
+          },
+          {
+            "key": "1627815839",
+            "x": 1.1745655536651611,
+            "y": 1.317552924156189,
+            "z": 1.317552924156189
+          },
+          {
+            "key": "397342962",
+            "x": 1.161554217338562,
+            "y": 1.3329226970672607,
+            "z": 1.3275518417358398
+          },
+          {
+            "key": "936034459",
+            "x": 1.1745655536651611,
+            "y": 1.4015809297561646,
+            "z": 1.4015809297561646
+          },
+          {
+            "key": "3906783067",
+            "x": 1.161554217338562,
+            "y": 1.323923110961914,
+            "z": 1.4614605903625488
+          },
+          {
+            "key": "728321845",
+            "x": 1.1745655536651611,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "1708885954",
+            "x": 1.161554217338562,
+            "y": 1.3329226970672607,
+            "z": 1.3275518417358398
+          },
+          {
+            "key": "678858174",
+            "x": 1.161554217338562,
+            "y": 1.323923110961914,
+            "z": 1.4614605903625488
+          },
+          {
+            "key": "2881739913",
+            "x": 1.161554217338562,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "3143809854",
+            "x": 1.1615543365478516,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "617024172",
+            "x": 1.13234281539917,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "508059067",
+            "x": 1.1745655536651611,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "369194603",
+            "x": 1.1745655536651611,
+            "y": 1.13234281539917,
+            "z": 1.13234281539917
+          },
+          {
+            "key": "3430261757",
+            "x": 1.0843428373336792,
+            "y": 1.0643428564071655,
+            "z": 1.0743428468704224
+          },
+          {
+            "key": "3422791998",
+            "x": 1.2693142890930176,
+            "y": 1.13234281539917,
+            "z": 1.125342845916748
+          },
+          {
+            "key": "518513087",
+            "x": 1.13234281539917,
+            "y": 1.4074828624725342,
+            "z": 1.4212548732757568
+          }
+        ],
+        "BodyWeight": 109.22699737548828,
+        "Count": 32
+      },
+      "CharacterId": 2891076981,
+      "Face": {
+        "ApplyEditValues": null,
+        "Context": null,
+        "Count": 0,
+        "Parts": {
+          "_Beard": {
+            "Colors": {
+              "_CapRootColor": null,
+              "_RootColor": null,
+              "_TipColor": null
+            },
+            "Type": "app.charaedit.ch000.Beard",
+            "Values": {
+              "_AutoCapColor": true,
+              "_Gloss": 0.019999999552965164,
+              "_Sheen": 0.5,
+              "_TipBlend": 0.5
+            }
+          },
+          "_BodyHair": {
+            "Colors": {
+              "_Color": null
+            },
+            "Type": "app.charaedit.ch000.BodyHair",
+            "Values": {
+              "_Density": 0.4883999824523926
+            }
+          },
+          "_Claws": {
+            "Colors": {
+              "_Color": null
+            },
+            "Type": "app.charaedit.ch000.Claws",
+            "Values": null
+          },
+          "_Eyebrows": {
+            "Colors": {
+              "_Color": null
+            },
+            "Type": "app.charaedit.ch000.Eyebrows",
+            "Values": {
+              "_Density": 0.5099999904632568,
+              "_Metallic": 0.0,
+              "_Roughness": 1.0
+            }
+          },
+          "_Eyelashes": {
+            "Sub": {
+              "_Lower": {
+                "Type": "app.charaedit.ch000.EyelashLower",
+                "Values": null
+              },
+              "_Upper": {
+                "Type": "app.charaedit.ch000.EyelashUpper",
+                "Values": null
+              }
+            },
+            "Type": "app.charaedit.ch000.Eyelashes",
+            "Values": null
+          },
+          "_Eyes": {
+            "Sub": {
+              "_LeftEye": {
+                "Type": "app.charaedit.ch000.LeftEye",
+                "Values": null
+              },
+              "_LeftEyeState": {
+                "Values": null
+              },
+              "_RightEye": {
+                "Type": "app.charaedit.ch000.RightEye",
+                "Values": null
+              },
+              "_RightEyeState": {
+                "Values": null
+              }
+            },
+            "Type": "app.charaedit.ch000.Eyes",
+            "Values": {
+              "<HasEyeTypePropertyChanged>k__BackingField": false,
+              "_LeftEyeSquintRate": 1.0,
+              "_LeftEyeState": 2,
+              "_RightEyeSquintRate": 1.0,
+              "_RightEyeState": 2
+            }
+          },
+          "_Freckles": {
+            "Colors": {
+              "_Color": null
+            },
+            "Type": "app.charaedit.ch000.Freckles",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurCheeks": {
+            "Type": "app.charaedit.ch000.FurCheeks",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurEyes": {
+            "Type": "app.charaedit.ch000.FurEyes",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurFaceMask": {
+            "Type": "app.charaedit.ch000.FurFaceMask",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurFacePattern": {
+            "Colors": {
+              "_Color1": null,
+              "_Color2": null
+            },
+            "Type": "app.charaedit.ch000.FurFacePattern",
+            "Values": {
+              "_Color1_Override": 0.0,
+              "_Color2_Override": 0.5
+            }
+          },
+          "_FurForehead": {
+            "Type": "app.charaedit.ch000.FurForehead",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurNose": {
+            "Type": "app.charaedit.ch000.FurNose",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurPattern": {
+            "Colors": {
+              "_Color1": null,
+              "_Color2": null,
+              "_Color3": null,
+              "_Color4": null
+            },
+            "Type": "app.charaedit.ch000.FurPatterns",
+            "Values": {
+              "_Color1_Override": 0.0,
+              "_Color2_Override": 0.04999999701976776,
+              "_Color3_Override": 0.0,
+              "_Color4_Override": 0.0
+            }
+          },
+          "_Hair": {
+            "Colors": {
+              "_CapRootColor": null,
+              "_RootColor": null,
+              "_TipColor": null
+            },
+            "Type": "app.charaedit.ch000.Hair",
+            "Values": {
+              "_AutoCapColor": true,
+              "_Gloss": 0.20999999344348907,
+              "_Sheen": 0.5,
+              "_TipBlend": 0.5
+            }
+          },
+          "_Makeup": {
+            "Sub": {
+              "_Cheek": {
+                "Colors": {
+                  "_Color": null
+                },
+                "Type": "app.charaedit.ch000.Cheek",
+                "Values": {
+                  "_Metallic": 0.0,
+                  "_Opacity": 0.6499999761581421,
+                  "_Roughness": 0.5,
+                  "_Spread": 1.0,
+                  "_Thickness": 0.19999998807907104
+                }
+              },
+              "_Eyeliner": {
+                "Colors": {
+                  "_Color": null
+                },
+                "Type": "app.charaedit.ch000.Eyeliner",
+                "Values": {
+                  "_Metallic": 0.0,
+                  "_Opacity": 1.0,
+                  "_Roughness": 0.5999999642372131,
+                  "_Thickness": 0.5
+                }
+              },
+              "_Eyeshadow": {
+                "Colors": {
+                  "_Color1": null,
+                  "_Color2": null
+                },
+                "Sub": {
+                  "_Area1": {
+                    "Type": "app.charaedit.ch000.EyeshadowArea1",
+                    "Values": null
+                  },
+                  "_Area2": {
+                    "Type": "app.charaedit.ch000.EyeshadowArea2",
+                    "Values": null
+                  }
+                },
+                "Type": "app.charaedit.ch000.Eyeshadow",
+                "Values": {
+                  "_Thickness": 0.0
+                }
+              },
+              "_Lips": {
+                "Colors": {
+                  "_Color1": null
+                },
+                "Type": "app.charaedit.ch000.Lips",
+                "Values": {
+                  "_Metallic": 0.0,
+                  "_Opacity": 0.699999988079071,
+                  "_Roughness": 0.25,
+                  "_Spread": 1.0
+                }
+              }
+            },
+            "Type": "app.charaedit.ch000.Makeup",
+            "Values": null
+          },
+          "_Nose": {
+            "Colors": {
+              "_Color": null,
+              "_Color2": null
+            },
+            "Type": "app.charaedit.ch000.Nose",
+            "Values": {
+              "_Opacity": 1.0,
+              "_Opacity2": 1.0,
+              "_Roughness": 0.5,
+              "_Roughness2": 0.5,
+              "_Thickness": 0.0
+            }
+          },
+          "_Scars": {
+            "Hashes": {
+              "1048105261": "body_mat",
+              "935285574": "head_mat"
+            },
+            "Sub": {
+              "_Scars": {
+                "Type": "app.charaedit.ch000.Scars.SlotData[]",
+                "Values": null
+              }
+            },
+            "Type": "app.charaedit.ch000.Scars",
+            "Values": {
+              "MaxCount": 10,
+              "SharedTableSlotCount": 20,
+              "_IsSlotNoChanged": false,
+              "_PrevSlotCount": 10,
+              "_ProcDistIndex": 2,
+              "_StartSlotNo": 70
+            }
+          },
+          "_Skin": {
+            "Colors": {
+              "_Color": null
+            },
+            "Type": "app.charaedit.ch000.Skin",
+            "Values": {
+              "_MuscleStrength": 0.5699999928474426,
+              "_Roughness": 1.159999966621399,
+              "_SkinColorCurve": 0.5,
+              "_SkinContrast": 0.0,
+              "_WrinkeStrength": 0.2199999988079071
+            }
+          },
+          "_Tattoos": {
+            "Hashes": {
+              "1048105261": "body_mat",
+              "935285574": "head_mat"
+            },
+            "Sub": {
+              "_Tattoos": {
+                "Type": "app.charaedit.ch000.Tattoos.SlotData[]",
+                "Values": null
+              }
+            },
+            "Type": "app.charaedit.ch000.Tattoos",
+            "Values": {
+              "MaxCount": 10,
+              "SharedTableSlotCount": 10,
+              "_IsSlotNoChanged": false,
+              "_PrevSlotCount": 10,
+              "_ProcDistIndex": 2,
+              "_StartSlotNo": 60
+            }
+          },
+          "_Teeth": {
+            "Colors": {
+              "_Color": null,
+              "_DirtColor": null
+            },
+            "Sub": {
+              "_TeethEnable": {
+                "Values": null
+              }
+            },
+            "Type": "app.charaedit.ch000.Teeth",
+            "Values": {
+              "_DirtOpacity": 0.0,
+              "_DirtRange": 1.0,
+              "_DirtRoughness": 0.5,
+              "_Opacity": 1.0,
+              "_TeethEnable": 65535
+            }
+          }
+        }
+      },
+      "Label": "Arisen",
+      "Probe": {
+        "BodyEditorFields": [
+          "_ContextHolder : app.ContextHolder",
+          "_RetargetController : app.retarget.RetargetController",
+          "_ParentBodyEditor : app.BodyEditor",
+          "_BodyDetailEditor : app.BodyDetailEditor",
+          "_PrevGender : System.Nullable`1<app.Gender>",
+          "_BodyEditContext : app.BodyEditContext",
+          "_PretenderContext : app.PretenderContext",
+          "_PretenderData : app.CharacterEditDefine.Pretender",
+          "_PretenderEnable : System.Nullable`1<System.Boolean>",
+          "_CharacterBuilder : app.CharacterBuilder",
+          "<BustSizeRate>k__BackingField : System.Single"
+        ],
+        "Components": [
+          "via.Transform",
+          "via.render.Mesh",
+          "via.motion.Motion",
+          "via.motion.MotionFsm2",
+          "via.physics.CharacterController",
+          "app.Character",
+          "app.ActionManager",
+          "app.SequenceController",
+          "app.HitController",
+          "via.physics.RequestSetCollider",
+          "app.ContextHolder",
+          "app.AdjustPress",
+          "app.AdjustTerrain",
+          "via.motion.JointConstraints",
+          "via.motion.Chain",
+          "app.Human",
+          "app.ForceGenerator",
+          "app.WeightSetting",
+          "app.WorkRate",
+          "via.effect.script.ObjectEffectManager2",
+          "app.ShellRequest",
+          "app.VFXFootLandingController",
+          "app.StatusConditionCtrl",
+          "via.render.SwingWind",
+          "app.SlopeBodyCorrection2Leg",
+          "via.motion.IkLeg2",
+          "app.GenerateInfo",
+          "app.GeneralPoint",
+          "app.LockOnTarget",
+          "app.AIActionTargetInfoController",
+          "app.HateSystem",
+          "via.dynamics.Ragdoll",
+          "app.CharacterRagdoll",
+          "via.motion.ActorMotion",
+          "via.render.ShellFurMesh",
+          "app.PartSwapper",
+          "app.BodyEditor",
+          "app.BodyDetailEditor",
+          "via.motion.RetargetRig",
+          "app.retarget.RetargetController",
+          "app.AdjustJack",
+          "app.MaterialInterpolationRequestManager",
+          "app.MaterialInterpolationBasic",
+          "app.MaterialInterpolationStatus",
+          "app.MaterialInterpolationPoison",
+          "app.MaterialInterpolationRimLight",
+          "app.CharacterFacialMotionController",
+          "app.ScaleFacialMotion",
+          "app.SetupScaleFacialMotion",
+          "app.CharacterLookAt",
+          "app.TimelineEventCharacterActor",
+          "app.CharacterVoiceLoader",
+          "app.DissolveController",
+          "app.TimelineEventResetSimulation",
+          "app.TimelineEventCutChangeAction",
+          "app.TimelineEventEquipmentController",
+          "app.EPVExpertCharacterDamageTriggerUnit",
+          "via.character.CollisionShapePreset",
+          "app.MotionSpeedCtrl",
+          "app.TimelineEventDirectBindController",
+          "app.MaterialInterpolationDeform",
+          "app.reaction.ArmReachGimmick",
+          "app.MaterialInterpolationDustCover",
+          "app.MaterialInterpolationBrainwash",
+          "app.lod.LODProcessor",
+          "app.MaterialParamMediator",
+          "via.render.AmbientOcclusionGeometry",
+          "app.AmbientOcclusionGeometrySwitcher",
+          "app.TimelineEventUnbindRequester",
+          "app.InterestMarkerAutoRequester",
+          "app.DirtController",
+          "app.CharacterSeLoader",
+          "app.PropsJointPosAdjuster",
+          "app.MaterialValueManager",
+          "app.MaterialValueController",
+          "app.SetupHumanFacial",
+          "via.motion.IkMultiLookAt2",
+          "app.CharacterChildControlForGpuCloth",
+          "app.CharacterChildControlForChain",
+          "app.CutSceneIKController",
+          "app.CharacterFadeUniform",
+          "app.TimelineEventCoveredInSnowController",
+          "app.HumanClimbInterruptActionPreparer",
+          "app.HumanInterruptActionPostRequester",
+          "app.HumanEffectPostGenerator",
+          "app.AnimationControllerBehavior",
+          "app.HumanBattleFacialRequester",
+          "app.HumanBlushController",
+          "app.EquipCoveredInSnowController",
+          "app.Player",
+          "app.WwiseContainerApp",
+          "app.WwiseDamageController",
+          "app.AttackNoticeRequester",
+          "app.WwiseMotionSequenceApp",
+          "via.physics.SensorTarget",
+          "app.WwiseCharacter",
+          "app.NavigationAI",
+          "via.navigation.NavigationSurface",
+          "via.physics.Colliders",
+          "app.StreamingTextureController",
+          "app.WwiseVoiceController",
+          "soundlib.SoundVibrationBehavior",
+          "soundlib.SoundVibrationDefineInfoListDataHolder",
+          "app.WwiseCharacterSpaceWatcherApp",
+          "app.PL_SituationalReactionCircleController",
+          "app.RippleController",
+          "app.SpecialPlayer",
+          "via.navigation.NavigationWaypoint",
+          "app.OccupiedEventHolderPlayer",
+          "app.PlayerAimPathDrawer",
+          "app.PlayerAimPathRayRequester",
+          "app.MIForceAlphaTestManager",
+          "app.MaterialValueSetter",
+          "via.effect.script.EPVStandard",
+          "app.EPVExpertWaterSplash",
+          "app.EPVExpertDrowning",
+          "app.EPVCharaMoveWaterSplash",
+          "app.EPVExpertBodyEffect",
+          "app.EPVExpertCharacterHit",
+          "app.EPVExpertCharacterGuard",
+          "app.EPVExpertFootLandingTower",
+          "app.EPVExpertRegionHitProvider",
+          "app.EPVExpertDamagedTrail",
+          "app.EPVExpertCharacterDamageElemental",
+          "app.EPVExpertCharacterDamageSubSurface",
+          "app.EPVExpertCharacterDamage",
+          "app.EPVExpertAimThrow",
+          "app.EPVExpertSatellite",
+          "app.EffectSequenceController",
+          "via.render.RenderTargetOperator",
+          "app.ShellInstansitateInfoHolder",
+          "app.ColdBreathEffectGenerateBehavior",
+          "app.VFXFootLandingEffectGenerator"
+        ]
+      }
+    },
+    {
+      "Body": {
+        "ApplyEditValues": [
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 750713856,
+            "DisplayName": "Lower",
+            "Hash": 750713856,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Fat_Lower",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 813011489,
+            "DisplayName": "Lower",
+            "Hash": 813011489,
+            "LastRatio": -0.3199999928474426,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Muscle_Lower",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.3199999928474426,
+            "RawRatio": -0.3199999928474426,
+            "RawValue": -32.0,
+            "Value": -32.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2092571651,
+            "DisplayName": "Shoulder Size",
+            "Hash": 2092571651,
+            "LastRatio": -0.24000000953674316,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Arms_Shoulder__Size",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.24000000953674316,
+            "RawRatio": -0.24000000953674316,
+            "RawValue": -24.0,
+            "Value": -24.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1137593827,
+            "DisplayName": "Head Width",
+            "Hash": 1137593827,
+            "LastRatio": -0.26999998092651367,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Width",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.26999998092651367,
+            "RawRatio": -0.26999998092651367,
+            "RawValue": -27.0,
+            "Value": -27.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3827629560,
+            "DisplayName": "Upper",
+            "Hash": 3827629560,
+            "LastRatio": -0.1499999761581421,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Legs_Thickness_Upper",
+            "ParentRatio": -0.1499999761581421,
+            "ParentValue": -15.0,
+            "Ratio": -0.1499999761581421,
+            "RawRatio": 0.0,
+            "RawValue": -15.0,
+            "Value": -15.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 323033925,
+            "DisplayName": "Head Size",
+            "Hash": 323033925,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Size",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 762781798,
+            "DisplayName": "Mass",
+            "Hash": 762781798,
+            "LastRatio": -0.7900000214576721,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Fat_Upper_Mass",
+            "ParentRatio": -0.7900000214576721,
+            "ParentValue": -79.0,
+            "Ratio": -0.7900000214576721,
+            "RawRatio": 0.0,
+            "RawValue": -79.0,
+            "Value": -79.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3467158119,
+            "DisplayName": "Chest Depth",
+            "Hash": 3467158119,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Torso_Chest__Depth",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "Children": [
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Upper",
+                "Hash": 3827629560,
+                "LastRatio": -0.1499999761581421,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "Arms__0__Legs_Legs_Thickness_Upper",
+                "ParentRatio": -0.1499999761581421,
+                "ParentValue": -15.0,
+                "Ratio": -0.1499999761581421,
+                "RawRatio": 0.0,
+                "RawValue": -15.0,
+                "Value": -15.0
+              },
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Lower",
+                "Hash": 3517878099,
+                "LastRatio": -0.1499999761581421,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "Arms__0__Legs_Legs_Thickness_Lower",
+                "ParentRatio": -0.1499999761581421,
+                "ParentValue": -15.0,
+                "Ratio": -0.1499999761581421,
+                "RawRatio": 0.0,
+                "RawValue": -15.0,
+                "Value": -15.0
+              }
+            ],
+            "DefaultValue": 0.0,
+            "DictKey": 1766348416,
+            "DisplayName": "Thickness",
+            "Hash": 1766348416,
+            "LastRatio": -0.1499999761581421,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Legs_Thickness",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.1499999761581421,
+            "RawRatio": -0.1499999761581421,
+            "RawValue": -15.0,
+            "Value": -15.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2964025353,
+            "DisplayName": "Height Adjust",
+            "Hash": 2964025353,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Height_Height__Adjust",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 180.0,
+            "DictKey": 1497737450,
+            "DisplayName": "Height",
+            "Hash": 1497737450,
+            "LastRatio": 0.0,
+            "MaxValue": 215.0,
+            "MinValue": 140.0,
+            "Name": "General_Height_Height",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 180.0,
+            "Value": 180.0
+          },
+          {
+            "Children": [
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Mass",
+                "Hash": 762781798,
+                "LastRatio": -0.7900000214576721,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "General_Fat_Upper_Mass",
+                "ParentRatio": -0.7900000214576721,
+                "ParentValue": -79.0,
+                "Ratio": -0.7900000214576721,
+                "RawRatio": 0.0,
+                "RawValue": -79.0,
+                "Value": -79.0
+              },
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Subcutaneous",
+                "Hash": 389874767,
+                "LastRatio": -0.7900000214576721,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "General_Fat_Upper_Subcutaneous",
+                "ParentRatio": -0.7900000214576721,
+                "ParentValue": -79.0,
+                "Ratio": -0.7900000214576721,
+                "RawRatio": 0.0,
+                "RawValue": -79.0,
+                "Value": -79.0
+              }
+            ],
+            "DefaultValue": 0.0,
+            "DictKey": 1757076811,
+            "DisplayName": "Upper",
+            "Hash": 1757076811,
+            "LastRatio": -0.7900000214576721,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Fat_Upper",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.7900000214576721,
+            "RawRatio": -0.7900000214576721,
+            "RawValue": -79.0,
+            "Value": -79.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 932575279,
+            "DisplayName": "Length",
+            "Hash": 932575279,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Arms_Length",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3845860653,
+            "DisplayName": "Torso Length",
+            "Hash": 3845860653,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Height_Torso__Length",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1061052512,
+            "DisplayName": "Lower",
+            "Hash": 1061052512,
+            "LastRatio": 0.10000000149011612,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Arms_Thickness_Lower",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.10000000149011612,
+            "RawRatio": 0.10000000149011612,
+            "RawValue": 10.0,
+            "Value": 10.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 4206872559,
+            "DisplayName": "Width",
+            "Hash": 4206872559,
+            "LastRatio": -0.11000001430511475,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Pelvis_Width",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.11000001430511475,
+            "RawRatio": -0.11000001430511475,
+            "RawValue": -11.0,
+            "Value": -11.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 4206130288,
+            "DisplayName": "Traps Size",
+            "Hash": 4206130288,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Traps__Size",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3702242246,
+            "DisplayName": "Upper",
+            "Hash": 3702242246,
+            "LastRatio": -0.06999999284744263,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Arms_Thickness_Upper",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.06999999284744263,
+            "RawRatio": -0.06999999284744263,
+            "RawValue": -7.0,
+            "Value": -7.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1332362251,
+            "DisplayName": "Head Length",
+            "Hash": 1332362251,
+            "LastRatio": 0.019999999552965164,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Length",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.019999999552965164,
+            "RawRatio": 0.019999999552965164,
+            "RawValue": 2.0,
+            "Value": 2.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3517878099,
+            "DisplayName": "Lower",
+            "Hash": 3517878099,
+            "LastRatio": -0.1499999761581421,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Legs_Thickness_Lower",
+            "ParentRatio": -0.1499999761581421,
+            "ParentValue": -15.0,
+            "Ratio": -0.1499999761581421,
+            "RawRatio": 0.0,
+            "RawValue": -15.0,
+            "Value": -15.0
+          },
+          {
+            "Children": [
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Upper",
+                "Hash": 3702242246,
+                "LastRatio": -0.06999999284744263,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "Arms__0__Legs_Arms_Thickness_Upper",
+                "ParentRatio": 0.0,
+                "ParentValue": 0.0,
+                "Ratio": -0.06999999284744263,
+                "RawRatio": -0.06999999284744263,
+                "RawValue": -7.0,
+                "Value": -7.0
+              },
+              {
+                "DefaultValue": 0.0,
+                "DisplayName": "Lower",
+                "Hash": 1061052512,
+                "LastRatio": 0.10000000149011612,
+                "MaxValue": 100.0,
+                "MinValue": -100.0,
+                "Name": "Arms__0__Legs_Arms_Thickness_Lower",
+                "ParentRatio": 0.0,
+                "ParentValue": 0.0,
+                "Ratio": 0.10000000149011612,
+                "RawRatio": 0.10000000149011612,
+                "RawValue": 10.0,
+                "Value": 10.0
+              }
+            ],
+            "DefaultValue": 0.0,
+            "DictKey": 3288601300,
+            "DisplayName": "Thickness",
+            "Hash": 3288601300,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Arms__0__Legs_Arms_Thickness",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1673052757,
+            "DisplayName": "Bust Size",
+            "Hash": 1673052757,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Torso_Bust__Size",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 4099443574,
+            "DisplayName": "Head Depth",
+            "Hash": 4099443574,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Depth",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2908557143,
+            "DisplayName": "Chest Width",
+            "Hash": 2908557143,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Torso_Chest__Width",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2157976120,
+            "DisplayName": "Depth",
+            "Hash": 2157976120,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Pelvis_Depth",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 175188792,
+            "DisplayName": "Neck Thickness",
+            "Hash": 175188792,
+            "LastRatio": -0.5600000023841858,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Neck__Thickness",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.5600000023841858,
+            "RawRatio": -0.5600000023841858,
+            "RawValue": -56.0,
+            "Value": -56.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2640155802,
+            "DisplayName": "Waist Depth",
+            "Hash": 2640155802,
+            "LastRatio": -0.44999998807907104,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Torso_Waist__Depth",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.44999998807907104,
+            "RawRatio": -0.44999998807907104,
+            "RawValue": -45.0,
+            "Value": -45.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 2127619803,
+            "DisplayName": "Waist Width",
+            "Hash": 2127619803,
+            "LastRatio": -0.3700000047683716,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Torso_Waist__Width",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.3700000047683716,
+            "RawRatio": -0.3700000047683716,
+            "RawValue": -37.0,
+            "Value": -37.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 389874767,
+            "DisplayName": "Subcutaneous",
+            "Hash": 389874767,
+            "LastRatio": -0.7900000214576721,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Fat_Upper_Subcutaneous",
+            "ParentRatio": -0.7900000214576721,
+            "ParentValue": -79.0,
+            "Ratio": -0.7900000214576721,
+            "RawRatio": 0.0,
+            "RawValue": -79.0,
+            "Value": -79.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 3572613277,
+            "DisplayName": "Upper",
+            "Hash": 3572613277,
+            "LastRatio": -0.6399999856948853,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "General_Muscle_Upper",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": -0.6399999856948853,
+            "RawRatio": -0.6399999856948853,
+            "RawValue": -64.0,
+            "Value": -64.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1458806590,
+            "DisplayName": "Neck Length",
+            "Hash": 1458806590,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Neck__0__Head_Neck__Length",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          },
+          {
+            "DefaultValue": 0.0,
+            "DictKey": 1638947135,
+            "DisplayName": "Buttock Size",
+            "Hash": 1638947135,
+            "LastRatio": 0.0,
+            "MaxValue": 100.0,
+            "MinValue": -100.0,
+            "Name": "Core_Pelvis_Buttock__Size",
+            "ParentRatio": 0.0,
+            "ParentValue": 0.0,
+            "Ratio": 0.0,
+            "RawRatio": 0.0,
+            "RawValue": 0.0,
+            "Value": 0.0
+          }
+        ],
+        "BodyHeight": 180.0,
+        "BodyScale": [
+          {
+            "key": "0",
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          {
+            "key": "3536738305",
+            "x": 1.0,
+            "y": 0.8079999685287476,
+            "z": 0.8079999685287476
+          },
+          {
+            "key": "1739409282",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "626968387",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "1801196998",
+            "x": 1.0,
+            "y": 0.7826809287071228,
+            "z": 0.777461051940918
+          },
+          {
+            "key": "2515714632",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "1549972489",
+            "x": 1.0,
+            "y": 0.981827974319458,
+            "z": 1.0
+          },
+          {
+            "key": "2245788235",
+            "x": 1.0,
+            "y": 0.9974039793014526,
+            "z": 1.0
+          },
+          {
+            "key": "250570190",
+            "x": 1.0,
+            "y": 0.9476900100708008,
+            "z": 0.9476900100708008
+          },
+          {
+            "key": "2946273487",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "1951860438",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "3974011611",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "1808059485",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "3381022175",
+            "x": 1.0,
+            "y": 0.9263150095939636,
+            "z": 0.9263150095939636
+          },
+          {
+            "key": "3992101857",
+            "x": 1.0,
+            "y": 0.9671559929847717,
+            "z": 0.9387550354003906
+          },
+          {
+            "key": "1091167843",
+            "x": 1.0,
+            "y": 0.9284049868583679,
+            "z": 0.8988850116729736
+          },
+          {
+            "key": "2170883620",
+            "x": 1.0,
+            "y": 0.9796900153160095,
+            "z": 0.9796900153160095
+          },
+          {
+            "key": "3718465829",
+            "x": 1.0,
+            "y": 0.9476900100708008,
+            "z": 0.9476900100708008
+          },
+          {
+            "key": "403905640",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "3276980779",
+            "x": 1.0,
+            "y": 0.8880000114440918,
+            "z": 0.8880000114440918
+          },
+          {
+            "key": "3960407916",
+            "x": 1.0,
+            "y": 0.8390999436378479,
+            "z": 0.9242199659347534
+          },
+          {
+            "key": "1115268717",
+            "x": 1.0,
+            "y": 0.9693472385406494,
+            "z": 0.9594100117683411
+          },
+          {
+            "key": "4020480302",
+            "x": 1.0,
+            "y": 0.9343122839927673,
+            "z": 0.9227280020713806
+          },
+          {
+            "key": "1040346479",
+            "x": 1.0,
+            "y": 0.8552950024604797,
+            "z": 0.8591710329055786
+          },
+          {
+            "key": "4015156656",
+            "x": 1.0,
+            "y": 0.9263150095939636,
+            "z": 0.9263150095939636
+          },
+          {
+            "key": "1627815839",
+            "x": 1.0,
+            "y": 0.9263150095939636,
+            "z": 0.9263150095939636
+          },
+          {
+            "key": "397342962",
+            "x": 1.0,
+            "y": 0.8681060075759888,
+            "z": 0.8664199709892273
+          },
+          {
+            "key": "936034459",
+            "x": 1.0,
+            "y": 0.9476900100708008,
+            "z": 0.9476900100708008
+          },
+          {
+            "key": "3906783067",
+            "x": 1.0,
+            "y": 0.8192920088768005,
+            "z": 0.924347996711731
+          },
+          {
+            "key": "728321845",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "1708885954",
+            "x": 1.0,
+            "y": 0.8681060075759888,
+            "z": 0.8664199709892273
+          },
+          {
+            "key": "678858174",
+            "x": 1.0,
+            "y": 0.8192920088768005,
+            "z": 0.924347996711731
+          },
+          {
+            "key": "2881739913",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "3143809854",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "617024172",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "508059067",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "369194603",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "3430261757",
+            "x": 1.0019999742507935,
+            "y": 0.9729999899864197,
+            "z": 1.0
+          },
+          {
+            "key": "3422791998",
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          },
+          {
+            "key": "518513087",
+            "x": 1.0,
+            "y": 0.9477499723434448,
+            "z": 0.9477499723434448
+          }
+        ],
+        "BodyWeight": 66.625,
+        "Count": 32
+      },
+      "Face": {
+        "ApplyEditValues": null,
+        "Context": null,
+        "Count": 0,
+        "Parts": {
+          "_Beard": {
+            "Colors": {
+              "_CapRootColor": null,
+              "_RootColor": null,
+              "_TipColor": null
+            },
+            "Type": "app.charaedit.ch000.Beard",
+            "Values": {
+              "_AutoCapColor": false,
+              "_Gloss": 0.019999999552965164,
+              "_Sheen": 0.5,
+              "_TipBlend": 0.5
+            }
+          },
+          "_BodyHair": {
+            "Colors": {
+              "_Color": null
+            },
+            "Type": "app.charaedit.ch000.BodyHair",
+            "Values": {
+              "_Density": 0.5
+            }
+          },
+          "_Claws": {
+            "Colors": {
+              "_Color": null
+            },
+            "Type": "app.charaedit.ch000.Claws",
+            "Values": null
+          },
+          "_Eyebrows": {
+            "Colors": {
+              "_Color": null
+            },
+            "Type": "app.charaedit.ch000.Eyebrows",
+            "Values": {
+              "_Density": 0.5199999809265137,
+              "_Metallic": 0.0,
+              "_Roughness": 1.0
+            }
+          },
+          "_Eyelashes": {
+            "Sub": {
+              "_Lower": {
+                "Type": "app.charaedit.ch000.EyelashLower",
+                "Values": null
+              },
+              "_Upper": {
+                "Type": "app.charaedit.ch000.EyelashUpper",
+                "Values": null
+              }
+            },
+            "Type": "app.charaedit.ch000.Eyelashes",
+            "Values": null
+          },
+          "_Eyes": {
+            "Sub": {
+              "_LeftEye": {
+                "Type": "app.charaedit.ch000.LeftEye",
+                "Values": null
+              },
+              "_LeftEyeState": {
+                "Values": null
+              },
+              "_RightEye": {
+                "Type": "app.charaedit.ch000.RightEye",
+                "Values": null
+              },
+              "_RightEyeState": {
+                "Values": null
+              }
+            },
+            "Type": "app.charaedit.ch000.Eyes",
+            "Values": {
+              "<HasEyeTypePropertyChanged>k__BackingField": false,
+              "_LeftEyeSquintRate": 0.5,
+              "_LeftEyeState": 2,
+              "_RightEyeSquintRate": 0.5,
+              "_RightEyeState": 2
+            }
+          },
+          "_Freckles": {
+            "Colors": {
+              "_Color": null
+            },
+            "Type": "app.charaedit.ch000.Freckles",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurCheeks": {
+            "Type": "app.charaedit.ch000.FurCheeks",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurEyes": {
+            "Type": "app.charaedit.ch000.FurEyes",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurFaceMask": {
+            "Type": "app.charaedit.ch000.FurFaceMask",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurFacePattern": {
+            "Colors": {
+              "_Color1": null,
+              "_Color2": null
+            },
+            "Type": "app.charaedit.ch000.FurFacePattern",
+            "Values": {
+              "_Color1_Override": 0.0,
+              "_Color2_Override": 0.0
+            }
+          },
+          "_FurForehead": {
+            "Type": "app.charaedit.ch000.FurForehead",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurNose": {
+            "Type": "app.charaedit.ch000.FurNose",
+            "Values": {
+              "_Opacity": 1.0
+            }
+          },
+          "_FurPattern": {
+            "Colors": {
+              "_Color1": null,
+              "_Color2": null,
+              "_Color3": null,
+              "_Color4": null
+            },
+            "Type": "app.charaedit.ch000.FurPatterns",
+            "Values": {
+              "_Color1_Override": 0.0,
+              "_Color2_Override": 0.0,
+              "_Color3_Override": 0.0,
+              "_Color4_Override": 0.0
+            }
+          },
+          "_Hair": {
+            "Colors": {
+              "_CapRootColor": null,
+              "_RootColor": null,
+              "_TipColor": null
+            },
+            "Type": "app.charaedit.ch000.Hair",
+            "Values": {
+              "_AutoCapColor": false,
+              "_Gloss": 0.14999999105930328,
+              "_Sheen": 0.5,
+              "_TipBlend": 0.6100000143051147
+            }
+          },
+          "_Makeup": {
+            "Sub": {
+              "_Cheek": {
+                "Colors": {
+                  "_Color": null
+                },
+                "Type": "app.charaedit.ch000.Cheek",
+                "Values": {
+                  "_Metallic": 0.0,
+                  "_Opacity": 1.0,
+                  "_Roughness": 0.5,
+                  "_Spread": 0.5299999713897705,
+                  "_Thickness": 0.0
+                }
+              },
+              "_Eyeliner": {
+                "Colors": {
+                  "_Color": null
+                },
+                "Type": "app.charaedit.ch000.Eyeliner",
+                "Values": {
+                  "_Metallic": 0.0,
+                  "_Opacity": 1.0,
+                  "_Roughness": 0.5,
+                  "_Thickness": 0.5
+                }
+              },
+              "_Eyeshadow": {
+                "Colors": {
+                  "_Color1": null,
+                  "_Color2": null
+                },
+                "Sub": {
+                  "_Area1": {
+                    "Type": "app.charaedit.ch000.EyeshadowArea1",
+                    "Values": null
+                  },
+                  "_Area2": {
+                    "Type": "app.charaedit.ch000.EyeshadowArea2",
+                    "Values": null
+                  }
+                },
+                "Type": "app.charaedit.ch000.Eyeshadow",
+                "Values": {
+                  "_Thickness": 0.5
+                }
+              },
+              "_Lips": {
+                "Colors": {
+                  "_Color1": null
+                },
+                "Type": "app.charaedit.ch000.Lips",
+                "Values": {
+                  "_Metallic": 0.0,
+                  "_Opacity": 1.0,
+                  "_Roughness": 0.5,
+                  "_Spread": 1.0
+                }
+              }
+            },
+            "Type": "app.charaedit.ch000.Makeup",
+            "Values": null
+          },
+          "_Nose": {
+            "Colors": {
+              "_Color": null,
+              "_Color2": null
+            },
+            "Type": "app.charaedit.ch000.Nose",
+            "Values": {
+              "_Opacity": 1.0,
+              "_Opacity2": 1.0,
+              "_Roughness": 0.5,
+              "_Roughness2": 0.5,
+              "_Thickness": 0.0
+            }
+          },
+          "_Scars": {
+            "Hashes": {
+              "1048105261": "body_mat",
+              "935285574": "head_mat"
+            },
+            "Sub": {
+              "_Scars": {
+                "Type": "app.charaedit.ch000.Scars.SlotData[]",
+                "Values": null
+              }
+            },
+            "Type": "app.charaedit.ch000.Scars",
+            "Values": {
+              "MaxCount": 10,
+              "SharedTableSlotCount": 20,
+              "_IsSlotNoChanged": false,
+              "_PrevSlotCount": 0,
+              "_ProcDistIndex": -1,
+              "_StartSlotNo": -1
+            }
+          },
+          "_Skin": {
+            "Colors": {
+              "_Color": null
+            },
+            "Type": "app.charaedit.ch000.Skin",
+            "Values": {
+              "_MuscleStrength": 0.5,
+              "_Roughness": 1.0,
+              "_SkinColorCurve": 0.5,
+              "_SkinContrast": 0.14000000059604645,
+              "_WrinkeStrength": 0.5
+            }
+          },
+          "_Tattoos": {
+            "Hashes": {
+              "1048105261": "body_mat",
+              "935285574": "head_mat"
+            },
+            "Sub": {
+              "_Tattoos": {
+                "Type": "app.charaedit.ch000.Tattoos.SlotData[]",
+                "Values": null
+              }
+            },
+            "Type": "app.charaedit.ch000.Tattoos",
+            "Values": {
+              "MaxCount": 10,
+              "SharedTableSlotCount": 10,
+              "_IsSlotNoChanged": false,
+              "_PrevSlotCount": 0,
+              "_ProcDistIndex": -1,
+              "_StartSlotNo": -1
+            }
+          },
+          "_Teeth": {
+            "Colors": {
+              "_Color": null,
+              "_DirtColor": null
+            },
+            "Sub": {
+              "_TeethEnable": {
+                "Values": null
+              }
+            },
+            "Type": "app.charaedit.ch000.Teeth",
+            "Values": {
+              "_DirtOpacity": 1.0,
+              "_DirtRange": 1.0,
+              "_DirtRoughness": 0.5,
+              "_Opacity": 1.0,
+              "_TeethEnable": 65535
+            }
+          }
+        }
+      },
+      "Label": "Roster1_ch310079",
+      "Probe": {
+        "BodyEditorFields": [
+          "_ContextHolder : app.ContextHolder",
+          "_RetargetController : app.retarget.RetargetController",
+          "_ParentBodyEditor : app.BodyEditor",
+          "_BodyDetailEditor : app.BodyDetailEditor",
+          "_PrevGender : System.Nullable`1<app.Gender>",
+          "_BodyEditContext : app.BodyEditContext",
+          "_PretenderContext : app.PretenderContext",
+          "_PretenderData : app.CharacterEditDefine.Pretender",
+          "_PretenderEnable : System.Nullable`1<System.Boolean>",
+          "_CharacterBuilder : app.CharacterBuilder",
+          "<BustSizeRate>k__BackingField : System.Single"
+        ],
+        "Components": [
+          "via.Transform",
+          "via.render.Mesh",
+          "via.motion.Motion",
+          "via.motion.MotionFsm2",
+          "via.physics.CharacterController",
+          "app.Character",
+          "app.ActionManager",
+          "app.SequenceController",
+          "app.HitController",
+          "via.physics.RequestSetCollider",
+          "app.ContextHolder",
+          "app.AdjustPress",
+          "app.AdjustTerrain",
+          "via.motion.JointConstraints",
+          "via.motion.Chain",
+          "app.Human",
+          "app.ForceGenerator",
+          "app.WeightSetting",
+          "app.WorkRate",
+          "via.effect.script.ObjectEffectManager2",
+          "app.ShellRequest",
+          "app.VFXFootLandingController",
+          "app.StatusConditionCtrl",
+          "via.render.SwingWind",
+          "app.SlopeBodyCorrection2Leg",
+          "via.motion.IkLeg2",
+          "app.GenerateInfo",
+          "app.GeneralPoint",
+          "app.LockOnTarget",
+          "app.AIActionTargetInfoController",
+          "app.HateSystem",
+          "via.dynamics.Ragdoll",
+          "app.CharacterRagdoll",
+          "via.motion.ActorMotion",
+          "via.render.ShellFurMesh",
+          "app.PartSwapper",
+          "app.BodyEditor",
+          "app.BodyDetailEditor",
+          "via.motion.RetargetRig",
+          "app.retarget.RetargetController",
+          "app.AdjustJack",
+          "app.MaterialInterpolationRequestManager",
+          "app.MaterialInterpolationBasic",
+          "app.MaterialInterpolationStatus",
+          "app.MaterialInterpolationPoison",
+          "app.MaterialInterpolationRimLight",
+          "app.CharacterFacialMotionController",
+          "app.ScaleFacialMotion",
+          "app.SetupScaleFacialMotion",
+          "app.CharacterLookAt",
+          "app.TimelineEventCharacterActor",
+          "app.CharacterVoiceLoader",
+          "app.DissolveController",
+          "app.TimelineEventResetSimulation",
+          "app.TimelineEventCutChangeAction",
+          "app.TimelineEventEquipmentController",
+          "app.EPVExpertCharacterDamageTriggerUnit",
+          "via.character.CollisionShapePreset",
+          "app.MotionSpeedCtrl",
+          "app.TimelineEventDirectBindController",
+          "app.MaterialInterpolationDeform",
+          "app.reaction.ArmReachGimmick",
+          "app.lod.LODProcessor",
+          "app.MaterialParamMediator",
+          "via.render.AmbientOcclusionGeometry",
+          "app.AmbientOcclusionGeometrySwitcher",
+          "app.TimelineEventUnbindRequester",
+          "app.InterestMarkerAutoRequester",
+          "app.DirtController",
+          "app.CharacterSeLoader",
+          "app.PropsJointPosAdjuster",
+          "app.MaterialValueManager",
+          "app.MaterialValueController",
+          "app.SetupHumanFacial",
+          "via.motion.IkMultiLookAt2",
+          "app.CharacterChildControlForGpuCloth",
+          "app.CharacterChildControlForChain",
+          "app.CutSceneIKController",
+          "app.CharacterFadeUniform",
+          "app.TimelineEventCoveredInSnowController",
+          "app.HumanClimbInterruptActionPreparer",
+          "app.HumanInterruptActionPostRequester",
+          "app.HumanEffectPostGenerator",
+          "app.AIBlackBoardController",
+          "via.physics.Colliders",
+          "app.NavigationAI",
+          "via.navigation.NavigationSurface",
+          "app.AIDecisionMaker",
+          "app.ActionInterface",
+          "via.navigation.NavigationWaypoint",
+          "app.GenerateSetting",
+          "app.SpeechController",
+          "app.TalkController",
+          "app.SentimentController",
+          "app.WwiseDamageController",
+          "app.WwiseMotionSequenceApp",
+          "app.WwiseCharacter",
+          "app.AISituationAgentNPC",
+          "app.Ch230000",
+          "app.RegionStatusCtrl",
+          "app.StreamingTextureController",
+          "app.DomainQuery",
+          "app.WwiseVoiceController",
+          "app.NPCBehavior",
+          "app.AnimationControllerBehavior",
+          "app.NPCNavigationController",
+          "app.Ch20AreaDetector",
+          "app.WwiseCharacterSpaceWatcherApp",
+          "app.OcclusionChecker",
+          "app.WwiseDynamicCharacterContainerApp",
+          "app.NPC_SituationalReactionCircleController",
+          "app.HumanBattleFacialRequester",
+          "app.HumanBlushController",
+          "via.render.VolumeOccludee",
+          "app.AttackNoticeRequester",
+          "app.TacticalArea",
+          "app.EquipCoveredInSnowController",
+          "app.MIForceAlphaTestManager",
+          "app.MaterialValueSetter",
+          "app.DecisionEvaluationModuleLateUpdator",
+          "via.effect.script.EPVStandard",
+          "app.EPVExpertWaterSplash",
+          "app.EPVExpertDrowning",
+          "app.EPVCharaMoveWaterSplash",
+          "app.EPVExpertBodyEffect",
+          "app.EPVExpertCharacterHit",
+          "app.EPVExpertCharacterGuard",
+          "app.EPVExpertFootLandingTower",
+          "app.EPVExpertRegionHitProvider",
+          "app.EPVExpertDamagedTrail",
+          "app.EPVExpertCharacterDamageElemental",
+          "app.EPVExpertCharacterDamageSubSurface",
+          "app.EPVExpertCharacterDamage",
+          "app.EffectSequenceController",
+          "via.render.RenderTargetOperator",
+          "app.ShellInstansitateInfoHolder",
+          "app.ColdBreathEffectGenerateBehavior",
+          "app.VFXFootLandingEffectGenerator"
+        ]
+      }
+    }
+  ],
+  "Generated": "2026-09-18 22:00:06",
+  "HolderFields": [
+    "CharacterList : System.Collections.Generic.List`1<app.Character>",
+    "UniqueCharacters : System.Collections.Generic.Dictionary`2<app.CharacterID,app.Character>",
+    "ExistCharacterIDs : System.Collections.Generic.Dictionary`2<app.CharacterID,System.Int32>",
+    "ReadyCharacterList : System.Collections.Generic.List`1<app.Character>",
+    "Lock : via.threading.SimpleReaderWriterLock",
+    "DefaultListCapacity : System.Int32",
+    "DefaultDictionaryCapacity : System.Int32"
+  ],
+  "HolderProbe": [
+    "2891076981 -> RESOLVED",
+    "2283028347 -> nil",
+    "2482422138 -> nil"
+  ],
+  "Roster": [
+    "1: id=2017223576 ch310079  bodyEditor=true"
+  ],
+  "RosterDiag": [
+    "CharacterList: elements=-2",
+    "ReadyCharacterList: elements=-2",
+    "UniqueCharacters: entries=1",
+    "using: none",
+    "falling back to UniqueCharacters"
+  ],
+  "Script": "dd2forge_slider_dump.lua"
+}

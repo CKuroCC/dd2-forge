@@ -1,0 +1,1780 @@
+{
+    "JobEnum": [
+        "None = 0",
+        "Job01 = 1",
+        "Job02 = 2",
+        "Job03 = 3",
+        "Job04 = 4",
+        "Job05 = 5",
+        "Job06 = 6",
+        "Job07 = 7",
+        "Job08 = 8",
+        "Job09 = 9",
+        "Job10 = 10"
+    ],
+    "arisen": {
+        "ability": {
+            "count": 51,
+            "rows": [
+                {
+                    "AbilityID": "0",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "1",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "2",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "3",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "4",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "5",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "6",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "7",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "8",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "9",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "10",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "11",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "12",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "13",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "14",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "15",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "16",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "17",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "18",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "19",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "20",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "21",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "22",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "23",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "24",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "25",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "26",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "27",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "28",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "29",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "30",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "31",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "32",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "33",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "34",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "35",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "36",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "37",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "38",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "39",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "40",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "41",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "42",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "43",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "44",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "45",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "46",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "47",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "48",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "49",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "50",
+                    "IsEnable": "true"
+                }
+            ]
+        },
+        "charaId": "2891076981",
+        "job": {
+            "ChangedJobBits": "767",
+            "ConsumableExp": "9948020",
+            "CulmativeExp": [
+                "sol.REManagedObject*: 0000023F65FFE168",
+                "sol.REManagedObject*: 0000023F65FFD2B8",
+                "sol.REManagedObject*: 0000023F65FFD9E8",
+                "sol.REManagedObject*: 0000023F65FFDC68",
+                "sol.REManagedObject*: 0000023F65FFD8F8",
+                "sol.REManagedObject*: 0000023F65FFDF38",
+                "sol.REManagedObject*: 0000023F65FFE1B8",
+                "sol.REManagedObject*: 0000023F65FFE208",
+                "sol.REManagedObject*: 0000023F65FFD308",
+                "sol.REManagedObject*: 0000023F65FFDC18"
+            ],
+            "CurrentJob": "10",
+            "QualifiedJobBits": "1008",
+            "ViewedNewJobBits": "1023"
+        },
+        "label": "ARISEN",
+        "skill": {
+            "IsAllSkillEnable": "false",
+            "IsNormalSkillEnable": "true",
+            "custom": [
+                {
+                    "CustomSkillID": "0",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "1",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "2",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "3",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "4",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "5",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "6",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "7",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "8",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "9",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "10",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "11",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "12",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "13",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "14",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "15",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "16",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "17",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "18",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "19",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "20",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "21",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "22",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "23",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "24",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "25",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "26",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "27",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "28",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "29",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "30",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "31",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "32",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "33",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "34",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "35",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "36",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "37",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "38",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "39",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "40",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "41",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "42",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "43",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "44",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "45",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "46",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "47",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "48",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "49",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "50",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "51",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "52",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "53",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "54",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "55",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "56",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "57",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "58",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "59",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "60",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "61",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "62",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "63",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "64",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "65",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "66",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "67",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "68",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "69",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "70",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "71",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "72",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "73",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "74",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "75",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "76",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "77",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "78",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "79",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "80",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "81",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "82",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "83",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "84",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "85",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "86",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "87",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "88",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "89",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "90",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "91",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "92",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "93",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "94",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "95",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "96",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "97",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "98",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "99",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "100",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "101",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "102",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "103",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "104",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "105",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "106",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "107",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "108",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "109",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "110",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "111",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "112",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "113",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "114",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "115",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "116",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "117",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "118",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "119",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "120",
+                    "Level": "0"
+                }
+            ],
+            "customCount": 121,
+            "normal": [
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "0"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "1"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "2"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "3"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "4"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "5"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "6"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "7"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "8"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "9"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "10"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "11"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "12"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "13"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "14"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "15"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "16"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "17"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "18"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "19"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "20"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "21"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "22"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "23"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "24"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "25"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "26"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "27"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "28"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "29"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "30"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "31"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "32"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "33"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "34"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "35"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "36"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "37"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "38"
+                }
+            ],
+            "normalCount": 39
+        }
+    },
+    "build": "phase 22 - NG+ READ 2026-09-21",
+    "pawn": {
+        "ability": {
+            "count": 51,
+            "rows": [
+                {
+                    "AbilityID": "0",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "1",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "2",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "3",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "4",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "5",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "6",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "7",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "8",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "9",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "10",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "11",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "12",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "13",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "14",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "15",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "16",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "17",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "18",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "19",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "20",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "21",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "22",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "23",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "24",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "25",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "26",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "27",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "28",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "29",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "30",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "31",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "32",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "33",
+                    "IsEnable": "true"
+                },
+                {
+                    "AbilityID": "34",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "35",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "36",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "37",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "38",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "39",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "40",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "41",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "42",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "43",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "44",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "45",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "46",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "47",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "48",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "49",
+                    "IsEnable": "false"
+                },
+                {
+                    "AbilityID": "50",
+                    "IsEnable": "false"
+                }
+            ]
+        },
+        "charaId": "2283028347",
+        "job": {
+            "ChangedJobBits": "63",
+            "ConsumableExp": "10172553",
+            "CulmativeExp": [
+                "sol.REManagedObject*: 0000023F6600F288",
+                "sol.REManagedObject*: 0000023F6600FB98",
+                "sol.REManagedObject*: 0000023F6600ED88",
+                "sol.REManagedObject*: 0000023F6600EF68",
+                "sol.REManagedObject*: 0000023F6600FD28",
+                "sol.REManagedObject*: 0000023F6600EDD8",
+                "sol.REManagedObject*: 0000023F6600EB58",
+                "sol.REManagedObject*: 0000023F6600F878",
+                "sol.REManagedObject*: 0000023F6600F418",
+                "sol.REManagedObject*: 0000023F6600F468"
+            ],
+            "CurrentJob": "6",
+            "QualifiedJobBits": "48",
+            "ViewedNewJobBits": "63"
+        },
+        "label": "AVRIL",
+        "skill": {
+            "IsAllSkillEnable": "false",
+            "IsNormalSkillEnable": "true",
+            "custom": [
+                {
+                    "CustomSkillID": "0",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "1",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "2",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "3",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "4",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "5",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "6",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "7",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "8",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "9",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "10",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "11",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "12",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "13",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "14",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "15",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "16",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "17",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "18",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "19",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "20",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "21",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "22",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "23",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "24",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "25",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "26",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "27",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "28",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "29",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "30",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "31",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "32",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "33",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "34",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "35",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "36",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "37",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "38",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "39",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "40",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "41",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "42",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "43",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "44",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "45",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "46",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "47",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "48",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "49",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "50",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "51",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "52",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "53",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "54",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "55",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "56",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "57",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "58",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "59",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "60",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "61",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "62",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "63",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "64",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "65",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "66",
+                    "Level": "2"
+                },
+                {
+                    "CustomSkillID": "67",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "68",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "69",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "70",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "71",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "72",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "73",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "74",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "75",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "76",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "77",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "78",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "79",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "80",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "81",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "82",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "83",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "84",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "85",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "86",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "87",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "88",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "89",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "90",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "91",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "92",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "93",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "94",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "95",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "96",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "97",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "98",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "99",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "100",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "101",
+                    "Level": "1"
+                },
+                {
+                    "CustomSkillID": "102",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "103",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "104",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "105",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "106",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "107",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "108",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "109",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "110",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "111",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "112",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "113",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "114",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "115",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "116",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "117",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "118",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "119",
+                    "Level": "0"
+                },
+                {
+                    "CustomSkillID": "120",
+                    "Level": "0"
+                }
+            ],
+            "customCount": 121,
+            "normal": [
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "0"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "1"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "2"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "3"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "4"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "5"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "6"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "7"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "8"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "9"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "10"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "11"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "12"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "13"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "14"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "15"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "16"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "17"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "18"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "19"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "20"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "21"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "22"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "23"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "24"
+                },
+                {
+                    "IsEnable": "true",
+                    "NormalSkillID": "25"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "26"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "27"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "28"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "29"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "30"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "31"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "32"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "33"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "34"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "35"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "36"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "37"
+                },
+                {
+                    "IsEnable": "false",
+                    "NormalSkillID": "38"
+                }
+            ],
+            "normalCount": 39
+        }
+    }
+}

@@ -1,0 +1,96 @@
+/* dd2-forge -- single sequential hue (ember) + neutral ink.
+   No categorical palette is used anywhere, so identity is never carried by
+   colour alone: every status chip ships a word, every bar ships its number. */
+:root {
+  --bg:#0d0f13; --surface:#14171d; --surface2:#1b1f27; --line:#272d38;
+  --ink:#e8eaee; --ink2:#a4acbb; --ink3:#6f7789;
+  --e1:#f6c89a; --e2:#e79a52; --e3:#d1732a; --e4:#a04e17;
+  --good:#5fae7a; --warn:#d8a13c; --bad:#cf5c56;
+  --radius:10px; --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+:root[data-theme="light"] {
+  --bg:#f7f6f4; --surface:#ffffff; --surface2:#f1efec; --line:#e0dcd6;
+  --ink:#1a1d22; --ink2:#5a6372; --ink3:#8b93a2;
+  --e1:#f0d5b6; --e2:#d98b3e; --e3:#b25d18; --e4:#7c3f0c;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font:15px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--e2)} a:hover{color:var(--e1)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* header */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;gap:20px;height:60px}
+.brand{font-weight:700;letter-spacing:-.02em;font-size:19px;white-space:nowrap}
+.mark{color:var(--ink)} .markb{color:var(--e3)}
+.tabs{display:flex;gap:2px;flex:1;overflow-x:auto;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{appearance:none;border:0;background:transparent;color:var(--ink2);font:inherit;
+  padding:8px 13px;border-radius:8px;cursor:pointer;white-space:nowrap}
+.tab:hover{background:var(--surface2);color:var(--ink)}
+.tab[aria-selected="true"]{background:var(--surface2);color:var(--ink);box-shadow:inset 0 -2px 0 var(--e3)}
+.ghost{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--ink2);
+  border-radius:8px;width:34px;height:34px;cursor:pointer;font-size:15px}
+.ghost:hover{color:var(--ink)}
+
+/* page furniture */
+h1{font-size:26px;letter-spacing:-.02em;margin:26px 0 4px}
+h2{font-size:17px;letter-spacing:-.01em;margin:30px 0 10px}
+.lede{color:var(--ink2);margin:0 0 6px;max-width:74ch}
+.loading{padding:60px 0;color:var(--ink3)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px}
+.grid{display:grid;gap:12px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(168px,1fr))}
+
+/* stat tiles -- a number, its label, and nothing pretending to be a chart */
+.tile .k{font:600 30px/1.1 var(--mono);letter-spacing:-.02em}
+.tile .l{color:var(--ink2);font-size:12.5px;margin-top:5px;text-transform:uppercase;letter-spacing:.06em}
+.tile .s{color:var(--ink3);font-size:12.5px;margin-top:3px}
+
+/* magnitude bars: one hue, light->dark by value, number always shown */
+.bars{display:grid;gap:7px}
+.row{display:grid;grid-template-columns:150px 1fr 74px;gap:10px;align-items:center;font-size:13.5px}
+.row .nm{color:var(--ink2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.track{background:var(--surface2);border-radius:4px;height:15px;overflow:hidden}
+.fill{height:100%;border-radius:0 4px 4px 0;background:var(--e3)}
+.row .v{text-align:right;font-family:var(--mono);font-size:12.5px;color:var(--ink2)}
+
+/* status chips always carry a word */
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;padding:2.5px 9px;
+  border-radius:999px;border:1px solid var(--line);background:var(--surface2);color:var(--ink2)}
+.chip.ok{color:var(--good);border-color:color-mix(in srgb,var(--good) 40%,var(--line))}
+.chip.warn{color:var(--warn);border-color:color-mix(in srgb,var(--warn) 40%,var(--line))}
+.chip.bad{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 40%,var(--line))}
+.dot{width:7px;height:7px;border-radius:50%;background:currentColor;flex:none}
+
+/* tables */
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th{text-align:left;color:var(--ink3);font-weight:600;font-size:11.5px;letter-spacing:.06em;
+  text-transform:uppercase;padding:8px 10px;border-bottom:1px solid var(--line);position:sticky;top:60px;
+  background:var(--surface)}
+td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+tbody tr:hover{background:var(--surface2)}
+.mono{font-family:var(--mono);font-size:12.5px;color:var(--ink2)}
+.scroll{max-height:560px;overflow:auto;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+
+/* controls */
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0}
+input[type=search],select{background:var(--surface);color:var(--ink);border:1px solid var(--line);
+  border-radius:8px;padding:8px 11px;font:inherit;font-size:13.5px;min-width:190px}
+input[type=search]:focus,select:focus{outline:2px solid var(--e3);outline-offset:-1px}
+.count{color:var(--ink3);font-size:13px}
+
+.note{border-left:2px solid var(--e3);padding:2px 0 2px 13px;color:var(--ink2);margin:12px 0}
+.foot{display:flex;gap:10px;color:var(--ink3);font-size:12.5px;padding:34px 20px 50px}
+.sep{color:var(--line)}
+code{font-family:var(--mono);font-size:12.5px;background:var(--surface2);padding:1px 5px;border-radius:4px}
+.empty{color:var(--ink3);padding:26px 0}
+@media (max-width:640px){ .row{grid-template-columns:110px 1fr 60px} h1{font-size:22px} }

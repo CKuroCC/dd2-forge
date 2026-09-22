@@ -1,0 +1,219 @@
+{
+    "Gender": "female",
+    "Role": "MAIN PAWN",
+    "SliderCount": 35,
+    "Sliders": [
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Arms__0__Legs_Arms_Length",
+            "Value": 0.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Arms__0__Legs_Arms_Shoulder__Size",
+            "Value": -4.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Arms__0__Legs_Arms_Thickness",
+            "Value": 0.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Arms__0__Legs_Arms_Thickness_Lower",
+            "Value": -5.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Arms__0__Legs_Arms_Thickness_Upper",
+            "Value": 40.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Arms__0__Legs_Legs_Thickness",
+            "Value": 0.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Arms__0__Legs_Legs_Thickness_Lower",
+            "Value": -19.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Arms__0__Legs_Legs_Thickness_Upper",
+            "Value": 20.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Depth",
+            "Value": -100.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Length",
+            "Value": -60.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Size",
+            "Value": -100.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Neck__0__Head_Head__Width",
+            "Value": -100.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Neck__0__Head_Neck__Length",
+            "Value": -100.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Neck__0__Head_Neck__Thickness",
+            "Value": -70.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Neck__0__Head_Traps__Size",
+            "Value": -100.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Pelvis_Buttock__Size",
+            "Value": 85.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Pelvis_Depth",
+            "Value": -82.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Pelvis_Width",
+            "Value": -47.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Torso_Bust__Distance",
+            "Value": -80.5
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Torso_Bust__Size",
+            "Value": 12.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Torso_Bust__Vertical",
+            "Value": 100.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Torso_Chest__Depth",
+            "Value": -14.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Torso_Chest__Width",
+            "Value": -55.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Torso_Waist__Depth",
+            "Value": -67.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "Core_Torso_Waist__Width",
+            "Value": -66.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "General_Fat_Lower",
+            "Value": 84.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "General_Fat_Upper",
+            "Value": 73.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "General_Fat_Upper_Mass",
+            "Value": 73.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "General_Fat_Upper_Subcutaneous",
+            "Value": 100.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "General_Fat_Upper__Adjust",
+            "Value": 73.0
+        },
+        {
+            "Max": 215.0,
+            "Min": 140.0,
+            "Name": "General_Height_Height",
+            "Value": 170.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "General_Height_Height__Adjust",
+            "Value": -25.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "General_Height_Torso__Length",
+            "Value": -100.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "General_Muscle_Lower",
+            "Value": 1.0
+        },
+        {
+            "Max": 100.0,
+            "Min": -100.0,
+            "Name": "General_Muscle_Upper",
+            "Value": -100.0
+        }
+    ],
+    "Tag": "modoff",
+    "Target": "ch100000_00"
+}

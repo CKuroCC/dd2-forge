@@ -1,0 +1,268 @@
+{
+    "build": "phase 16 - GETTER SURVEY 2026-09-21",
+    "keyTest": [
+        {
+            "armor": "false",
+            "id": 1606,
+            "name": "Dragon's Wit",
+            "weapon": "true"
+        },
+        {
+            "armor": "true",
+            "id": 4060,
+            "name": "Witch's Hat",
+            "weapon": "false"
+        },
+        {
+            "armor": "true",
+            "id": 5113,
+            "name": "Eonian Coat",
+            "weapon": "false"
+        },
+        {
+            "armor": "true",
+            "id": 6064,
+            "name": "Epiphanic Waistguard",
+            "weapon": "false"
+        },
+        {
+            "armor": "false",
+            "id": 3303,
+            "name": "Soft Neck Wrap",
+            "weapon": "false"
+        },
+        {
+            "armor": "false",
+            "id": 3534,
+            "name": "Ring of Recitation",
+            "weapon": "false"
+        }
+    ],
+    "liveRecords": [
+        {
+            "askedFor": 1908,
+            "charaId": "2891076981",
+            "enhNum": 4,
+            "equipSlot": 0,
+            "equipped": true,
+            "itemId": 1908,
+            "num": 1,
+            "storageId": 1556,
+            "type0": 2,
+            "type1": 2,
+            "type2": 2
+        },
+        {
+            "askedFor": 4107,
+            "charaId": "2891076981",
+            "enhNum": 4,
+            "equipSlot": 2,
+            "equipped": true,
+            "itemId": 4107,
+            "num": 1,
+            "storageId": 1549,
+            "type0": 2,
+            "type1": 3,
+            "type2": 3
+        },
+        {
+            "askedFor": 5028,
+            "charaId": "2891076981",
+            "enhNum": 4,
+            "equipSlot": 3,
+            "equipped": true,
+            "itemId": 5028,
+            "num": 1,
+            "storageId": 407,
+            "type0": 1,
+            "type1": 3,
+            "type2": 3
+        },
+        {
+            "askedFor": 6029,
+            "charaId": "2891076981",
+            "enhNum": 4,
+            "equipSlot": 4,
+            "equipped": true,
+            "itemId": 6029,
+            "num": 1,
+            "storageId": 411,
+            "type0": 1,
+            "type1": 3,
+            "type2": 3
+        },
+        {
+            "askedFor": 3350,
+            "charaId": "2891076981",
+            "enhNum": 0,
+            "equipSlot": 5,
+            "equipped": true,
+            "itemId": 3350,
+            "num": 1,
+            "storageId": 166,
+            "type0": 0,
+            "type1": 0,
+            "type2": 0
+        },
+        {
+            "askedFor": 3521,
+            "charaId": "2891076981",
+            "enhNum": 0,
+            "equipSlot": 6,
+            "equipped": true,
+            "itemId": 3521,
+            "num": 1,
+            "storageId": 221,
+            "type0": 0,
+            "type1": 0,
+            "type2": 0
+        },
+        {
+            "askedFor": 3528,
+            "charaId": "2891076981",
+            "enhNum": 0,
+            "equipSlot": 7,
+            "equipped": true,
+            "itemId": 3528,
+            "num": 1,
+            "storageId": 214,
+            "type0": 0,
+            "type1": 0,
+            "type2": 0
+        }
+    ],
+    "playerCharaId": "2891076981",
+    "playerEquip": [
+        {
+            "armorTable": "false",
+            "charaId": "2891076981",
+            "enhNum": 4,
+            "equipSlot": 0,
+            "equipped": true,
+            "itemId": 1908,
+            "num": 1,
+            "slot": 0,
+            "storageId": 1556,
+            "type0": 2,
+            "type1": 2,
+            "type2": 2,
+            "weaponTable": "true"
+        },
+        {
+            "charaId": "0",
+            "enhNum": 0,
+            "equipSlot": 0,
+            "equipped": false,
+            "itemId": 0,
+            "num": 0,
+            "slot": 1,
+            "storageId": 0,
+            "type0": 0,
+            "type1": 0,
+            "type2": 0
+        },
+        {
+            "armorTable": "true",
+            "charaId": "2891076981",
+            "enhNum": 4,
+            "equipSlot": 2,
+            "equipped": true,
+            "itemId": 4107,
+            "num": 1,
+            "slot": 2,
+            "storageId": 1549,
+            "type0": 2,
+            "type1": 3,
+            "type2": 3,
+            "weaponTable": "false"
+        },
+        {
+            "armorTable": "true",
+            "charaId": "2891076981",
+            "enhNum": 4,
+            "equipSlot": 3,
+            "equipped": true,
+            "itemId": 5028,
+            "num": 1,
+            "slot": 3,
+            "storageId": 407,
+            "type0": 1,
+            "type1": 3,
+            "type2": 3,
+            "weaponTable": "false"
+        },
+        {
+            "armorTable": "true",
+            "charaId": "2891076981",
+            "enhNum": 4,
+            "equipSlot": 4,
+            "equipped": true,
+            "itemId": 6029,
+            "num": 1,
+            "slot": 4,
+            "storageId": 411,
+            "type0": 1,
+            "type1": 3,
+            "type2": 3,
+            "weaponTable": "false"
+        },
+        {
+            "armorTable": "false",
+            "charaId": "2891076981",
+            "enhNum": 0,
+            "equipSlot": 5,
+            "equipped": true,
+            "itemId": 3350,
+            "num": 1,
+            "slot": 5,
+            "storageId": 166,
+            "type0": 0,
+            "type1": 0,
+            "type2": 0,
+            "weaponTable": "false"
+        },
+        {
+            "armorTable": "false",
+            "charaId": "2891076981",
+            "enhNum": 0,
+            "equipSlot": 6,
+            "equipped": true,
+            "itemId": 3521,
+            "num": 1,
+            "slot": 6,
+            "storageId": 221,
+            "type0": 0,
+            "type1": 0,
+            "type2": 0,
+            "weaponTable": "false"
+        },
+        {
+            "armorTable": "false",
+            "charaId": "2891076981",
+            "enhNum": 0,
+            "equipSlot": 7,
+            "equipped": true,
+            "itemId": 3528,
+            "num": 1,
+            "slot": 7,
+            "storageId": 214,
+            "type0": 0,
+            "type1": 0,
+            "type2": 0,
+            "weaponTable": "false"
+        },
+        {
+            "charaId": "0",
+            "enhNum": 0,
+            "equipSlot": 0,
+            "equipped": false,
+            "itemId": 0,
+            "num": 0,
+            "slot": 8,
+            "storageId": 0,
+            "type0": 0,
+            "type1": 0,
+            "type2": 0
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+[
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "100.0",
+        "folder": "Pawn",
+        "height": "205.0",
+        "jointScaleY": "1.00",
+        "name": "ch111019"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "100.0",
+        "folder": "Pawn",
+        "height": "170.0",
+        "jointScaleY": "1.00",
+        "name": "ch100000_00"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "100.0",
+        "folder": "Pawn",
+        "height": "170.0",
+        "jointScaleY": "1.00",
+        "name": "ch111012"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "170.0",
+        "jointScaleY": "1.00",
+        "name": "ch310042"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "160.0",
+        "jointScaleY": "1.00",
+        "name": "ch300445"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "160.0",
+        "jointScaleY": "1.00",
+        "name": "ch300426"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "165.0",
+        "jointScaleY": "1.00",
+        "name": "ch300186"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "170.0",
+        "jointScaleY": "1.00",
+        "name": "ch310059"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "175.0",
+        "jointScaleY": "1.00",
+        "name": "ch300197"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "187.0",
+        "jointScaleY": "1.00",
+        "name": "ch300157"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "165.0",
+        "jointScaleY": "1.00",
+        "name": "ch300377"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "170.0",
+        "jointScaleY": "1.00",
+        "name": "ch300923"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "165.0",
+        "jointScaleY": "1.00",
+        "name": "ch300190"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "165.0",
+        "jointScaleY": "1.00",
+        "name": "ch300806"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "30.0",
+        "folder": "NPC",
+        "height": "170.0",
+        "jointScaleY": "1.00",
+        "name": "ch300371"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "5.0",
+        "folder": "NPC",
+        "height": "147.0",
+        "jointScaleY": "1.00",
+        "name": "ch300429"
+    },
+    {
+        "baseScaleY": "1.00",
+        "bustSlider": "-30.0",
+        "folder": "NPC",
+        "height": "163.0",
+        "jointScaleY": "1.00",
+        "name": "ch300924"
+    }
+]

@@ -1,0 +1,4026 @@
+[
+    {
+        "id": 600,
+        "name": "Invalid"
+    },
+    {
+        "id": 534,
+        "name": "Bandit Bill of Arrest"
+    },
+    {
+        "id": 533,
+        "name": "Invalid"
+    },
+    {
+        "id": 532,
+        "name": "Invalid"
+    },
+    {
+        "id": 531,
+        "name": "Invalid"
+    },
+    {
+        "id": 530,
+        "name": "Makeshift Treasure Chest Key"
+    },
+    {
+        "id": 529,
+        "name": "Invalid"
+    },
+    {
+        "id": 528,
+        "name": "Invalid"
+    },
+    {
+        "id": 527,
+        "name": "Invalid"
+    },
+    {
+        "id": 526,
+        "name": "Invalid"
+    },
+    {
+        "id": 525,
+        "name": "Invalid"
+    },
+    {
+        "id": 524,
+        "name": "Invalid"
+    },
+    {
+        "id": 523,
+        "name": "Invalid"
+    },
+    {
+        "id": 522,
+        "name": "Invalid"
+    },
+    {
+        "id": 521,
+        "name": "Cinnamon Bark"
+    },
+    {
+        "id": 520,
+        "name": "Hill Beech Bark"
+    },
+    {
+        "id": 519,
+        "name": "Invalid"
+    },
+    {
+        "id": 518,
+        "name": "Invalid"
+    },
+    {
+        "id": 517,
+        "name": "Invalid"
+    },
+    {
+        "id": 516,
+        "name": "Invalid"
+    },
+    {
+        "id": 515,
+        "name": "Invalid"
+    },
+    {
+        "id": 514,
+        "name": "Invalid"
+    },
+    {
+        "id": 513,
+        "name": "Invalid"
+    },
+    {
+        "id": 512,
+        "name": "Dried Flower"
+    },
+    {
+        "id": 511,
+        "name": "Invalid"
+    },
+    {
+        "id": 510,
+        "name": "Noonbloom"
+    },
+    {
+        "id": 509,
+        "name": "Invalid"
+    },
+    {
+        "id": 508,
+        "name": "Invalid"
+    },
+    {
+        "id": 507,
+        "name": "Invalid"
+    },
+    {
+        "id": 506,
+        "name": "Invalid"
+    },
+    {
+        "id": 505,
+        "name": "Sunbloom"
+    },
+    {
+        "id": 504,
+        "name": "Miracle Roborant"
+    },
+    {
+        "id": 503,
+        "name": "Exquisite Roborant"
+    },
+    {
+        "id": 502,
+        "name": "Mighty Roborant"
+    },
+    {
+        "id": 501,
+        "name": "Nomad's Dried Fruit"
+    },
+    {
+        "id": 500,
+        "name": "Salubrious Draught"
+    },
+    {
+        "id": 499,
+        "name": "Invalid"
+    },
+    {
+        "id": 498,
+        "name": "Invalid"
+    },
+    {
+        "id": 497,
+        "name": "Invalid"
+    },
+    {
+        "id": 496,
+        "name": "Invalid"
+    },
+    {
+        "id": 495,
+        "name": "Invalid"
+    },
+    {
+        "id": 494,
+        "name": "Invalid"
+    },
+    {
+        "id": 493,
+        "name": "Invalid"
+    },
+    {
+        "id": 492,
+        "name": "Invalid"
+    },
+    {
+        "id": 491,
+        "name": "Invalid"
+    },
+    {
+        "id": 490,
+        "name": "Invalid"
+    },
+    {
+        "id": 489,
+        "name": "Invalid"
+    },
+    {
+        "id": 488,
+        "name": "Invalid"
+    },
+    {
+        "id": 487,
+        "name": "Invalid"
+    },
+    {
+        "id": 486,
+        "name": "Invalid"
+    },
+    {
+        "id": 485,
+        "name": "Invalid"
+    },
+    {
+        "id": 484,
+        "name": "Invalid"
+    },
+    {
+        "id": 483,
+        "name": "Invalid"
+    },
+    {
+        "id": 482,
+        "name": "Aphony's Tome"
+    },
+    {
+        "id": 481,
+        "name": "Forayer's Tome"
+    },
+    {
+        "id": 480,
+        "name": "Gawker's Tome"
+    },
+    {
+        "id": 479,
+        "name": "Logician's Tome"
+    },
+    {
+        "id": 478,
+        "name": "Surgeon's Tome"
+    },
+    {
+        "id": 477,
+        "name": "Wooden Wordsmith's Tome"
+    },
+    {
+        "id": 476,
+        "name": "Dragon's Gauze"
+    },
+    {
+        "id": 475,
+        "name": "Key of Mendacity"
+    },
+    {
+        "id": 474,
+        "name": "Golden Stove Beetle"
+    },
+    {
+        "id": 473,
+        "name": "Wormslife Crystal"
+    },
+    {
+        "id": 472,
+        "name": "On the Transit of Souls"
+    },
+    {
+        "id": 471,
+        "name": "On the Transit of Souls 2"
+    },
+    {
+        "id": 470,
+        "name": "On the Transit of Souls 1"
+    },
+    {
+        "id": 469,
+        "name": "Seeder's Token"
+    },
+    {
+        "id": 468,
+        "name": "Eternal Wokestone"
+    },
+    {
+        "id": 467,
+        "name": "Grandmother's Path"
+    },
+    {
+        "id": 466,
+        "name": "Theurgist's Rote"
+    },
+    {
+        "id": 465,
+        "name": "Spellbow's Parabola"
+    },
+    {
+        "id": 464,
+        "name": "Conjurer's Jabberings"
+    },
+    {
+        "id": 463,
+        "name": "Myrddin's Cubicle"
+    },
+    {
+        "id": 462,
+        "name": "Champion's Foible"
+    },
+    {
+        "id": 461,
+        "name": "Hunter's Sonnet"
+    },
+    {
+        "id": 460,
+        "name": "Legend's Hocus"
+    },
+    {
+        "id": 459,
+        "name": "Pesterer's Handbook"
+    },
+    {
+        "id": 458,
+        "name": "Paladin's Energizer"
+    },
+    {
+        "id": 457,
+        "name": "Enchanter's Alarm"
+    },
+    {
+        "id": 456,
+        "name": "Soldier's Cord"
+    },
+    {
+        "id": 455,
+        "name": "Unmasking Arrow"
+    },
+    {
+        "id": 454,
+        "name": "Ceiling Phial"
+    },
+    {
+        "id": 453,
+        "name": "Partcrystal"
+    },
+    {
+        "id": 452,
+        "name": "Ferristone"
+    },
+    {
+        "id": 451,
+        "name": "Wokestone Shard"
+    },
+    {
+        "id": 450,
+        "name": "Wokestone"
+    },
+    {
+        "id": 405,
+        "name": "Invalid"
+    },
+    {
+        "id": 404,
+        "name": "Ambivalent Rift Incense"
+    },
+    {
+        "id": 403,
+        "name": "Straightforward Rift Incense"
+    },
+    {
+        "id": 402,
+        "name": "Simple Rift Incense"
+    },
+    {
+        "id": 401,
+        "name": "Calm Rift Incense"
+    },
+    {
+        "id": 400,
+        "name": "Kindhearted Rift Incense"
+    },
+    {
+        "id": 399,
+        "name": "Ancient Battleground Key"
+    },
+    {
+        "id": 398,
+        "name": "Golden Trove Beetle"
+    },
+    {
+        "id": 397,
+        "name": "Empowered Godsbane Blade"
+    },
+    {
+        "id": 396,
+        "name": "Mock Mended Regalia Sword"
+    },
+    {
+        "id": 395,
+        "name": "Provisioner's Note"
+    },
+    {
+        "id": 394,
+        "name": "Darragh's Bill of Arrest"
+    },
+    {
+        "id": 393,
+        "name": "Folded Letter"
+    },
+    {
+        "id": 392,
+        "name": "Lowering Earth"
+    },
+    {
+        "id": 391,
+        "name": "Hurling Blizzard"
+    },
+    {
+        "id": 390,
+        "name": "Nation's Death Knock"
+    },
+    {
+        "id": 389,
+        "name": "Fruminous Shield"
+    },
+    {
+        "id": 388,
+        "name": "Let There Be Lite"
+    },
+    {
+        "id": 387,
+        "name": "Invalid"
+    },
+    {
+        "id": 386,
+        "name": "Invalid"
+    },
+    {
+        "id": 385,
+        "name": "Invalid"
+    },
+    {
+        "id": 384,
+        "name": "Invalid"
+    },
+    {
+        "id": 383,
+        "name": "Unlabeled Medicine"
+    },
+    {
+        "id": 382,
+        "name": "Records of Treatment"
+    },
+    {
+        "id": 381,
+        "name": "Towering Earth"
+    },
+    {
+        "id": 380,
+        "name": "Howling Blizzard"
+    },
+    {
+        "id": 379,
+        "name": "Nation's Death Knell"
+    },
+    {
+        "id": 378,
+        "name": "Fulminous Shield"
+    },
+    {
+        "id": 377,
+        "name": "Let There Be Light"
+    },
+    {
+        "id": 376,
+        "name": "Torn Letter"
+    },
+    {
+        "id": 375,
+        "name": "Saurian Tail"
+    },
+    {
+        "id": 374,
+        "name": "Gaol Key"
+    },
+    {
+        "id": 373,
+        "name": "Paragon Staff Replica"
+    },
+    {
+        "id": 372,
+        "name": "Scrap of Cloth"
+    },
+    {
+        "id": 371,
+        "name": "Overseers' Lodge Key"
+    },
+    {
+        "id": 370,
+        "name": "Makeshift Vault Key"
+    },
+    {
+        "id": 369,
+        "name": "Moonglint Key"
+    },
+    {
+        "id": 368,
+        "name": "Invalid"
+    },
+    {
+        "id": 367,
+        "name": "Escort Orders"
+    },
+    {
+        "id": 366,
+        "name": "Imitation Jadeite Orb"
+    },
+    {
+        "id": 365,
+        "name": "Jadeite Orb"
+    },
+    {
+        "id": 364,
+        "name": "Invalid"
+    },
+    {
+        "id": 363,
+        "name": "On the Transference of Souls"
+    },
+    {
+        "id": 362,
+        "name": "Invalid"
+    },
+    {
+        "id": 361,
+        "name": "Newt Liqueur"
+    },
+    {
+        "id": 360,
+        "name": "On the Transference of Souls 1"
+    },
+    {
+        "id": 359,
+        "name": "Wyrmslife Crystal"
+    },
+    {
+        "id": 358,
+        "name": "Invalid"
+    },
+    {
+        "id": 357,
+        "name": "Dulled Godsbane Blade"
+    },
+    {
+        "id": 356,
+        "name": "Invalid"
+    },
+    {
+        "id": 355,
+        "name": "Small Blue Crystal Shard"
+    },
+    {
+        "id": 354,
+        "name": "Large Blue Crystal Shard"
+    },
+    {
+        "id": 353,
+        "name": "Letter to Ser Lennart"
+    },
+    {
+        "id": 352,
+        "name": "Restored Regalia Sword"
+    },
+    {
+        "id": 351,
+        "name": "Dulled Regalia Sword"
+    },
+    {
+        "id": 350,
+        "name": "Fruit Wine"
+    },
+    {
+        "id": 349,
+        "name": "Paragon Staff"
+    },
+    {
+        "id": 348,
+        "name": "Hallowed Orb"
+    },
+    {
+        "id": 347,
+        "name": "Invalid"
+    },
+    {
+        "id": 346,
+        "name": "Tiger Eye"
+    },
+    {
+        "id": 345,
+        "name": "Onyx"
+    },
+    {
+        "id": 344,
+        "name": "Jasper"
+    },
+    {
+        "id": 343,
+        "name": "Invalid"
+    },
+    {
+        "id": 342,
+        "name": "Invalid"
+    },
+    {
+        "id": 341,
+        "name": "Invalid"
+    },
+    {
+        "id": 340,
+        "name": "Invalid"
+    },
+    {
+        "id": 339,
+        "name": "Beastren Border Entry Permit"
+    },
+    {
+        "id": 338,
+        "name": "Border Entry Permit"
+    },
+    {
+        "id": 337,
+        "name": "Invalid"
+    },
+    {
+        "id": 336,
+        "name": "Invalid"
+    },
+    {
+        "id": 335,
+        "name": "Letter of Request"
+    },
+    {
+        "id": 334,
+        "name": "Scalecinder"
+    },
+    {
+        "id": 333,
+        "name": "Invalid"
+    },
+    {
+        "id": 332,
+        "name": "Glimmercoal"
+    },
+    {
+        "id": 331,
+        "name": "Sven's Ornate Box"
+    },
+    {
+        "id": 330,
+        "name": "Labor Requisition Orders"
+    },
+    {
+        "id": 329,
+        "name": "Merchant's Document"
+    },
+    {
+        "id": 328,
+        "name": "Invalid"
+    },
+    {
+        "id": 327,
+        "name": "Murder Report"
+    },
+    {
+        "id": 326,
+        "name": "Bribery Investigation Findings"
+    },
+    {
+        "id": 325,
+        "name": "Invalid"
+    },
+    {
+        "id": 324,
+        "name": "Exquisite Spectacles"
+    },
+    {
+        "id": 323,
+        "name": "Letter to Lord Phaesus"
+    },
+    {
+        "id": 322,
+        "name": "Arborheart Cutting"
+    },
+    {
+        "id": 321,
+        "name": "Battahl Residence Permit"
+    },
+    {
+        "id": 320,
+        "name": "Invalid"
+    },
+    {
+        "id": 319,
+        "name": "Ornate Box"
+    },
+    {
+        "id": 318,
+        "name": "Diminished Godsway"
+    },
+    {
+        "id": 317,
+        "name": "Makeshift Gaol Key"
+    },
+    {
+        "id": 316,
+        "name": "Unfinished Letter"
+    },
+    {
+        "id": 315,
+        "name": "On the Transference of Souls 2"
+    },
+    {
+        "id": 314,
+        "name": "Letter to Menella"
+    },
+    {
+        "id": 313,
+        "name": "Invalid"
+    },
+    {
+        "id": 312,
+        "name": "Castle Floor Plan"
+    },
+    {
+        "id": 311,
+        "name": "Invalid"
+    },
+    {
+        "id": 310,
+        "name": "Missive to the Captain"
+    },
+    {
+        "id": 309,
+        "name": "Letter to Lord Patrick"
+    },
+    {
+        "id": 308,
+        "name": "Battahli-Crested Letter"
+    },
+    {
+        "id": 307,
+        "name": "Message from Brant"
+    },
+    {
+        "id": 306,
+        "name": "Myrmecoleon Card"
+    },
+    {
+        "id": 305,
+        "name": "Seeker's Token"
+    },
+    {
+        "id": 304,
+        "name": "Platinum Myrmecoleon Card"
+    },
+    {
+        "id": 303,
+        "name": "Small Jewel"
+    },
+    {
+        "id": 302,
+        "name": "Rotten Soft-Boiled Egg"
+    },
+    {
+        "id": 301,
+        "name": "Disa's Letter"
+    },
+    {
+        "id": 300,
+        "name": "Beggar's Garb"
+    },
+    {
+        "id": 299,
+        "name": "Invalid"
+    },
+    {
+        "id": 298,
+        "name": "Grandmaster's Path"
+    },
+    {
+        "id": 297,
+        "name": "Theurgist's Rite"
+    },
+    {
+        "id": 296,
+        "name": "Spellbow's Paradox"
+    },
+    {
+        "id": 295,
+        "name": "Conjurer's Jottings"
+    },
+    {
+        "id": 294,
+        "name": "Myrddin's Chronicle"
+    },
+    {
+        "id": 293,
+        "name": "Champion's Fable"
+    },
+    {
+        "id": 292,
+        "name": "Hunter's Secret"
+    },
+    {
+        "id": 291,
+        "name": "Legend's Opus"
+    },
+    {
+        "id": 290,
+        "name": "Pilferer's Handbook"
+    },
+    {
+        "id": 289,
+        "name": "Paladin's Enigmata"
+    },
+    {
+        "id": 288,
+        "name": "Enchanter's Almanac"
+    },
+    {
+        "id": 287,
+        "name": "Soldier's Code"
+    },
+    {
+        "id": 286,
+        "name": "Invalid"
+    },
+    {
+        "id": 285,
+        "name": "Invalid"
+    },
+    {
+        "id": 284,
+        "name": "Invalid"
+    },
+    {
+        "id": 283,
+        "name": "Spider Venom Sac"
+    },
+    {
+        "id": 282,
+        "name": "Leapworm Skin"
+    },
+    {
+        "id": 281,
+        "name": "Rabbit Pelt"
+    },
+    {
+        "id": 280,
+        "name": "Invalid"
+    },
+    {
+        "id": 279,
+        "name": "Invalid"
+    },
+    {
+        "id": 278,
+        "name": "Invalid"
+    },
+    {
+        "id": 277,
+        "name": "Dragon Scale"
+    },
+    {
+        "id": 276,
+        "name": "Invalid"
+    },
+    {
+        "id": 275,
+        "name": "Invalid"
+    },
+    {
+        "id": 274,
+        "name": "Invalid"
+    },
+    {
+        "id": 273,
+        "name": "Invalid"
+    },
+    {
+        "id": 272,
+        "name": "Invalid"
+    },
+    {
+        "id": 271,
+        "name": "Invalid"
+    },
+    {
+        "id": 270,
+        "name": "Granite Medusa Bone"
+    },
+    {
+        "id": 269,
+        "name": "Cursed Dullahan Bone"
+    },
+    {
+        "id": 268,
+        "name": "Invalid"
+    },
+    {
+        "id": 267,
+        "name": "Black Freakish Mane"
+    },
+    {
+        "id": 266,
+        "name": "Freakish Mane"
+    },
+    {
+        "id": 265,
+        "name": "Invalid"
+    },
+    {
+        "id": 264,
+        "name": "Invalid"
+    },
+    {
+        "id": 263,
+        "name": "Invalid"
+    },
+    {
+        "id": 262,
+        "name": "Griffin Pinion"
+    },
+    {
+        "id": 261,
+        "name": "Great Griffin Claw"
+    },
+    {
+        "id": 260,
+        "name": "Electrum"
+    },
+    {
+        "id": 259,
+        "name": "Magick Medal"
+    },
+    {
+        "id": 258,
+        "name": "Dappled Ore"
+    },
+    {
+        "id": 257,
+        "name": "Invalid"
+    },
+    {
+        "id": 256,
+        "name": "Ogre Talon"
+    },
+    {
+        "id": 255,
+        "name": "Ogre Spur"
+    },
+    {
+        "id": 254,
+        "name": "Invalid"
+    },
+    {
+        "id": 253,
+        "name": "Invalid"
+    },
+    {
+        "id": 252,
+        "name": "Invalid"
+    },
+    {
+        "id": 251,
+        "name": "Misshapen Eye"
+    },
+    {
+        "id": 250,
+        "name": "Rugged Bone"
+    },
+    {
+        "id": 249,
+        "name": "Foaming Slime"
+    },
+    {
+        "id": 248,
+        "name": "Oily Slime"
+    },
+    {
+        "id": 247,
+        "name": "Greenish Slime"
+    },
+    {
+        "id": 246,
+        "name": "Invalid"
+    },
+    {
+        "id": 245,
+        "name": "Fell-Lord's Bone"
+    },
+    {
+        "id": 244,
+        "name": "Scrap Iron"
+    },
+    {
+        "id": 243,
+        "name": "Invalid"
+    },
+    {
+        "id": 242,
+        "name": "Wailing Crystal"
+    },
+    {
+        "id": 241,
+        "name": "Invalid"
+    },
+    {
+        "id": 240,
+        "name": "Black Crystal"
+    },
+    {
+        "id": 239,
+        "name": "Invalid"
+    },
+    {
+        "id": 238,
+        "name": "Eldricite"
+    },
+    {
+        "id": 237,
+        "name": "Astracite"
+    },
+    {
+        "id": 236,
+        "name": "Miasmite"
+    },
+    {
+        "id": 235,
+        "name": "Invalid"
+    },
+    {
+        "id": 234,
+        "name": "Silver Crown"
+    },
+    {
+        "id": 233,
+        "name": "Putrid Gold Tooth"
+    },
+    {
+        "id": 232,
+        "name": "Invalid"
+    },
+    {
+        "id": 231,
+        "name": "Blackened Horn"
+    },
+    {
+        "id": 230,
+        "name": "Minotaur Horn"
+    },
+    {
+        "id": 229,
+        "name": "Invalid"
+    },
+    {
+        "id": 228,
+        "name": "Spurious Wing"
+    },
+    {
+        "id": 227,
+        "name": "Twisted Pinion"
+    },
+    {
+        "id": 226,
+        "name": "Poison Pinion"
+    },
+    {
+        "id": 225,
+        "name": "Harpy Pinion"
+    },
+    {
+        "id": 224,
+        "name": "Invalid"
+    },
+    {
+        "id": 223,
+        "name": "Boltscale"
+    },
+    {
+        "id": 222,
+        "name": "Darkscale"
+    },
+    {
+        "id": 221,
+        "name": "Rattler Rockscale"
+    },
+    {
+        "id": 220,
+        "name": "Asp Toxiscale"
+    },
+    {
+        "id": 219,
+        "name": "Saurian Scale"
+    },
+    {
+        "id": 218,
+        "name": "Invalid"
+    },
+    {
+        "id": 217,
+        "name": "Invalid"
+    },
+    {
+        "id": 216,
+        "name": "Sinister Fang"
+    },
+    {
+        "id": 215,
+        "name": "Pointed Fang"
+    },
+    {
+        "id": 214,
+        "name": "Redwolf Fang"
+    },
+    {
+        "id": 213,
+        "name": "Small Fang"
+    },
+    {
+        "id": 212,
+        "name": "Invalid"
+    },
+    {
+        "id": 211,
+        "name": "Knacker Horn"
+    },
+    {
+        "id": 210,
+        "name": "Chopper Horn"
+    },
+    {
+        "id": 209,
+        "name": "Slate-Colored Horn"
+    },
+    {
+        "id": 208,
+        "name": "Goblin Horn"
+    },
+    {
+        "id": 207,
+        "name": "Glymercole"
+    },
+    {
+        "id": 206,
+        "name": "Monster Hide"
+    },
+    {
+        "id": 205,
+        "name": "Monster Fang"
+    },
+    {
+        "id": 204,
+        "name": "Beast-Skin"
+    },
+    {
+        "id": 203,
+        "name": "Jagged Bone"
+    },
+    {
+        "id": 202,
+        "name": "Sunstone"
+    },
+    {
+        "id": 201,
+        "name": "Whitecobble"
+    },
+    {
+        "id": 200,
+        "name": "Copperstone"
+    },
+    {
+        "id": 199,
+        "name": "Southron Iron"
+    },
+    {
+        "id": 198,
+        "name": "Fuligin Ore"
+    },
+    {
+        "id": 197,
+        "name": "Gold Ore"
+    },
+    {
+        "id": 196,
+        "name": "Silver Ore"
+    },
+    {
+        "id": 195,
+        "name": "Copper Ore"
+    },
+    {
+        "id": 194,
+        "name": "Invalid"
+    },
+    {
+        "id": 193,
+        "name": "Syrupwort Leaf"
+    },
+    {
+        "id": 192,
+        "name": "Goldthistle"
+    },
+    {
+        "id": 191,
+        "name": "Grandpetal"
+    },
+    {
+        "id": 190,
+        "name": "Invalid"
+    },
+    {
+        "id": 189,
+        "name": "Invalid"
+    },
+    {
+        "id": 188,
+        "name": "Invalid"
+    },
+    {
+        "id": 187,
+        "name": "Morningtide"
+    },
+    {
+        "id": 186,
+        "name": "Pitywort"
+    },
+    {
+        "id": 185,
+        "name": "Moonglow"
+    },
+    {
+        "id": 184,
+        "name": "Greenwarish"
+    },
+    {
+        "id": 183,
+        "name": "Thunderous Concord"
+    },
+    {
+        "id": 182,
+        "name": "Hiemal Euphony"
+    },
+    {
+        "id": 181,
+        "name": "Igneous Melody"
+    },
+    {
+        "id": 180,
+        "name": "Fulgurous Lord"
+    },
+    {
+        "id": 179,
+        "name": "Winter's Path"
+    },
+    {
+        "id": 178,
+        "name": "Threshing Blaze"
+    },
+    {
+        "id": 177,
+        "name": "Prescribed Tranquility"
+    },
+    {
+        "id": 176,
+        "name": "Governing Soul"
+    },
+    {
+        "id": 175,
+        "name": "Emergent Vitality"
+    },
+    {
+        "id": 174,
+        "name": "Unmaking Arrow"
+    },
+    {
+        "id": 173,
+        "name": "Invalid"
+    },
+    {
+        "id": 172,
+        "name": "Invalid"
+    },
+    {
+        "id": 171,
+        "name": "Invalid"
+    },
+    {
+        "id": 170,
+        "name": "Invalid"
+    },
+    {
+        "id": 169,
+        "name": "Explosive Arrow"
+    },
+    {
+        "id": 168,
+        "name": "Tarring Arrow"
+    },
+    {
+        "id": 167,
+        "name": "Drenching Arrow"
+    },
+    {
+        "id": 166,
+        "name": "Blighting Arrow"
+    },
+    {
+        "id": 165,
+        "name": "Invalid"
+    },
+    {
+        "id": 164,
+        "name": "Invalid"
+    },
+    {
+        "id": 163,
+        "name": "Invalid"
+    },
+    {
+        "id": 162,
+        "name": "Invalid"
+    },
+    {
+        "id": 161,
+        "name": "Invalid"
+    },
+    {
+        "id": 160,
+        "name": "Invalid"
+    },
+    {
+        "id": 159,
+        "name": "Invalid"
+    },
+    {
+        "id": 158,
+        "name": "Invalid"
+    },
+    {
+        "id": 157,
+        "name": "Invalid"
+    },
+    {
+        "id": 156,
+        "name": "Invalid"
+    },
+    {
+        "id": 155,
+        "name": "Invalid"
+    },
+    {
+        "id": 154,
+        "name": "Invalid"
+    },
+    {
+        "id": 153,
+        "name": "Invalid"
+    },
+    {
+        "id": 152,
+        "name": "Invalid"
+    },
+    {
+        "id": 151,
+        "name": "Invalid"
+    },
+    {
+        "id": 150,
+        "name": "Invalid"
+    },
+    {
+        "id": 149,
+        "name": "Invalid"
+    },
+    {
+        "id": 148,
+        "name": "Invalid"
+    },
+    {
+        "id": 147,
+        "name": "Invalid"
+    },
+    {
+        "id": 146,
+        "name": "Invalid"
+    },
+    {
+        "id": 145,
+        "name": "Invalid"
+    },
+    {
+        "id": 144,
+        "name": "Invalid"
+    },
+    {
+        "id": 143,
+        "name": "Invalid"
+    },
+    {
+        "id": 142,
+        "name": "Invalid"
+    },
+    {
+        "id": 141,
+        "name": "Invalid"
+    },
+    {
+        "id": 140,
+        "name": "Invalid"
+    },
+    {
+        "id": 139,
+        "name": "Invalid"
+    },
+    {
+        "id": 138,
+        "name": "Invalid"
+    },
+    {
+        "id": 137,
+        "name": "Invalid"
+    },
+    {
+        "id": 136,
+        "name": "Purple Dye"
+    },
+    {
+        "id": 135,
+        "name": "Yellow Dye"
+    },
+    {
+        "id": 134,
+        "name": "Blue Dye"
+    },
+    {
+        "id": 133,
+        "name": "Green Dye"
+    },
+    {
+        "id": 132,
+        "name": "Red Dye"
+    },
+    {
+        "id": 131,
+        "name": "Invalid"
+    },
+    {
+        "id": 130,
+        "name": "Invalid"
+    },
+    {
+        "id": 129,
+        "name": "Invalid"
+    },
+    {
+        "id": 128,
+        "name": "Invalid"
+    },
+    {
+        "id": 127,
+        "name": "Invalid"
+    },
+    {
+        "id": 126,
+        "name": "Invalid"
+    },
+    {
+        "id": 125,
+        "name": "Invalid"
+    },
+    {
+        "id": 124,
+        "name": "Invalid"
+    },
+    {
+        "id": 123,
+        "name": "Explorer's Camping Kit"
+    },
+    {
+        "id": 122,
+        "name": "Aphonite's Tome"
+    },
+    {
+        "id": 121,
+        "name": "Forager's Tome"
+    },
+    {
+        "id": 120,
+        "name": "Hawker's Tome"
+    },
+    {
+        "id": 119,
+        "name": "Logistician's Tome"
+    },
+    {
+        "id": 118,
+        "name": "Chirurgeon's Tome"
+    },
+    {
+        "id": 117,
+        "name": "Woodland Wordsmith's Tome"
+    },
+    {
+        "id": 116,
+        "name": "Exquisite Dried Spud"
+    },
+    {
+        "id": 115,
+        "name": "Exquisite Dried Fish"
+    },
+    {
+        "id": 114,
+        "name": "Exquisite Dried Meat"
+    },
+    {
+        "id": 113,
+        "name": "Invalid"
+    },
+    {
+        "id": 112,
+        "name": "Finder's Token"
+    },
+    {
+        "id": 111,
+        "name": "Invalid"
+    },
+    {
+        "id": 110,
+        "name": "Key of Sagacity"
+    },
+    {
+        "id": 109,
+        "name": "Invalid"
+    },
+    {
+        "id": 108,
+        "name": "Art of Metamorphosis"
+    },
+    {
+        "id": 107,
+        "name": "Withered Branches"
+    },
+    {
+        "id": 106,
+        "name": "Elite Camping Kit"
+    },
+    {
+        "id": 105,
+        "name": "Sand-Patterned Camping Kit"
+    },
+    {
+        "id": 104,
+        "name": "Grass-Patterned Camping Kit"
+    },
+    {
+        "id": 103,
+        "name": "Mundane Camping Kit"
+    },
+    {
+        "id": 102,
+        "name": "Modest Camping Kit"
+    },
+    {
+        "id": 101,
+        "name": "Decayed Medusa Head"
+    },
+    {
+        "id": 100,
+        "name": "Withered Medusa Head"
+    },
+    {
+        "id": 99,
+        "name": "Medusa Head"
+    },
+    {
+        "id": 98,
+        "name": "Preserved Medusa Head"
+    },
+    {
+        "id": 97,
+        "name": "Invalid"
+    },
+    {
+        "id": 96,
+        "name": "Invalid"
+    },
+    {
+        "id": 95,
+        "name": "Giant Hunk of Rift Crystal"
+    },
+    {
+        "id": 94,
+        "name": "Hunk of Rift Crystal"
+    },
+    {
+        "id": 93,
+        "name": "1 G"
+    },
+    {
+        "id": 92,
+        "name": "Harpysnare Smoke Beacon"
+    },
+    {
+        "id": 91,
+        "name": "Sealing Phial (Contains Person)"
+    },
+    {
+        "id": 90,
+        "name": "Sealing Phial"
+    },
+    {
+        "id": 89,
+        "name": "Lantern (No Fuel)"
+    },
+    {
+        "id": 88,
+        "name": "Lantern (Near-Empty)"
+    },
+    {
+        "id": 87,
+        "name": "Lantern (Half-Full)"
+    },
+    {
+        "id": 86,
+        "name": "Lantern (Fueled)"
+    },
+    {
+        "id": 85,
+        "name": "Lantern Oil"
+    },
+    {
+        "id": 84,
+        "name": "Invalid"
+    },
+    {
+        "id": 83,
+        "name": "Bunch of Flowers"
+    },
+    {
+        "id": 82,
+        "name": "Invalid"
+    },
+    {
+        "id": 81,
+        "name": "Portcrystal"
+    },
+    {
+        "id": 80,
+        "name": "Ferrystone"
+    },
+    {
+        "id": 79,
+        "name": "Dragon's Gaze"
+    },
+    {
+        "id": 78,
+        "name": "Wakestone Shard"
+    },
+    {
+        "id": 77,
+        "name": "Wakestone"
+    },
+    {
+        "id": 76,
+        "name": "Eternal Wakestone"
+    },
+    {
+        "id": 75,
+        "name": "Invalid"
+    },
+    {
+        "id": 74,
+        "name": "Stoutness Extract"
+    },
+    {
+        "id": 73,
+        "name": "Savagery Extract"
+    },
+    {
+        "id": 72,
+        "name": "Stability Extract"
+    },
+    {
+        "id": 71,
+        "name": "Invalid"
+    },
+    {
+        "id": 70,
+        "name": "Allheal Elixir"
+    },
+    {
+        "id": 69,
+        "name": "Wicking Remedy"
+    },
+    {
+        "id": 68,
+        "name": "Parching Concoction"
+    },
+    {
+        "id": 67,
+        "name": "Panacea"
+    },
+    {
+        "id": 66,
+        "name": "Soothing Brew"
+    },
+    {
+        "id": 65,
+        "name": "Malleating Elixir"
+    },
+    {
+        "id": 64,
+        "name": "Sobering Tonic"
+    },
+    {
+        "id": 63,
+        "name": "Invalid"
+    },
+    {
+        "id": 62,
+        "name": "Warming Salve"
+    },
+    {
+        "id": 61,
+        "name": "Quenching Syrup"
+    },
+    {
+        "id": 60,
+        "name": "Waking Powder"
+    },
+    {
+        "id": 59,
+        "name": "Detoxifying Decoction"
+    },
+    {
+        "id": 58,
+        "name": "Invalid"
+    },
+    {
+        "id": 57,
+        "name": "Fine Harspud Roborant"
+    },
+    {
+        "id": 56,
+        "name": "Harspud Roborant"
+    },
+    {
+        "id": 55,
+        "name": "Dried Spud"
+    },
+    {
+        "id": 54,
+        "name": "Rotten Princess Harspud"
+    },
+    {
+        "id": 53,
+        "name": "Ripened Princess Harspud"
+    },
+    {
+        "id": 52,
+        "name": "Princess Harspud"
+    },
+    {
+        "id": 51,
+        "name": "Rotten Harspud"
+    },
+    {
+        "id": 50,
+        "name": "Ripened Harspud"
+    },
+    {
+        "id": 49,
+        "name": "Harspud"
+    },
+    {
+        "id": 48,
+        "name": "Invalid"
+    },
+    {
+        "id": 47,
+        "name": "Fine Roe Roborant"
+    },
+    {
+        "id": 46,
+        "name": "Roe Roborant"
+    },
+    {
+        "id": 45,
+        "name": "Dried Fish"
+    },
+    {
+        "id": 44,
+        "name": "Invalid"
+    },
+    {
+        "id": 43,
+        "name": "Fine Mincemeat Roborant"
+    },
+    {
+        "id": 42,
+        "name": "Mincemeat Roborant"
+    },
+    {
+        "id": 41,
+        "name": "Dried Meat"
+    },
+    {
+        "id": 40,
+        "name": "Invalid"
+    },
+    {
+        "id": 39,
+        "name": "Fine Fruit Roborant"
+    },
+    {
+        "id": 38,
+        "name": "Fruit Roborant"
+    },
+    {
+        "id": 37,
+        "name": "Dried Fruit"
+    },
+    {
+        "id": 36,
+        "name": "Rotten Tideswimmer"
+    },
+    {
+        "id": 35,
+        "name": "Aged Tideswimmer"
+    },
+    {
+        "id": 34,
+        "name": "Tideswimmer"
+    },
+    {
+        "id": 33,
+        "name": "Rotten Shorefish"
+    },
+    {
+        "id": 32,
+        "name": "Aged Shorefish"
+    },
+    {
+        "id": 31,
+        "name": "Shorefish"
+    },
+    {
+        "id": 30,
+        "name": "Rotten Beast-Steak"
+    },
+    {
+        "id": 29,
+        "name": "Aged Beast-Steak"
+    },
+    {
+        "id": 28,
+        "name": "Beast-Steak"
+    },
+    {
+        "id": 27,
+        "name": "Rotten Scrag of Beast"
+    },
+    {
+        "id": 26,
+        "name": "Aged Scrag of Beast"
+    },
+    {
+        "id": 25,
+        "name": "Scrag of Beast"
+    },
+    {
+        "id": 24,
+        "name": "Rotten Strawberry"
+    },
+    {
+        "id": 23,
+        "name": "Ripened Strawberry"
+    },
+    {
+        "id": 22,
+        "name": "Strawberry"
+    },
+    {
+        "id": 21,
+        "name": "Rotten Blueberry"
+    },
+    {
+        "id": 20,
+        "name": "Ripened Blueberry"
+    },
+    {
+        "id": 19,
+        "name": "Blueberry"
+    },
+    {
+        "id": 18,
+        "name": "Rotten Cranberry"
+    },
+    {
+        "id": 17,
+        "name": "Ripened Cranberry"
+    },
+    {
+        "id": 16,
+        "name": "Cranberry"
+    },
+    {
+        "id": 15,
+        "name": "Rotten Raspberry"
+    },
+    {
+        "id": 14,
+        "name": "Ripened Raspberry"
+    },
+    {
+        "id": 13,
+        "name": "Raspberry"
+    },
+    {
+        "id": 12,
+        "name": "Rotten Fig"
+    },
+    {
+        "id": 11,
+        "name": "Ripened Fig"
+    },
+    {
+        "id": 10,
+        "name": "Fig"
+    },
+    {
+        "id": 9,
+        "name": "Rotten Quince"
+    },
+    {
+        "id": 8,
+        "name": "Ripened Quince"
+    },
+    {
+        "id": 7,
+        "name": "Quince"
+    },
+    {
+        "id": 6,
+        "name": "Rotten Grapes"
+    },
+    {
+        "id": 5,
+        "name": "Ripened Grapes"
+    },
+    {
+        "id": 4,
+        "name": "Grapes"
+    },
+    {
+        "id": 3,
+        "name": "Rotten Apple"
+    },
+    {
+        "id": 2,
+        "name": "Ripened Apple"
+    },
+    {
+        "id": 1,
+        "name": "Apple"
+    },
+    {
+        "id": 8200,
+        "name": "Superior Fluted Bow"
+    },
+    {
+        "id": 8150,
+        "name": "Superior Wooden Staff"
+    },
+    {
+        "id": 8100,
+        "name": "Superior Criteria"
+    },
+    {
+        "id": 8050,
+        "name": "Superior Round Shield"
+    },
+    {
+        "id": 8000,
+        "name": "Superior Trusty Sword"
+    },
+    {
+        "id": 2210,
+        "name": "Daughter of the Evening"
+    },
+    {
+        "id": 2209,
+        "name": "Dragon's Aegis"
+    },
+    {
+        "id": 2208,
+        "name": "Dread Aspis"
+    },
+    {
+        "id": 2207,
+        "name": "Dragon's Faith"
+    },
+    {
+        "id": 2206,
+        "name": "Continental Shield"
+    },
+    {
+        "id": 2205,
+        "name": "Lustrous Targe"
+    },
+    {
+        "id": 2204,
+        "name": "Battahli Shield"
+    },
+    {
+        "id": 2203,
+        "name": "Shield of Vernworth"
+    },
+    {
+        "id": 2202,
+        "name": "Feather-Light Pelta"
+    },
+    {
+        "id": 2201,
+        "name": "Iron Shield"
+    },
+    {
+        "id": 2200,
+        "name": "Round Shield"
+    },
+    {
+        "id": 2105,
+        "name": "Dragonswail Litany"
+    },
+    {
+        "id": 2104,
+        "name": "Achromic Reverie"
+    },
+    {
+        "id": 2103,
+        "name": "Whimsical Daydream"
+    },
+    {
+        "id": 2102,
+        "name": "Resonant Hymn"
+    },
+    {
+        "id": 2101,
+        "name": "Redolent Whisper"
+    },
+    {
+        "id": 2100,
+        "name": "Bewitching Balm"
+    },
+    {
+        "id": 2010,
+        "name": "Lindworm Fang"
+    },
+    {
+        "id": 2009,
+        "name": "Dead Ringer"
+    },
+    {
+        "id": 2007,
+        "name": "Rhewynt"
+    },
+    {
+        "id": 2006,
+        "name": "Tail Trimmer"
+    },
+    {
+        "id": 2005,
+        "name": "Wings Asunder"
+    },
+    {
+        "id": 2004,
+        "name": "Soul of Antiquity"
+    },
+    {
+        "id": 2003,
+        "name": "Infernal Edge"
+    },
+    {
+        "id": 2002,
+        "name": "Fool's Prize"
+    },
+    {
+        "id": 2001,
+        "name": "Percipient Blade"
+    },
+    {
+        "id": 2000,
+        "name": "Initiate's Blade"
+    },
+    {
+        "id": 1909,
+        "name": "Gimble Gyre"
+    },
+    {
+        "id": 1908,
+        "name": "Grianmhar"
+    },
+    {
+        "id": 1907,
+        "name": "Blackwing Bow"
+    },
+    {
+        "id": 1906,
+        "name": "Militant Dove"
+    },
+    {
+        "id": 1905,
+        "name": "Herald's Helix"
+    },
+    {
+        "id": 1904,
+        "name": "Metered Catharsis"
+    },
+    {
+        "id": 1903,
+        "name": "Dragon's Breath"
+    },
+    {
+        "id": 1902,
+        "name": "Terminal Gyre"
+    },
+    {
+        "id": 1901,
+        "name": "Siocadh"
+    },
+    {
+        "id": 1900,
+        "name": "Magian Crutch"
+    },
+    {
+        "id": 1805,
+        "name": "Hydra Husk"
+    },
+    {
+        "id": 1804,
+        "name": "Medusan Spellbow"
+    },
+    {
+        "id": 1803,
+        "name": "Predator"
+    },
+    {
+        "id": 1802,
+        "name": "Dragon's Blink"
+    },
+    {
+        "id": 1801,
+        "name": "Dinistrydd"
+    },
+    {
+        "id": 1800,
+        "name": "Revenant Wail"
+    },
+    {
+        "id": 1709,
+        "name": "Repeller Bow"
+    },
+    {
+        "id": 1708,
+        "name": "Darkening Storm"
+    },
+    {
+        "id": 1707,
+        "name": "Veteran's Arc"
+    },
+    {
+        "id": 1706,
+        "name": "Dragon's Rancor"
+    },
+    {
+        "id": 1705,
+        "name": "Bespoke Bow"
+    },
+    {
+        "id": 1704,
+        "name": "Myfyr"
+    },
+    {
+        "id": 1703,
+        "name": "Savage Fang"
+    },
+    {
+        "id": 1702,
+        "name": "Hunter's Bow"
+    },
+    {
+        "id": 1701,
+        "name": "Lupine Bow"
+    },
+    {
+        "id": 1700,
+        "name": "Fluted Bow"
+    },
+    {
+        "id": 1612,
+        "name": "Lion-Lord's Archistaff"
+    },
+    {
+        "id": 1611,
+        "name": "Helical Archistaff"
+    },
+    {
+        "id": 1610,
+        "name": "Caged Fury"
+    },
+    {
+        "id": 1609,
+        "name": "Bane Archistaff"
+    },
+    {
+        "id": 1608,
+        "name": "Anathema"
+    },
+    {
+        "id": 1607,
+        "name": "Talarian White"
+    },
+    {
+        "id": 1606,
+        "name": "Dragon's Wit"
+    },
+    {
+        "id": 1605,
+        "name": "Solar Providence"
+    },
+    {
+        "id": 1604,
+        "name": "Plucked Heart"
+    },
+    {
+        "id": 1603,
+        "name": "Craos Tine"
+    },
+    {
+        "id": 1602,
+        "name": "Favored Branches"
+    },
+    {
+        "id": 1601,
+        "name": "Meniscus"
+    },
+    {
+        "id": 1600,
+        "name": "Grievous Horns"
+    },
+    {
+        "id": 1517,
+        "name": "Goblin Bane"
+    },
+    {
+        "id": 1516,
+        "name": "Favored Canopy"
+    },
+    {
+        "id": 1514,
+        "name": "Dragon's Nous"
+    },
+    {
+        "id": 1513,
+        "name": "Legion's Might"
+    },
+    {
+        "id": 1512,
+        "name": "Necrotic Shriek"
+    },
+    {
+        "id": 1511,
+        "name": "Volant White"
+    },
+    {
+        "id": 1510,
+        "name": "Frigid Finger"
+    },
+    {
+        "id": 1509,
+        "name": "Solar Numen"
+    },
+    {
+        "id": 1508,
+        "name": "Cardinal Blaze"
+    },
+    {
+        "id": 1507,
+        "name": "Battahli Scepter"
+    },
+    {
+        "id": 1506,
+        "name": "Unfettered Claw"
+    },
+    {
+        "id": 1505,
+        "name": "Tintreach"
+    },
+    {
+        "id": 1504,
+        "name": "Cast Stone"
+    },
+    {
+        "id": 1503,
+        "name": "Anchor to Heaven"
+    },
+    {
+        "id": 1502,
+        "name": "Favored Flower"
+    },
+    {
+        "id": 1501,
+        "name": "Ironclad Staff"
+    },
+    {
+        "id": 1500,
+        "name": "Wooden Staff"
+    },
+    {
+        "id": 1417,
+        "name": "Divine Razors"
+    },
+    {
+        "id": 1416,
+        "name": "Crimson Teeth"
+    },
+    {
+        "id": 1415,
+        "name": "Battahli Biters"
+    },
+    {
+        "id": 1414,
+        "name": "Heaven's Key"
+    },
+    {
+        "id": 1413,
+        "name": "Dowsing Spikes"
+    },
+    {
+        "id": 1412,
+        "name": "Framae Blades"
+    },
+    {
+        "id": 1411,
+        "name": "Dragon's Vein"
+    },
+    {
+        "id": 1410,
+        "name": "Spite"
+    },
+    {
+        "id": 1409,
+        "name": "Frosted Edges"
+    },
+    {
+        "id": 1408,
+        "name": "Bardiche Daggers"
+    },
+    {
+        "id": 1407,
+        "name": "Snagdaggers"
+    },
+    {
+        "id": 1406,
+        "name": "Bolts from the Blue"
+    },
+    {
+        "id": 1405,
+        "name": "Peltflayers"
+    },
+    {
+        "id": 1404,
+        "name": "Helmbarte Daggers"
+    },
+    {
+        "id": 1403,
+        "name": "Stilettos"
+    },
+    {
+        "id": 1402,
+        "name": "Signs of Valor"
+    },
+    {
+        "id": 1401,
+        "name": "Throatcutters"
+    },
+    {
+        "id": 1400,
+        "name": "Criteria"
+    },
+    {
+        "id": 1304,
+        "name": "Black Matter"
+    },
+    {
+        "id": 1303,
+        "name": "Dragon's Flight"
+    },
+    {
+        "id": 1302,
+        "name": "Cinderspine"
+    },
+    {
+        "id": 1301,
+        "name": "Eyecrusher"
+    },
+    {
+        "id": 1300,
+        "name": "Steel Urchin"
+    },
+    {
+        "id": 1208,
+        "name": "Wounded Heart"
+    },
+    {
+        "id": 1207,
+        "name": "Dragon's Bite"
+    },
+    {
+        "id": 1206,
+        "name": "Cyclopean Thunder"
+    },
+    {
+        "id": 1205,
+        "name": "Ogresbane"
+    },
+    {
+        "id": 1204,
+        "name": "Gryphic Victory"
+    },
+    {
+        "id": 1203,
+        "name": "Flamberge"
+    },
+    {
+        "id": 1202,
+        "name": "War Blade"
+    },
+    {
+        "id": 1201,
+        "name": "Lifetaker"
+    },
+    {
+        "id": 1200,
+        "name": "Two-Hander"
+    },
+    {
+        "id": 1104,
+        "name": "Labyrinthus"
+    },
+    {
+        "id": 1103,
+        "name": "Threaded Cudgel"
+    },
+    {
+        "id": 1102,
+        "name": "The Exalted"
+    },
+    {
+        "id": 1101,
+        "name": "Molten Fury"
+    },
+    {
+        "id": 1100,
+        "name": "Bane of Bones"
+    },
+    {
+        "id": 1013,
+        "name": "Silver Cinquedea"
+    },
+    {
+        "id": 1012,
+        "name": "Battahli Shotel"
+    },
+    {
+        "id": 1010,
+        "name": "Dragon's Dogma"
+    },
+    {
+        "id": 1009,
+        "name": "Carnation"
+    },
+    {
+        "id": 1008,
+        "name": "Vermundian Brand"
+    },
+    {
+        "id": 1007,
+        "name": "Steeled Virtue"
+    },
+    {
+        "id": 1006,
+        "name": "Stalwart Sword"
+    },
+    {
+        "id": 1005,
+        "name": "Almace"
+    },
+    {
+        "id": 1004,
+        "name": "Silver Rapier"
+    },
+    {
+        "id": 1003,
+        "name": "Broadsword"
+    },
+    {
+        "id": 1002,
+        "name": "Cutlass"
+    },
+    {
+        "id": 1001,
+        "name": "Iron Sword"
+    },
+    {
+        "id": 1000,
+        "name": "Trusty Sword"
+    },
+    {
+        "id": 10512,
+        "name": "Sovran's Greaves"
+    },
+    {
+        "id": 10409,
+        "name": "Sovran's Plate"
+    },
+    {
+        "id": 10312,
+        "name": "Sovran's Crown"
+    },
+    {
+        "id": 7000,
+        "name": "Miner's Shirt"
+    },
+    {
+        "id": 7001,
+        "name": "Laborer's Trousers"
+    },
+    {
+        "id": 8600,
+        "name": "Ring of Assurance"
+    },
+    {
+        "id": 6124,
+        "name": "Courtly Breeches"
+    },
+    {
+        "id": 6123,
+        "name": "Blessed Waistcloth"
+    },
+    {
+        "id": 6122,
+        "name": "Darkmetal Greaves"
+    },
+    {
+        "id": 6121,
+        "name": "Invalid"
+    },
+    {
+        "id": 6120,
+        "name": "Invalid"
+    },
+    {
+        "id": 6119,
+        "name": "Apprentice's Breeches"
+    },
+    {
+        "id": 6118,
+        "name": "Laborer's Trousers"
+    },
+    {
+        "id": 6117,
+        "name": "Marcher's Cuisses"
+    },
+    {
+        "id": 6116,
+        "name": "Ranger's Tights"
+    },
+    {
+        "id": 6115,
+        "name": "Evergreen Greaves"
+    },
+    {
+        "id": 6114,
+        "name": "Crimson Hosen"
+    },
+    {
+        "id": 6113,
+        "name": "Mercenary Hosen"
+    },
+    {
+        "id": 6104,
+        "name": "Forest Greaves"
+    },
+    {
+        "id": 6103,
+        "name": "Cliff Leapers"
+    },
+    {
+        "id": 6102,
+        "name": "Wildland Greaves"
+    },
+    {
+        "id": 6097,
+        "name": "Hillfolk Breeches"
+    },
+    {
+        "id": 6096,
+        "name": "Assassin's Breeches"
+    },
+    {
+        "id": 6095,
+        "name": "Lionel Hosen"
+    },
+    {
+        "id": 6092,
+        "name": "Thief's Gaiters"
+    },
+    {
+        "id": 6091,
+        "name": "Journeyer's Sirwal"
+    },
+    {
+        "id": 6090,
+        "name": "Furred Greaves"
+    },
+    {
+        "id": 6088,
+        "name": "Explorer's Boots"
+    },
+    {
+        "id": 6087,
+        "name": "Eagle-Eye Cuisses"
+    },
+    {
+        "id": 6085,
+        "name": "Rathe Greaves"
+    },
+    {
+        "id": 6081,
+        "name": "Sprinter's Boots"
+    },
+    {
+        "id": 6078,
+        "name": "Beast-Leather Breeches"
+    },
+    {
+        "id": 6075,
+        "name": "Napped-Leather Boots"
+    },
+    {
+        "id": 6074,
+        "name": "Woodland Boots"
+    },
+    {
+        "id": 6073,
+        "name": "Jewel-Woven Sandals"
+    },
+    {
+        "id": 6071,
+        "name": "Rapturous Raffia Skirt"
+    },
+    {
+        "id": 6068,
+        "name": "Runic Gaiters"
+    },
+    {
+        "id": 6067,
+        "name": "Braided Boots"
+    },
+    {
+        "id": 6065,
+        "name": "Monkish Gaiters"
+    },
+    {
+        "id": 6064,
+        "name": "Epiphanic Waistguard"
+    },
+    {
+        "id": 6062,
+        "name": "Practitioner's Hosen"
+    },
+    {
+        "id": 6060,
+        "name": "Scarlet Over-Knee Boots"
+    },
+    {
+        "id": 6058,
+        "name": "Spellweaver's Waistcloth"
+    },
+    {
+        "id": 6055,
+        "name": "Nightfall Greaves"
+    },
+    {
+        "id": 6053,
+        "name": "Over-Knee Boots"
+    },
+    {
+        "id": 6052,
+        "name": "Euphoric Hosen"
+    },
+    {
+        "id": 6051,
+        "name": "Scholar's Breeches"
+    },
+    {
+        "id": 6050,
+        "name": "Ascetic Gaiters"
+    },
+    {
+        "id": 6048,
+        "name": "Neophyte's Hosen"
+    },
+    {
+        "id": 6046,
+        "name": "Peddler's Boots"
+    },
+    {
+        "id": 6045,
+        "name": "Savant's Boots"
+    },
+    {
+        "id": 6043,
+        "name": "Miner's Hosen"
+    },
+    {
+        "id": 6041,
+        "name": "Landwalkers"
+    },
+    {
+        "id": 6040,
+        "name": "Pilgrim's Tights"
+    },
+    {
+        "id": 6038,
+        "name": "Strider's Greaves"
+    },
+    {
+        "id": 6035,
+        "name": "Venator's Leggings"
+    },
+    {
+        "id": 6034,
+        "name": "Arena Breeches"
+    },
+    {
+        "id": 6032,
+        "name": "Dapper Chausses"
+    },
+    {
+        "id": 6031,
+        "name": "Stylish Boots"
+    },
+    {
+        "id": 6029,
+        "name": "Vanguarder's Greaves"
+    },
+    {
+        "id": 6028,
+        "name": "Diabolic Cuisses"
+    },
+    {
+        "id": 6026,
+        "name": "Executioner's Greaves"
+    },
+    {
+        "id": 6024,
+        "name": "Dauntless Greaves"
+    },
+    {
+        "id": 6019,
+        "name": "Mettlesome Cuisses"
+    },
+    {
+        "id": 6018,
+        "name": "Bandit Greaves"
+    },
+    {
+        "id": 6016,
+        "name": "Traveler's Gaiters"
+    },
+    {
+        "id": 6015,
+        "name": "Vigilant Greaves"
+    },
+    {
+        "id": 6014,
+        "name": "Conqueror's Sabatons"
+    },
+    {
+        "id": 6013,
+        "name": "Sabatons of Judgment"
+    },
+    {
+        "id": 6012,
+        "name": "Brutal Cuisses"
+    },
+    {
+        "id": 6009,
+        "name": "Raptor Claws"
+    },
+    {
+        "id": 6007,
+        "name": "Guardian Leg Plates"
+    },
+    {
+        "id": 6006,
+        "name": "Bush Raiders"
+    },
+    {
+        "id": 6004,
+        "name": "Patroller Knee Guards"
+    },
+    {
+        "id": 6001,
+        "name": "Combat Breeches"
+    },
+    {
+        "id": 6000,
+        "name": "Worker's Greaves"
+    },
+    {
+        "id": 5139,
+        "name": "Meloirean Plate"
+    },
+    {
+        "id": 5138,
+        "name": "Courtly Tunic"
+    },
+    {
+        "id": 5137,
+        "name": "Gauntleted Petticoat"
+    },
+    {
+        "id": 5136,
+        "name": "Ares Morpho Robe"
+    },
+    {
+        "id": 5135,
+        "name": "Beastren Pride"
+    },
+    {
+        "id": 5134,
+        "name": "Brunhilda's Embrace"
+    },
+    {
+        "id": 5133,
+        "name": "Final Roar"
+    },
+    {
+        "id": 5132,
+        "name": "Half-Plate Armor"
+    },
+    {
+        "id": 5131,
+        "name": "Hyperboreal Lorica"
+    },
+    {
+        "id": 5130,
+        "name": "Soulskin"
+    },
+    {
+        "id": 5129,
+        "name": "Elegant Petticoat"
+    },
+    {
+        "id": 5128,
+        "name": "Outlander's Garb"
+    },
+    {
+        "id": 5127,
+        "name": "Immaculate Blaze"
+    },
+    {
+        "id": 5126,
+        "name": "Edified Vestment"
+    },
+    {
+        "id": 5125,
+        "name": "Eminent Coat"
+    },
+    {
+        "id": 5124,
+        "name": "Adept's Coat"
+    },
+    {
+        "id": 5123,
+        "name": "Enchanter's Quilted Gown"
+    },
+    {
+        "id": 5122,
+        "name": "Ranger's Vest"
+    },
+    {
+        "id": 5121,
+        "name": "Invalid"
+    },
+    {
+        "id": 5120,
+        "name": "Invalid"
+    },
+    {
+        "id": 5119,
+        "name": "Researcher's Robe"
+    },
+    {
+        "id": 5118,
+        "name": "Miner's Shirt"
+    },
+    {
+        "id": 5117,
+        "name": "Marcher's Armor"
+    },
+    {
+        "id": 5116,
+        "name": "Charming Corset"
+    },
+    {
+        "id": 5115,
+        "name": "Elven Garb"
+    },
+    {
+        "id": 5114,
+        "name": "Godsbeast Scalecoat"
+    },
+    {
+        "id": 5113,
+        "name": "Eonian Coat"
+    },
+    {
+        "id": 5107,
+        "name": "Resonance Armor"
+    },
+    {
+        "id": 5106,
+        "name": "Graceful Tunic"
+    },
+    {
+        "id": 5105,
+        "name": "Burgundy Coat"
+    },
+    {
+        "id": 5104,
+        "name": "Spirit Coat"
+    },
+    {
+        "id": 5103,
+        "name": "Dvarapala"
+    },
+    {
+        "id": 5102,
+        "name": "Vanquisher's Armor"
+    },
+    {
+        "id": 5097,
+        "name": "Wildeagle Padded Armor"
+    },
+    {
+        "id": 5096,
+        "name": "Enshadowed Battle Garb"
+    },
+    {
+        "id": 5095,
+        "name": "Bestial Boon"
+    },
+    {
+        "id": 5092,
+        "name": "Rampart Breaker"
+    },
+    {
+        "id": 5091,
+        "name": "Battahli Jacket"
+    },
+    {
+        "id": 5090,
+        "name": "Lamellar Armor"
+    },
+    {
+        "id": 5088,
+        "name": "Brigand's Vest"
+    },
+    {
+        "id": 5087,
+        "name": "Heroic Coat"
+    },
+    {
+        "id": 5085,
+        "name": "Majestic Armor"
+    },
+    {
+        "id": 5083,
+        "name": "Valkyrian Scalecloth"
+    },
+    {
+        "id": 5081,
+        "name": "Hunter's Mail"
+    },
+    {
+        "id": 5078,
+        "name": "Stoutdraw Armor"
+    },
+    {
+        "id": 5075,
+        "name": "Archer's Vest"
+    },
+    {
+        "id": 5074,
+        "name": "Deepwood Jacket"
+    },
+    {
+        "id": 5073,
+        "name": "Arch-Conjuror's Robe"
+    },
+    {
+        "id": 5071,
+        "name": "Totemic Shroud"
+    },
+    {
+        "id": 5068,
+        "name": "Mysterial Robe"
+    },
+    {
+        "id": 5067,
+        "name": "Nirvane"
+    },
+    {
+        "id": 5066,
+        "name": "Enigmatic Robe"
+    },
+    {
+        "id": 5065,
+        "name": "Robe of the Enlightened"
+    },
+    {
+        "id": 5064,
+        "name": "Orphic Robe"
+    },
+    {
+        "id": 5062,
+        "name": "Cardinal Robe"
+    },
+    {
+        "id": 5060,
+        "name": "Silhouette of Sorcery"
+    },
+    {
+        "id": 5058,
+        "name": "Stargazer's Garb"
+    },
+    {
+        "id": 5055,
+        "name": "Incanter's Coat"
+    },
+    {
+        "id": 5054,
+        "name": "Esoteric Vestment"
+    },
+    {
+        "id": 5053,
+        "name": "Animistic Robe"
+    },
+    {
+        "id": 5052,
+        "name": "August Dalmatica"
+    },
+    {
+        "id": 5051,
+        "name": "Sacral Robe"
+    },
+    {
+        "id": 5050,
+        "name": "Priestly Habit"
+    },
+    {
+        "id": 5048,
+        "name": "Monastic Toga"
+    },
+    {
+        "id": 5046,
+        "name": "Meadow Cloth"
+    },
+    {
+        "id": 5045,
+        "name": "Chanter's Half Robe"
+    },
+    {
+        "id": 5043,
+        "name": "Magician's Coat"
+    },
+    {
+        "id": 5041,
+        "name": "Verger's Gown"
+    },
+    {
+        "id": 5040,
+        "name": "Missionary's Robe"
+    },
+    {
+        "id": 5039,
+        "name": "Duelist's Coat"
+    },
+    {
+        "id": 5038,
+        "name": "Soaring Surcoat"
+    },
+    {
+        "id": 5035,
+        "name": "Creedbound Armor"
+    },
+    {
+        "id": 5034,
+        "name": "Fencer's Jacket"
+    },
+    {
+        "id": 5032,
+        "name": "Noble Jacket"
+    },
+    {
+        "id": 5031,
+        "name": "Bladewielder's Coat"
+    },
+    {
+        "id": 5029,
+        "name": "Dominator's Armor"
+    },
+    {
+        "id": 5028,
+        "name": "Vashara Scaleskin"
+    },
+    {
+        "id": 5026,
+        "name": "Thrasher's Surcoat"
+    },
+    {
+        "id": 5024,
+        "name": "Indomitable Armor"
+    },
+    {
+        "id": 5019,
+        "name": "Tribal Brace"
+    },
+    {
+        "id": 5018,
+        "name": "Intrepid Scalecoat"
+    },
+    {
+        "id": 5016,
+        "name": "Scaled Jacket"
+    },
+    {
+        "id": 5015,
+        "name": "Stygian Omen"
+    },
+    {
+        "id": 5014,
+        "name": "Knightly Brigandine"
+    },
+    {
+        "id": 5013,
+        "name": "Dominion Armor"
+    },
+    {
+        "id": 5012,
+        "name": "Grand Cuirass"
+    },
+    {
+        "id": 5009,
+        "name": "Valiant Armor"
+    },
+    {
+        "id": 5007,
+        "name": "Guardian Plate Armor"
+    },
+    {
+        "id": 5006,
+        "name": "Grand Surcoat"
+    },
+    {
+        "id": 5004,
+        "name": "Plate Armor"
+    },
+    {
+        "id": 5001,
+        "name": "Chain Mail"
+    },
+    {
+        "id": 5000,
+        "name": "Foot Soldier Armor"
+    },
+    {
+        "id": 4135,
+        "name": "Persecutor's Horns"
+    },
+    {
+        "id": 4134,
+        "name": "Sergeant's Armet"
+    },
+    {
+        "id": 4133,
+        "name": "Farseer's Circlet"
+    },
+    {
+        "id": 4132,
+        "name": "Hood of Nonentity"
+    },
+    {
+        "id": 4131,
+        "name": "Gnostic Wings"
+    },
+    {
+        "id": 4130,
+        "name": "Twilight Star"
+    },
+    {
+        "id": 4129,
+        "name": "Serpentine Circlet"
+    },
+    {
+        "id": 4128,
+        "name": "Zodiac Charm"
+    },
+    {
+        "id": 4127,
+        "name": "Arcane Hat"
+    },
+    {
+        "id": 4126,
+        "name": "Tail of Simurgh"
+    },
+    {
+        "id": 4125,
+        "name": "Midnight Turban"
+    },
+    {
+        "id": 4124,
+        "name": "Oracular Veil"
+    },
+    {
+        "id": 4123,
+        "name": "Decapitator"
+    },
+    {
+        "id": 4122,
+        "name": "Allesian Oxhide Hood"
+    },
+    {
+        "id": 4121,
+        "name": "Invalid"
+    },
+    {
+        "id": 4120,
+        "name": "Mask of Concealment"
+    },
+    {
+        "id": 4119,
+        "name": "Marcher's Helm"
+    },
+    {
+        "id": 4116,
+        "name": "Beastren Mask"
+    },
+    {
+        "id": 4115,
+        "name": "Confidant's Hood"
+    },
+    {
+        "id": 4113,
+        "name": "Invalid"
+    },
+    {
+        "id": 4107,
+        "name": "Ancient Galea"
+    },
+    {
+        "id": 4106,
+        "name": "Ruminant Circlet"
+    },
+    {
+        "id": 4105,
+        "name": "Leafshade Hood"
+    },
+    {
+        "id": 4104,
+        "name": "Crown of Insight"
+    },
+    {
+        "id": 4103,
+        "name": "Shrouded Helm"
+    },
+    {
+        "id": 4102,
+        "name": "Predator's Maw"
+    },
+    {
+        "id": 4097,
+        "name": "Falconian Beak"
+    },
+    {
+        "id": 4096,
+        "name": "Hood of Darkness"
+    },
+    {
+        "id": 4095,
+        "name": "Lion-Lord's Helm"
+    },
+    {
+        "id": 4092,
+        "name": "Gazer's Hood"
+    },
+    {
+        "id": 4091,
+        "name": "Unseen Shadow"
+    },
+    {
+        "id": 4090,
+        "name": "Hard-Leather Helm"
+    },
+    {
+        "id": 4088,
+        "name": "Dyed-Cloth Mask"
+    },
+    {
+        "id": 4087,
+        "name": "Cavalier Hat"
+    },
+    {
+        "id": 4085,
+        "name": "Griffin-Feather Hood"
+    },
+    {
+        "id": 4083,
+        "name": "Galewind Helm"
+    },
+    {
+        "id": 4081,
+        "name": "Plumed Cap"
+    },
+    {
+        "id": 4078,
+        "name": "Aerie's Watch"
+    },
+    {
+        "id": 4075,
+        "name": "Scout's Hood"
+    },
+    {
+        "id": 4074,
+        "name": "Felt Cap"
+    },
+    {
+        "id": 4073,
+        "name": "Summoner's Crown"
+    },
+    {
+        "id": 4071,
+        "name": "Living Altar"
+    },
+    {
+        "id": 4068,
+        "name": "Uncanny Eyes"
+    },
+    {
+        "id": 4067,
+        "name": "Doomdove Turban"
+    },
+    {
+        "id": 4066,
+        "name": "Visionary's Mask"
+    },
+    {
+        "id": 4065,
+        "name": "Veil of Awakening"
+    },
+    {
+        "id": 4064,
+        "name": "Visage of Ja'Nuwa"
+    },
+    {
+        "id": 4062,
+        "name": "Promethean Hood"
+    },
+    {
+        "id": 4060,
+        "name": "Witch's Hat"
+    },
+    {
+        "id": 4058,
+        "name": "Solar Ascension"
+    },
+    {
+        "id": 4055,
+        "name": "Sorcerer's Hood"
+    },
+    {
+        "id": 4053,
+        "name": "Scale Band"
+    },
+    {
+        "id": 4052,
+        "name": "Bishop's Crown"
+    },
+    {
+        "id": 4051,
+        "name": "Cleric's Hood"
+    },
+    {
+        "id": 4050,
+        "name": "Sage's Hood"
+    },
+    {
+        "id": 4048,
+        "name": "Illuminary Crown"
+    },
+    {
+        "id": 4046,
+        "name": "Redstitch Hood"
+    },
+    {
+        "id": 4045,
+        "name": "Dawn Hood"
+    },
+    {
+        "id": 4043,
+        "name": "Wizard's Hat"
+    },
+    {
+        "id": 4041,
+        "name": "Devotee's Hood"
+    },
+    {
+        "id": 4040,
+        "name": "Beseecher's Hood"
+    },
+    {
+        "id": 4039,
+        "name": "Deadly Nightshade"
+    },
+    {
+        "id": 4038,
+        "name": "Dragon Knight's Helm"
+    },
+    {
+        "id": 4035,
+        "name": "Crusader's Helm"
+    },
+    {
+        "id": 4034,
+        "name": "Battahli Turban"
+    },
+    {
+        "id": 4032,
+        "name": "Wardancer's Hat"
+    },
+    {
+        "id": 4031,
+        "name": "Friar's Hood"
+    },
+    {
+        "id": 4029,
+        "name": "Agamenian Galea"
+    },
+    {
+        "id": 4026,
+        "name": "Blazing Soul"
+    },
+    {
+        "id": 4024,
+        "name": "Valorous Helm"
+    },
+    {
+        "id": 4022,
+        "name": "Ravager-Lord's Helm"
+    },
+    {
+        "id": 4019,
+        "name": "Howling Hood"
+    },
+    {
+        "id": 4018,
+        "name": "Meloirean Cyclops Veil"
+    },
+    {
+        "id": 4016,
+        "name": "Gladiator's Helm"
+    },
+    {
+        "id": 4015,
+        "name": "Subjugator's Sallet"
+    },
+    {
+        "id": 4014,
+        "name": "Monarch's Crown"
+    },
+    {
+        "id": 4013,
+        "name": "Winged Sallet"
+    },
+    {
+        "id": 4012,
+        "name": "Fiendish Armet"
+    },
+    {
+        "id": 4009,
+        "name": "Gryphic Helm"
+    },
+    {
+        "id": 4007,
+        "name": "Iron Helm"
+    },
+    {
+        "id": 4006,
+        "name": "Laurel Circlet"
+    },
+    {
+        "id": 4004,
+        "name": "Soldier's Helm"
+    },
+    {
+        "id": 4001,
+        "name": "Sentry's Coif"
+    },
+    {
+        "id": 4000,
+        "name": "Wanderer's Hood"
+    },
+    {
+        "id": 3555,
+        "name": "Eternal Bond"
+    },
+    {
+        "id": 3554,
+        "name": "Ring of Derision"
+    },
+    {
+        "id": 3553,
+        "name": "Turquoise Ring"
+    },
+    {
+        "id": 3552,
+        "name": "Ring of Amplification"
+    },
+    {
+        "id": 3551,
+        "name": "Ring of Reassurance"
+    },
+    {
+        "id": 3550,
+        "name": "Ring of Skullduggery"
+    },
+    {
+        "id": 3549,
+        "name": "Ring of Gallantry"
+    },
+    {
+        "id": 3548,
+        "name": "Ring of Proximity"
+    },
+    {
+        "id": 3545,
+        "name": "Ring of Vehemence"
+    },
+    {
+        "id": 3544,
+        "name": "Ring of Quickening"
+    },
+    {
+        "id": 3543,
+        "name": "Ring of Disfavor"
+    },
+    {
+        "id": 3541,
+        "name": "Ring of Predominance"
+    },
+    {
+        "id": 3540,
+        "name": "Ring of Recompense"
+    },
+    {
+        "id": 3539,
+        "name": "Ring of Benevolence"
+    },
+    {
+        "id": 3538,
+        "name": "Ring of Brawn"
+    },
+    {
+        "id": 3537,
+        "name": "Ring of Requital"
+    },
+    {
+        "id": 3536,
+        "name": "Ring of Grit"
+    },
+    {
+        "id": 3535,
+        "name": "Ring of Resolution"
+    },
+    {
+        "id": 3534,
+        "name": "Ring of Recitation"
+    },
+    {
+        "id": 3533,
+        "name": "Ring of Articulacy"
+    },
+    {
+        "id": 3532,
+        "name": "Ring of Regeneration"
+    },
+    {
+        "id": 3531,
+        "name": "Ring of Endeavor"
+    },
+    {
+        "id": 3530,
+        "name": "Ring of Ambition"
+    },
+    {
+        "id": 3528,
+        "name": "Ring of Thawing"
+    },
+    {
+        "id": 3527,
+        "name": "Ring of Quenching"
+    },
+    {
+        "id": 3526,
+        "name": "Ring of Motility"
+    },
+    {
+        "id": 3525,
+        "name": "Ring of Pliancy"
+    },
+    {
+        "id": 3524,
+        "name": "Ring of Loquacity"
+    },
+    {
+        "id": 3522,
+        "name": "Ring of Repellency"
+    },
+    {
+        "id": 3521,
+        "name": "Ring of Desiccation"
+    },
+    {
+        "id": 3520,
+        "name": "Ring of Insomnolence"
+    },
+    {
+        "id": 3519,
+        "name": "Ring of Awareness"
+    },
+    {
+        "id": 3518,
+        "name": "Ring of Purification"
+    },
+    {
+        "id": 3515,
+        "name": "Ring of Tepidity"
+    },
+    {
+        "id": 3514,
+        "name": "Ring of Cooling"
+    },
+    {
+        "id": 3513,
+        "name": "Ring of Indifference"
+    },
+    {
+        "id": 3512,
+        "name": "Ring of Deflection"
+    },
+    {
+        "id": 3511,
+        "name": "Ring of Conservation"
+    },
+    {
+        "id": 3510,
+        "name": "Ring of Percipience"
+    },
+    {
+        "id": 3509,
+        "name": "Ring of Resiliency"
+    },
+    {
+        "id": 3508,
+        "name": "Ring of Aggression"
+    },
+    {
+        "id": 3507,
+        "name": "Ring of Triumph"
+    },
+    {
+        "id": 3506,
+        "name": "Ring of Profusion"
+    },
+    {
+        "id": 3505,
+        "name": "Ring of Accrual"
+    },
+    {
+        "id": 3504,
+        "name": "Ring of Momentum"
+    },
+    {
+        "id": 3503,
+        "name": "Ring of Tenacity"
+    },
+    {
+        "id": 3502,
+        "name": "Ring of Acclamation"
+    },
+    {
+        "id": 3501,
+        "name": "Ring of Exultation"
+    },
+    {
+        "id": 3415,
+        "name": "Half-Frame Glasses"
+    },
+    {
+        "id": 3414,
+        "name": "Round-Frame Glasses"
+    },
+    {
+        "id": 3413,
+        "name": "Disciple's Spectacles"
+    },
+    {
+        "id": 3412,
+        "name": "Lordly Eyepatch"
+    },
+    {
+        "id": 3411,
+        "name": "Bandit Eyepatch"
+    },
+    {
+        "id": 3410,
+        "name": "White-Leather Kerchief"
+    },
+    {
+        "id": 3409,
+        "name": "Nose-Pinchers"
+    },
+    {
+        "id": 3408,
+        "name": "Monocle"
+    },
+    {
+        "id": 3407,
+        "name": "Amber-Rimmed Glasses"
+    },
+    {
+        "id": 3406,
+        "name": "Leather Eyepatch"
+    },
+    {
+        "id": 3405,
+        "name": "Prowler Kerchief"
+    },
+    {
+        "id": 3404,
+        "name": "Wolfpack Kerchief"
+    },
+    {
+        "id": 3403,
+        "name": "Filcher Kerchief"
+    },
+    {
+        "id": 3401,
+        "name": "Salamander Mask"
+    },
+    {
+        "id": 3400,
+        "name": "Eventide Mask"
+    },
+    {
+        "id": 3351,
+        "name": "Wyrmwing Cape"
+    },
+    {
+        "id": 3350,
+        "name": "Wyrmhunter's Cloak"
+    },
+    {
+        "id": 3349,
+        "name": "Regal Cloak"
+    },
+    {
+        "id": 3348,
+        "name": "Duty's Mantle"
+    },
+    {
+        "id": 3347,
+        "name": "Imperial Shoulder Cape"
+    },
+    {
+        "id": 3346,
+        "name": "Uniter's Mantle"
+    },
+    {
+        "id": 3345,
+        "name": "Abyssinal Neck Wrap"
+    },
+    {
+        "id": 3344,
+        "name": "Wayfarer's Cape"
+    },
+    {
+        "id": 3343,
+        "name": "Kindred Cape"
+    },
+    {
+        "id": 3342,
+        "name": "Azure Shawl"
+    },
+    {
+        "id": 3341,
+        "name": "Commander's Mantle"
+    },
+    {
+        "id": 3340,
+        "name": "Ascendant Cloak"
+    },
+    {
+        "id": 3339,
+        "name": "Linen Cloak"
+    },
+    {
+        "id": 3338,
+        "name": "Drakescale Cape"
+    },
+    {
+        "id": 3337,
+        "name": "Murky Grouse Feathercloak"
+    },
+    {
+        "id": 3336,
+        "name": "Glorious Cape"
+    },
+    {
+        "id": 3335,
+        "name": "Moonhowl Cape"
+    },
+    {
+        "id": 3334,
+        "name": "Warbler Capelet"
+    },
+    {
+        "id": 3333,
+        "name": "Fair Cloak"
+    },
+    {
+        "id": 3332,
+        "name": "Hollow Cape"
+    },
+    {
+        "id": 3331,
+        "name": "Redwolf Cape"
+    },
+    {
+        "id": 3330,
+        "name": "Philosopher's Cape"
+    },
+    {
+        "id": 3329,
+        "name": "Waterfowl Cloak"
+    },
+    {
+        "id": 3328,
+        "name": "Comforting Neck Wrap"
+    },
+    {
+        "id": 3327,
+        "name": "Monarch's Mantle"
+    },
+    {
+        "id": 3326,
+        "name": "Expeditioner's Cloak"
+    },
+    {
+        "id": 3325,
+        "name": "Sentinel's Shoulder Cape"
+    },
+    {
+        "id": 3324,
+        "name": "Saint Idreum's Stole"
+    },
+    {
+        "id": 3323,
+        "name": "Pioneer's Cape"
+    },
+    {
+        "id": 3322,
+        "name": "Admiral's Mantle"
+    },
+    {
+        "id": 3321,
+        "name": "Shadewalker's Neck Wrap"
+    },
+    {
+        "id": 3320,
+        "name": "Velvet Cape"
+    },
+    {
+        "id": 3319,
+        "name": "Ceremonial Cape"
+    },
+    {
+        "id": 3318,
+        "name": "Feathered Shawl"
+    },
+    {
+        "id": 3316,
+        "name": "Champion's Mantle"
+    },
+    {
+        "id": 3315,
+        "name": "Legend's Mantle"
+    },
+    {
+        "id": 3314,
+        "name": "Legacy Cloak"
+    },
+    {
+        "id": 3312,
+        "name": "Saurianscale Cape"
+    },
+    {
+        "id": 3311,
+        "name": "Lupine Cape"
+    },
+    {
+        "id": 3310,
+        "name": "Guerco Peafowl Feathercloak"
+    },
+    {
+        "id": 3309,
+        "name": "General's Mantle"
+    },
+    {
+        "id": 3307,
+        "name": "Heraldic Cape"
+    },
+    {
+        "id": 3306,
+        "name": "Windbreaking Cloak"
+    },
+    {
+        "id": 3305,
+        "name": "Dashing Capelet"
+    },
+    {
+        "id": 3304,
+        "name": "Vermundian Cloak"
+    },
+    {
+        "id": 3303,
+        "name": "Soft Neck Wrap"
+    },
+    {
+        "id": 3302,
+        "name": "Homespun Cloak"
+    },
+    {
+        "id": 3301,
+        "name": "Voyager's Cape"
+    },
+    {
+        "id": 3300,
+        "name": "Hide Cape"
+    },
+    {
+        "id": 710,
+        "name": "Dragonsbaulk Draught"
+    },
+    {
+        "id": 668,
+        "name": "Gourdian's Tome"
+    },
+    {
+        "id": 664,
+        "name": "Guardian's Tome"
+    },
+    {
+        "id": 619,
+        "name": "Eternal Ferrystone"
+    },
+    {
+        "id": -1,
+        "name": "Invalid"
+    },
+    {
+        "id": 603,
+        "name": "Explorer's Camping Kit"
+    },
+    {
+        "id": 605,
+        "name": "Harpysnare Smoke Beacon"
+    },
+    {
+        "id": 607,
+        "name": "Ambivalent Rift Incense"
+    },
+    {
+        "id": 606,
+        "name": "Heartfelt Pendant"
+    },
+    {
+        "id": 609,
+        "name": "Art of Metamorphosis"
+    },
+    {
+        "id": 608,
+        "name": "Makeshift Gaol Key"
+    },
+    {
+        "id": 601,
+        "name": "Wakestone"
+    },
+    {
+        "id": 612,
+        "name": "Portcrystal"
+    }
+]

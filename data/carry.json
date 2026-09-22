@@ -1,0 +1,19 @@
+{
+    "build": "carry/stamina ABSOLUTE 2026-09-21",
+    "derivedStaminaMax": "nil",
+    "held": 1,
+    "revert": false,
+    "rows": [
+        {
+            "afterS": "60000",
+            "afterW": "5000",
+            "beforeS": "60000",
+            "beforeW": "5000",
+            "held": true,
+            "key": "2891076981"
+        }
+    ],
+    "seen": 1,
+    "used": 1,
+    "wrote": 2
+}

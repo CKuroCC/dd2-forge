@@ -1,0 +1,45 @@
+{
+    "after": {
+        "enhNum": 1,
+        "equipped": false,
+        "itemId": 4000,
+        "num": 1,
+        "storageId": 709,
+        "type0": 0,
+        "type1": 0,
+        "type2": 0
+    },
+    "afterRefetch": {
+        "enhNum": 1,
+        "equipped": false,
+        "itemId": 4000,
+        "num": 1,
+        "storageId": 709,
+        "type0": 0,
+        "type1": 0,
+        "type2": 0
+    },
+    "build": "phase 19 - PROVE enhanceEquip (hood) 2026-09-21",
+    "callOk": true,
+    "fetched": {
+        "enhNum": 0,
+        "equipped": false,
+        "itemId": 4000,
+        "num": 1,
+        "storageId": 709,
+        "type0": 0,
+        "type1": 0,
+        "type2": 0
+    },
+    "hoodUpgradable": "true",
+    "lookStorage": {
+        "enhNum": 0,
+        "equipped": false,
+        "itemId": 4000,
+        "num": 1,
+        "storageId": 709,
+        "type0": 0,
+        "type1": 0,
+        "type2": 0
+    }
+}

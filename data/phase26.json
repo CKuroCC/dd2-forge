@@ -1,0 +1,15 @@
+{
+    "areaCount": 331,
+    "build": "phase 26 - GOLD + MAP AREAS 2026-09-21",
+    "failures": null,
+    "gold": {
+        "before": "830210514",
+        "max": "99999999"
+    },
+    "localCount": 1098,
+    "stats": {
+        "already": 1429,
+        "failed": 0,
+        "opened": 0
+    }
+}

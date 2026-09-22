@@ -1,0 +1,470 @@
+{
+  "generated": "2026-09-22T09:12:02",
+  "game": "Dragon's Dogma 2",
+  "build": "3.2.0.0",
+  "platform": "Steam / PC",
+  "scripts": [
+    {
+      "name": "BigBoobs.lua.disabled",
+      "bytes": 32738,
+      "state": "disabled",
+      "ours": false,
+      "modified": "2026-09-21T11:33:38"
+    },
+    {
+      "name": "CharacterManager.lua",
+      "bytes": 67235,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-04T19:47:16"
+    },
+    {
+      "name": "content_editor.lua",
+      "bytes": 378,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "dd2_ShutUpPawns.lua.superseded",
+      "bytes": 39137,
+      "state": "superseded",
+      "ours": false,
+      "modified": "2026-09-22T02:35:43"
+    },
+    {
+      "name": "dd2forge_apply.lua",
+      "bytes": 109211,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-22T02:11:16"
+    },
+    {
+      "name": "dd2forge_apply.lua.p3bak",
+      "bytes": 42835,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-20T02:08:07"
+    },
+    {
+      "name": "dd2forge_apply.lua.p3bbak",
+      "bytes": 45814,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-20T11:24:05"
+    },
+    {
+      "name": "dd2forge_apply.lua.p3cbak",
+      "bytes": 48208,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-20T11:40:07"
+    },
+    {
+      "name": "dd2forge_apply.lua.phase2bak",
+      "bytes": 37691,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-20T01:59:28"
+    },
+    {
+      "name": "dd2forge_apply.lua.prebasestats",
+      "bytes": 56058,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-20T15:44:05"
+    },
+    {
+      "name": "dd2forge_apply.lua.prehold",
+      "bytes": 52566,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-20T12:27:51"
+    },
+    {
+      "name": "dd2forge_apply.lua.preitems",
+      "bytes": 63156,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-20T17:06:48"
+    },
+    {
+      "name": "dd2forge_apply.lua.preonebtn",
+      "bytes": 54261,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-20T12:50:01"
+    },
+    {
+      "name": "dd2forge_apply.lua.prephase12",
+      "bytes": 85469,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-21T00:20:43"
+    },
+    {
+      "name": "dd2forge_apply.lua.prephase13",
+      "bytes": 93518,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-21T00:35:31"
+    },
+    {
+      "name": "dd2forge_apply.lua.prephase14",
+      "bytes": 93518,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-21T00:35:31"
+    },
+    {
+      "name": "dd2forge_apply.lua.prereadback",
+      "bytes": 54206,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-20T13:51:18"
+    },
+    {
+      "name": "dd2forge_apply.lua.prewrite",
+      "bytes": 48040,
+      "state": "backup",
+      "ours": true,
+      "modified": "2026-09-20T11:48:14"
+    },
+    {
+      "name": "dd2forge_bigbutt.lua.disabled",
+      "bytes": 8924,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T11:25:22"
+    },
+    {
+      "name": "dd2forge_bustcheck.lua",
+      "bytes": 4694,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-21T11:19:09"
+    },
+    {
+      "name": "dd2forge_butt.lua.disabled",
+      "bytes": 7663,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T11:07:10"
+    },
+    {
+      "name": "dd2forge_carry.lua",
+      "bytes": 7738,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-21T21:43:28"
+    },
+    {
+      "name": "dd2forge_creatorprobe.lua.disabled",
+      "bytes": 6047,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T12:28:00"
+    },
+    {
+      "name": "dd2forge_creatortest.lua.disabled",
+      "bytes": 5546,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T12:42:38"
+    },
+    {
+      "name": "dd2forge_curves.lua",
+      "bytes": 36690,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-21T11:49:06"
+    },
+    {
+      "name": "dd2forge_deepdump.lua",
+      "bytes": 13648,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-18T22:11:32"
+    },
+    {
+      "name": "dd2forge_kit.lua",
+      "bytes": 7466,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-21T13:54:56"
+    },
+    {
+      "name": "dd2forge_pawnhush.lua",
+      "bytes": 12342,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-22T02:50:22"
+    },
+    {
+      "name": "dd2forge_pawnquiet.lua",
+      "bytes": 4908,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-22T02:45:15"
+    },
+    {
+      "name": "dd2forge_pawnspec.lua",
+      "bytes": 2306,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-21T10:42:19"
+    },
+    {
+      "name": "dd2forge_phase14.lua.disabled",
+      "bytes": 5322,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T01:56:10"
+    },
+    {
+      "name": "dd2forge_phase15.lua.disabled",
+      "bytes": 6333,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T09:42:15"
+    },
+    {
+      "name": "dd2forge_phase16.lua.disabled",
+      "bytes": 6139,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T09:44:47"
+    },
+    {
+      "name": "dd2forge_phase17.lua.disabled",
+      "bytes": 5594,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T09:48:21"
+    },
+    {
+      "name": "dd2forge_phase18.lua.disabled",
+      "bytes": 7247,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T09:50:46"
+    },
+    {
+      "name": "dd2forge_phase19.lua.disabled",
+      "bytes": 6942,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T09:54:07"
+    },
+    {
+      "name": "dd2forge_phase20.lua.done",
+      "bytes": 10560,
+      "state": "done",
+      "ours": true,
+      "modified": "2026-09-21T09:57:05"
+    },
+    {
+      "name": "dd2forge_phase21.lua",
+      "bytes": 8953,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-21T10:20:52"
+    },
+    {
+      "name": "dd2forge_phase22.lua.disabled",
+      "bytes": 6744,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T10:25:56"
+    },
+    {
+      "name": "dd2forge_phase23.lua.disabled",
+      "bytes": 6599,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T10:33:48"
+    },
+    {
+      "name": "dd2forge_phase24.lua",
+      "bytes": 9710,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-21T10:36:05"
+    },
+    {
+      "name": "dd2forge_phase25.lua.disabled",
+      "bytes": 5830,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T10:40:04"
+    },
+    {
+      "name": "dd2forge_phase26.lua",
+      "bytes": 6611,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-21T10:42:06"
+    },
+    {
+      "name": "dd2forge_phase27.lua.disabled",
+      "bytes": 5514,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T10:46:08"
+    },
+    {
+      "name": "dd2forge_phase28.lua",
+      "bytes": 7410,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-21T10:49:41"
+    },
+    {
+      "name": "dd2forge_phase29.lua",
+      "bytes": 6212,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-22T02:38:31"
+    },
+    {
+      "name": "dd2forge_phase29.lua.disabled",
+      "bytes": 6348,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-21T10:55:48"
+    },
+    {
+      "name": "dd2forge_recon.lua.disabled",
+      "bytes": 2907,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-17T16:08:12"
+    },
+    {
+      "name": "dd2forge_recon2.lua.disabled",
+      "bytes": 3596,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-17T16:48:52"
+    },
+    {
+      "name": "dd2forge_refill.lua",
+      "bytes": 13273,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-22T02:11:39"
+    },
+    {
+      "name": "dd2forge_slider_dump.lua.disabled",
+      "bytes": 21542,
+      "state": "disabled",
+      "ours": true,
+      "modified": "2026-09-18T22:01:43"
+    },
+    {
+      "name": "dd2forge_stacks.lua",
+      "bytes": 3341,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-20T18:47:15"
+    },
+    {
+      "name": "devtools.lua",
+      "bytes": 9510,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "editor_ai.lua",
+      "bytes": 12351,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "editor_chests.lua",
+      "bytes": 4705,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "editor_enemy.lua",
+      "bytes": 7584,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "editor_events.lua",
+      "bytes": 215,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "editor_human_params.lua",
+      "bytes": 12090,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "editor_items.lua",
+      "bytes": 1449,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "editor_npc.lua",
+      "bytes": 14099,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "editor_shops.lua",
+      "bytes": 13453,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "editor_sound_viewer.lua",
+      "bytes": 5080,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "editor_weathers.lua",
+      "bytes": 71,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-13T06:10:16"
+    },
+    {
+      "name": "ExtendedCharacterEditor.lua",
+      "bytes": 65949,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-10T21:32:46"
+    },
+    {
+      "name": "LargerInventory.lua",
+      "bytes": 1641,
+      "state": "active",
+      "ours": false,
+      "modified": "2026-09-02T18:05:10"
+    },
+    {
+      "name": "MeshModEnabler.lua",
+      "bytes": 21759,
+      "state": "active",
+      "ours": false,
+      "modified": "2024-11-07T22:10:41"
+    }
+  ]
+}
