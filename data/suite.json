@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T09:12:02",
+  "generated": "2026-09-22T09:59:46",
   "game": "Dragon's Dogma 2",
   "build": "3.2.0.0",
   "platform": "Steam / PC",
@@ -321,10 +321,10 @@
     },
     {
       "name": "dd2forge_phase29.lua",
-      "bytes": 6212,
+      "bytes": 10404,
       "state": "active",
       "ours": true,
-      "modified": "2026-09-22T02:38:31"
+      "modified": "2026-09-22T09:55:20"
     },
     {
       "name": "dd2forge_phase29.lua.disabled",
@@ -332,6 +332,13 @@
       "state": "disabled",
       "ours": true,
       "modified": "2026-09-21T10:55:48"
+    },
+    {
+      "name": "dd2forge_phase30.lua",
+      "bytes": 7584,
+      "state": "active",
+      "ours": true,
+      "modified": "2026-09-22T09:59:37"
     },
     {
       "name": "dd2forge_recon.lua.disabled",

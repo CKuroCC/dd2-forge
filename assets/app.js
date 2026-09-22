@@ -141,6 +141,14 @@ add('characters', 'Characters', async () => {
   const w = p24?.written || [];
   const arisen = w.filter(x => /ARISEN/i.test(JSON.stringify(x))).length;
   const pawn = w.filter(x => /AVRIL|PAWN/i.test(JSON.stringify(x))).length;
+  // The probe records fields as "Name = value" strings, so DCP is parsed out of
+  // the line rather than stored separately -- one source, no drift.
+  const dcpOf = (key) => {
+    const line = (dcp?.[key]?.fields || []).find(s => s.startsWith('ConsumableExp'));
+    const n = line && Number(line.split('=')[1]);
+    return Number.isFinite(n) ? n : null;
+  };
+  const dcpNow = { arisen: dcpOf('ARISEN.JobContext'), pawn: dcpOf('PAWN.JobContext') };
   return `<h1>Characters</h1>
   <p class="lede">The Arisen and the main pawn are written separately. Ranks, core skills, weapon skills at
   level 2 and augments go to both — ten vocations for the Arisen, six for the pawn, which is correct since
@@ -149,18 +157,28 @@ add('characters', 'Characters', async () => {
     ${tile(String(arisen || '—'), 'Arisen writes', 'ranks · skills · augments')}
     ${tile(String(pawn || '—'), 'Pawn writes', '6 eligible vocations')}
     ${tile(String((p21?.written || []).length || '—'), 'gear upgraded', 'enhanceEquip records')}
-    ${tile(dcp ? 'probed' : 'unknown', 'DCP', dcp ? 'setter identified' : 'run Phase 29')}
+    ${tile(dcpNow.arisen ?? (dcp ? 'found' : '—'), 'Arisen DCP', dcpNow.pawn != null ? `pawn ${dcpNow.pawn}` : 'ConsumableExp')}
   </div>
-  <h2>DCP — the open gap</h2>
+  <h2>DCP — solved</h2>
   <p class="lede">Ranks are set with <code>setJobExpWithJobRank</code> and skills are enabled directly, which
-  sidesteps the currency entirely: everything ends up bought and the DCP balance is never touched. The engine
-  calls it <strong>JobPoint</strong>, not DCP. typecache carries the name but holds fields only — no method
-  signatures — so it cannot name the setter. Phase 29 reads the live type definition to find it.</p>
-  ${dcp ? table(['Object', 'Type', 'Fields', 'Methods'], Object.entries(dcp).map(([k, v]) =>
-    [esc(k), `<span class="mono">${esc(v.type)}</span>`,
-     `<span class="mono">${(v.fields || []).join('<br>') || '—'}</span>`,
-     `<span class="mono">${(v.methods || []).join('<br>') || '—'}</span>`]))
+  sidesteps the currency entirely: everything ends up bought and the DCP balance is never touched. Phase 29
+  read the live type definition and named the handle. It is not "JobPoint" — that was a guess off an
+  unrelated typecache field. It is <code>app.JobContext.ConsumableExp</code>, with a public property setter
+  <code>set_ConsumableExpProp(System.Int32)</code>. "Consumable exp" is exactly right: the spendable pool,
+  as against <code>CulmativeExp</code> (an array, per vocation, spelled the way the engine spells it).</p>
+  ${dcp ? Object.entries(dcp).map(([k, v]) => `
+    <h2 style="font-size:15px">${esc(k)} <span class="mono" style="font-weight:400">${esc(v.type)}</span></h2>
+    <div class="grid g2">
+      <div class="card"><div class="l" style="color:var(--ink3);font-size:11.5px;text-transform:uppercase;letter-spacing:.06em">Fields</div>
+        <div class="mono" style="margin-top:8px;line-height:1.7">${(v.fields || []).map(esc).join('<br>') || '—'}</div></div>
+      <div class="card"><div class="l" style="color:var(--ink3);font-size:11.5px;text-transform:uppercase;letter-spacing:.06em">Methods (${(v.methods || []).length})</div>
+        <div class="mono" style="margin-top:8px;line-height:1.7;max-height:320px;overflow:auto">${(v.methods || []).map(esc).join('<br>') || '—'}</div></div>
+    </div>`).join('')
    : `<div class="empty">No <code>dcp_probe.json</code> yet — press the Phase 29 button in game, then re-push.</div>`}
+  <div class="note">Three guesses produced <code>ExpDispenser</code> (not a managed singleton), "JobPoint"
+  (a field on an unrelated type) and <code>ch:call("get_JobContext")</code> (contexts hang off Human, not
+  the character). One read produced the answer. Managed singletons are absent from
+  <code>typecache.json</code>, which is exactly why the live type definition is the only authority here.</div>
   <h2>Affinity</h2>
   ${p28 ? `<p class="lede">${num((p28.written || []).length)} records written by Phase 28.</p>` :
     `<div class="empty">No phase28.json.</div>`}`;
