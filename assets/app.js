@@ -23,7 +23,9 @@ const tile = (k, l, s) => `<div class="card tile"><div class="k">${esc(k)}</div>
 function bars(rows) {
   const max = Math.max(1, ...rows.map(r => r.v));
   return `<div class="bars">` + rows.map(r => {
-    const pct = Math.max(2, Math.round(r.v / max * 100));
+    // A zero draws nothing. A 2% stub for a zero reads as "a little", which is
+    // the opposite of true -- the number beside it is the honest channel.
+    const pct = r.v === 0 ? 0 : Math.max(2, Math.round(r.v / max * 100));
     const step = r.v / max > .66 ? 'var(--e4)' : r.v / max > .33 ? 'var(--e3)' : 'var(--e2)';
     return `<div class="row"><div class="nm" title="${esc(r.n)}">${esc(r.n)}</div>
       <div class="track"><div class="fill" style="width:${pct}%;background:${step}"></div></div>
@@ -170,7 +172,12 @@ const SLOT = { 0: 'Primary', 1: 'Secondary', 2: 'Head', 3: 'Body', 4: 'Legs', 5:
 
 add('equipment', 'Equipment', async () => {
   const probe = await load('enhance_probe.json');
-  const list = probe?.equipped;
+  // The dump carries empty trailing slots -- rows with no name and no itemId.
+  // They are unfilled loadout positions, not gear, and showing them as "—"
+  // makes an 11-piece loadout look like 4 things failed to read.
+  const raw = probe?.equipped;
+  const list = Array.isArray(raw) ? raw.filter(r => r && r.name && r.itemId) : null;
+  const emptySlots = Array.isArray(raw) ? raw.length - (list?.length || 0) : 0;
   if (!Array.isArray(list) || !list.length) {
     return `<h1>Equipment</h1><div class="empty">No <code>equipped</code> array in
       <code>enhance_probe.json</code> yet — press the gear-upgrade probe in game, then refresh the data.</div>`;
@@ -190,10 +197,10 @@ add('equipment', 'Equipment', async () => {
   <code>enhNum</code> is the upgrade level and <code>enhType0/1/2</code> are the three Dragonforge
   enhancement tracks.</p>
   <div class="grid g4" style="margin-top:20px">
-    ${tile(String(list.length), 'pieces read', 'on the probed character')}
+    ${tile(String(list.length), 'pieces equipped', emptySlots ? `${emptySlots} slots empty` : 'all slots filled')}
     ${tile(`${maxed}/${list.length}`, 'at +4', 'fully upgraded')}
-    ${tile(`+${avg}`, 'average level', 'across all pieces')}
-    ${tile(String(new Set(list.map(r => r.slot)).size), 'slots filled', 'of 8')}
+    ${tile(`+${avg}`, 'average level', 'across equipped pieces')}
+    ${tile(String(new Set(list.map(r => r.slot)).size), 'slot types', 'in use')}
   </div>
   <h2>Upgrade level by piece</h2>
   ${bars(list.slice().sort((a, b) => (b.enhNum || 0) - (a.enhNum || 0)).map(r => ({ n: r.name, v: r.enhNum || 0 })))}
