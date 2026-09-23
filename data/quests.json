@@ -1138,6 +1138,58 @@
   ]
  },
  {
+  "name": "'Twixt a Rock and a Hard Place",
+  "aka": [
+   "Twixt a Rock and a Hard Place"
+  ],
+  "type": "side",
+  "region": "Battahl",
+  "how_to_start": "Speak to Akakios in the Mercantile Ward of Bakbattahl; he hands you a Letter of Request to deliver.",
+  "prerequisites": "Reach Bakbattahl.",
+  "timing": "Any time after reaching Bakbattahl. Useful as an early introduction to the volcanic island region.",
+  "missable": {
+   "is_missable": true,
+   "window": "Closes permanently on entering the Unmoored World via the main quest 'Legacy'.",
+   "warning": "Deliver both letters before you trigger Legacy - the quest is wiped when the Unmoored World starts."
+  },
+  "bring": [
+   "A Portcrystal to plant at the Volcanic Island Camp",
+   "A Wakestone, in case a delivery target has been killed"
+  ],
+  "best_outcome": {
+   "summary": "Deliver Akakios's letter to Ernesto at the Volcanic Island Camp, then a second letter to Barbas at the Excavation Site.",
+   "steps": [
+    "Take the Letter of Request from Akakios in Bakbattahl.",
+    "Travel south to the Volcanic Island Camp and give it to Ernesto.",
+    "Take his letter east to the Excavation Site and give it to Barbas.",
+    "Return as prompted to close the quest."
+   ],
+   "rewards": [
+    "2,500 XP",
+    "20,000 Gold",
+    "Ferrystone x1"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "A delivery target is dead when you arrive.",
+   "how_it_happens": "The Volcanic Island Camp sees constant combat; Ernesto or Barbas can be killed by roaming monsters before you get there.",
+   "consequences": "The quest stalls. Check the Battahl morgue and revive the NPC with a Wakestone to resume."
+  },
+  "along_the_way": [
+   "Planting a Portcrystal at the Volcanic Island Camp saves a lot of walking later."
+  ],
+  "gotchas": [
+   "Direct conflict: Fextralife's own quest page says the quest has no time limit and is 'not affected by story progression', while Fextralife's master quest list flags it as lost after 'Legacy'. Per project ground truth the master list wins, but the two pages disagree.",
+   "No branching outcomes are documented - the only variable is whether the NPCs are alive."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Twixt+a+Rock+and+a+Hard+Place",
+   "https://game8.co/games/Dragons-Dogma-2/archives/Twixt-a-Rock-and-a-Hard-Place",
+   "https://www.powerpyx.com/dragons-dogma-2-twixt-a-rock-and-a-hard-place-walkthrough/"
+  ]
+ },
+ {
   "name": "A Beggar's Tale",
   "aka": [],
   "type": "side",
@@ -1238,6 +1290,431 @@
   ]
  },
  {
+  "name": "A Case of Sculptor's Block",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Speak to Klark outside his estate in Vernworth's Noble Quarter (southwestern part of the quarter). He asks you to check on the sculptor Fulvio.",
+  "prerequisites": "Access to Vernworth; the quest chain then requires travel to Bakbattahl and to the Wasteland Griffin's Nest in northern Battahl, so practical completion needs Battahl access.",
+  "timing": "Available while doing the Vernworth main quests (PowerPyx: 'available while doing Main Quests in Vernworth'), but cannot be finished until you can reach northern Battahl.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "Medusa Head (optional, to petrify the Griffin and stretch the fight)",
+   "A Mage main pawn for healing",
+   "A manual save made immediately before the Griffin fight"
+  ],
+  "best_outcome": {
+   "summary": "Keep the Griffin fight going long enough for Fulvio to finish a full sketch; Klark is satisfied with the finished sculpture.",
+   "steps": [
+    "Talk to Klark outside his estate in Vernworth's Noble Quarter.",
+    "Travel to Bakbattahl and find Fulvio in his workshop below the Residential Area.",
+    "Escort Fulvio west to the Wasteland Griffin's Nest near Enoa'Battahl Forest.",
+    "Engage the Griffin but deliberately do NOT kill it fast — keep it on the ground and in view while Fulvio sketches.",
+    "Keep the Griffin's aggro away from Fulvio so he does not die.",
+    "Wait for Fulvio's line: \"'Tis done! With this sketch, I will doubtless be able to chisel a fine Griffin!\" — that confirms the good branch.",
+    "Pass several in-game days, then return to Fulvio in his workshop.",
+    "Go to Klark's estate in Vernworth and enter the second-floor left door to see the finished sculpture."
+   ],
+   "rewards": [
+    "4,500 XP",
+    "14,000 G"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Fulvio never finishes the sketch and carves the Griffin from imagination; the statue is poor and Klark is unimpressed.",
+   "how_it_happens": "The Griffin dies too quickly, or flies away at low health, before Fulvio finishes sketching. Fulvio then says he will have to use his imagination.",
+   "consequences": "Reduced payout — Gamer Guides reports 7,000 G only for the poor outcome versus 14,000 G for the good one; the sculpture's appearance and the closing dialogue are worse."
+  },
+  "along_the_way": [
+   "The Griffin's Nest trip doubles as a Griffin farm for Griffin materials.",
+   "A Misshapen Eye from a Cyclops on the road is also needed for 'House of the Blue Sunbright', so Cyclops encounters en route are worth taking."
+  ],
+  "gotchas": [
+   "Save manually right before engaging the Griffin — if it dies or flees too early the only clean fix is a reload.",
+   "Dismiss hired pawns and bring only your main pawn; extra pawns burst the Griffin down too fast and ruin the sketch.",
+   "Fulvio can be killed by the Griffin; protect him.",
+   "Game8 frames Medusa Head as the route to the best outcome, while Gamer Guides frames the deciding factor as raw fight duration with Medusa Head only as one tool — both agree the good branch is 'keep the Griffin alive and present longer'."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/A-Case-of-Sculptors-Block",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/vernworth/a-case-of-sculptors-block-walkthrough",
+   "https://www.powerpyx.com/dragons-dogma-2-all-side-quests/"
+  ]
+ },
+ {
+  "name": "A Game of Wits",
+  "aka": [
+   "The Sphinx riddles"
+  ],
+  "type": "side",
+  "region": "Vermund (Mountain Shrine) and Battahl (Frontier Shrine)",
+  "how_to_start": "Reach the Mountain Shrine north of Checkpoint Rest Town and speak to the Sphinx. The approach is guarded by high-level enemies.",
+  "prerequisites": "Enough progression and power to survive the route to the Mountain Shrine. Several riddles need world access and a carried NPC.",
+  "timing": "Available from mid Chapter 1 onward; the second half at the Frontier Shrine requires Battahl access.",
+  "missable": {
+   "is_missable": true,
+   "window": "Deleted permanently on starting the main quest 'Legacy' (entering the Unmoored World) — it is on Fextralife's Legacy-deletion list. Separately, each individual riddle is one-attempt-only: a wrong answer locks that riddle for the playthrough, and the Sphinx abandons the game.",
+   "warning": "Save before every single riddle answer — each riddle allows exactly one attempt — and finish the whole ten-riddle chain before you start Legacy, or the Eternal Wakestone is gone."
+  },
+  "bring": [
+   "A manual save immediately before each riddle",
+   "A Sealing Phial (Riddle of Eyes)",
+   "A romanced NPC or your Main Pawn, carryable (Riddle of Madness)",
+   "Any spare item to duplicate (Riddle of Conviction)",
+   "Your first Seeker's Token's location (Riddle of Rumination)"
+  ],
+  "best_outcome": {
+   "summary": "Answer all ten riddles across both shrines correctly and defeat the Sphinx for the Eternal Wakestone.",
+   "steps": [
+    "Mountain Shrine, riddles 1-5: Eyes (retrieve a Sealing Phial from a cave); Madness (bring a romanced NPC — your Main Pawn works); Wisdom (find a pawn literally named 'SphinxFather' via riftstones); Conviction (give any item — it is duplicated and returned); Rumination (locate your first Seeker's Token).",
+    "The Sphinx then relocates to the Frontier Shrine in Battahl for riddles 6-10 — moving statues, defeating a specific enemy, delivering a fragile vase intact, identifying a specific NPC.",
+    "Riddle 7 yields an Unmaking Arrow — save it for the Sphinx fight.",
+    "In the final fight, strike ONLY the animal portions of the Sphinx. Hitting the human portion makes her flee.",
+    "An Unmaking Arrow to the Sphinx guarantees the kill."
+   ],
+   "rewards": [
+    "Eternal Wakestone (final reward)",
+    "Per-riddle intermediate rewards including an Unmaking Arrow and a duplicated item"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "A wrong riddle answer, or hitting the Sphinx's human half, ends the game early.",
+   "how_it_happens": "One wrong answer on any riddle locks it out; the Sphinx abandons the contest. Striking the human portion of the Sphinx in the final fight makes her flee. Starting Legacy with the chain open deletes it entirely.",
+   "consequences": "Permanent loss of the Eternal Wakestone and remaining riddle rewards for that playthrough."
+  },
+  "along_the_way": [
+   "The Riddle of Conviction duplicates whatever you hand over — feed it your most valuable single item (a Wakestone or a Portcrystal are the standard picks).",
+   "The Unmaking Arrow from Riddle 7 is one of the rarest items in the game; many players spend it elsewhere and regret it."
+  ],
+  "gotchas": [
+   "The batch brief lists this as 'Vermund, after Feast of Deception'. Both shrines are involved and the second half is in Battahl; Fextralife does not list Feast of Deception as a prerequisite, only reaching the Mountain Shrine. Flagging the discrepancy rather than overriding it.",
+   "The 'one attempt per riddle' rule is the single most consequential thing on this quest and is easy to trip before you know it exists."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Game+of+Wits",
+   "Fextralife master side-quest list (Legacy cutoff group)"
+  ]
+ },
+ {
+  "name": "A Magisterial Amenity",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Speak with Waldhar at The Gracious Hand's Vaults in the Vernworth Slums. He only relocates there after the main quest 'The Caged Magistrate' is resolved; several in-game days may need to pass, and you may need to talk to him more than once.",
+  "prerequisites": "Complete the main quest 'The Caged Magistrate'.",
+  "timing": "Vernworth, any time after 'The Caged Magistrate' concludes and Waldhar has moved to the Vaults.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [],
+  "best_outcome": {
+   "summary": "Recover Waldhar's confiscated Exquisite Spectacles from the Masquerade Hall storeroom and return them to him.",
+   "steps": [
+    "Talk to Waldhar in The Gracious Hand's Vaults (Vernworth Slums) to take the quest.",
+    "Go to Vernworth Hall / the Masquerade Hall in the southwest of the Noble Quarter, past the Castle Training Ground.",
+    "Enter through the guarded door and go left to a small back storeroom flanked by lit candles.",
+    "Take the Exquisite Spectacles from the left-hand shelf.",
+    "Return to Waldhar at the Vaults and hand them over."
+   ],
+   "rewards": [
+    "900 XP",
+    "Winter's Path (book) - listed by PowerPyx; Fextralife lists no item reward"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "No failure branch is documented for this quest.",
+   "how_it_happens": null,
+   "consequences": null
+  },
+  "along_the_way": [
+   "Entering the hall during daytime avoids needing Courtly attire; you can skip time on the bench by the castle gate."
+  ],
+  "gotchas": [
+   "Sources conflict on the reward: PowerPyx lists the book 'Winter's Path', Fextralife lists only XP and no item.",
+   "Waldhar may not offer the quest immediately - some sources say you must let a few in-game days pass and speak to him again after 'The Caged Magistrate'."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-a-magisterial-amenity-walkthrough/",
+   "https://dragonsdogma2.wiki.fextralife.com/A+Magisterial+Amenity"
+  ]
+ },
+ {
+  "name": "A Noble Exchange",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "After completing the main quest 'Feast of Deception', attend the masquerade ball at Vernworth Hall / Castle at night wearing Courtly Breeches, Courtly Tunic and an Eventide Mask. A masked gentleman in a red cape with a gold-trimmed mask approaches you.",
+  "prerequisites": "Complete 'Feast of Deception'; own the full courtly outfit and Eventide Mask.",
+  "timing": "Unlocks roughly between main quests 11 and 14 (PowerPyx). The ball itself only runs every 2 nights.",
+  "missable": {
+   "is_missable": true,
+   "window": "The masquerade ball only takes place every 2 in-game nights and you must be in full courtly attire to get in — miss the window and you wait for the next one. Once the quest is actually running it has no internal countdown.",
+   "warning": "You can only trigger this at the every-other-night masquerade ball, and only in full courtly attire with the Eventide Mask — turn up without the outfit and you are turned away."
+  },
+  "bring": [
+   "Courtly Breeches",
+   "Courtly Tunic",
+   "Eventide Mask"
+  ],
+  "best_outcome": {
+   "summary": "Take the Paragon Staff, dump it in the changing room before you are searched, then grab the real thief — or dump it and clear yourself to make the staff purchasable later.",
+   "steps": [
+    "Enter the ball in full courtly attire.",
+    "Talk to the masked guests to collect their random gift items.",
+    "Accept the Paragon Staff from the man in the red cape and gold-trimmed mask.",
+    "When the guard Olven announces the theft, go to the changing room and discard the staff behind the privacy screen.",
+    "Then apprehend the thief (the original gift-giver) by grabbing him."
+   ],
+   "rewards": [
+    "900 XP",
+    "7,500 G if you apprehend the true culprit",
+    "3,000 G if you only clear yourself — but the Paragon Staff then becomes buyable from Ibrahim's Scrap Store for 60,000 G after a few days"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "You are caught holding the stolen Paragon Staff.",
+   "how_it_happens": "Still carrying the staff when the guards search you after Olven's announcement.",
+   "consequences": "No rewards at all; you are thrown in jail. Fextralife adds that poor choices damage your standing with the nobility and can trigger further schemes against you."
+  },
+  "along_the_way": [
+   "The other masked guests hand out random gift items if you work the room before the theft is announced — do this first."
+  ],
+  "gotchas": [
+   "CONFLICT on the best path: Fextralife describes discarding the staff AND apprehending the thief as the 7,500 G best outcome; PowerPyx presents these as mutually exclusive branches (catch the culprit for 7,500 G and no staff, or clear yourself for 3,000 G and buy the staff later). Fextralife's combined route is not corroborated — do not count on getting both.",
+   "'Every 2 nights' is the only published cadence for the ball; no source states how many times it recurs or whether it stops at a later main quest.",
+   "Fextralife's reputation-damage claim is not corroborated by PowerPyx."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Noble+Exchange",
+   "https://www.powerpyx.com/dragons-dogma-2-a-noble-exchange-walkthrough/"
+  ]
+ },
+ {
+  "name": "A Place to Call Home",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Encounter Mildred outside/behind the Stardrop Inn in Vernworth's Common Quarter during daytime; she stops you and asks you to meet her at her home. If she does not appear, rest on a bench to skip time and pass through again.",
+  "prerequisites": "Reach Vernworth. Most sources list 'Seat of the Sovran' as the gate; Game8 notes it became available earlier as of Ver. 1.05.",
+  "timing": "Chapter 1 onward, once you are free to roam Vernworth.",
+  "missable": {
+   "is_missable": true,
+   "window": "Fextralife's master list flags this quest with the (!) missable marker. No source I found names the specific closing trigger. The only hard constraint any source states is that the quest requires Vernworth and Mildred, which strongly implies the window closes at Legacy (entering the Unmoored World) — but this is inference, not sourced.",
+   "warning": "Buy the house before you enter the Unmoored World — the quest carries a missable flag and needs Mildred alive in Vernworth, plus 20,000 G in hand."
+  },
+  "bring": [
+   "20,000 Gold"
+  ],
+  "best_outcome": {
+   "summary": "House-sit the full week, then buy Mildred's house for 20,000 G, permanently unlocking a free rest/save point and a storage chest in Vernworth.",
+   "steps": [
+    "Meet Mildred at her home in the Common Quarter, east Vernworth.",
+    "Accept the house-sitting offer.",
+    "Sleep in Mildred's bed 7-8 times ('rest till morning') to pass a full week. You can leave and do other content between rests.",
+    "Exit and speak to Mildred when she returns.",
+    "Pay 20,000 G to buy the property."
+   ],
+   "rewards": [
+    "500 XP",
+    "Vernworth House (free rest, HP/Stamina restore, inn-style save, personal storage chest)",
+    "Bronze trophy: 'A House? In This Economy?'"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "You never own a home in Vernworth and lose the free rest/save point and its storage chest.",
+   "how_it_happens": "Never triggering Mildred, or declining/never returning with 20,000 G before the window closes.",
+   "consequences": "No free save-and-rest point in the capital; the trophy is lost for that playthrough."
+  },
+  "along_the_way": [
+   "The chest inside the house is usable for storage both before and after purchase (Fextralife).",
+   "You can decline Mildred's sale offer, go earn the 20,000 G, and come back to her to buy later."
+  ],
+  "gotchas": [
+   "SOURCE CONFLICT: Fextralife's master side-quest list carries the (!) missable flag on this quest, but PowerPyx explicitly says 'This quest is not missable' and Game8 says 'No Missable Content — if Mildred isn't present, progress the main story and return.' Fextralife's own quest page also says it is not time-limited. Treat the flag as the safe assumption and do it early, but the three pages disagree.",
+   "The one-week house-sit is a time-skip requirement, not a deadline — nothing fails if you take longer.",
+   "This quest unlocks no follow-up quests."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Place+to+Call+Home",
+   "https://www.powerpyx.com/dragons-dogma-2-a-place-to-call-home-walkthrough/",
+   "https://game8.co/games/Dragons-Dogma-2/archives/A-Place-to-Call-Home"
+  ]
+ },
+ {
+  "name": "A Poisonous Proposal",
+  "aka": [],
+  "type": "side",
+  "region": "Battahl",
+  "how_to_start": "Speak to Jarle, an eccentric researcher, in his building in northwestern Bakbattahl directly across from / beside The Rockmouse's Burrow.",
+  "prerequisites": "Complete the main quest 'Nation of Lambent Flame' (PowerPyx). Game8 lists no prerequisite.",
+  "timing": "After reaching Bakbattahl and, per PowerPyx, after 'Nation of Lambent Flame'.",
+  "missable": {
+   "is_missable": true,
+   "window": "Fextralife flags this quest (!) as missable. The failure modes I could source are in-quest: each stage requires you to still be actively poisoned when you reach Jarle, and Jarle can be killed by the Chimera in the final stage. I could NOT find a sourced story beat that deletes the quest — it is not on any of the three points-of-no-return lists. Treat the exact closing trigger as UNVERIFIED; the Legacy transition is the obvious suspect but is NOT confirmed by any source I reached.",
+   "warning": "Jarle can be killed by the Chimera in the last stage, which ends the quest for good — keep the Chimera's attention on you, not on him."
+  },
+  "bring": [
+   "NO Panacea or other poison cures — they break the quest",
+   "Nothing that auto-cures debilitations"
+  ],
+  "best_outcome": {
+   "summary": "Deliberately get yourself poisoned three ways for Jarle's research and keep him alive through the Chimera stage.",
+   "steps": [
+    "Talk to Jarle at his home in Bakbattahl.",
+    "Go north of Bakbattahl and let an Asp poison you; do not kill it too fast.",
+    "Return to Jarle while still poisoned.",
+    "Go south of the city and let a Venin Harpy poison you.",
+    "Return to Jarle while still poisoned.",
+    "Escort Jarle to the Chimera north of Flamebearer Palace so he can be exposed to its venom. Do NOT sever the tail and avoid attacking the Chimera directly — draw its aggro away from Jarle without removing the poison source.",
+    "Return to Jarle's home to finish."
+   ],
+   "rewards": [
+    "5,000 XP",
+    "19,000 G",
+    "Ring of Purification"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "You arrive un-poisoned and have to redo a stage, or Jarle dies to the Chimera.",
+   "how_it_happens": "Using curatives, letting a pawn cure your debilitation, killing the poisoning enemy before it lands the status, or letting the poison time out before you reach Jarle. In the final stage, letting the Chimera focus Jarle.",
+   "consequences": "A timed-out poison only costs you a repeat trip. Jarle's death is terminal for the quest and forfeits the 19,000 G and the Ring of Purification."
+  },
+  "along_the_way": [
+   "The Chimera north of Flamebearer Palace is a worthwhile fight in its own right if you come back for it after the quest."
+  ],
+  "gotchas": [
+   "Pawns will try to cure your poison. Multiple PowerPyx commenters report failed stages caused by pawn behaviour they could not control — consider dismissing healer pawns.",
+   "Do not cut off the Chimera's tail; the snake head is the venom source the quest needs.",
+   "PowerPyx reports Jarle sometimes appearing to vanish after the Chimera encounter; commenters say he walks back on his own.",
+   "SOURCES CONFLICT on missability: Fextralife marks it (!), while both Game8 and PowerPyx explicitly say there is no time limit or missable condition. Recorded, not resolved."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-a-poisonous-proposal-walkthrough/",
+   "https://game8.co/games/Dragons-Dogma-2/archives/A-Poisonous-Proposal"
+  ]
+ },
+ {
+  "name": "A Trial of Archery",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "After completing 'Gift of the Bow', speak to Glyndwr again near Roderick's Smithy in Vernworth. He asks you to accompany him; the quest then moves to Malachite Forest and on to Sacred Arbor.",
+  "prerequisites": "Must complete 'Gift of the Bow' first, which itself requires giving Glyndwr a human-made bow.",
+  "timing": "Available once 'Gift of the Bow' is finished and you have access to Vernworth and the road to Sacred Arbor.",
+  "missable": {
+   "is_missable": true,
+   "window": "Two separate windows. (1) The whole quest chain is gated behind 'Gift of the Bow', which is permanently deleted on entering the Unmoored World via 'Legacy' — so if Gift of the Bow is gone, this is gone. (2) Once the Ogre abducts Doireann, the rescue itself is time-sensitive; no source gives an exact day count.",
+   "warning": "Do this before 'Legacy' or you lose the Archer maister skill Heavenly Shot forever — and once Doireann is taken, do not detour: the Ogre can kill her and lock you out of the good ending."
+  },
+  "bring": [
+   "A pawn with the Woodland Wordsmith specialization (elves in Sacred Arbor speak only Elvish without it)",
+   "Healing items for the Ogre fight"
+  ],
+  "best_outcome": {
+   "summary": "Rescue Doireann alive from the Ancestral Chamber east of Sacred Arbor, then speak to Taliesin to collect the maister tome.",
+   "steps": [
+    "Meet Glyndwr at Malachite Forest and travel with him to Sacred Arbor.",
+    "Head to the Ancestral Chamber east of the village.",
+    "Fight through wolves and goblins to reach Doireann.",
+    "Prioritise grabbing and carrying Doireann out over killing the Ogre — Glyndwr gives ranged support.",
+    "Complete the escort out of the chamber.",
+    "Speak to Taliesin afterwards to receive Hunter's Secret, which unlocks the Archer maister skill Heavenly Shot for you and your main pawn."
+   ],
+   "rewards": [
+    "2,800 XP",
+    "16,000 G",
+    "Repeller Bow",
+    "Portcrystal",
+    "Hunter's Secret (from Taliesin, separate conversation) → Heavenly Shot"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Doireann is killed by the Ogre.",
+   "how_it_happens": "Fighting the Ogre instead of extracting her, or taking too long once the rescue section begins.",
+   "consequences": "Bad ending to the quest line; sources report reward delivery and the Taliesin follow-up become unreliable, which can cost you Heavenly Shot."
+  },
+  "along_the_way": [
+   "This is the gate for the Archer maister skill Heavenly Shot (Taliesin, Sacred Arbor) — confirmed by Fextralife and Windows Central. It counts toward the 'Master of the Maisters' trophy.",
+   "First proper visit to Sacred Arbor for many players; the Portcrystal reward is worth the trip on its own."
+  ],
+  "gotchas": [
+   "The Taliesin conversation is a SEPARATE step after the quest completes. Fextralife's page carries user reports of Hunter's Secret not being handed over despite completion — if he does not give it, try sleeping/resting and speaking to him again.",
+   "CONFLICT: Fextralife lists the cancellation deadline as unknown; GamesRadar calls the rescue section time-sensitive but gives no day count; PowerPyx's walkthrough mentions no timer at all. Nobody publishes a hard number.",
+   "CONFLICT: Fextralife credits Taliesin with the maister tome; GamesRadar says 'Glyndwr's father'. These are most likely the same NPC but the guides do not say so explicitly.",
+   "Fextralife's page reports multiple bugs — stuck NPCs, broken quest markers, unclear success/failure conditions. Pre-patch reports; unverified at TU3.2."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/A+Trial+of+Archery",
+   "https://www.powerpyx.com/dragons-dogma-2-a-trial-of-archery-walkthrough/",
+   "https://www.gamesradar.com/dragons-dogma-2-a-trial-of-archery/",
+   "https://www.windowscentral.com/gaming/dragons-dogma-2-gift-of-the-bow-and-a-trial-of-archery-archer-maister-skill-quest-guide"
+  ]
+ },
+ {
+  "name": "A Veil of Gossamer Clouds",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Talk to Sven in his chambers in Vernworth Castle after 'Feast of Deception' and 'Masked Correspondence' are done and you hold the Beastren Border Entry Permit from Captain Brant.",
+  "prerequisites": "'Feast of Deception' and 'Masked Correspondence' completed; Beastren Border Entry Permit obtained from Brant.",
+  "timing": "After Feast of Deception, once border travel to Battahl is possible.",
+  "missable": {
+   "is_missable": true,
+   "window": "Closes permanently on entering the Unmoored World via the main quest 'Legacy'.",
+   "warning": "Deliver Sven's letter before you trigger Legacy - this quest is wiped the moment the Unmoored World begins."
+  },
+  "bring": [
+   "Beastren Border Entry Permit",
+   "8,700 Gold for a Beastren Mask if your Arisen is not Beastren"
+  ],
+  "best_outcome": {
+   "summary": "Cross into Battahl, recover the Letter to Lord Phaesus from the Forbidden Magick Research Lab and bring it back to Sven.",
+   "steps": [
+    "Speak to Sven in Vernworth Castle to take the quest.",
+    "Oxcart west to Checkpoint Rest Town.",
+    "If you are not Beastren, buy a Beastren Mask from Ibrahim's Scrap Store (8,700G).",
+    "Show the permit at the Vermund-Battahl border checkpoint.",
+    "Follow the markers to the Forbidden Magick Research Lab.",
+    "Take the Letter to Lord Phaesus and return it to Sven in Vernworth."
+   ],
+   "rewards": [
+    "4,000 XP",
+    "20,000 Gold",
+    "Dragon Ferrystone x1"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "The quest is lost rather than failed.",
+   "how_it_happens": "Triggering 'Legacy' and entering the Unmoored World with the quest unfinished.",
+   "consequences": "Quest deleted; XP, 20,000G and the Dragon Ferrystone are forfeited for the run."
+  },
+  "along_the_way": [
+   "Expect ambushes on the road to the research lab; clearing them is required to proceed."
+  ],
+  "gotchas": [
+   "Sources conflict: Game8's quest page states no timing constraints or missability, while Fextralife's master list flags it as lost at Legacy. Fextralife is treated as authoritative here.",
+   "'Masked Correspondence' is itself deleted by Feast of Deception, so it must be finished BEFORE Feast of Deception or this quest can never unlock."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/A-Veil-of-Gossamer-Clouds",
+   "https://www.powerpyx.com/dragons-dogma-2-a-veil-of-gossamer-clouds-walkthrough/"
+  ]
+ },
+ {
   "name": "Beren's Final Lesson",
   "aka": [],
   "type": "side",
@@ -1281,6 +1758,161 @@
   "sources": [
    "https://game8.co/games/Dragons-Dogma-2/archives/Berens-Final-Lesson",
    "https://www.gamerguides.com/dragons-dogma-2/database/npcs/maisters/beren"
+  ]
+ },
+ {
+  "name": "Brothers Brave and Timid",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Speak to Ian in Melve, near Lennart's house, after reaching Melve in the early game. He asks for help finding his brother Norbert.",
+  "prerequisites": "Reach Melve in the early game (after 'Seat of the Sovran' per Game8).",
+  "timing": "Early Vermund, while Melve is still intact and before the Vernworth main story reaches Feast of Deception.",
+  "missable": {
+   "is_missable": true,
+   "window": "Closes permanently when the main quest 'Feast of Deception' is completed.",
+   "warning": "Do this in Melve before you finish Feast of Deception in Vernworth - once that quest ends the brothers' questline is deleted for good."
+  },
+  "bring": [
+   "A Mage or Archer pawn for ranged support and healing on the escort"
+  ],
+  "best_outcome": {
+   "summary": "Follow Ian into the woods, save Norbert from wolves, and bring both brothers home alive.",
+   "steps": [
+    "Talk to Ian by Lennart's house in Melve and accept.",
+    "Follow Ian north-west out of Melve toward Backwoods Nest Cave.",
+    "Kill the wolves attacking Norbert quickly - he is fragile.",
+    "Escort both brothers back to Melve and report in."
+   ],
+   "rewards": [
+    "400 XP",
+    "1,500 Gold"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Norbert (or Ian) dies during the rescue or escort.",
+   "how_it_happens": "The wolves kill Norbert before you reach him, or he is killed on the walk back to Melve.",
+   "consequences": "The brothers are no longer available to distract the storeroom guard during 'Home Is Where the Hearth Is', making that quest harder (you must fight, buy the swords yourself, or find another route)."
+  },
+  "along_the_way": [
+   "Backwoods Nest Cave sits north-west of Melve on the route the brothers take."
+  ],
+  "gotchas": [
+   "Game8 words the deadline as 'missable after visiting Vernworth for the first time' because that is what pushes the story toward the point of no return; Fextralife's master list states the hard cutoff as Feast of Deception. Treat Feast of Deception as the real wall and do the quest as early as possible either way.",
+   "Deaths here are not automatically fatal to the chain - a Wakestone revival is the usual community workaround, but no source confirms it restores the guard-distraction behaviour."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/Brothers-Brave-and-Timid",
+   "https://game8.co/games/Dragons-Dogma-2/archives/447927",
+   "https://www.powerpyx.com/dragons-dogma-2-brothers-brave-and-timid-walkthrough/"
+  ]
+ },
+ {
+  "name": "Civil Unrest",
+  "aka": [],
+  "type": "side",
+  "region": "Unmoored World",
+  "how_to_start": "In the Unmoored World, Menella (also written Manella) approaches you automatically at the Bakbattahl oxcart station once 'Halls of the First Dawn' is available/started.",
+  "prerequisites": "Be in the Unmoored World with 'Halls of the First Dawn' started. Menella must be alive. Empress Nadinia must have been saved during 'Shadowed Prayers' for her to appear at the end.",
+  "timing": "Post-game only, inside the Unmoored World. One of the five regional evacuation quests required for the true 'Hero' ending.",
+  "missable": {
+   "is_missable": true,
+   "window": "The Unmoored World allows roughly 10 days of rest before the world is destroyed; days advance only when you sleep. Separately, completing 'When Wills Collide' ends the game and closes all evacuations, and completing 'Halls of the First Dawn' lets you end the game at any time. The quest is also permanently blocked if Menella or Nadinia died before or during the Unmoored World.",
+   "warning": "Do all five evacuations before you finish 'Halls of the First Dawn' / 'When Wills Collide', sleep as little as possible, and make sure Menella and Nadinia are alive — dead leaders cannot be evacuated."
+  },
+  "bring": [
+   "Non-rotten fruit for the marketplace dispute",
+   "Wakestones, in case you need to revive Menella or Nadinia at the Morgue"
+  ],
+  "best_outcome": {
+   "summary": "Break up three brawls across Bakbattahl, report to Menella, then get the Empress to agree to evacuate the city.",
+   "steps": [
+    "Talk to Menella at the Bakbattahl oxcart station in the Unmoored World.",
+    "Resolve three separate fights around the city. PowerPyx says peaceful or violent methods both work; Game8 details them as enduring a brawl with aggressive citizens, settling a marketplace dispute, and witnessing a duel at the Vocation Guild.",
+    "For the marketplace dispute, pick the dialogue option 'Neither of you are wrong' and hand over non-rotten fruit.",
+    "Report back to Menella.",
+    "Go to Flamebearer Palace and speak with Empress Nadinia, who agrees to evacuate Bakbattahl's population."
+   ],
+   "rewards": [
+    "20,000 XP",
+    "30 Wyrmslife Crystals (PowerPyx)",
+    "10,000 G (PowerPyx) / 20,000 G (Game8)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Bakbattahl is never evacuated, costing you the true ending's best state.",
+   "how_it_happens": "Running out of Unmoored World days, ending the game via 'When Wills Collide' first, or having Menella or Nadinia dead. Game8 notes that failing to complete Menella's quest before triggering the red beam in that region can get her killed.",
+   "consequences": "The evacuation cannot be completed; Bakbattahl's population is lost and the 'Hero' / true-ending requirements go unmet for that region."
+  },
+  "along_the_way": [
+   "PowerPyx notes the Unmoored World trials should be completed without dying for 'The Hero' ending requirements.",
+   "Defeating the optional Purgener bosses extends the time you can spend in the Unmoored World (Dot Esports).",
+   "Dead NPCs can sometimes be revived with Wakestones at the Morgue."
+  ],
+  "gotchas": [
+   "SOURCES CONFLICT on quest order. PowerPyx says Civil Unrest becomes available after STARTING 'Halls of the First Dawn'; Game8 says after COMPLETING it; Game8's Unmoored World overview instead recommends doing all five evacuations BEFORE 'Halls of the First Dawn'. Not resolved here.",
+   "SOURCES CONFLICT on the gold reward: PowerPyx 10,000 G, Game8 20,000 G. PowerPyx additionally lists 30 Wyrmslife Crystals that Game8 does not.",
+   "The NPC's name is written 'Menella' by PowerPyx and 'Manella' by Game8 — same character.",
+   "Nadinia only appears for the final report if you saved her during 'Shadowed Prayers'; otherwise Menella handles it.",
+   "Dot Esports could not confirm any per-quest deadline within the Unmoored World, only the overall ~10-day rest budget. No source gives a hard day count for Bakbattahl specifically."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-civil-unrest-walkthrough/",
+   "https://game8.co/games/Dragons-Dogma-2/archives/450312",
+   "https://game8.co/games/Dragons-Dogma-2/archives/449759",
+   "https://dotesports.com/dragons-dogma/news/dragons-dogma-2-unmoored-world-guide-all-missions-bosses-and-key-locations"
+  ]
+ },
+ {
+  "name": "Clash and Conclusion",
+  "aka": [],
+  "type": "side",
+  "region": "Battahl (Moonglint Tower)",
+  "how_to_start": "Triggers automatically as you ascend Moonglint Tower during the stretch between the main quests 'The Guardian Gigantus' and 'Legacy' — but ONLY if you completed 'Tensions on the Highroad' beforehand. Raghnall blocks a narrow corridor and challenges you to a duel.",
+  "prerequisites": "Complete 'Tensions on the Highroad'. That quest in turn is deleted by the main quest 'A New Godsway', so it must be done well before this point.",
+  "timing": "Between The Guardian Gigantus and Legacy.",
+  "missable": {
+   "is_missable": true,
+   "window": "Cancelled if you have not picked it up before starting the main quest 'Legacy'. It is also unobtainable outright if 'Tensions on the Highroad' was never completed — and Tensions is itself deleted by 'A New Godsway'.",
+   "warning": "This quest is gated two steps back: if you let A New Godsway delete Tensions on the Highroad, Clash and Conclusion can never appear, and even with Tensions done it is cancelled the moment you start Legacy."
+  },
+  "bring": [
+   "Grappling-capable build or a Thief/Warrior able to pin, if you want the non-lethal ending",
+   "A Wakestone if you intend to revive Raghnall afterward"
+  ],
+  "best_outcome": {
+   "summary": "Beat Raghnall by grappling/pinning him without killing him, so he departs alive — this is the richest branch.",
+   "steps": [
+    "Ascend Moonglint Tower after The Guardian Gigantus.",
+    "Raghnall challenges you to a one-on-one duel. Your pawns honour it and will not intervene.",
+    "Subdue him by grappling and pinning rather than landing the killing blow."
+   ],
+   "rewards": [
+    "Moonglint Key",
+    "The Exalted (weapon)",
+    "20,000 G"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Killing Raghnall pays noticeably less and removes him from the world; fleeing pays least.",
+   "how_it_happens": "Defeating Raghnall lethally ends the duel with his death (7,600 XP and 15,000 G). Fleeing through the gate behind him is a third, poorest branch. Never triggering the quest at all — because Tensions was lost or Legacy was started first — loses everything.",
+   "consequences": "Killing him forfeits the Moonglint Key, The Exalted, and the larger 20,000 G payout. He can be revived with a Wakestone, but Game8 notes revival confers no benefit."
+  },
+  "along_the_way": [
+   "The duel corridor is deliberately narrow; ranged play is awkward, which is part of why the grapple route is viable."
+  ],
+  "gotchas": [
+   "CLAIM NOT CONFIRMED: the brief says this 'requires Tensions on the Highroad AND siding with Raghnall; the other branch loses it.' Both Fextralife and Game8 state only that Tensions on the Highroad must be completed — neither conditions Clash and Conclusion on which side you took. Fextralife's Tensions page marks that quest 'Multiple Outcomes: No' and says 'you will pursue Raghnall either way', with the side-choice affecting only Raghnall's affinity. I could NOT verify the siding requirement and could NOT disprove it either; I have left it out of prerequisites and recorded it here.",
+   "SOURCE CONFLICT on outcomes: Fextralife documents three branches (kill / non-lethal departure / flee); Game8 presents it as a straightforward 'defeat Raghnall' with a single reward set. The three-branch version is the more detailed and the one worth guiding toward.",
+   "Fextralife lists the 'flee' branch rewards as still pending/unknown."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Clash+and+Conclusion",
+   "https://game8.co/games/Dragons-Dogma-2/archives/Clash-and-Conclusion",
+   "https://dragonsdogma2.wiki.fextralife.com/Tensions+on+the+Highroad"
   ]
  },
  {
@@ -1338,6 +1970,114 @@
   ]
  },
  {
+  "name": "Crossing in Shadow",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Return to your own house in Vernworth at NIGHT after completing the main quest 'A Candle in the Storm'. A cutscene triggers with Vera, an attendant to Empress Nadinia of Battahl.",
+  "prerequisites": "Own a house in Vernworth (bought for 20,000 G during 'A Place to Call Home') AND have completed 'A Candle in the Storm'.",
+  "timing": "Night-time only, at your Vernworth house, once both prerequisites are met.",
+  "missable": {
+   "is_missable": true,
+   "window": "Fextralife flags this quest (!) as missable. The confirmed, sourced way to lose it permanently is in-quest failure: blowing Nadinia's cover during the escort fails the quest and jails you, and it does not become re-offerable. I could NOT find a sourced story beat that deletes the quest before you start it — it is not on any of the three points-of-no-return lists (Feast of Deception / A New Godsway / Legacy). Treat the precise pre-start closing trigger as UNVERIFIED.",
+   "warning": "Once the escort starts you get one attempt — help the fleeing beastren or otherwise expose the Empress and you are thrown in gaol and the quest is failed for good."
+  },
+  "bring": [
+   "At least 1,000 G on hand for the medicine",
+   "Nothing else — your pawns are left behind for the whole escort"
+  ],
+  "best_outcome": {
+   "summary": "Escort the disguised Empress Nadinia across Vernworth to the Rose Chateau without exposing her identity.",
+   "steps": [
+    "Trigger the cutscene with Vera at your Vernworth house at night.",
+    "Begin the escort south through the city toward Rose Chateau Bolderie; your pawns stay behind.",
+    "A dialogue scene plays at the statue of the Arisen in the town square — answer without revealing who she is.",
+    "When the shopkeeper Philbert asks about medicine, pay the 1,000 G. Sources identify this as the best-outcome choice.",
+    "When a fleeing beastren begs for help while a soldier chases him, REFUSE. Helping him fails the quest.",
+    "Deliver Nadinia to Rose Chateau Bolderie to complete the escort."
+   ],
+   "rewards": [
+    "4,000 XP",
+    "20,000 G",
+    "1x Sunbloom"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Nadinia's identity is exposed, guards take you, and the quest ends in failure.",
+   "how_it_happens": "Helping the pursued beastren when he asks, or picking dialogue during the escort that gives away who your companion is, or drawing a guard pursuit.",
+   "consequences": "You are thrown into gaol and the quest is failed. You forfeit the 20,000 G, the Sunbloom and the XP, and you then have to break out of or buy your way out of jail."
+  },
+  "along_the_way": [
+   "The escort route passes the Arisen's statue in the town square, which has its own dialogue beat.",
+   "After the escort, Nadinia departs for Bakbattahl, which lines up with her later appearances in the Battahl main line."
+  ],
+  "gotchas": [
+   "Your pawns are removed for the whole escort — you are effectively solo.",
+   "PowerPyx notes a spawn bug on lower-end PCs during the escort; jogging rather than sprinting avoids it.",
+   "Sources disagree on missability: Fextralife marks it (!), while PowerPyx and Game8 list no missable warning at all. Recorded here rather than resolved.",
+   "No source I could reach lists the exact dialogue option strings for the statue scene — only the outcome rules."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-crossing-in-shadow-walkthrough/",
+   "https://game8.co/games/Dragons-Dogma-2/archives/Crossing-in-Shadow",
+   "https://hardcoregamer.com/dragons-dogma-2/crossing-in-shadow-guide/",
+   "https://www.powerpyx.com/dragons-dogma-2-all-side-quests/"
+  ]
+ },
+ {
+  "name": "Dulled Steel, Cold Forge",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund (starts) — resolves in Battahl",
+  "how_to_start": "Speak to Roman in the Vernworth Castle courtyard after completing 'Seat of the Sovran'; he asks you to follow him somewhere private and hands over the Dulled Regalia Sword.",
+  "prerequisites": "Complete the main quest 'Seat of the Sovran'. Completing it requires access to Battahl (Bakbattahl / Brokkr's Smithy).",
+  "timing": "Available from Chapter 1 after Seat of the Sovran, but cannot be finished until you can reach Bakbattahl.",
+  "missable": {
+   "is_missable": true,
+   "window": "Lost permanently on starting the main quest 'Legacy' (entering the Unmoored World). Per Fextralife's master list this is one of the 13 side quests deleted at that point.",
+   "warning": "Finish this before you start Legacy — entering the Unmoored World deletes it outright, along with the 35,000 G payout and the Steeled Resolve, Blazing Forge follow-up."
+  },
+  "bring": [
+   "15x Glimmercoal (from Digger's Ruins)",
+   "Combat gear able to clear the Mountain Base Cave path"
+  ],
+  "best_outcome": {
+   "summary": "Get the Regalia Sword reforged by Sara and return it restored to Roman.",
+   "steps": [
+    "Take the Dulled Regalia Sword to Brokkr's Smithy in southwestern Bakbattahl. Brokkr refuses; his apprentice Sara volunteers.",
+    "Collect 15x Glimmercoal from Digger's Ruins and give it to Sara.",
+    "Sara leaves for the natural forge at Mountain Base Cave, southwest of Geyser Hamlet. Clear the wooden-plank path there FIRST.",
+    "Escort Sara back before 'the hammer cools off' — this leg is on a timer.",
+    "Return the Restored Regalia Sword to Roman in Vernworth."
+   ],
+   "rewards": [
+    "6,000 XP",
+    "35,000 Gold",
+    "Unlocks 'Steeled Resolve, Blazing Forge'"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "No alternate-completion branch exists; the failure mode is letting the escort timer run out, or losing the whole quest at Legacy.",
+   "how_it_happens": "Failing to escort Sara back in time during the Mountain Base Cave leg, or starting Legacy with the quest still open.",
+   "consequences": "Losing the quest at Legacy also forfeits 'Steeled Resolve, Blazing Forge', which is itself a prerequisite chain toward the Ailing Arborheart line."
+  },
+  "along_the_way": [
+   "Digger's Ruins is the reliable Glimmercoal source.",
+   "Clear the Mountain Base Cave plank path before triggering Sara's trip so the timed escort is uncontested."
+  ],
+  "gotchas": [
+   "Fextralife's quest page says 'no time limit on overall quest completion' — that refers to the escort leg only and does NOT contradict the master list's Legacy cutoff.",
+   "There is no choice of blacksmith; Sara is the only path."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Dulled+Steel,+Cold+Forge",
+   "https://www.powerpyx.com/dragons-dogma-2-dulled-steel-cold-forge-walkthrough/",
+   "Fextralife master side-quest list (Legacy cutoff group)"
+  ]
+ },
+ {
   "name": "Every Rose Has Its Thorn",
   "aka": [],
   "type": "side",
@@ -1387,6 +2127,318 @@
    "https://game8.co/games/Dragons-Dogma-2/archives/Every-Rose-Has-Its-Thorn",
    "https://patchcrazy.co.uk/all-missable-side-quest-guide-dragons-dogma-2/",
    "https://game8.co/games/Dragons-Dogma-2/archives/447927"
+  ]
+ },
+ {
+  "name": "Gift of the Bow",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Speak to Glyndwr near Roderick's Smithy in Vernworth and give him any human-made bow. Bows made by elves or other races are refused.",
+  "prerequisites": "You must be able to demonstrate archery during the training step — Archer, Magick Archer or Warfarer vocation.",
+  "timing": "Available once you have reached Vernworth and can obtain or buy a human-made bow.",
+  "missable": {
+   "is_missable": true,
+   "window": "Permanently deleted on entering the Unmoored World via the main quest 'Legacy'.",
+   "warning": "Finish this and its follow-up 'A Trial of Archery' before 'Legacy' — it is the only route to the Archer maister skill Heavenly Shot."
+  },
+  "bring": [
+   "A human-made bow (a cheap shop bow from Vernworth is fine)"
+  ],
+  "best_outcome": {
+   "summary": "Hand Glyndwr a human-made bow and train with him, unlocking 'A Trial of Archery'.",
+   "steps": [
+    "Speak with Glyndwr at Roderick's Smithy and give him a human-made bow.",
+    "Travel northwest past Trevo Mine to his training spot.",
+    "Help him train — demonstrate archery yourself.",
+    "Return to Vernworth and speak to him again near the smithy to open 'A Trial of Archery'."
+   ],
+   "rewards": [
+    "8,500 G",
+    "Ring of Proximity",
+    "Unlocks 'A Trial of Archery'"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Quest never started or abandoned before Legacy.",
+   "how_it_happens": "Entering the Unmoored World without completing it, or never finding Glyndwr at the smithy.",
+   "consequences": "Quest is deleted; 'A Trial of Archery' never unlocks, and Heavenly Shot becomes unobtainable on that save."
+  },
+  "along_the_way": [
+   "This is step one of the two-quest chain that gates the Archer maister skill Heavenly Shot. The skill itself comes from the follow-up quest, not this one."
+  ],
+  "gotchas": [
+   "Elf-made bows are rejected — the game does not flag this clearly. Buy a human bow from a Vernworth vendor.",
+   "CONFLICT: Fextralife says the quest is 'not affected by the passage of time' once active and lists its cancellation trigger as unknown, but Fextralife's own master list places it in the Legacy deletion group. Read that as: no internal countdown, but a hard point of no return."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Gift+of+the+Bow",
+   "https://www.windowscentral.com/gaming/dragons-dogma-2-gift-of-the-bow-and-a-trial-of-archery-archer-maister-skill-quest-guide"
+  ]
+ },
+ {
+  "name": "Home Is Where the Hearth Is",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Return to occupied Melve after 'Trouble on the Cape' and speak with Lennart inside Ulrika's house. Getting into Melve requires bribing the gate guard (5,000G) or climbing the wall.",
+  "prerequisites": "'Readvent of Calamity' and 'Trouble on the Cape' completed. 'An Unsettling Encounter' is also cited by Fextralife. 'Brothers Brave and Timid' is optional but makes a step easier.",
+  "timing": "After Trouble on the Cape, while Melve is under royal-army occupation.",
+  "missable": {
+   "is_missable": true,
+   "window": "The whole Ulrika chain hangs off 'Readvent of Calamity', which is deleted when 'Feast of Deception' completes; Fextralife also flags this quest itself as time-limited (exact cutoff unstated).",
+   "warning": "If you finish Feast of Deception before starting the Melve/Ulrika chain, this quest and the Ulrika romance are gone for the run."
+  },
+  "bring": [
+   "5,000 Gold for the Melve gate bribe (or be ready to climb the wall)",
+   "Four swords, if you would rather buy them than steal them"
+  ],
+  "best_outcome": {
+   "summary": "Arm the villagers with four swords, beat back the soldiers alongside Lennart, then meet Ulrika at the Harve pier at night to complete her romance.",
+   "steps": [
+    "Bribe or climb into occupied Melve and speak to Lennart in Ulrika's house.",
+    "Get four swords - if the brothers from 'Brothers Brave and Timid' are alive they distract the storeroom guard; otherwise buy four swords beforehand.",
+    "Give the swords to Lennart, then fight off the royal soldiers outside with the armed villagers.",
+    "Travel to Harve Village and report to Ulrika at the docks.",
+    "Return to the pier at night for the closing romance scene."
+   ],
+   "rewards": [
+    "2,200 XP",
+    "12,000 Gold",
+    "Ring of Assurance (per Fextralife)",
+    "Ulrika romance"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "The chain is never started, or the villagers are left unarmed.",
+   "how_it_happens": "Finishing Feast of Deception before starting Readvent of Calamity/Trouble on the Cape, or failing to deliver swords.",
+   "consequences": "Ulrika's romance and this quest are permanently unavailable; no alternative route to the romance is confirmed."
+  },
+  "along_the_way": [
+   "Fextralife describes a second branch where the villagers arm themselves and fight for their own freedom, but does not document its steps or rewards."
+  ],
+  "gotchas": [
+   "Sources conflict on missability: Game8's quest page says it is not missable, while Fextralife's quest page and master list flag it as time-limited. Fextralife's master list is treated as authoritative here.",
+   "No source states the exact in-game deadline for this quest on its own - the confirmed hard gate is the Readvent of Calamity chain being lost at Feast of Deception.",
+   "The 5,000G bribe can be skipped by climbing the wall, per player reports.",
+   "Multiple quest-blocking glitch reports exist around NPC placement; save before entering Melve."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/Home-is-Where-the-Hearth-is",
+   "https://dragonsdogma2.wiki.fextralife.com/Home+Is+Where+the+Hearth+Is",
+   "https://game8.co/games/Dragons-Dogma-2/archives/448886",
+   "https://game8.co/games/Dragons-Dogma-2/archives/447927"
+  ]
+ },
+ {
+  "name": "House of the Blue Sunbright",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Diana, a housemaid, stops you automatically near the stairs leading down to the Common Quarter / Slums in Vernworth.",
+  "prerequisites": "Complete the side quest 'The Gift of Giving' first.",
+  "timing": "After 'The Gift of Giving'. Completion requires waiting one in-game day partway through.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "1x Misshapen Eye (Cyclops drop)",
+   "1x Detoxifying Decoction (500 G at Philbert's Sundries)",
+   "1x Waking Powder (400 G at Philbert's Sundries)"
+  ],
+  "best_outcome": {
+   "summary": "Equip the manservant Sebastian with all three items so he survives the trip to Melve and brings back the Blue Sunbright himself.",
+   "steps": [
+    "Talk to Diana by the Common Quarter stairs in Vernworth.",
+    "Follow the quest to Sebastian, who intends to fetch a Blue Sunbright flower from Melve for his mistress.",
+    "Before he leaves, give him all three items: Misshapen Eye, Detoxifying Decoction and Waking Powder.",
+    "Leave the manor and pass one in-game day.",
+    "Return to the manor to see the flower delivered and collect payment."
+   ],
+   "rewards": [
+    "900 XP",
+    "3,000 G",
+    "2x Fine Harspud Roborant (PowerPyx; Game8 lists only the XP and gold)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Sebastian sets off unequipped and is ambushed in Melve.",
+   "how_it_happens": "Failing to hand over the three items before he departs.",
+   "consequences": "Sebastian is attacked by a hobgoblin in Melve and has to be rescued; the quest becomes a rescue run rather than a clean delivery. No source I reached confirms whether he can die outright."
+  },
+  "along_the_way": [
+   "The Misshapen Eye means a Cyclops hunt — the forest east of Vernworth is the nearest reliable spawn if you already spent yours on an upgrade.",
+   "Pairs naturally with 'A Case of Sculptor's Block', which also sends you past Cyclops territory."
+  ],
+  "gotchas": [
+   "If you already consumed your Misshapen Eye on a weapon enhancement you must go kill another Cyclops.",
+   "The shop is written as 'Philbert's Sundries' by Game8 and 'Philnert's Sundries' by PowerPyx — same shop, spelling differs between sources.",
+   "The ending is a downer beat regardless of how well you prepare: the lady of the house comes downstairs and slaps the Arisen. Walk away before your pawns retaliate against her.",
+   "Rewards differ between sources: Game8 lists 900 XP / 3,000 G only; PowerPyx adds 2x Fine Harspud Roborant."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/House-of-the-Blue-Sunbright",
+   "https://www.powerpyx.com/dragons-dogma-2-house-of-the-blue-sunbright-walkthrough/",
+   "https://www.powerpyx.com/dragons-dogma-2-all-side-quests/"
+  ]
+ },
+ {
+  "name": "Hunt for the Jadeite Orb",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Talk to either Offulve or Everard after arriving in Checkpoint Rest Town. Both want a Jadeite Orb, and each will commission you.",
+  "prerequisites": "Reach Checkpoint Rest Town. The project brief places it after 'Feast of Deception'; no source I reached names a hard story prerequisite.",
+  "timing": "Once you have access to Checkpoint Rest Town. No deadline reported by Game8 or Gamer Guides.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "7,500 G to buy the genuine Jadeite Orb at Ibrahim's Scrap Store",
+   "2,000 G to have Ibrahim forge a copy",
+   "12,000 G spare only if you intend the bribe route (not recommended)"
+  ],
+  "best_outcome": {
+   "summary": "Buy one real orb, have Ibrahim forge a fake, give the REAL one to Everard (who authenticates) and the FAKE to Offulve (who does not).",
+   "steps": [
+    "Talk to Offulve and Everard in Checkpoint Rest Town to take on both commissions.",
+    "Buy the Jadeite Orb from Ibrahim's Scrap Store for 7,500 G.",
+    "Commission a forgery from Ibrahim for 2,000 G.",
+    "Hand the GENUINE orb to Everard — he inspects it and a fake gets you arrested.",
+    "Hand the FORGED orb to Offulve — he does not authenticate and accepts it."
+   ],
+   "rewards": [
+    "2,000 XP",
+    "15,000 G",
+    "Ring of Skullduggery",
+    "Elite Camping Kit"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Everard catches the forgery and you go to jail, or you buy your way out and lose most of the payout.",
+   "how_it_happens": "Giving the FAKE orb to Everard. He authenticates it and reports you.",
+   "consequences": "Jail time. If you instead pre-emptively bribe Ibrahim for 12,000 G to cover for you, you keep the Ring of Skullduggery but forfeit the gold reward — a net loss against the clean route."
+  },
+  "along_the_way": [
+   "Ibrahim's Scrap Store is the game's forger and the same shop that forges grimoires (6,000 G each) for 'The Sorcerer's Appraisal' — this quest is how most players learn the mechanic.",
+   "Doing this quest before the grimoire quests means you already know where to buy the forgeries Myrddin will accept."
+  ],
+  "gotchas": [
+   "The orbs are not interchangeable: Everard authenticates, Offulve does not. Getting them the wrong way round is the whole trap.",
+   "The bribe route is strictly worse than just giving Everard the real orb — do not treat it as an equivalent branch.",
+   "Fextralife does NOT flag this quest (!), and neither Game8 nor Gamer Guides lists a time limit, so it is recorded as not missable."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/Hunt-for-the-Jadeite-Orb",
+   "https://www.rpgsite.net/guide/15655-dragons-dogma-2-hunt-for-jadeite-orb-quest-guide-how-to-get-everard-offulve",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/checkpoint-rest-town/hunt-for-the-jadeite-orb-walkthrough"
+  ]
+ },
+ {
+  "name": "Masked Correspondence",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Speak with Sven in his chambers on the 2nd floor of Vernworth Castle (northwest corner) after completing 'Seat of the Sovran'. He gives you a letter to deliver at the masquerade.",
+  "prerequisites": "Complete 'Seat of the Sovran'. You also need masquerade attire — the Eventide Mask (from 'The Stolen Throne') and the clothing from 'The Ornate Box'.",
+  "timing": "Chapter 1 only, in the window between Seat of the Sovran and Feast of Deception.",
+  "missable": {
+   "is_missable": true,
+   "window": "Deleted permanently when the main quest 'Feast of Deception' begins. It is one of the five side quests Fextralife's master list names as killed at that point.",
+   "warning": "Deliver Sven's letter to Lord Patrick before you trigger Feast of Deception — the quest is wiped the moment that main quest starts."
+  },
+  "bring": [
+   "Eventide Mask",
+   "Courtly/masquerade clothing from The Ornate Box"
+  ],
+  "best_outcome": {
+   "summary": "Deliver Sven's letter to Lord Patrick at the masquerade and report back to Sven.",
+   "steps": [
+    "Take the letter from Sven in his chambers.",
+    "Sleep at an inn if needed to advance to masquerade night, then attend at Vernworth Hall in full attire.",
+    "Find Lord Patrick — blue cape, black-and-gold mask.",
+    "Hand him the letter.",
+    "Return to Sven's chambers to report."
+   ],
+   "rewards": [
+    "900 XP",
+    "6,000 G",
+    "Onyx"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Quest silently vanishes.",
+   "how_it_happens": "Starting Feast of Deception with the quest unstarted or unfinished.",
+   "consequences": "Permanent loss of the XP, gold and Onyx. No follow-up quests are lost — this quest unlocks nothing."
+  },
+  "along_the_way": [
+   "You need the masquerade outfit for other Chapter 1 content anyway; get The Ornate Box and The Stolen Throne done first."
+  ],
+  "gotchas": [
+   "Fextralife's quest page wording ('not missable initially') is misleading — the master list is unambiguous that Feast of Deception deletes it. Treat it as missable."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Masked+Correspondence",
+   "Fextralife master side-quest list (Feast of Deception cutoff group)",
+   "https://www.powerpyx.com/dragons-dogma-2-masked-correspondence-walkthrough/"
+  ]
+ },
+ {
+  "name": "Medicament Predicament",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Speak to Flora outside Runne's Apothecary in Melve.",
+  "prerequisites": "None beyond reaching Melve. PowerPyx additionally states the main quest 'Seat of the Sovran' must have been started; Fextralife lists no prerequisite.",
+  "timing": "Early — available on your first or a return visit to Melve.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "A Fruit Roborant, or Dried Fruit plus Greenwarish or Morningtide to craft one, or 600 G to buy one"
+  ],
+  "best_outcome": {
+   "summary": "Bring Flora a Fruit Roborant.",
+   "steps": [
+    "Speak with Flora outside the apothecary and agree to help.",
+    "Buy a Fruit Roborant from the apothecary (600 G) or craft one from Dried Fruit + Greenwarish or Morningtide.",
+    "Return it to Flora at the same spot."
+   ],
+   "rewards": [
+    "500 XP",
+    "100 G",
+    "Ring of Exultation",
+    "Later: Chirurgeon's Tome from Flora in Vernworth, unlocking the Chirurgeon pawn specialization"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "No distinct failure state is documented.",
+   "how_it_happens": "Fextralife states the quest has only one resolution path.",
+   "consequences": "Not documented."
+  },
+  "along_the_way": [
+   "The Chirurgeon pawn specialization (lets a pawn cure debilitations without items) comes from Flora later in Vernworth, not at quest turn-in — go find her again after she relocates."
+  ],
+  "gotchas": [
+   "Not on any of Fextralife's three points-of-no-return lists, and PowerPyx records no missable flag — treated as safe.",
+   "CONFLICT on the prerequisite: PowerPyx requires 'Seat of the Sovran' started; Fextralife says none.",
+   "Fextralife notes the Chirurgeon's Tome arrives 'later'; a user comment there suggests it may be affinity-gated rather than a guaranteed quest reward. Unconfirmed."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Medicament+Predicament",
+   "https://www.powerpyx.com/dragons-dogma-2-medicament-predicament-walkthrough/"
   ]
  },
  {
@@ -1442,6 +2494,55 @@
   ]
  },
  {
+  "name": "Nesting Troubles",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Speak with Lennart in Melve after the main quest 'In Dragon's Wake'. He asks for help clearing a saurian nest across the river.",
+  "prerequisites": "Complete 'In Dragon's Wake' (Game8). Fextralife notes it stops appearing once you advance Brant's main quests far enough to trigger the dragon attack on Melve.",
+  "timing": "Early Vermund, while Melve is intact.",
+  "missable": {
+   "is_missable": true,
+   "window": "Closes permanently when the main quest 'Feast of Deception' is completed; Fextralife also notes the quest stops appearing once Brant's main quests trigger the dragon attack on Melve.",
+   "warning": "Clear the saurian nest for Lennart before you finish Feast of Deception - after that it is gone, and advancing Brant's main quests can remove it even earlier."
+  },
+  "bring": [],
+  "best_outcome": {
+   "summary": "Blow up the nest with explosive casks, then finish it with the single jar of poison - hitting the throw is the clean completion.",
+   "steps": [
+    "Take the quest from Lennart in Melve.",
+    "Follow the marker to the explosive casks outside Melve.",
+    "Pick up casks and throw them across the river into the nest; repeat until the saurians are dead.",
+    "Report back to Lennart.",
+    "Pick up the jar of purple poison on the ground near Melve's entrance.",
+    "Throw it from the cliff edge into the nest - aim carefully, there is only one jar.",
+    "Return to Lennart."
+   ],
+   "rewards": [
+    "400 XP",
+    "1,250 Gold",
+    "Stoutness Extract (per Fextralife)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "You miss the poison-jar throw.",
+   "how_it_happens": "There is exactly one poison jar. A missed throw cannot be retried without reloading.",
+   "consequences": "The quest resolves on a lesser outcome rather than a clean success. Fextralife states the rewards are identical either way, so the loss is narrative rather than material."
+  },
+  "along_the_way": [],
+  "gotchas": [
+   "Save immediately before the poison throw - there is no second jar.",
+   "Fextralife's quest page does not label the quest time-limited, but its master list and Game8's missables list both put it behind the Feast of Deception wall. Fextralife also adds an earlier soft cutoff via Brant's main quests.",
+   "Community reports tie this quest to Fighter mastery skill access; that link is unverified by a primary guide."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/Nesting-Troubles",
+   "https://dragonsdogma2.wiki.fextralife.com/Nesting+Troubles",
+   "https://game8.co/games/Dragons-Dogma-2/archives/447927"
+  ]
+ },
+ {
   "name": "Off the Pilfered Path",
   "aka": [],
   "type": "side",
@@ -1492,6 +2593,58 @@
   ]
  },
  {
+  "name": "One-Eyed Interloper",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Triggers on the road in northern Vermund while you are travelling toward Vernworth with Gregor and his soldiers during the main quest 'In Dragon's Wake'. A Cyclops crashes into the party at a river crossing.",
+  "prerequisites": "Be escorting / following Gregor during 'In Dragon's Wake'.",
+  "timing": "Very early game, during the journey from Melve toward the capital.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "Curatives — the Cyclops hits hard at the level you meet it"
+  ],
+  "best_outcome": {
+   "summary": "Kill the Cyclops that ambushes Gregor's party; Gregor then gives you the letter that gets you an audience in Vernworth.",
+   "steps": [
+    "Follow Gregor's soldiers north toward Vernworth during 'In Dragon's Wake'.",
+    "At the river arena, attack the natural rock dam to release a torrent of water that knocks the Cyclops down.",
+    "Attack from behind, or climb its legs and back to reach the head, which is the weak point.",
+    "Topple it and focus the exposed head.",
+    "Once it is dead, speak to Gregor to receive the Missive to the Captain.",
+    "Continue to Vernworth on foot or by oxcart."
+   ],
+   "rewards": [
+    "2,120 XP",
+    "113 DCP",
+    "Missive to the Captain (grants an audience with Captain Brant in Vernworth)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": null,
+   "how_it_happens": null,
+   "consequences": null
+  },
+  "along_the_way": [
+   "The Misshapen Eye this Cyclops can drop is the same item 'House of the Blue Sunbright' later asks for — worth keeping rather than spending on an upgrade."
+  ],
+  "gotchas": [
+   "Fextralife files this as a side quest, but it is functionally a scripted encounter inside the 'In Dragon's Wake' main quest; Game8 describes it as part of the main progression. Treat the 'side quest' label as a wiki categorisation, not a separate startable quest.",
+   "Insider Gaming reports no item loot from the fight itself, only the freedom to continue to Vernworth solo or by oxcart; Game8 reports 2,120 XP / 113 DCP. Both can be true (XP is not loot), but no single source lists a complete reward set.",
+   "The bad_outcome fields are left null on purpose — no source I reached describes a failure branch for this fight."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/One-Eyed-Interloper",
+   "https://insider-gaming.com/dragons-dogma-2-guides/how-to-beat-the-one-eyed-interloper-in-dragons-dogma-2/",
+   "https://www.gamerguides.com/dragons-dogma-2/database/quests/side-quests/one-eyed-interloper"
+  ]
+ },
+ {
   "name": "Ordeals of a New Recruit",
   "aka": [],
   "type": "side",
@@ -1536,6 +2689,111 @@
   "sources": [
    "https://game8.co/games/Dragons-Dogma-2/archives/Ordeals-of-a-New-Recruit",
    "https://dotesports.com/dragons-dogma/news/dragons-dogma-2-all-timed-quests-in-dd2"
+  ]
+ },
+ {
+  "name": "Out of the Forest, Into the Forge",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund (Sacred Arbor) and Battahl (Bakbattahl)",
+  "how_to_start": "Unlocks automatically on completing 'The Ailing Arborheart'. Report back to Doireann at Sacred Arbor to begin the active objectives. PowerPyx credits Sara in Bakbattahl as the trigger NPC.",
+  "prerequisites": "Complete 'The Ailing Arborheart'.",
+  "timing": "Immediately after The Ailing Arborheart; requires free movement between Sacred Arbor and Bakbattahl.",
+  "missable": {
+   "is_missable": true,
+   "window": "Fextralife marks this time-limited with roughly 12 in-game days from start. It also specifically warns: do NOT activate the red beam in Bakbattahl while this is open — it passes a large block of time and makes the quest vanish outright.",
+   "warning": "You have about 12 in-game days once this starts, and the quest needs you to deliberately rot food for about a week — so start it only when you can commit, and do not touch the red beam in Bakbattahl until it is done."
+  },
+  "bring": [
+   "Fresh apples (buyable in Vernworth, or dropped by goblins) and fresh fish (from shallow water near Sacred Arbor) — to be left to spoil",
+   "The Ferrystone Doireann provides",
+   "NO pawn with the Logistician specialization",
+   "Stasis augment OFF"
+  ],
+  "best_outcome": {
+   "summary": "Rot the ingredients, have Doireann cook nutriabh, use it to distract Brokkr, and harvest all six Scalecinder piles in Stragglers' Cave.",
+   "steps": [
+    "Report to Doireann — Brokkr has the Scalecinder needed for the tree.",
+    "Acquire fresh apples and fresh fish, then rest days until both spoil into rotten apples and rotten fish in your inventory (about a week).",
+    "Give the spoiled ingredients to Doireann; she cooks the elven dish nutriabh.",
+    "Travel with Doireann to Brokkr's Smithy using the Ferrystone she gives you.",
+    "Follow Sara; she leads you to Stragglers' Cave where forge waste is dumped.",
+    "RUN AHEAD of Doireann into the cave — she triggers the exit when she reaches the midpoint, so getting ahead maximises your collection time. Gather all six piles of green Scalecinder powder while Brokkr is distracted.",
+    "Return the Scalecinder to Doireann at Sacred Arbor."
+   ],
+   "rewards": [
+    "13,000 G",
+    "Warbler Capelet",
+    "Port Crystal (given after returning to Sacred Arbor)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "The quest silently vanishes, or you leave the cave with only part of the Scalecinder.",
+   "how_it_happens": "Activating the red beam in Bakbattahl while the quest is open; letting the ~12-day clock expire; or letting Doireann reach the cave midpoint before you have collected all six piles.",
+   "consequences": "Permanent loss of the Port Crystal — one of a very limited number in the game — plus 13,000 G and the Warbler Capelet."
+  },
+  "along_the_way": [
+   "A Logistician pawn will automatically craft your rotting food into something else and break the ingredient step. Dismiss it first.",
+   "The Stasis augment preserves food and will likewise stop the spoilage. Unequip it."
+  ],
+  "gotchas": [
+   "SOURCE CONFLICT on missability: Fextralife flags this quest time-limited (~12 days, red-beam warning); PowerPyx describes no time limit at all and only warns about outrunning Doireann in the cave. Fextralife's (!) flag is the ground truth here, but the exact day count is single-sourced.",
+   "The Port Crystal reward is not mentioned by PowerPyx; it is on the Fextralife page only."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Out+of+the+Forest,+Into+the+Forge",
+   "https://www.powerpyx.com/dragons-dogma-2-out-of-the-forest-into-the-forge-walkthrough/"
+  ]
+ },
+ {
+  "name": "Oxcart Courier",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Speak to Donovan at the Vernworth North Gate oxcart station. He asks you to carry a letter from Lady Margit to Ser Lennart in Melve. Donovan tends to be present in the morning; rest and return if he is absent.",
+  "prerequisites": "Game8 lists the main quest 'In Dragon's Wake' as the gate; Fextralife lists none. You need 100 G for the oxcart fare.",
+  "timing": "Early Chapter 1, while Lennart is still stationed in Melve.",
+  "missable": {
+   "is_missable": true,
+   "window": "TWO independent closers. (1) Fextralife: the quest is cancelled before the main quest 'Readvent of Calamity' begins. (2) Ser Lennart eventually relocates from Melve to another village, after which the quest can no longer be started.",
+   "warning": "Do this in your first Vernworth stretch — it is cancelled once Readvent of Calamity starts, and Lennart leaves Melve before that anyway."
+  },
+  "bring": [
+   "100 G oxcart fare",
+   "Gear for a possible monster raid on the oxcart"
+  ],
+  "best_outcome": {
+   "summary": "Deliver Margit's letter to Ser Lennart in Melve and report back to Donovan.",
+   "steps": [
+    "Board the Vernworth oxcart to Melve — oxcarts only depart in early morning. Pick 'Doze Off' to arrive faster.",
+    "Find Ser Lennart near the village well in Melve, in the morning. He wears a feathered cape and has a distinctive haircut.",
+    "Give him the letter.",
+    "Return to Donovan in Vernworth."
+   ],
+   "rewards": [
+    "400 XP (Game8 lists 300)",
+    "500 G (Game8 lists 5,000 G)",
+    "Miner's Hosen",
+    "Can lead into 'Nesting Troubles'"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Quest is cancelled and cannot be restarted.",
+   "how_it_happens": "Letting Lennart leave Melve, or reaching Readvent of Calamity with the letter undelivered.",
+   "consequences": "Loss of the reward, and of the Nesting Troubles handoff (Nesting Troubles is itself deleted at Feast of Deception, so it must be done in the same early stretch)."
+  },
+  "along_the_way": [
+   "Oxcart journeys can be ambushed mid-route; dozing off means you wake up to the fight already in progress."
+  ],
+  "gotchas": [
+   "SOURCE CONFLICT on rewards: Fextralife says 400 XP / 500 G / Miner's Hosen; Game8 says 300 XP / 5,000 G. The 5,000 G figure is likely a typo but I could not confirm either way.",
+   "Some players report Lennart offers Nesting Troubles immediately, without needing this quest completed first."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Oxcart+Courier",
+   "https://game8.co/games/Dragons-Dogma-2/archives/Oxcart-Courier"
   ]
  },
  {
@@ -1587,6 +2845,63 @@
   "sources": [
    "https://gameranx.com/features/id/493088/article/dragons-dogma-2-how-to-save-rodge-prey-for-the-pack-quest-guide/",
    "https://game8.co/games/Dragons-Dogma-2/archives/447927"
+  ]
+ },
+ {
+  "name": "Put a Spring in Thy Step",
+  "aka": [],
+  "type": "side",
+  "region": "Battahl",
+  "how_to_start": "Travel south through Drabnir's Grotto onto Agamen Volcanic Island. Gautstafr, an elderly dwarf complaining about his back, is on the south path — speak to him.",
+  "prerequisites": "Get through Drabnir's Grotto and reach Agamen Volcanic Island.",
+  "timing": "Once you can reach Agamen Volcanic Island from Battahl.",
+  "missable": {
+   "is_missable": true,
+   "window": "Permanently deleted on entering the Unmoored World via 'Legacy'. No internal countdown.",
+   "warning": "Do this before 'Legacy' — it is the only source of the Magick Archer maister skill Martyr's Bolt, and it also unlocks the Magick Archer vocation itself."
+  },
+  "bring": [
+   "Three wildflowers/herbs — Morningtide or Pitywort, both of which grow nearby",
+   "100 G if you want the hot spring trophy"
+  ],
+  "best_outcome": {
+   "summary": "Fetch Gautstafr his flowers, then escort him safely to Geyser Hamlet and speak to Cliodhna twice.",
+   "steps": [
+    "Collect three wildflowers (Morningtide or Pitywort).",
+    "Deliver them to Gautstafr where you met him.",
+    "Visit Windwalker's Home, north across shallow water on a small island, for the initial reward.",
+    "Escort Gautstafr to Geyser Hamlet, staying close and clearing enemies en route.",
+    "Speak with Cliodhna at the hot spring.",
+    "Talk to Cliodhna AGAIN afterwards to receive the Spellbow's Paradox, which unlocks the Magick Archer maister skill Martyr's Bolt."
+   ],
+   "rewards": [
+    "4,800 XP",
+    "23,000 G",
+    "Laurel Circlet",
+    "Magick Archer vocation unlocked",
+    "Spellbow's Paradox → Martyr's Bolt (second Cliodhna conversation)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Gautstafr dies during the escort, or you enter the Unmoored World without finishing.",
+   "how_it_happens": "Leaving him exposed to volcanic-island enemies during the escort, or triggering 'Legacy' first.",
+   "consequences": "Losing the quest costs the Magick Archer vocation unlock and Martyr's Bolt. No source documents what specifically happens if Gautstafr dies mid-escort."
+  },
+  "along_the_way": [
+   "Gates the Magick Archer maister skill Martyr's Bolt (Cliodhna, Geyser Hamlet) — confirmed by Fextralife, and PowerPyx independently confirms the Spellbow's Paradox drop. Counts toward the 'Master of the Maisters' trophy.",
+   "Also unlocks the Magick Archer vocation.",
+   "Paying 100 G to use the hot spring gets the bronze trophy 'This'll Cure What Ails Ye'.",
+   "Gautstafr and Cliodhna reappear later as evacuees in 'The Importance of Aiding Ernesto' in the Unmoored World."
+  ],
+  "gotchas": [
+   "CONFLICT on missability: PowerPyx explicitly calls this quest 'not missable', but Fextralife's master list places it in the 'Legacy' deletion group. PowerPyx most likely means there is no in-quest timer. Treat the Legacy cutoff as real.",
+   "The Martyr's Bolt tome comes from a SECOND conversation with Cliodhna after the quest completes — PowerPyx's page does not mention Cliodhna or Martyr's Bolt at all and only lists the Spellbow's Paradox as a reward. Do not walk away after the quest ends.",
+   "CONFLICT on flowers: Fextralife specifies wildflowers such as Morningtide; PowerPyx says any three herbs or wildflowers, recommending Pitywort."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Put+a+Spring+in+Thy+Step",
+   "https://www.powerpyx.com/dragons-dogma-2-put-a-spring-in-thy-step-walkthrough/"
   ]
  },
  {
@@ -1643,6 +2958,111 @@
   ]
  },
  {
+  "name": "Saint of the Slums",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "In Vernworth's Slums outside The Gracious Hand, listen to Vlasiy complaining about his son Lubomir's health, then speak to Elena after he leaves.",
+  "prerequisites": "Access to The Gracious Hand in the Vernworth slums.",
+  "timing": "Once you have free access to the Vernworth slums.",
+  "missable": {
+   "is_missable": true,
+   "window": "Permanently deleted on entering the Unmoored World via 'Legacy'. Separately, after the quest resolves you have roughly 3 in-game days to save the patients before they die.",
+   "warning": "Finishing the quest is not the end — the patients at The Gracious Hand die within about three days unless you go pay Radcliff at Checkpoint Rest Town to treat them."
+  },
+  "bring": [
+   "3 Miasmite (dropped by Phantoms, which only spawn at night)",
+   "About 3,000 G for Radcliff's post-quest treatment"
+  ],
+  "best_outcome": {
+   "summary": "Gather full evidence, get Elena arrested with a solid case, then pay Radcliff to save Lubomir and the other patients.",
+   "steps": [
+    "Give Elena 3 Miasmite.",
+    "Follow Elena on her rounds.",
+    "Enter The Gracious Hand basement at night and take Records of Treatment and Unlabeled Medicine.",
+    "Interview the recovered patients Bruno and Jehan at Walter's Tavern.",
+    "Witness Elena's night meeting with Alois in the Common Quarter.",
+    "Take the medicine to Radcliff at Checkpoint Rest Town; wait one day for his analysis and return.",
+    "Apprehend Elena when she returns to The Gracious Hand.",
+    "AFTER completion: go back to Radcliff and pay him (~3,000 G) to treat the patients before they die."
+   ],
+   "rewards": [
+    "1,600 XP",
+    "11,000 G",
+    "Lottie becomes the new abbess",
+    "Lubomir and the other patients survive (only if you pay Radcliff in time)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Elena escapes, or she is arrested on thin evidence, or the patients die.",
+   "how_it_happens": "Confronting Elena without the full evidence set; letting her see you gathering it, in which case she flees; or finishing the quest and never returning to Radcliff.",
+   "consequences": "Insufficient evidence leaves her conviction uncertain. If she flees, she escapes the quest entirely. Independently, Lubomir and the other patients die within ~3 days of completion if unaided."
+  },
+  "along_the_way": [
+   "Phantoms for Miasmite only spawn at night — plan to farm them in one night run rather than waiting on random encounters.",
+   "The basement is only accessible at night."
+  ],
+  "gotchas": [
+   "CONFLICT on the timer: Fextralife says Lubomir can die if you delay too long AFTER STARTING the quest and that timing is critical throughout. PowerPyx says the quest itself has no strict time limit and that the ~3-day patient death clock begins only AFTER completion. The safe read is to treat both phases as urgent.",
+   "The post-quest Radcliff payment is easy to miss entirely — the quest shows as complete and nothing prompts you.",
+   "On Fextralife's master list this is one of the quests deleted by 'Legacy'."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Saint+of+the+Slums",
+   "https://www.powerpyx.com/dragons-dogma-2-saint-of-the-slums-walkthrough/",
+   "https://www.rpgsite.net/guide/15652-dragons-dogma-ii-saint-slums-quest-guide"
+  ]
+ },
+ {
+  "name": "Scaly Invaders",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Fyoran approaches you in Harve Village on your second visit - Game8 ties this to exiting Stormwind Cave; Fextralife simply says returning to Harve a second time.",
+  "prerequisites": "Reach Harve Village a second time. Game8 lists the 'Monster Culling' story quest as a prerequisite; Fextralife's comments dispute whether it is strictly required.",
+  "timing": "Vermund mid-early game, before the Ulrika/Harve chain ('Trouble on the Cape' lists it as a prerequisite).",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [],
+  "best_outcome": {
+   "summary": "Clear two waves of saurians from Harve Village with no villager casualties, letting the village rebuild.",
+   "steps": [
+    "Accept Fyoran's request in Harve Village.",
+    "Kill every saurian in the village - cutting their tails weakens them.",
+    "Report to Fyoran in the town centre.",
+    "Leave Harve and let 2-3 in-game days pass so the villagers can repair.",
+    "Return; Fyoran and chief Jonas meet you and a second wave attacks.",
+    "Clear the second wave fast - villagers join in and can die.",
+    "Report to Fyoran for the closing cutscene."
+   ],
+   "rewards": [
+    "1,800 XP",
+    "5,000 Gold",
+    "Saurian Scale x6"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Villagers die in the second wave.",
+   "how_it_happens": "Villagers fight alongside you in the second assault; slow clears get them killed.",
+   "consequences": "Not documented as a hard failure branch by any source - the guidance is simply to kill enemies quickly to avoid casualties."
+  },
+  "along_the_way": [],
+  "gotchas": [
+   "Fextralife's page and comments report NPCs vanishing before completion, leaving the quest unfinishable in some playthroughs; Gamerant also flags a bug. Treat this as a save-first quest.",
+   "Sources conflict on whether 'Monster Culling' is a hard prerequisite.",
+   "Fextralife explicitly marks this quest 'Time Limited: No', and it does not appear on Game8's missables list or Fextralife's master list of time-sensitive quests."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/Scaly-Invaders",
+   "https://dragonsdogma2.wiki.fextralife.com/Scaly+Invaders"
+  ]
+ },
+ {
   "name": "Shadowed Prayers",
   "aka": [],
   "type": "side",
@@ -1690,6 +3110,319 @@
   ]
  },
  {
+  "name": "Shepherd of the Pawns",
+  "aka": [],
+  "type": "side",
+  "region": "Unmoored World",
+  "how_to_start": "In the Unmoored World, travel to the Excavation Site on Agamen Volcanic Island. Help Henrique defeat the stone construct / Magick Golem at the gate, then speak with him.",
+  "prerequisites": "Have started the Unmoored World quest 'Halls of the First Dawn'.",
+  "timing": "Unmoored World only, after Halls of the First Dawn is underway.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": "Not individually flagged missable, but the Unmoored World consumes regions in the brine on a rolling timer — if Agamen Volcanic Island is swallowed before you get there, the quest goes with it."
+  },
+  "bring": [
+   "Combat gear for a Magick Golem / stone construct",
+   "Wakestones if you are managing the Unmoored World region timer"
+  ],
+  "best_outcome": {
+   "summary": "Remove the Diminished Godsway's influence so the trapped pawns can leave, completing the evacuation.",
+   "steps": [
+    "Fight the stone construct at the Excavation Site gate alongside Henrique and pick up its drops.",
+    "Speak to Henrique; he gives you the Overseer's Lodge Key.",
+    "Return to the gate area and unlock the second hut on the hill (PowerPyx) / the lodge behind the inn (Fextralife).",
+    "Take the Diminished Godsway staff from inside.",
+    "Bring it back to Henrique at the gaol."
+   ],
+   "rewards": [
+    "20,000 XP",
+    "15,000 G",
+    "30x Wyrmslife Crystal"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "No documented failure branch; the risk is the Unmoored World clock, not a player choice.",
+   "how_it_happens": "Letting the brine claim Agamen Volcanic Island before starting or finishing it; or hitting the documented Henrique-gets-stuck bug.",
+   "consequences": "Loss of a very large Unmoored World XP/gold/Wyrmslife Crystal payout."
+  },
+  "along_the_way": [
+   "ALTERNATE SOLUTION (Fextralife): instead of retrieving the Godsway, you can hire every trapped pawn and escort them to the nearby Riftstone. After several trips they dismiss themselves and the rewards are identical.",
+   "Some pawns will not leave at all until the Godsway's influence is removed, so the escort route is slower and only partly viable on its own."
+  ],
+  "gotchas": [
+   "Fextralife explicitly states the cancellation conditions for this quest are UNKNOWN, while saying it is not time-limited. Given the Unmoored World's region-by-region brine consumption, treat 'not missable' as provisional.",
+   "Henrique is documented as sometimes becoming stuck or unresponsive. Reloading an earlier save is the only reported remedy.",
+   "SOURCE CONFLICT on the lodge location: Fextralife says the lodge behind the inn; PowerPyx says the second hut on the hill by the gate. Likely the same building described differently, but unconfirmed."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Shepherd+of+the+Pawns",
+   "https://www.powerpyx.com/dragons-dogma-2-shepherd-of-the-pawns-walkthrough/"
+  ]
+ },
+ {
+  "name": "Short-Sighted Ambition",
+  "aka": [],
+  "type": "side",
+  "region": "Battahl",
+  "how_to_start": "Buy anything from Isaac at Isaac's Wares in Bakbattahl's Mercantile Ward; he then asks you to fetch a Ripened Quince for his failing eyesight.",
+  "prerequisites": "Reach Bakbattahl (normally via 'Nation of Lambent Flame'). Fextralife notes player reports that the main quest may not be strictly required.",
+  "timing": "Any time after reaching Bakbattahl. The quest has built-in waiting - the quince needs about 3.5 in-game days to ripen.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "About 2,000-2,400 Gold for the second grimoire volume or its forgery"
+  ],
+  "best_outcome": {
+   "summary": "Give Isaac a forged copy of 'On the Transference of Souls 2' - his family survives and he pays you handsomely.",
+   "steps": [
+    "Buy something from Isaac to start the quest.",
+    "Pick a quince from the trees by the river south-west of Bakbattahl and let it ripen ~3.5 in-game days (rest/camp to pass time).",
+    "Give Isaac the Ripened Quince; return after a day for the next objective.",
+    "Go to Ibrahim's Scrap Store and arrange a FORGED copy of 'On the Transference of Souls 2' rather than handing over the genuine volume.",
+    "Give Isaac the forgery."
+   ],
+   "rewards": [
+    "3,000 XP",
+    "16,000 Gold",
+    "A grimoire that teaches a spell; Isaac later sells volume one, and the two volumes can be combined into the one-use 'Celestial Paean'"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Give Isaac the genuine 'On the Transference of Souls 2'.",
+   "how_it_happens": "Handing over the real second volume instead of Ibrahim's forgery.",
+   "consequences": "Isaac reads it and performs the ritual; his wife and daughter die. You get 3,000 XP and the Ring of Disfavor, looted from the daughter's body, instead of the gold. Fextralife notes this branch opens a job for Hugo in a related quest."
+  },
+  "along_the_way": [],
+  "gotchas": [
+   "Game8 states this becomes available after 'Legacy'; every other source places it in normal Bakbattahl play after 'Nation of Lambent Flame'. Game8's claim looks wrong - Legacy is a point of no return - but it is recorded here rather than resolved.",
+   "Sources conflict on cost: Game8 says the genuine volume is 2,000G at Ibrahim's; Fextralife says the forged copy costs 2,400G.",
+   "The quince must actually ripen - handing over an unripe one does nothing."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/Short-Sighted-Ambition",
+   "https://dragonsdogma2.wiki.fextralife.com/Short-Sighted+Ambition",
+   "https://www.powerpyx.com/dragons-dogma-2-short-sighted-ambition-walkthrough/"
+  ]
+ },
+ {
+  "name": "Spellbound",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Speak to Trysha at Eini's Home, in the forest north of Melve, after the main quest 'In Dragon's Wake'. She asks you to find grimoires so she can learn magick.",
+  "prerequisites": "Complete the main quest 'In Dragon's Wake'. One of the five grimoires ('Towering Earth') additionally requires completing 'The Caged Magistrate'. Entering Myrddin's home in Checkpoint Rest Town to grab 'Let There Be Light' requires the Courtly Tunic and Breeches disguise.",
+  "timing": "Available from early-to-mid game once 'In Dragon's Wake' is done; collecting all five grimoires spans Vermund and Checkpoint Rest Town.",
+  "missable": {
+   "is_missable": true,
+   "window": "Permanently lost once you trigger 'Legacy' and enter the Unmoored World. Fextralife's master list names Spellbound among the quests deleted at Legacy.",
+   "warning": "Finish Spellbound before you start 'Legacy' — entering the Unmoored World deletes it along with the Meteoron and Celestial Paean Maister teachings it is the only source of."
+  },
+  "bring": [
+   "Courtly Tunic and Breeches (to enter Myrddin's home for 'Let There Be Light')",
+   "5,000 G for the Fulminous Shield grimoire in Melve",
+   "Gold for forgeries if you intend to satisfy Myrddin too (6,000 G per forged book at Ibrahim's Scrap Store)"
+  ],
+  "best_outcome": {
+   "summary": "Bring Trysha GENUINE grimoires, ride out her magical outburst without killing her, and collect the Sorcerer and Mage Maister teachings.",
+   "steps": [
+    "Talk to Trysha at Eini's Home north of Melve.",
+    "Collect the grimoires: 'Let There Be Light' on a table in Myrddin's study in Checkpoint Rest Town; 'Fulminous Shield' from the merchant in ruined Melve for 5,000 G; 'Nation's Death Knell' on the altar on the Ancient Battleground's second floor; 'Howling Blizzard' from the lit chest on Waterfall Cave's second floor (spawns a Lich); 'Towering Earth' from Waldhar in the Vernworth Slums ruins / The Gracious Hands' Vaults after 'The Caged Magistrate'.",
+    "Hand the GENUINE books to Trysha — never forgeries.",
+    "Pass several in-game days and return.",
+    "Trysha loses control of her magick. Do NOT kill her: dodge and outlast her spells until she tires, then physically subdue her.",
+    "Pass one more day to trigger the closing cutscene."
+   ],
+   "rewards": [
+    "2,000 XP",
+    "3,000 G",
+    "Conjurer's Jotting — Maister teaching for Meteoron (Sorcerer), from Trysha",
+    "Celestial Paean Maister teaching (Mage), from Eini",
+    "Cast Stone weapon"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Trysha is given forged grimoires, or the quest is abandoned, and the Maister teachings are lost for the playthrough.",
+   "how_it_happens": "Handing Trysha forgeries bought from Ibrahim instead of the real books — or simply entering the Unmoored World with the quest unfinished.",
+   "consequences": "Game8 states that giving Trysha forged copies locks you out of key rewards including Celestial Paean. Losing the quest at Legacy means Meteoron and Celestial Paean cannot be obtained at all in that playthrough."
+  },
+  "along_the_way": [
+   "The Waterfall Cave grimoire chest spawns a Lich — come prepared.",
+   "The Ancient Battleground is northeast of Checkpoint Rest Town, reached by a ladder and a cave descent.",
+   "Ibrahim's Scrap Store in Checkpoint Rest Town is the same forger used by 'Hunt for the Jadeite Orb', which is how most players are introduced to the forgery mechanic."
+  ],
+  "gotchas": [
+   "THE MAISTER FORK — the two quests want opposite things. Trysha ('Spellbound') requires GENUINE grimoires and rewards Meteoron (Sorcerer) plus Celestial Paean (Mage). Myrddin ('The Sorcerer's Appraisal') will accept FORGED grimoires without penalty and rewards Myrddin's Chronicle, the Maister teaching for Maelstrom. The play that gets you all three spells in one run is: buy forgeries at Ibrahim's Scrap Store, give the FAKES to Myrddin, and keep the REAL books for Trysha.",
+   "Forgeries cost 6,000 G each at Ibrahim's Scrap Store in Checkpoint Rest Town (RPG Site; PowerPyx confirms the same shop and price). Five forgeries is 30,000 G.",
+   "SOURCES CONFLICT on how many books each NPC needs. Game8's Spellbound page says Trysha needs all five genuine grimoires. PowerPyx says to give each quest-giver only three books and lists six obtainable grimoires (including two copies of 'Nation's Death Knell'). Windows Central likewise says Myrddin accepts three. Game8's Sorcerer's Appraisal page says you get Myrddin's full rewards from three forgeries. Because the counts do not agree, the safe play is to collect every genuine grimoire you can and give Trysha genuine ones only.",
+   "SOURCES CONFLICT on grimoire locations too: Game8 places 'Nation's Death Knell' on the Ancient Battleground altar and 'Howling Blizzard' in Waterfall Cave; PowerPyx puts a copy of 'Nation's Death Knell' in the SAME Waterfall Cave chest as 'Howling Blizzard' and a second copy at the Ancient Battleground. Check both spots.",
+   "Do not kill Trysha during her outburst — the quest resolves by outlasting and subduing her."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/449136",
+   "https://game8.co/games/Dragons-Dogma-2/archives/The-Sorcerers-Appraisal",
+   "https://www.powerpyx.com/dragons-dogma-2-all-grimoire-locations/",
+   "https://www.rpgsite.net/guide/15658-dragons-dogma-2-the-sorcerors-appraisal-spellbound-where-to-find-grimoires",
+   "https://www.windowscentral.com/gaming/dragons-dogma-2-the-sorcerers-appraisal-walkthrough-guide-dealing-with-myrddin-and-how-to-get-maelstrom"
+  ]
+ },
+ {
+  "name": "Steeled Resolve, Blazing Forge",
+  "aka": [],
+  "type": "side",
+  "region": "Battahl",
+  "how_to_start": "Begins immediately at Brokkr's Smithy in Bakbattahl after you deliver the sword to Sara at the end of 'Dulled Steel, Cold Forge'.",
+  "prerequisites": "Complete the side quest 'Dulled Steel, Cold Forge' (given by Roman in Vernworth).",
+  "timing": "Directly after 'Dulled Steel, Cold Forge'. Progression needs you to leave and rest (a bench outside the Inn works) between scenes at the smithy.",
+  "missable": {
+   "is_missable": true,
+   "window": "Permanently lost once you trigger 'Legacy' and enter the Unmoored World. Its hard prerequisite 'Dulled Steel, Cold Forge' is named on Fextralife's Legacy deletion list, so this follow-up cannot be started or finished afterwards. Fextralife also flags this quest (!) directly.",
+   "warning": "This is the back half of the Roman/Sara chain — finish both 'Dulled Steel, Cold Forge' and this before you start 'Legacy', or the whole chain and its 35,000 G are gone."
+  },
+  "bring": [
+   "Combat readiness for the Mountain Base Cave route to the forge",
+   "Nothing quest-specific"
+  ],
+  "best_outcome": {
+   "summary": "Find Sara at the hidden forge, see the reforging through, and carry the news back to Roman in Vernworth.",
+   "steps": [
+    "Complete 'Dulled Steel, Cold Forge' and hand the sword to Sara at Brokkr's Smithy in Bakbattahl.",
+    "Leave and rest (bench outside the Inn) to advance time, then return to the smithy to trigger the next scene with Brokkr.",
+    "Follow the trail to the forge via Mountain Base Cave, clearing enemies on the way in.",
+    "Find Sara safe at the forge and complete the reforging.",
+    "Fight your way back out — the return trip is easier if you cleared on the way in.",
+    "Return to Roman in Vernworth to report."
+   ],
+   "rewards": [
+    "6,000 XP",
+    "35,000 G"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "The chain is lost at Legacy.",
+   "how_it_happens": "Entering the Unmoored World with 'Dulled Steel, Cold Forge' or this follow-up unfinished.",
+   "consequences": "Both quests vanish permanently, forfeiting 6,000 XP and 35,000 G here plus whatever 'Dulled Steel, Cold Forge' pays. No in-quest failure branch is documented by any source I reached — PowerPyx describes it as linear with no failure conditions."
+  },
+  "along_the_way": [
+   "The Mountain Base Cave route is a dungeon crawl worth looting on the way through."
+  ],
+  "gotchas": [
+   "You must leave the smithy and rest to advance dialogue — standing there talking will not progress it.",
+   "Clear enemies on the way IN to the forge; PowerPyx notes the exit is painless if you did and messy if you did not.",
+   "A PowerPyx commenter reports the palace door being sealed, blocking their route to Mountain Base Cave; the guide offers no alternative entry. If you hit this, the workaround is unsourced.",
+   "PowerPyx lists no time limit for this quest; the missable flag here rests on Fextralife's (!) plus the fact that its prerequisite is on the Legacy deletion list. The chain-deletion reasoning is an inference, clearly marked."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-steeled-resolve-blazing-forge-walkthrough/",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/side-quests/bakbattahl/steeled-resolve-blazing-forge-walkthrough",
+   "Fextralife master side-quest list (points-of-no-return table) — supplied as project ground truth; page itself robots-blocked to fetch"
+  ]
+ },
+ {
+  "name": "Tensions on the Highroad",
+  "aka": [],
+  "type": "side",
+  "region": "Battahl",
+  "how_to_start": "After completing 'Welcome to Battahl', return to the Oxcart Station at Vernworth's north gate and speak to Simon. He patrols, so if he is not at the station check the fountain steps near the Pawn Guild.",
+  "prerequisites": "Complete 'Welcome to Battahl' and reach Bakbattahl for the first time.",
+  "timing": "After first reaching Bakbattahl, before the main quest 'A New Godsway'.",
+  "missable": {
+   "is_missable": true,
+   "window": "Permanently deleted by the main quest 'A New Godsway', which also deletes its own prerequisite 'Welcome to Battahl'.",
+   "warning": "Do this before 'A New Godsway' — that main quest wipes both this and 'Welcome to Battahl' off your log for good."
+  },
+  "bring": [
+   "Escort Letter (given by Simon)",
+   "Gear for a long cave section — you are separated from your pawns partway through"
+  ],
+  "best_outcome": {
+   "summary": "Escort the oxcart, then follow Raghnall into Guerco Cavern and get back out.",
+   "steps": [
+    "Take the escort instructions and Escort Letter from Simon.",
+    "Travel to the marked spot north of Checkpoint Rest Town and meet Ser Augustin's oxcart.",
+    "When Raghnall confronts the soldiers, pick a side (it does not change the result).",
+    "Follow Raghnall and Ser Augustin into Guerco Cavern.",
+    "Survive the floor collapse, which separates you from your pawns, and navigate the cave.",
+    "Find an exit the following day as Raghnall becomes trapped."
+   ],
+   "rewards": [
+    "4,000 XP",
+    "12,000 G"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "No branching failure outcome is documented — both sources say the quest resolves identically either way.",
+   "how_it_happens": "The only loss state is triggering 'A New Godsway' before finishing it.",
+   "consequences": "Quest deleted permanently; 4,000 XP and 12,000 G lost on that save."
+  },
+  "along_the_way": [
+   "You lose your pawns for the Guerco Cavern stretch — go in with your own healing and light, not the party's."
+  ],
+  "gotchas": [
+   "CONFLICT on the choice: Fextralife says siding with Raghnall is recommended and that siding with the soldiers affects his affinity; PowerPyx says the choice has no effect at all. Nobody documents a concrete consequence, so treat the affinity claim as unverified.",
+   "Fextralife's own quest page lists the cancellation trigger as unknown ('??') even though its master list puts this in the 'A New Godsway' deletion group. Trust the master list."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Tensions+on+the+Highroad",
+   "https://www.powerpyx.com/dragons-dogma-2-tensions-on-the-highroad-walkthrough/"
+  ]
+ },
+ {
+  "name": "The Ailing Arborheart",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund (Sacred Arbor) — resolves in Battahl",
+  "how_to_start": "Go to The Arborheart in Sacred Arbor. Doireann speaks to you automatically; talk to her again at the railing in front of the great tree to formally begin.",
+  "prerequisites": "Complete 'A Trial of Archery'. PowerPyx also lists 'Steeled Resolve, Blazing Forge' as required; Fextralife calls it recommended but not strictly required. Completion requires access to Battahl.",
+  "timing": "After A Trial of Archery, once Sacred Arbor is open and Bakbattahl is reachable.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "A pawn with the Woodland Wordsmith specialization (optional, skips a lookup step)"
+  ],
+  "best_outcome": {
+   "summary": "Learn that 'gwyfencha' means Scalecinder, then consult a Battahli blacksmith — which hands off directly into Out of the Forest, Into the Forge.",
+   "steps": [
+    "Objective 1 — find out what gwyfencha means. Any of: carry a pawn with Woodland Wordsmith; ask Glyndwr, Doireann's brother; or complete 'Put a Spring in Thy Step' and ask Gautstafr. The answer is Scalecinder.",
+    "Objective 2 — travel to Brokkr's Smithy in Bakbattahl and speak with Sara, the apprentice.",
+    "Sara explains how Scalecinder is obtained and mentions an elven dish that might sway her employer. Quest completes and immediately triggers 'Out of the Forest, Into the Forge'."
+   ],
+   "rewards": [
+    "1,600 XP",
+    "Unlocks 'Out of the Forest, Into the Forge'"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "No branching outcome exists.",
+   "how_it_happens": "",
+   "consequences": ""
+  },
+  "along_the_way": [
+   "This is the entry point to the Sacred Arbor / Scalecinder chain; the payoff (Port Crystal, 13,000 G, Warbler Capelet) is in the follow-up, not here."
+  ],
+  "gotchas": [
+   "SOURCE CONFLICT on the Warbler Capelet: Fextralife's Ailing Arborheart page lists it as a reward here ('reportedly'); PowerPyx lists only 1,600 XP here and puts the Capelet on Out of the Forest, Into the Forge. PowerPyx is more likely correct.",
+   "SOURCE CONFLICT on prerequisites: PowerPyx requires Steeled Resolve, Blazing Forge; Fextralife only recommends it.",
+   "Fextralife states the quest is not affected by time passage — but the follow-up it triggers IS on a ~12-day clock, so do not start this until you can act on it."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Ailing+Arborheart",
+   "https://www.powerpyx.com/dragons-dogma-2-the-ailing-arborheart-walkthrough/"
+  ]
+ },
+ {
   "name": "The Arisen's Shadow",
   "aka": [],
   "type": "side",
@@ -1734,6 +3467,166 @@
    "https://game8.co/games/Dragons-Dogma-2/archives/The-Arisens-Shadow",
    "https://game8.co/games/Dragons-Dogma-2/archives/447927",
    "https://www.powerpyx.com/dragons-dogma-2-all-side-quests/"
+  ]
+ },
+ {
+  "name": "The Gift of Giving",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Speak to Daphne on the path leading down to The Slums from the Common Quarter steps in Vernworth.",
+  "prerequisites": "Reach the Vernworth Slums. PowerPyx additionally requires the main quest 'In Dragon's Wake' to be complete; Fextralife lists only slum access.",
+  "timing": "Once the Vernworth Slums are accessible.",
+  "missable": {
+   "is_missable": true,
+   "window": "Permanently deleted on entering the Unmoored World via 'Legacy'. No internal countdown.",
+   "warning": "There is no in-quest timer but the quest spans several in-game days of fetch steps, so start it well before 'Legacy' or you lose it mid-chain."
+  },
+  "bring": [
+   "Sunbloom and Noonbloom (to make a Bunch of Flowers)",
+   "1 Silver Ore",
+   "2 Gold Ore",
+   "5 Detoxifying Decoctions or equivalent blight medicine (Pitywort + Syrupwort Leaf, or ~500 G each from Philbert's Sundries)"
+  ],
+  "best_outcome": {
+   "summary": "Fulfil Daphne's escalating requests across several days.",
+   "steps": [
+    "Combine sunbloom and noonbloom into a Bunch of Flowers and deliver it.",
+    "Obtain and deliver Silver Ore.",
+    "Sleep/wait a day and return.",
+    "Procure and deliver two pieces of Gold Ore.",
+    "Deliver medicine that treats the blighted debilitation (Detoxifying Decoction or Panacea)."
+   ],
+   "rewards": [
+    "900 XP",
+    "100 G",
+    "Golden Trove Beetle",
+    "Unlocks 'House of the Blue Sunbright'"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "No alternate outcome is documented — Fextralife states the quest has a single path.",
+   "how_it_happens": "The only real loss state is entering the Unmoored World mid-chain.",
+   "consequences": "Quest and the Golden Trove Beetle are lost, and 'House of the Blue Sunbright' never unlocks."
+  },
+  "along_the_way": [
+   "Unlocks the follow-up quest 'House of the Blue Sunbright'.",
+   "The Golden Trove Beetle is a permanent carry-capacity increase — worth not skipping."
+  ],
+  "gotchas": [
+   "The Bunch of Flowers wilts after one in-game day. Deliver it straight away or park it in storage, which stops the decay.",
+   "CONFLICT on prerequisite: PowerPyx requires 'In Dragon's Wake'; Fextralife requires only reaching the Slums.",
+   "CONFLICT on quantity: Fextralife says 'find medicine' without a count; PowerPyx specifies 5 Detoxifying Decoctions.",
+   "Both sources carry player reports of a bug where Daphne keeps asking for flowers she has already been given."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Gift+of+Giving",
+   "https://www.powerpyx.com/dragons-dogma-2-the-gift-of-giving-walkthrough/"
+  ]
+ },
+ {
+  "name": "The Heel of History",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Donate to Kendrick, the beggar outside The Gracious Hand in the Vernworth Slums. Fextralife says donate food twice; Game8 says roughly 1,000 Gold plus food. After enough donations he asks you to find the missing boy Malcolm.",
+  "prerequisites": "Reach Vernworth and have gold/food to donate.",
+  "timing": "Vernworth, available early. Worth doing before 'The Caged Magistrate' because it opens the Vaults.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "Food items to donate (Dried Spuds can be picked up inside The Gracious Hand)",
+   "About 1,000 Gold"
+  ],
+  "best_outcome": {
+   "summary": "Trace Malcolm through the slum children, follow Kendrick into the Gracious Hand's Vaults, and find Malcolm in the hidden archive.",
+   "steps": [
+    "Donate food/gold to Kendrick outside The Gracious Hand until he asks for help.",
+    "Question three children: Harvey and Rick north-east of The Gracious Hand, then Aimee inside.",
+    "Report back to Kendrick.",
+    "Follow him to the ruined tower; he clears the rubble over the underground entrance.",
+    "Descend into the Gracious Hand's Vaults and take the right-hand path around the locked door.",
+    "Find Malcolm in the octagonal chamber and follow him to the underground library."
+   ],
+   "rewards": [
+    "900 XP",
+    "3,000 Gold",
+    "Dragon Panacea x1 (Game8) / Panacea + Spider Venom Sac (Fextralife)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "No failure branch is documented.",
+   "how_it_happens": null,
+   "consequences": null
+  },
+  "along_the_way": [
+   "Discovering the Vaults here is what makes 'The Caged Magistrate' progress smoothly later.",
+   "Going back into the archive after the quest gets you the Logistician's Tome and Forager's Tome from Kendrick and Malcolm."
+  ],
+  "gotchas": [
+   "Fextralife user reports say talking to Aimee before Kendrick can break progression - do the boys first, then Kendrick's prompt, then Aimee.",
+   "Sources conflict on the item reward (Dragon Panacea vs Panacea + Spider Venom Sac) and on the exact donation requirement."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/The-Heel-of-History",
+   "https://dragonsdogma2.wiki.fextralife.com/The+Heel+of+History"
+  ]
+ },
+ {
+  "name": "The Importance of Aiding Ernesto",
+  "aka": [],
+  "type": "side",
+  "region": "Unmoored World",
+  "how_to_start": "After starting the main quest 'Halls of the First Dawn' in the Unmoored World, travel to Volcanic Island Camp and speak with Ernesto near the northern gate.",
+  "prerequisites": "Have started 'Halls of the First Dawn'; reach Volcanic Island Camp in the Unmoored World.",
+  "timing": "Unmoored World / post-Legacy only. Runs concurrently with 'Halls of the First Dawn'.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "A Portcrystal and Ferrystones (the escorting is slow otherwise)",
+   "Wakestones — the Unmoored World is hostile and your escortees are fragile"
+  ],
+  "best_outcome": {
+   "summary": "Evacuate all three islanders — Gautstafr, Cliodhna and Lamond — back to Ernesto at the camp.",
+   "steps": [
+    "Speak to Ernesto at the northern gate of Volcanic Island Camp.",
+    "Head west to Windwalker's Home and convince Gautstafr and Cliodhna to evacuate.",
+    "Escort them back to camp — consider physically carrying Gautstafr, since his back slows him down.",
+    "Intercept Lamond on his way to the hot geysers at Geyser Hamlet and convince him to leave; any dialogue option works.",
+    "Report back to Ernesto."
+   ],
+   "rewards": [
+    "20,000 XP",
+    "15,000 G",
+    "40 Wyrmslife Crystals"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Lamond is left behind.",
+   "how_it_happens": "Reporting back to Ernesto without having convinced Lamond, or failing to intercept him.",
+   "consequences": "Fextralife notes abandoning Lamond triggers a different response from Ernesto. The concrete mechanical difference — whether rewards change — is not documented anywhere I found."
+  },
+  "along_the_way": [
+   "Gautstafr and Cliodhna are the same NPCs from 'Put a Spring in Thy Step'; Lamond is from 'The Sotted Sage'. If you never did those quests, expect these NPCs to be unfamiliar — but both sources still describe the evacuation as running the same way.",
+   "Building affinity with Lamond earlier (e.g. via The Sotted Sage) makes convincing him easier."
+  ],
+  "gotchas": [
+   "CONFLICT on time pressure: Fextralife says the quest is 'not affected by the passage of time' but marks its cancellation trigger as unknown ('??'); PowerPyx records no time limit at all. Neither publishes a deadline. HOWEVER — the Unmoored World as a whole is on a global countdown where regions are consumed one by one, and no source I found states whether that countdown can eat this quest. This is a genuine gap: I set is_missable to false because no source claims otherwise, but I would not treat that as settled.",
+   "Carrying Gautstafr is faster than escorting him on foot.",
+   "Lamond must be intercepted en route to the geysers — he is not stationary."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Importance+of+Aiding+Ernesto",
+   "https://www.powerpyx.com/dragons-dogma-2-the-importance-of-aiding-ernesto-walkthrough/"
   ]
  },
  {
@@ -1786,6 +3679,330 @@
   ]
  },
  {
+  "name": "The Phantom Oxcart",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund (starts in Vernworth) — resolves in Battahl (Flamebearer Palace)",
+  "how_to_start": "After completing the main quest 'Nation of the Lambent Flame' and reaching Battahl, return to Vermund and pass the West Vernworth Oxcart Station (Merchant Quarter); overhearing two NPCs finish discussing a night-running 'phantom oxcart' triggers it. Alternatively, speak with Wilhelmina at Rose Chateau Bordelrie — reportedly more reliable after you have the Myrmecoleon Card — or with Captain Brant.",
+  "prerequisites": "Complete 'Nation of the Lambent Flame' and reach Battahl. Destructoid instead lists 'Feast of Deception' plus visiting the Beastren area of Battahl.",
+  "timing": "After Nation of the Lambent Flame, back in Vermund. Investigation steps require night.",
+  "missable": {
+   "is_missable": true,
+   "window": "Fextralife's master list flags it (!). Its quest page says only that the quest 'reportedly becomes unavailable after progressing far into later main quests' — it does NOT name the specific closing main quest, and no other source I checked (PowerPyx, Game8, Destructoid) names one either. The universal outer bound is Legacy, since the quest needs Vernworth, Captain Brant and a working oxcart route.",
+   "warning": "Do this as soon as you are back in Vermund after Nation of the Lambent Flame — it carries a missable flag and the exact closing main quest is not documented by any source."
+  },
+  "bring": [
+   "Ability to rest to nightfall (bench or inn)",
+   "A spare slot in mind for going fully unequipped — no weapons, no armour, no lantern"
+  ],
+  "best_outcome": {
+   "summary": "Infiltrate the smuggling oxcart disguised as a pawn, ride it all the way to Flamebearer Palace, and bring the Labor Requisition Orders back to Brant — this is the branch that earns the trophy.",
+   "steps": [
+    "Rest until night, then take the road northeast/northwest out of Vernworth and find the stopped oxcart. Do NOT approach the oxcart or the soldier too soon after the cutscene, and do not let yourself be seen — the driver flees permanently if spotted.",
+    "The soldier Navil flees; chase and grab him (R2). Choose the bribe for 5,000 G, or escort him to prison. Either way you get the Merchant's Document.",
+    "Take it to Captain Brant at the Stardrop Inn at night. He offers two routes: follow the oxcart, or infiltrate it.",
+    "Choose infiltration. Unequip ALL gear including your lantern, order your pawns to wait, and approach the driver Mansenn from behind — never cut in front of him.",
+    "Board as a disguised pawn. Fight the goblin raid BAREHANDED — re-equipping anything ends the disguise and the driver leaves.",
+    "At Checkpoint Rest Town, take the guards' beating without fighting back.",
+    "At Flamebearer Palace, re-equip, defeat the guards, and take the Labor Requisition Orders.",
+    "Return to Captain Brant."
+   ],
+   "rewards": [
+    "4,000 XP",
+    "14,500 G",
+    "Ring of Momentum",
+    "Bronze trophy: 'Are We There Yet?'",
+    "(+5,000 G if you took Navil's bribe)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Being spotted early kills the quest outright; following the oxcart instead of riding it completes the quest but loses the trophy.",
+   "how_it_happens": "Approaching the oxcart or Navil too soon after the cutscene, or being seen — the driver flees permanently. During the ride: re-equipping any gear, running in front of Mansenn, or resisting the beating at Checkpoint Rest Town each break the disguise. Choosing Brant's 'follow the oxcart' option forfeits the trophy.",
+   "consequences": "A blown infiltration loses the trophy at minimum; a spooked driver can end the quest for the playthrough."
+  },
+  "along_the_way": [
+   "The Navil bribe choice is a clean +5,000 G with no documented downstream penalty.",
+   "This quest is widely reported as buggy — Siliconera published a dedicated fix guide. If the oxcart disappears without you pursuing it, resting until the next night and returning to the trigger point is the documented workaround."
+  ],
+  "gotchas": [
+   "SOURCE CONFLICT on prerequisites: Fextralife and PowerPyx say 'Nation of the Lambent Flame'; Destructoid says 'Feast of Deception' plus visiting Beastren. The Nation of the Lambent Flame version is the two-source majority.",
+   "GAP: no source names the specific main quest that closes this window, despite Fextralife's (!) flag. That field is honest guesswork bounded by Legacy.",
+   "The batch brief files this under Battahl; it actually starts in Vermund and ends in Battahl."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Phantom+Oxcart",
+   "https://www.powerpyx.com/dragons-dogma-2-the-phantom-oxcart-walkthrough/",
+   "https://game8.co/games/Dragons-Dogma-2/archives/448921",
+   "https://www.destructoid.com/dragons-dogma-2-the-phantom-oxcart-quest-guide/"
+  ]
+ },
+ {
+  "name": "The Provisioner's Plight",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Approach Geoffrey at Borderwatch Outpost; he hails you automatically and asks for help getting provisions to his colleague.",
+  "prerequisites": "Have started the main quest 'In Dragon's Wake'.",
+  "timing": "Early game, once 'In Dragon's Wake' has begun. No deadline reported.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "3x Harspud (minimum)",
+   "2x Salubrious Draught (minimum) — or the ingredients to craft them",
+   "Grapes or apples plus Greenwarish for crafting Salubrious Draughts"
+  ],
+  "best_outcome": {
+   "summary": "Deliver Geoffrey's note and the requested provisions to Markus, then report back.",
+   "steps": [
+    "Talk to Geoffrey at Borderwatch Outpost and take the provisioner's note.",
+    "Deliver the note to Markus.",
+    "Gather at least 3 Harspuds and 2 Salubrious Draughts. Draughts are crafted, not commonly found: combine grapes or apples with Greenwarish.",
+    "Give the Harspuds and Draughts to Markus.",
+    "Return to Geoffrey at Borderwatch Outpost to close the quest."
+   ],
+   "rewards": [
+    "400 XP",
+    "900 G",
+    "1x Dried Fruit",
+    "1x Waking Powder (from Markus)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": null,
+   "how_it_happens": null,
+   "consequences": null
+  },
+  "along_the_way": [
+   "Waterfall Cave near Borderwatch Outpost holds a grimoire chest used by 'Spellbound' — convenient detour from the same hub."
+  ],
+  "gotchas": [
+   "Do not sell the provisioner's note. PowerPyx commenters report selling it by accident and stalling the quest; no source confirms whether it can be recovered.",
+   "Salubrious Draughts usually have to be CRAFTED (grapes/apples + Greenwarish) rather than bought or found.",
+   "No failure branch is documented by any source I reached, so bad_outcome is left null rather than guessed."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-the-provisioners-plight-walkthrough/",
+   "https://game8.co/games/Dragons-Dogma-2/archives/448764"
+  ]
+ },
+ {
+  "name": "The Regentkin's Resolve",
+  "aka": [],
+  "type": "side",
+  "region": "Unmoored World",
+  "how_to_start": "In the Unmoored World, go to the Stardrop Inn tavern in Vernworth; Captain Brant approaches you and sends you to Sven, now regent, in his chambers on the second floor of Vernworth Castle.",
+  "prerequisites": "Be in the Unmoored World (post-'Legacy'); the 'Halls of the First Dawn' quest must have been started.",
+  "timing": "Unmoored World, one of the regional evacuation quests.",
+  "missable": {
+   "is_missable": true,
+   "window": "The Unmoored World runs on a doom timer - the Brine/red fog advances as in-game days pass (commonly cited as roughly 12 in-game days). If Vernworth is consumed before the evacuation, the quest and its region are lost.",
+   "warning": "Evacuations are on a clock in the Unmoored World - do the region's evacuation quests before resting away too many days, or Vernworth falls with everyone still in it."
+  },
+  "bring": [
+   "The Ornate Box, if you completed the quest that yields it"
+  ],
+  "best_outcome": {
+   "summary": "Resolve Disa and secure the oxcarts so Sven can evacuate the whole Vermund region.",
+   "steps": [
+    "Speak to Brant at the Stardrop Inn, then Sven in his chambers (2F, north-west room of Vernworth Castle).",
+    "Handle Disa, in the 2F north-east room. Best option: bring Sven the Ornate Box so her letter reconciles mother and son. Alternatives: grab her (R2/RT) and physically carry her to Sven's chambers, or kill her.",
+    "Go to the oxcart station in north-west Vernworth and deal with Allard - tackle/grab him to scare him off the carts, then speak to the merchant Russell. If Allard already died in the 'Every Rose Has Its Thorn' chain, skip straight to Russell.",
+    "Return to Sven to start the evacuation."
+   ],
+   "rewards": [
+    "20,000 XP",
+    "25,000 Gold",
+    "35 Wyrmslife Crystals",
+    "Evacuation of Vernworth and other Vermund settlements"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Disa is killed, or the region is left unevacuated.",
+   "how_it_happens": "Choosing to kill Disa rather than reuniting her with Sven, or letting the Brine take Vernworth before finishing the quest.",
+   "consequences": "Rewards are the same whichever Disa route you take, so the cost of killing her is narrative only. Leaving the region unevacuated loses the settlement and its people for the ending."
+  },
+  "along_the_way": [
+   "Dot Esports calls the Ornate Box the morally best resolution because Disa's letter lets her and Sven reconcile."
+  ],
+  "gotchas": [
+   "Game8 and PowerPyx both say 'no time limit mentioned' for this quest specifically; the pressure comes from the Unmoored World's global doom timer, not a per-quest clock. Sources conflict on how strict that timer is - Prima cites 12 in-game days, while players report the fog stops advancing once cities are evacuated and all but the final red beacon are destroyed.",
+   "No source gives an exact day count at which Vernworth specifically is lost.",
+   "PowerPyx lists only the carry-Disa route; Dot Esports documents all three Disa options."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-the-regentkins-resolve-walkthrough/",
+   "https://dotesports.com/dragons-dogma/news/dragons-dogma-2-the-regentkins-resolve-quest-guide",
+   "https://primagames.com/gaming/how-much-time-do-you-have-in-the-unmoored-world-in-dragons-dogma-2-answered"
+  ]
+ },
+ {
+  "name": "The Sorcerer's Appraisal",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund (Checkpoint Rest Town)",
+  "how_to_start": "Visit Myrddin's home in Checkpoint Rest Town while wearing the Courtly Tunic AND Courtly Breeches. He will not open the door otherwise.",
+  "prerequisites": "Complete 'Seat of the Sovran'. Obtain the Courtly Tunic and Courtly Breeches — found in Vernworth Castle's Guest Chambers, or from 'The Ornate Box'.",
+  "timing": "Chapter 1 onward once you have courtly attire and access to Checkpoint Rest Town.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": "Not flagged missable, but the reward path IS missable: hand Myrddin the forgeries, not the originals, or you lose Trysha's Maister teaching from 'Spellbound' — and Spellbound itself is deleted at Legacy."
+  },
+  "bring": [
+   "Courtly Tunic and Courtly Breeches (worn)",
+   "The five grimoires: Let There Be Light, Fulminous Shield, Nation's Death Knell, Howling Blizzard, Towering Earth",
+   "Gold for forgeries at Ibrahim's Scrap Store in Bakbattahl"
+  ],
+  "best_outcome": {
+   "summary": "Satisfy both Myrddin and Trysha in one playthrough — forgeries (or the duplicate copy) to Myrddin, originals to Trysha — collecting both Maister teachings.",
+   "steps": [
+    "Gather the five grimoires from across the world.",
+    "Have forgeries made at Ibrahim's Scrap Store in Bakbattahl.",
+    "Give Myrddin three books; give the genuine articles to Trysha for 'Spellbound'.",
+    "PowerPyx notes there are two copies of Nation's Death Knell in the world, so six books total are obtainable — three for each NPC without forging at all.",
+    "If you finish Spellbound first, wear the Turquoise Ring Trysha gives you when you return to Myrddin, then rest a few days before he will teach you the spell."
+   ],
+   "rewards": [
+    "2,100 XP",
+    "11,000 G",
+    "Ares Morpho Robe",
+    "Myrddin's Chronicle (Maister's teaching)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Give Myrddin the genuine grimoires and you cannot give them to Trysha.",
+   "how_it_happens": "Handing over originals without forging copies or without collecting the duplicate Nation's Death Knell.",
+   "consequences": "Locks you out of Trysha's Spellbound rewards, including the Celestial Paen spell / Maister's teaching, for that playthrough."
+  },
+  "along_the_way": [
+   "Ibrahim's Scrap Store in Bakbattahl is the forgery vendor for this whole book-and-relic economy.",
+   "Spellbound is on Fextralife's Legacy-deletion list, so sequence both before entering the Unmoored World."
+  ],
+  "gotchas": [
+   "Fextralife's page for this quest was the one URL I could not fetch (robots block persisted on both the apostrophe and curly-apostrophe forms), so both my sources are secondary. The forgery guidance is consistent across them.",
+   "PowerPyx says give Myrddin only three books initially; Game8 describes delivering the set. The three-book split is the one that preserves Spellbound."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-the-sorcerers-appraisal-walkthrough/",
+   "https://game8.co/games/Dragons-Dogma-2/archives/The-Sorcerers-Appraisal"
+  ]
+ },
+ {
+  "name": "The Sotted Sage",
+  "aka": [],
+  "type": "side",
+  "region": "Battahl",
+  "how_to_start": "Reach Geyser Hamlet on Agamen Volcanic Island (via Drabnir's Grotto from Battahl) and approach the hot spring. Lamond calls out to you as you pass, hinting that he wants Newt Liqueur.",
+  "prerequisites": "Reach Geyser Hamlet / Volcanic Island Camp.",
+  "timing": "Once you can reach Agamen Volcanic Island.",
+  "missable": {
+   "is_missable": true,
+   "window": "Permanently deleted on entering the Unmoored World via 'Legacy'. No internal countdown.",
+   "warning": "Do this before 'Legacy' — it is the only way to unlock the Warfarer vocation and its maister skill Rearmament."
+  },
+  "bring": [
+   "3 Newt Liqueur (5,000 G each from Higgs's Tavern Stand in Bakbattahl — 15,000 G total)",
+   "A Beastren Mask from Ibrahim's Scrap Shop if you are not a Beastren"
+  ],
+  "best_outcome": {
+   "summary": "Supply Lamond three Newt Liqueurs, then talk to him once more empty-handed.",
+   "steps": [
+    "Give Lamond one Newt Liqueur; he hands you a Rotten Soft-Boiled Egg.",
+    "Buy more from Higgs's Tavern Stand in Bakbattahl (5,000 G each). To get in as a non-Beastren, wear a Beastren Mask and move the satchels outside the tavern into the fenced area.",
+    "Deliver until he has had 3 total.",
+    "Speak to him again WITHOUT giving liqueur to finish the quest."
+   ],
+   "rewards": [
+    "Warfarer vocation unlocked",
+    "Grandmaster's Path tome → Warfarer maister skill Rearmament",
+    "Rotten Soft-Boiled Egg",
+    "PowerPyx also lists 980 XP and 500 G"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "No branching failure is documented.",
+   "how_it_happens": "The only loss state is entering the Unmoored World without finishing.",
+   "consequences": "Warfarer vocation and Rearmament both become unobtainable on that save."
+  },
+  "along_the_way": [
+   "Gates the Warfarer maister skill Rearmament via the Grandmaster's Path tome — confirmed by both Fextralife and PowerPyx. Counts toward the 'Master of the Maisters' trophy.",
+   "Also the only unlock for the Warfarer vocation itself.",
+   "Lamond reappears as an evacuation target in 'The Importance of Aiding Ernesto' in the Unmoored World — high affinity with him here makes that quest easier."
+  ],
+  "gotchas": [
+   "The final step is talking to Lamond WITHOUT handing over liqueur — Fextralife calls this out explicitly and it is easy to stall on.",
+   "CONFLICT on where Lamond is: Fextralife places him at Geyser Hamlet's hot spring; PowerPyx places him at the Volcanic Island Camp hot spring bath, up wooden ramps and a ladder. Both are on the same island; check both if he is not where you expect.",
+   "CONFLICT on the Rearmament source: Fextralife says the Grandmaster's Path enables you to learn Rearmament; PowerPyx lists the tome as a reward but does not name the skill. Direction agrees, wording does not.",
+   "The Beastren Mask / satchel workaround for tavern entry is only described by these two guides; it is unverified at TU3.2.",
+   "15,000 G of liqueur is a real cost — budget before starting."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/The+Sotted+Sage",
+   "https://www.powerpyx.com/dragons-dogma-2-the-sotted-sage-walkthrough/"
+  ]
+ },
+ {
+  "name": "Till Death Do Us Part",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Hear the rumour about Ser Ludolph from Oswald, by the fountain in Vernworth's Noble Quarter near Townsend's Estate, then speak to Margit outside Watchhead's Home and choose the dialogue about the nobleman's plot.",
+  "prerequisites": "Talk to Oswald first — Margit's dialogue does not open otherwise. PowerPyx states the quest becomes available after the main quest 'Seat of the Sovran'.",
+  "timing": "Mid-game, after Seat of the Sovran / once you can roam Vernworth's Noble Quarter freely. Recommended level 30+.",
+  "missable": {
+   "is_missable": true,
+   "window": "A timer starts the moment you speak to Margit. Gregor can die if too much in-game time passes before you reach him, and the Dullahan at Illdoers' Resting Place only appears at night — it flees at daybreak.",
+   "warning": "Once you talk to Margit the clock is running — go straight to Illdoers' Resting Place in the Misty Marshes, and arrive at night or the Dullahan escapes."
+  },
+  "bring": [
+   "A Wakestone (revives Gregor if he falls and salvages the best outcome)",
+   "Palladium or another damage-negation buff; avoid ice — the Dullahan resists it",
+   "Night-travel lighting"
+  ],
+  "best_outcome": {
+   "summary": "Reach Gregor at night, keep him alive through the Dullahan fight, and report back to Margit.",
+   "steps": [
+    "Speak to Oswald, then Margit at Watchhead's Home.",
+    "Travel immediately to Illdoers' Resting Place in the Misty Marshes, arriving at night.",
+    "Aid Gregor against the Dullahan — deal damage and survive, but do not land the kill yourself.",
+    "Keep Gregor alive; if he falls, use a Wakestone on him before leaving.",
+    "Return to Margit."
+   ],
+   "rewards": [
+    "2,800 XP",
+    "5,000 G",
+    "Steeled Virtue (sword)",
+    "Lustrous Targe (shield)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Gregor dies and is not revived.",
+   "how_it_happens": "Taking too long after speaking to Margit, or letting him fall in the Dullahan fight without a Wakestone.",
+   "consequences": "You lose the Lustrous Targe; the quest updates to have you break the news to Margit instead. XP, gold and Steeled Virtue are still awarded."
+  },
+  "along_the_way": [
+   "Killing the Dullahan before dawn is tied to the bronze trophy 'Before Dawn Breaks' (PowerPyx)."
+  ],
+  "gotchas": [
+   "CONFLICT on prerequisite: Fextralife lists 'The Nameless Village' as a possible requirement but flags player reports that it is optional; PowerPyx instead ties availability to 'Seat of the Sovran'.",
+   "CONFLICT on recovery: Fextralife says a Wakestone revives Gregor post-battle for the best outcome; PowerPyx comments say you can also carry his body back to Vernworth and revive him there. Both point the same direction — do not leave his body behind.",
+   "Fextralife says to avoid killing the Dullahan yourself; PowerPyx frames killing it before dawn as the trophy condition. These may be different objectives (quest outcome vs trophy) but the guides do not reconcile them — do not assume."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://dragonsdogma2.wiki.fextralife.com/Till+Death+Do+Us+Part",
+   "https://www.powerpyx.com/dragons-dogma-2-till-death-do-us-part-walkthrough/"
+  ]
+ },
+ {
   "name": "Tolled to Rest",
   "aka": [],
   "type": "side",
@@ -1833,6 +4050,205 @@
   "sources": [
    "https://game8.co/games/Dragons-Dogma-2/archives/Tolled-to-Rest",
    "https://game8.co/games/Dragons-Dogma-2/archives/447927"
+  ]
+ },
+ {
+  "name": "Trouble on the Cape",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Go to Harve Village during the 'Readvent of Calamity' chain and find Ulrika; a scene triggers in which she argues with Jonas and Fyoran, then runs off to Stormwind Cave after the captured villager Zoran.",
+  "prerequisites": "'Readvent of Calamity' in progress and 'Scaly Invaders' completed (Game8).",
+  "timing": "Vermund, during the Readvent of Calamity chain, before the Vernworth story reaches Feast of Deception.",
+  "missable": {
+   "is_missable": true,
+   "window": "Fextralife marks it time-limited and cancelled if not picked up in time but does not state the exact deadline; it sits inside the 'Readvent of Calamity' chain, which is deleted when 'Feast of Deception' completes.",
+   "warning": "Start this before finishing Feast of Deception, and do NOT enter Stormwind Cave until Ulrika has formally started the quest or you can lock yourself into the worse ending."
+  },
+  "bring": [],
+  "best_outcome": {
+   "summary": "Let Ulrika lead the rescue, save Zoran from the saurians and escort him home - Ulrika becomes chief of Harve and Fyoran is exiled.",
+   "steps": [
+    "Trigger the argument scene by finding Ulrika in Harve Village.",
+    "Travel with Ulrika and the guards to Stormwind Cave south of Harve.",
+    "Push into the deeper part of the cave and find Zoran under attack by saurians.",
+    "Kill the saurians without letting Zoran die.",
+    "Escort Zoran back to Harve Village."
+   ],
+   "rewards": [
+    "1,800 XP",
+    "6,500 Gold",
+    "Dragon Ferrystone x1 (Game8) / Ferrystone (Fextralife)",
+    "Ulrika installed as village chief; unlocks 'Home Is Where the Hearth Is'"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "The rescue happens without Ulrika.",
+   "how_it_happens": "Entering Stormwind Cave and clearing it before Ulrika officially starts the quest - a known bug/sequence break.",
+   "consequences": "Ulrika stays an ordinary NPC instead of becoming chief, and the village chief drives everyone out instead. This degrades the Harve ending and jeopardises the Ulrika chain."
+  },
+  "along_the_way": [],
+  "gotchas": [
+   "Sources conflict on missability: Game8's quest page says no explicit time limit and does not list it among timed quests, while Fextralife marks it time-limited and Fextralife's master list flags it. Fextralife is treated as authoritative here.",
+   "No source states the precise number of in-game days before cancellation.",
+   "Sources differ on whether the reward is a Ferrystone or a Dragon Ferrystone."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/Trouble-on-the-Cape",
+   "https://dragonsdogma2.wiki.fextralife.com/Trouble+on+the+Cape",
+   "https://www.powerpyx.com/dragons-dogma-2-trouble-on-the-cape-walkthrough/"
+  ]
+ },
+ {
+  "name": "Vocation Frustration",
+  "aka": [],
+  "type": "side",
+  "region": "Vermund",
+  "how_to_start": "Go to the Vernworth Vocation Guild (below Shakir's Inn), interact with Klaus and choose 'Talk'. He wants demonstration weapons for the advanced vocations.",
+  "prerequisites": "Complete the main quest 'Seat of the Sovran'.",
+  "timing": "After 'Seat of the Sovran' and before 'Feast of Deception'. That is the entire available window.",
+  "missable": {
+   "is_missable": true,
+   "window": "Opens after 'Seat of the Sovran'; permanently deleted when you complete the main quest 'Feast of Deception'.",
+   "warning": "Do this before 'Feast of Deception' — that main quest wipes it, and with it the earliest unlock of the Warrior and Sorcerer vocations."
+  },
+  "bring": [
+   "Curatives for the Trevo Mine goblins",
+   "Enough carry weight for a Greatsword and an Archistaff"
+  ],
+  "best_outcome": {
+   "summary": "Fetch a Greatsword and an Archistaff from Trevo Mine and bring both back to Klaus, unlocking the Warrior and Sorcerer vocations.",
+   "steps": [
+    "Talk to Klaus at the Vernworth Vocation Guild below Shakir's Inn.",
+    "Speak with Roderick at his smithy as directed.",
+    "Travel on foot west of Vernworth to Trevo Mine.",
+    "Retrieve the Greatsword from the chest past the narrow passage.",
+    "Descend to B1F and find the Archistaff in the northeast tunnel; clear the goblins there first so you can loot the chest safely.",
+    "Return both weapons to Klaus."
+   ],
+   "rewards": [
+    "1,200 XP",
+    "7,500 G",
+    "Advanced Vocations: The Warrior and the Sorcerer (unlocks both vocations)"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "The quest is lost outright at 'Feast of Deception'.",
+   "how_it_happens": "Completing the main quest 'Feast of Deception' with Vocation Frustration unstarted or unfinished.",
+   "consequences": "The quest disappears permanently along with its 7,500 G, 1,200 XP and its unlock of the Warrior and Sorcerer vocations from this source. (Fextralife's master list is the authority for the deletion; no walkthrough source I could reach mentions it.)"
+  },
+  "along_the_way": [
+   "Trevo Mine is a goblin-heavy dungeon west of Vernworth with its own chests worth sweeping while you are inside."
+  ],
+  "gotchas": [
+   "SOURCES CONFLICT on missability: Fextralife's master list places Vocation Frustration among the quests deleted by 'Feast of Deception', while Game8 and PowerPyx both list no missable warning at all. The project's ground truth treats Fextralife as authoritative, so it is recorded as missable here.",
+   "Trevo Mine must be reached on foot — no oxcart route.",
+   "Clear the B1F goblins before opening the Archistaff chest or you will be looting under fire."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/Vocation-Frustration",
+   "https://www.powerpyx.com/dragons-dogma-2-all-side-quests/",
+   "Fextralife master side-quest list (points-of-no-return table) — supplied as project ground truth; page itself robots-blocked to fetch"
+  ]
+ },
+ {
+  "name": "Wandering Roots",
+  "aka": [],
+  "type": "side",
+  "region": "Unmoored World",
+  "how_to_start": "Talk to Glyndwr, an elven archer on the entrance platform of Sacred Arbor, in the Unmoored World after 'Halls of the First Dawn' is started/completed.",
+  "prerequisites": "Be in the Unmoored World with 'Halls of the First Dawn' underway. The clean route additionally needs 'The Ailing Arborheart' and 'Out of the Forest, Into the Forge'. A pawn with the Woodland Wordsmith / Elvish specialisation is effectively required to understand Taliesin.",
+  "timing": "Post-game only, inside the Unmoored World. One of the five evacuation quests for the true ending.",
+  "missable": {
+   "is_missable": false,
+   "window": null,
+   "warning": null
+  },
+  "bring": [
+   "A pawn with the Woodland Wordsmith (Elvish) specialisation",
+   "The Arborheart cutting, if taking the primary route"
+  ],
+  "best_outcome": {
+   "summary": "Convince the elder Taliesin to let Sacred Arbor's elves evacuate.",
+   "steps": [
+    "Hire or bring a pawn with Elvish translation before you go.",
+    "Talk to Glyndwr at the Sacred Arbor entrance platform.",
+    "PRIMARY ROUTE: complete 'The Ailing Arborheart' and 'Out of the Forest, Into the Forge', plant the Arborheart cutting at the Seafloor Shrine, then return to Taliesin — he agrees to evacuate.",
+    "ALTERNATIVE ROUTE: skip that chain and wear Taliesin down by talking. Sleep at the nearby inn and speak to him again after each rest — PowerPyx says roughly three rests.",
+    "Confirm the evacuation with Taliesin."
+   ],
+   "rewards": [
+    "20,000 XP",
+    "30 Wyrmslife Crystals",
+    "25,000 G"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "Sacred Arbor is never evacuated.",
+   "how_it_happens": "Ending the game via 'When Wills Collide', or letting the Unmoored World's ~10-day rest budget run out, with the quest unfinished.",
+   "consequences": "The elves are not evacuated and that region's true-ending requirement goes unmet. No in-quest failure branch is documented."
+  },
+  "along_the_way": [
+   "Lesser Dragons spawn nearby and are worth farming during the forced waiting periods on the dialogue route.",
+   "'The Ailing Arborheart' and 'Out of the Forest, Into the Forge' are worth doing on their own merits and make this quest resolve in one step."
+  ],
+  "gotchas": [
+   "The alternative dialogue route costs in-game SLEEPS, and sleeps are exactly what advance the Unmoored World's ~10-day destruction clock. If you are tight on days, take the Arborheart route instead.",
+   "Without an Elvish-speaking pawn, Taliesin's dialogue is unreadable; Game8 treats the translation as effectively required, PowerPyx as strongly recommended.",
+   "Game8 explicitly calls this quest NOT missable because two completion routes exist, and Fextralife does not flag it (!). The Unmoored World's global clock still applies, which is why the bad_outcome is filled in even though is_missable is false."
+  ],
+  "confidence": "high",
+  "sources": [
+   "https://www.powerpyx.com/dragons-dogma-2-wandering-roots-walkthrough/",
+   "https://game8.co/games/Dragons-Dogma-2/archives/450033",
+   "https://www.gamerguides.com/dragons-dogma-2/guide/the-unmoored-world/quests/wandering-roots-walkthrough",
+   "https://dotesports.com/dragons-dogma/news/dragons-dogma-2-unmoored-world-guide-all-missions-bosses-and-key-locations"
+  ]
+ },
+ {
+  "name": "Welcome to Battahl",
+  "aka": [],
+  "type": "side",
+  "region": "Battahl",
+  "how_to_start": "Triggered on entering the Mercantile Ward of Bakbattahl - Roger accosts you at/near the Wanderer's Haven tavern and sets his thugs on you.",
+  "prerequisites": "Access to Bakbattahl via the main quest 'Nation of Lambent Flame'.",
+  "timing": "Immediately on first entering Bakbattahl's Mercantile Ward.",
+  "missable": {
+   "is_missable": true,
+   "window": "Closes permanently once the main quest 'A New Godsway' completes.",
+   "warning": "Settle this bar-brawl duel before you finish A New Godsway, or you lose the quest and the Fruit Wine the Warfarer unlock chain wants."
+  },
+  "bring": [],
+  "best_outcome": {
+   "summary": "Beat Roger's thugs, then win the one-on-one duel against Taleef with Raghnall betting on you.",
+   "steps": [
+    "Let Roger's three ruffians attack and defeat them.",
+    "The sellsword Raghnall steps in and evens the odds.",
+    "Fight Taleef one-on-one - he is a Warrior with slow, heavily telegraphed swings, so dodge and punish.",
+    "Win the duel."
+   ],
+   "rewards": [
+    "2,800 XP",
+    "8,500 Gold",
+    "Fruit Wine (needed later for 'The Sotted Sage')"
+   ]
+  },
+  "bad_outcome": {
+   "summary": "You lose the duel to Taleef.",
+   "how_it_happens": "Getting knocked out in the one-on-one fight.",
+   "consequences": "The quest still completes, but you get only the XP, no Fruit Wine and no gold bonus, and Raghnall's lost bet costs you 3,000 Gold."
+  },
+  "along_the_way": [],
+  "gotchas": [
+   "Losing forfeits the Fruit Wine, which feeds 'The Sotted Sage' and the Warfarer vocation chain. 'The Sotted Sage' is itself deleted at Legacy, so a loss here can cascade.",
+   "Game8's quest page does not flag this as missable; Fextralife's master list does (lost after A New Godsway). Fextralife is treated as authoritative here."
+  ],
+  "confidence": "medium",
+  "sources": [
+   "https://game8.co/games/Dragons-Dogma-2/archives/Welcome-to-Battahl",
+   "https://www.powerpyx.com/dragons-dogma-2-welcome-to-battahl-walkthrough/"
   ]
  }
 ]
