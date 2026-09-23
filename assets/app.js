@@ -336,18 +336,38 @@ add('mods', 'Mods', async () => {
   It is the one file kept quarantined. Its author disabled the offending hooks in v1.5.2.</div>`;
 });
 
-add('quests', 'Quests', async () => `<h1>Quests</h1>
-  <p class="lede">Reserved for the quest mod. Nothing here is built yet, and this page says so rather than
-  showing an empty shell that implies otherwise.</p>
-  <h2>What goes here</h2>
-  ${table(['Piece', 'State', 'Note'], [
-    ['Quest table', chip('warn', 'not started'), 'Every quest with ID, stage, flags and prerequisites, dumped from the game rather than transcribed from a wiki.'],
-    ['Flag inspector', chip('warn', 'not started'), 'Read a live save’s quest flags so a stuck quest names its own blocking condition.'],
-    ['Stage setter', chip('warn', 'not started'), 'Advance or rewind a quest. The highest-risk piece in the whole forge — gated behind a backup.'],
-    ['Safety rail', chip('bad', 'blocking'), 'Content Editor’s quest editor black-screened cutscenes on this machine. Anything we build here has to avoid those talk-event hooks or it inherits the same bug.'],
-  ])}
-  <div class="note">The lesson from that freeze is the design constraint: search the mod's own description,
-  posts and bugs tabs before forming a hypothesis. Someone has usually already hit it.</div>`);
+add('quests', 'Quests', async () => {
+  const qs = (await load('quests.json')) || [];
+  if (!qs.length) return `<h1>Quests</h1><div class="empty">quests.json did not load.</div>`;
+  const miss = qs.filter(q => q.missable && q.missable.is_missable);
+  const conf = c => qs.filter(q => q.confidence === c).length;
+  return `<h1>Quests</h1>
+  <p class="lede">A companion, not a cheat. Every entry says how to start the quest, what closes the
+  window, how to reach the best outcome and what the bad one costs. <strong>Nothing here writes quest
+  state</strong> — the note at the foot of this page says why that is deliberate rather than unfinished.</p>
+  <div class="grid g4" style="margin-top:20px">
+    ${tile(String(qs.length), 'quests researched', 'main and side')}
+    ${tile(String(miss.length), 'missable', 'windows that close for good')}
+    ${tile(String(conf('high')), 'high confidence', 'two independent sources agreed')}
+    ${tile('TU3.2', 'version stamp', 'Dark Arisen lands 9 Oct 2026')}
+  </div>
+  <h2>Browse</h2>
+  <div class="controls">
+    <input id="qq" type="search" placeholder="Search quests, NPCs, items, warnings…" style="flex:1 1 240px">
+    <select id="qtype"><option value="">All types</option><option value="main">Main</option><option value="side">Side</option></select>
+    <select id="qmiss"><option value="">All quests</option><option value="1">Missable only</option></select>
+    <span class="count" id="qcnt"></span>
+  </div>
+  <div id="qlist"></div>
+  <script type="application/json" id="qrows">${JSON.stringify(qs).replace(/</g, '\\u003c')}</script>
+  <div class="note"><strong>Why there is no stage setter here, and won't be.</strong> Quest state lives in
+  six independent stores — the quest context's processor results, the journal, talk-event records, the
+  deliver manager, the clear-record dict and the disable dict. Setting one without the rest leaves a save
+  that is engine-complete but journal-<span class="mono">Progressing</span> for ever. Both save blobs also
+  carry a <span class="mono">HashValue</span> nothing public knows how to recompute, and writing a
+  processor phase to <span class="mono">Setup</span> hard-crashes the game. Reading is free; writing is a
+  save-corruption machine, so this tab reads.</div>`;
+});
 
 add('log', 'Log', async () => {
   const entries = [
@@ -393,6 +413,95 @@ function wireItems() {
   draw();
 }
 
+function wireQuests() {
+  const holder = document.getElementById('qrows');
+  if (!holder) return;
+  let rows = [];
+  try { rows = JSON.parse(holder.textContent); } catch { return; }
+
+  const q = document.getElementById('qq'), ty = document.getElementById('qtype'),
+        mi = document.getElementById('qmiss'), listEl = document.getElementById('qlist'),
+        cnt = document.getElementById('qcnt');
+
+  const slug = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  const has = v => {
+    if (v == null) return false;
+    if (Array.isArray(v)) return v.length > 0;
+    const s = String(v).trim();
+    return !!s && !/^(unknown|n\/a|none|null|unverified)$/i.test(s);
+  };
+  const li = a => a.map(x => `<li>${esc(x)}</li>`).join('');
+
+  rows.forEach(r => {
+    r._hay = [r.name, r.region, r.how_to_start, r.timing, r.prerequisites,
+      (r.aka || []).join(' '), (r.bring || []).join(' '), (r.gotchas || []).join(' '),
+      (r.along_the_way || []).join(' '), r.best_outcome && r.best_outcome.summary,
+      r.best_outcome && (r.best_outcome.steps || []).join(' '),
+      r.bad_outcome && r.bad_outcome.summary, r.missable && r.missable.warning]
+      .filter(Boolean).join(' ').toLowerCase();
+  });
+
+  const body = r => {
+    const bo = r.best_outcome || {}, bd = r.bad_outcome || {};
+    let h = '';
+    if (r.missable && r.missable.is_missable) {
+      h += `<div class="qwarn"><strong>Missable.</strong> ${esc(r.missable.warning || '')}` +
+challengeWindow(r) + `</div>`;
+    }
+    const kv = [];
+    if (has(r.how_to_start)) kv.push(['Start', r.how_to_start]);
+    if (has(r.timing)) kv.push(['Timing', r.timing]);
+    if (has(r.prerequisites)) kv.push(['Needs first', r.prerequisites]);
+    if (kv.length) h += `<dl class="qkv">` + kv.map(([k, v]) =>
+      `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('') + `</dl>`;
+    if (has(r.bring)) h += `<h4>Bring</h4><p>` +
+      r.bring.map(x => `<span class="chip">${esc(x)}</span>`).join(' ') + `</p>`;
+    h += `<div class="grid g2">`;
+    let good = '';
+    if (has(bo.summary)) good += `<p>${esc(bo.summary)}</p>`;
+    if (has(bo.steps)) good += `<ol>${li(bo.steps)}</ol>`;
+    if (has(bo.rewards)) good += `<h4>Rewards</h4><ul>${li(bo.rewards)}</ul>`;
+    h += `<div class="card qgood"><h4>Best outcome</h4>${good || '<div class="empty">Not documented.</div>'}</div>`;
+    let bad = '';
+    if (has(bd.summary)) bad += `<p>${esc(bd.summary)}</p>`;
+    if (has(bd.how_it_happens)) bad += `<p><strong>How:</strong> ${esc(bd.how_it_happens)}</p>`;
+    if (has(bd.consequences)) bad += `<p><strong>Cost:</strong> ${esc(bd.consequences)}</p>`;
+    h += `<div class="card qbad"><h4>Bad outcome</h4>${bad ||
+      '<div class="empty">No failure state documented. That is a gap in the sources, not a guarantee.</div>'}</div>`;
+    h += `</div>`;
+    if (has(r.along_the_way)) h += `<h4>Along the way</h4><ul>${li(r.along_the_way)}</ul>`;
+    if (has(r.gotchas)) h += `<h4>Gotchas</h4><ul>${li(r.gotchas)}</ul>`;
+    if (has(r.sources)) h += `<h4>Sources</h4><ul class="qsrc">` + r.sources.map(u =>
+      `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join('') + `</ul>`;
+    return h;
+  };
+  function challengeWindow(r) {
+    return has(r.missable && r.missable.window)
+      ? `<div class="qwin">Window: ${esc(r.missable.window)}</div>` : '';
+  }
+
+  const draw = () => {
+    const t = (q.value || '').trim().toLowerCase();
+    const out = rows.filter(r =>
+      (!ty.value || (ty.value === 'main' ? r.type === 'main' : r.type !== 'main')) &&
+      (!mi.value || (r.missable && r.missable.is_missable)) &&
+      (!t || r._hay.includes(t)));
+    cnt.textContent = `${out.length} of ${rows.length}`;
+    if (!out.length) { listEl.innerHTML = `<div class="empty">Nothing matches.</div>`; return; }
+    listEl.innerHTML = out.map(r => {
+      const m = r.missable && r.missable.is_missable;
+      return `<details class="qrow${m ? ' ism' : ''}" id="q-${slug(r.name)}"><summary>
+        <span class="qn">${esc(r.name)}</span>
+        <span class="qmeta">${esc(r.type)}${has(r.region) ? ' · ' + esc(r.region) : ''}</span>
+        ${m ? `<span class="chip bad"><span class="dot"></span>missable</span>` : ''}
+        <span class="chip ${r.confidence === 'high' ? 'ok' : r.confidence === 'low' ? 'bad' : 'warn'}"><span class="dot"></span>${esc(r.confidence || '?')}</span>
+      </summary><div class="qbody">${body(r)}</div></details>`;
+    }).join('');
+  };
+  [q, ty, mi].forEach(el => el.addEventListener('input', draw));
+  draw();
+}
+
 async function show(id) {
   const t = TABS.find(x => x.id === id) || TABS[0];
   [...tabsEl.children].forEach(b => b.setAttribute('aria-selected', String(b.dataset.id === t.id)));
@@ -401,6 +510,7 @@ async function show(id) {
     view.innerHTML = `<h1>${esc(t.label)}</h1><div class="empty">Could not render: ${esc(e.message)}</div>`;
   }
   if (t.id === 'items') wireItems();
+  if (t.id === 'quests') wireQuests();
   if (location.hash.slice(1) !== t.id) history.replaceState(null, '', '#' + t.id);
   window.scrollTo({ top: 0 });
 }

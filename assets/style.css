@@ -96,3 +96,33 @@ input[type=search]:focus,select:focus{outline:2px solid var(--e3);outline-offset
 code{font-family:var(--mono);font-size:12.5px;background:var(--surface2);padding:1px 5px;border-radius:4px}
 .empty{color:var(--ink3);padding:26px 0}
 @media (max-width:640px){ .row{grid-template-columns:110px 1fr 60px} h1{font-size:22px} }
+
+
+/* ---------------------------------------------------------------- quests */
+.qrow{border:1px solid var(--line);border-radius:8px;background:var(--card);margin-bottom:8px}
+.qrow>summary{cursor:pointer;padding:11px 14px;display:flex;align-items:center;gap:10px;
+  flex-wrap:wrap;list-style:none}
+.qrow>summary::-webkit-details-marker{display:none}
+.qrow>summary::before{content:"▸";color:var(--ink2);font-size:12px;flex:0 0 auto}
+.qrow[open]>summary::before{content:"▾"}
+.qrow[open]>summary{border-bottom:1px solid var(--line)}
+.qrow.ism{border-left:3px solid var(--bad)}
+.qrow .qn{font-weight:600}
+.qrow .qmeta{color:var(--ink2);font-size:13px;text-transform:capitalize}
+.qrow .qmeta+.chip{margin-left:auto}
+.qbody{padding:14px}
+.qbody h4{margin:14px 0 6px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+.qbody h4:first-child{margin-top:0}
+.qbody ul,.qbody ol{margin:0 0 6px;padding-left:20px}
+.qbody li{margin-bottom:4px}
+.qwarn{border:1px solid var(--bad);border-radius:6px;padding:10px 12px;margin-bottom:12px;
+  background:color-mix(in srgb,var(--bad) 10%,transparent)}
+.qwin{color:var(--ink2);font-size:13px;margin-top:4px}
+.qkv{display:grid;grid-template-columns:minmax(90px,auto) 1fr;gap:5px 14px;margin:0 0 12px}
+.qkv dt{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2);padding-top:2px}
+.qkv dd{margin:0}
+.qgood{border-left:3px solid var(--ok);padding:12px}
+.qbad{border-left:3px solid var(--bad);padding:12px}
+.qsrc a{font-size:13px;word-break:break-word}
+@media (max-width:640px){.qrow .qmeta+.chip{margin-left:0}}
+

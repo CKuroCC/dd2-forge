@@ -5,3 +5,8 @@ node_modules/
 
 _final.bat
 z.bat
+
+# Third-party mods downloaded for research. Other people's work — read locally,
+# never redistributed from this repo. Their source is credited in the notes and
+# on the site; the mods themselves stay on Nexus where their authors put them.
+research/
