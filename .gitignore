@@ -13,3 +13,6 @@ research/
 
 # scratch: staging copies, extracted archives, generated type lists
 tmp/
+
+# folded il2cpp index -- 50 MB, regenerate with tools\fold-il2cpp-dump.py
+reference/
