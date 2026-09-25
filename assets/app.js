@@ -297,6 +297,52 @@ add('saves', 'Saves', async () => {
   <p><code>powershell -ExecutionPolicy Bypass -File tools\\scan-saves.ps1 -Backup</code></p>`;
 });
 
+// Per-script documentation. Three fields on purpose: what it does, the ONE
+// load-bearing decision that makes it correct (usually bought with a bug), and
+// what is still wrong with it. A docs block with no "still wrong" column is a
+// brochure.
+const MODDOCS = [
+  { f: 'dd2forge_2do_grant.lua', t: 'Grant items, paced',
+    d: 'Every item by class, type or category, plus the curated war chest, through one paced queue.',
+    w: 'It calls the <code>getItem(Int32, Int32, CharacterID, Boolean, Boolean, Boolean, GetItemEventType)</code> overload that Content Editor’s <code>item_tools.lua</code> calls, with its arguments in its order. The earlier code used the <code>GetItemOption</code> struct overload and set three of that struct’s members; every field left alone held whatever was in that memory, which fed the decay list’s sort. Nine runs died after 6, 6, 3, 4, 1, 7, 9, 4 and 1 grants with no pattern in the items. Copying a working mod ended it.',
+    i: '"Granted" still only means the call did not throw. There is no read-back proving the item exists.' },
+
+  { f: 'dd2forge_1on_refill.lua', t: 'Periodic top-up',
+    d: 'Gold, rift crystal hunks, curatives, herbs and Harspud on a timer. Always starts OFF.',
+    w: 'The gold ceiling is read from the engine’s own <code>app.ItemManager.MaxMoneyCount</code> rather than a number someone picked, clamped to Int32 with a fallback. At the cap the game clamps silently, so the panel says so instead of leaving you wondering.',
+    i: 'Curatives, herbs and Harspud are still capped at 99 — that is the real stack limit, so raising it would only produce a number the game trims.' },
+
+  { f: 'dd2forge_5item_browser.lua', t: 'Item browser',
+    d: 'Every item in the game, searchable, with favourites and a cart that batches one paced run.',
+    w: 'The filter materialises once behind a dirty flag and the search box debounces at 0.25s — both lifted from how CyberEngineTweaks does it, because per-frame filtering of a thousand rows in Lua costs more than the game does. Rows are virtualised by hand: REFramework does not bind <code>ImGuiListClipper</code>, so the visible slice is computed from <code>get_scroll_y</code> and the rest of the height is claimed with <code>item_size</code>.',
+    i: 'No sortable columns, and the category list is flat rather than a tree. Unresolvable rows are kept and bucketed rather than dropped, which is right, but they crowd the list when the filter is off.' },
+
+  { f: 'dd2forge_6see_nameplates.lua', t: 'Nameplates',
+    d: 'Names over nearby NPCs, so you know who you are walking up to before you talk to them.',
+    w: 'v2 takes its engine layer from xyzkljl1’s Name On Head after that mod turned out to already exist. <code>app.CharacterListHolder:getAllCharacters()</code> returns the spawned characters — already the right list, where v1 walked hundreds of mostly-unloaded NPC holders. The name comes from <code>NPCManager:getNPCData(cid):get_Name()</code>, the game’s own localised string, and the plate sits on the <code>Head_0</code> joint instead of a flat 1.75m guess.',
+    i: 'No occlusion test — names show through walls, deliberately, with the radius as the dial. No hotkey toggle yet; Name On Head has one. The custom-font loader is untested on this install.' },
+
+  { f: 'dd2forge_4read_questguide.lua', t: 'Quest guide',
+    d: '84 quests with walkthrough steps, missable warnings, map pins and an audit tab. Reads only.',
+    w: 'It never writes quest state, and that is a design decision rather than an unfinished feature — see the Quests tab for the six stores and the uncomputable HashValue. <code>task:getActiveDestinations()</code> is engine-condition-filtered, so it returns what you are meant to do now rather than everything. <code>app.AIAreaManager:getKeyLocationNode(id)</code> answers for unspawned locations, verified 145/145.',
+    i: '’Ware the Corrupted Beasts has no pin source and is not among the 81 player-facing quests the research could corroborate.' },
+
+  { f: 'dd2forge_1on_curves.lua', t: 'Body and chain',
+    d: 'Body slider work, including the chain-physics fix.',
+    w: '<code>via.motion.Chain.EnabledDynamicScaling</code> and <code>EnabledStrictScale</code> must both be true or the solver never re-derives node lengths and collider radii from a changed bone scale, which is why scaled physics hung as though gravity had been switched off. Six other theories — restart-every-frame, gravity zeroed, frozen, blended, frame-skipped — were each killed by a probe before this one held.',
+    i: 'The fix is applied on chain restart; a chain that never restarts keeps stale node lengths until something makes it.' },
+
+  { f: 'dd2forge_1on_warfarer.lua', t: 'Warfarer preset swap',
+    d: 'Swap a full skill loadout on the Warfarer without the menu dance.',
+    w: 'Six skill slots, not four. The first version asserted four from memory of <code>SkillSlot.No0..No3</code>; MadoCat’s TrueWarfarerSkillSwapper uses <code>NUM_SLOTS = 6</code> and <code>setSkill(job, id, i-1)</code>, and the game agrees. The correction is left visible in the file header rather than quietly patched out.',
+    i: 'Presets are per-session; they are not written anywhere you can carry between saves.' },
+
+  { f: 'tools/refstub.lua', t: 'The load-test harness',
+    d: 'Not a mod. Runs a script against stub engine APIs and drives every callback, so a chunk that parses but does not run is caught before it ships.',
+    w: 'Its imgui allowlist is the 143 names read from REFramework’s own binding source at our exact build commit, so calling something that does not exist is an error rather than a silently disabled feature. It fakes geometry, a character world, multiple frames and cross-script globals, because every one of those gaps once let a broken build report PASS.',
+    i: 'It cannot simulate the game. It proves control flow runs, never that a grant landed or a plate is in the right place.' },
+];
+
 add('mods', 'Mods', async () => {
   const f = await forge();
   const all = f.suite?.scripts || [];
@@ -305,35 +351,73 @@ add('mods', 'Mods', async () => {
     : s.state === 'disabled' ? chip('warn', 'disabled')
     : s.state === 'superseded' ? chip('bad', 'superseded')
     : s.state === 'done' ? chip('', 'done') : chip('', 'backup');
-  const ours = lua.filter(s => s.ours);
-  const theirs = lua.filter(s => !s.ours && s.state !== 'backup');
+  const ours   = lua.filter(s => s.ours && s.state === 'active');
+  const theirs = lua.filter(s => !s.ours && s.state === 'active');
+  const shelved = lua.filter(s => s.state === 'backup' || s.state === 'disabled');
   const row = (s) => [esc(s.name), state(s), `<span class="mono">${num(s.bytes)}</span>`,
     `<span class="mono">${esc((s.modified || '').replace('T', ' '))}</span>`];
+
+  const docs = MODDOCS.map(m => `
+    <div class="card" style="margin:14px 0;padding:16px">
+      <h3 style="margin:0 0 4px"><code>${esc(m.f)}</code> — ${esc(m.t)}</h3>
+      <p style="margin:0 0 10px;color:var(--ink2)">${m.d}</p>
+      <p style="margin:0 0 8px"><strong>Why it is built this way.</strong> ${m.w}</p>
+      <p style="margin:0;color:var(--ink2)"><strong>Still wrong with it.</strong> ${m.i}</p>
+    </div>`).join('');
+
   return `<h1>Mods</h1>
-  <p class="lede">The suite plus everything else in <code>reframework/autorun</code>. Third-party scripts we
-  replaced are retired to <code>.superseded</code> rather than deleted, so a rollback is a rename.</p>
+  <p class="lede">The suite plus everything else in <code>reframework/autorun</code>, read from the live
+  folder by <code>tools/refresh-site-data.ps1</code>. Third-party scripts we replaced are retired to
+  <code>.superseded</code> rather than deleted, so a rollback is a rename.</p>
   <div class="grid g4" style="margin-top:20px">
-    ${tile(String(ours.filter(s => s.state === 'active').length), 'ours, armed', 'dd2forge_*')}
-    ${tile(String(theirs.filter(s => s.state === 'active').length), 'third-party', 'active')}
-    ${tile(String(lua.filter(s => s.state === 'disabled').length), 'disabled', 'kept for reference')}
-    ${tile(String(lua.filter(s => s.state === 'superseded').length), 'superseded', 'replaced by ours')}
+    ${tile(String(ours.length), 'ours, armed', 'dd2forge_*')}
+    ${tile(String(theirs.length), 'third-party', 'active')}
+    ${tile(String(shelved.length), 'shelved', 'retired, backed up or disabled')}
+    ${tile(String(MODDOCS.length), 'documented', 'below, with their faults')}
   </div>
-  <h2>Ours</h2>${table(['Script', 'State', 'Bytes', 'Modified'], ours.map(row))}
-  <h2>Third-party</h2>${table(['Script', 'State', 'Bytes', 'Modified'], theirs.map(row))}
+
+  <h2>How each one works, and what is still wrong with it</h2>
+  <p class="lede">Every entry names the one decision that makes the script correct. Most of them were
+  bought with a bug.</p>
+  ${docs}
+
+  <h2>Ours, armed</h2>${table(['Script', 'State', 'Bytes', 'Modified'], ours.map(row))}
+  <h2>Third-party, active</h2>${table(['Script', 'State', 'Bytes', 'Modified'], theirs.map(row))}
+
   <h2>Techniques taken, with credit</h2>
   ${table(['Ours', 'From', 'What we changed'], [
-    ['<code>dd2forge_pawnquiet</code>',
-     'Stop Selling Yourself — r457 &amp; gh057 (Nexus 197)',
+    ['<code>dd2forge_2do_grant</code>',
+     'Content Editor — kagenocookie (<a href="https://www.nexusmods.com/dragonsdogma2/mods/1031">Nexus 1031</a>)',
+     'The getItem overload and its argument order, copied unimproved from <code>item_tools.lua</code> after nine crashes.'],
+    ['<code>dd2forge_6see_nameplates</code>',
+     'Name On Head — xyzkljl1 (<a href="https://www.nexusmods.com/dragonsdogma2/mods/138">Nexus 138</a>)',
+     'CharacterListHolder enumeration, getNPCData naming, the Head_0 joint and world_text. We added radius culling, a nearest-first plate cap, persisted settings and a diagnostics readout.'],
+    ['<code>dd2forge_1on_warfarer</code>',
+     'TrueWarfarerSkillSwapper — MadoCat (<a href="https://www.nexusmods.com/dragonsdogma2/mods/1532">Nexus 1532</a>)',
+     'Six skill slots and the setSkill signature, which corrected a four-slot claim we had asserted from memory.'],
+    ['<code>dd2forge_5item_browser</code>',
+     'CyberEngineTweaks, AppearanceMenuMod, Modex (other games)',
+     'Tree-when-empty / flat-when-searching, the 0.25s search debounce, a materialised filter, and a confirmation above 400 paced grants.'],
+    ['<code>dd2forge_1on_pawnquiet</code>',
+     'Stop Selling Yourself — r457 &amp; gh057 (<a href="https://www.nexusmods.com/dragonsdogma2/mods/197">Nexus 197</a>)',
      'Runtime toggle, a blocked counter, and a guarded type lookup so a renamed AI task logs instead of throwing into a shared Lua state.'],
-    ['<code>dd2forge_pawnhush</code>',
-     'Shut Up Pawns! — emoose (Nexus 248), nil-guards by Zharay',
-     'Learn mode: every line a pawn says is recorded with a hit count and blocked with one click, so the list is built from your playthrough instead of a preset. Starts inert.'],
-    ['<code>dd2forge_curves</code>',
+    ['<code>dd2forge_1on_pawnhush</code>',
+     'Shut Up Pawns! — emoose (<a href="https://www.nexusmods.com/dragonsdogma2/mods/248">Nexus 248</a>)',
+     'Learn mode: every line a pawn says is recorded with a hit count and blocked with one click. Starts inert. Note the original is abandoned and broken on TU3.2.'],
+    ['<code>dd2forge_1on_curves</code>',
      'BigBoobs — ComplexRobot',
-     'Butt joint scaling grafted in; ContainsKey guards on six lookups that threw KeyNotFoundException.'],
+     'Butt joint scaling grafted in; ContainsKey guards on six lookups that threw KeyNotFoundException; the chain scale-flag fix is ours.'],
   ])}
-  <div class="note">Content Editor's quest editor caused infinite black screens in cutscenes on this machine.
-  It is the one file kept quarantined. Its author disabled the offending hooks in v1.5.2.</div>`;
+
+  <div class="note"><strong>The one still quarantined.</strong> Content Editor's quest editor caused
+  infinite black screens in cutscenes on this machine. Its author disabled the offending hooks in v1.5.2.
+  The rest of Content Editor is not merely tolerated but relied on — it is where the working getItem call,
+  the NPC enum resolution and the <code>draw.world_text</code> pattern were all read from.</div>
+
+  <div class="note"><strong>Loose files only load because REFramework makes them.</strong> Capcom disabled
+  loose-file loading in DD2 — the first game they did it in — so <code>natives/STM/</code> is inert on its
+  own and REFramework's LooseFileLoader is mandatory, not optional. It is on here, and
+  <code>reframework_loose_files.txt</code> confirms the files load with zero faults after TU3.2.</div>`;
 });
 
 add('quests', 'Quests', async () => {
@@ -371,19 +455,25 @@ add('quests', 'Quests', async () => {
 
 add('log', 'Log', async () => {
   const entries = [
+    ['2026-09-25', 'Nameplates v2', 'Rewritten on CharacterListHolder, getNPCData and the Head_0 joint after reading Name On Head — a mod that already did this and should have been read first.'],
+    ['2026-09-25', 'Site refresh', 'suite.json was three days stale and still listing script names renamed away; rebuilt from the live folder by a script so it cannot drift again.'],
+    ['2026-09-25', 'Loose files cleared', 'TU3.2 file-ID panic retracted: LooseFileLoader is on, 920 natives files log as loaded, faulty_files is empty.'],
+    ['2026-09-25', 'Fluffy', 'Self-updated 3.027 → 3.084 on first launch. DD2 has been in its built-in list since launch day; the default.cfg it was judged by only lists legacy titles.'],
+    ['2026-09-25', 'Pawn types found', 'il2cpp_dump.json and sdk_ida/ were already on disk. app.HumanPreventFallController carries IsPawn and two tunable floats — the cliff/Brine lead nobody else has.'],
+    ['2026-09-24', 'Item browser', 'Every item searchable, favourites, and a cart that batches one paced run. Rows virtualised by hand; REFramework binds no list clipper.'],
+    ['2026-09-24', 'Ceilings raised', 'Gold now reads app.ItemManager.MaxMoneyCount. Correction filed the same day: queue_add chunks counts into 99s, so a big count costs time, not stability.'],
+    ['2026-09-24', 'Chain gravity', 'EnabledDynamicScaling and EnabledStrictScale. Six other theories died first.'],
+    ['2026-09-23', 'Quest guide v2', 'Accordion layout, walkthroughs from a second source, map pins, audit tab. 145/145 key locations resolved.'],
+    ['2026-09-23', 'Harness built', 'refstub.lua runs the chunk instead of parsing it. Has since caught a nil-geometry crash and a scan that never ran — both of which reported PASS beforehand.'],
     ['2026-09-22', 'Suite site', 'dd2-forge published; reads the panel’s own JSON.'],
-    ['2026-09-22', 'Pawn hush', 'Chatter and high-five hooks rebuilt as ours, with learn mode.'],
-    ['2026-09-22', 'Pawn quiet', 'Stray-pawn sales approach blocked; toggle and counter added.'],
     ['2026-09-22', 'Coverage closed', '838 reachable, 4 held back, 2 duplicate IDs, 0 orphans.'],
     ['2026-09-22', 'Sovran’s set found', 'TU3.2 armour the wiki audit missed; the ID dump caught it.'],
-    ['2026-09-22', 'Rift crystals', 'Solved as items 94/95 — no counter poke needed.'],
-    ['2026-09-22', 'Cloaks diagnosed', 'Cloaks sat at catalog positions 944–992, last before the crash item.'],
     ['2026-09-21', 'Hydra freeze', 'Root cause: Content Editor’s quest editor. 20 of 21 files restored.'],
-    ['2026-09-21', 'Carry at Lv1', 'W5’s multiplier was base×25 where base was 0. Replaced with absolute SET.'],
     ['2026-09-20', 'Volume probe', 'Crash at Dragonsbaulk Draught ×99 (c0000005). Item permanently excluded.'],
   ];
   return `<h1>Log</h1>
-  <p class="lede">What changed, and what it cost to learn.</p>
+  <p class="lede">What changed, and what it cost to learn. Corrections are listed as entries of their
+  own rather than edited over the top of the mistake.</p>
   ${table(['Date', 'Item', 'Note'], entries.map(e =>
     [`<span class="mono">${esc(e[0])}</span>`, esc(e[1]), `<span style="color:var(--ink2)">${esc(e[2])}</span>`]))}`;
 });

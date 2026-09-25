@@ -1,106 +1,104 @@
-{
-  "generated": "2026-09-22T18:30:58",
-  "saveDir": "C:\\Program Files (x86)\\Steam\\userdata\\138831487\\2054970\\remote\\win64_save",
-  "vaultDir": "D:\\dd2-forge-saves",
-  "steamAppId": "2054970",
-  "slots": [
-    {
-      "file": "data00-1.bin",
-      "label": "Autosave / working",
-      "bytes": 329948,
-      "modified": "2026-09-22T14:39:56",
-      "isSlot": false,
-      "backedUp": true,
-      "driftHours": -3.9
-    },
-    {
-      "file": "data000.bin",
-      "label": "Loose 0",
-      "bytes": 428780,
-      "modified": "2026-09-19T15:30:52",
-      "isSlot": false,
-      "backedUp": true,
-      "driftHours": -75.0
-    },
-    {
-      "file": "data001Slot.bin",
-      "label": "Slot 1",
-      "bytes": 5621948,
-      "modified": "2025-06-16T16:54:51",
-      "isSlot": true,
-      "backedUp": true,
-      "driftHours": -11113.6
-    },
-    {
-      "file": "data004Slot.bin",
-      "label": "Slot 4",
-      "bytes": 329948,
-      "modified": "2026-09-21T12:38:16",
-      "isSlot": true,
-      "backedUp": true,
-      "driftHours": -29.9
-    },
-    {
-      "file": "data005Slot.bin",
-      "label": "Slot 5",
-      "bytes": 197820,
-      "modified": "2026-09-22T14:39:56",
-      "isSlot": true,
-      "backedUp": true,
-      "driftHours": -3.9
-    },
-    {
-      "file": "data006Slot.bin",
-      "label": "Slot 6",
-      "bytes": 197820,
-      "modified": "2026-09-21T23:49:22",
-      "isSlot": true,
-      "backedUp": true,
-      "driftHours": -18.7
-    },
-    {
-      "file": "data009Slot.bin",
-      "label": "Slot 9",
-      "bytes": 197820,
-      "modified": "2026-09-22T02:37:40",
-      "isSlot": true,
-      "backedUp": true,
-      "driftHours": -15.9
-    }
-  ],
-  "backups": [
-    {
-      "name": "2026-09-22_183058",
-      "files": 7,
-      "bytes": 7304084.0,
-      "taken": "2026-09-22T18:30:58"
-    },
-    {
-      "name": "2026-09-22_163216",
-      "files": 7,
-      "bytes": 7304084.0,
-      "taken": "2026-09-22T16:32:16"
-    },
-    {
-      "name": "2026-09-22_101456",
-      "files": 7,
-      "bytes": 7304084.0,
-      "taken": "2026-09-22T10:14:56"
-    },
-    {
-      "name": "2026-09-22_094108",
-      "files": 7,
-      "bytes": 7304084.0,
-      "taken": "2026-09-22T09:41:08"
-    }
-  ],
-  "summary": {
-    "slotCount": 5,
-    "fileCount": 7,
-    "totalBytes": 7304084.0,
-    "backupCount": 4,
-    "lastBackup": "2026-09-22T18:30:58",
-    "unprotectedSlots": 0,
-    "newestSave": "2026-09-22T14:39:56"
-  }
+﻿{
+    "generated":  "2026-09-25T15:40:13",
+    "steamAppId":  "2054970",
+    "saveDir":  "C:\\Program Files (x86)\\Steam\\userdata\\\u003caccount\u003e\\2054970\\remote\\win64_save",
+    "vaultDir":  "D:\\Modding\\DD2-SaveVault",
+    "summary":  {
+                    "slotCount":  8,
+                    "fileCount":  10,
+                    "backupCount":  1,
+                    "lastBackup":  "2026-09-25T11:26:50",
+                    "totalBytes":  9084056,
+                    "unprotectedSlots":  0
+                },
+    "slots":  [
+                  {
+                      "label":  "data00-1.bin",
+                      "file":  "data00-1.bin",
+                      "bytes":  428780,
+                      "modified":  "2026-09-25T02:48:33",
+                      "isSlot":  false,
+                      "backedUp":  true
+                  },
+                  {
+                      "label":  "data000.bin",
+                      "file":  "data000.bin",
+                      "bytes":  428780,
+                      "modified":  "2026-09-19T15:30:52",
+                      "isSlot":  false,
+                      "backedUp":  true
+                  },
+                  {
+                      "label":  "Slot 1",
+                      "file":  "data001Slot.bin",
+                      "bytes":  5621948,
+                      "modified":  "2025-06-16T16:54:51",
+                      "isSlot":  true,
+                      "backedUp":  true
+                  },
+                  {
+                      "label":  "Slot 4",
+                      "file":  "data004Slot.bin",
+                      "bytes":  329948,
+                      "modified":  "2026-09-21T12:38:16",
+                      "isSlot":  true,
+                      "backedUp":  true
+                  },
+                  {
+                      "label":  "Slot 5",
+                      "file":  "data005Slot.bin",
+                      "bytes":  197820,
+                      "modified":  "2026-09-22T19:35:18",
+                      "isSlot":  true,
+                      "backedUp":  true
+                  },
+                  {
+                      "label":  "Slot 6",
+                      "file":  "data006Slot.bin",
+                      "bytes":  197820,
+                      "modified":  "2026-09-21T23:49:22",
+                      "isSlot":  true,
+                      "backedUp":  true
+                  },
+                  {
+                      "label":  "Slot 9",
+                      "file":  "data009Slot.bin",
+                      "bytes":  197820,
+                      "modified":  "2026-09-22T18:41:50",
+                      "isSlot":  true,
+                      "backedUp":  true
+                  },
+                  {
+                      "label":  "Slot 10",
+                      "file":  "data010Slot.bin",
+                      "bytes":  560380,
+                      "modified":  "2026-09-25T02:48:24",
+                      "isSlot":  true,
+                      "backedUp":  true
+                  },
+                  {
+                      "label":  "Slot 11",
+                      "file":  "data011Slot.bin",
+                      "bytes":  560380,
+                      "modified":  "2026-09-25T02:48:23",
+                      "isSlot":  true,
+                      "backedUp":  true
+                  },
+                  {
+                      "label":  "Slot 14",
+                      "file":  "data014Slot.bin",
+                      "bytes":  560380,
+                      "modified":  "2026-09-25T02:48:33",
+                      "isSlot":  true,
+                      "backedUp":  true
+                  }
+              ],
+    "backups":  [
+                    {
+                        "name":  "2026-09-25_11-26-50",
+                        "taken":  "2026-09-25T11:26:50",
+                        "files":  10,
+                        "bytes":  9084056
+                    }
+                ]
 }
