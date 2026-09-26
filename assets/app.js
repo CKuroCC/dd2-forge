@@ -453,8 +453,130 @@ add('quests', 'Quests', async () => {
   save-corruption machine, so this tab reads.</div>`;
 });
 
+// ---------------------------------------------------------------- builds
+// Read-only guide. Replaces watching the Vocation Guild's preview videos (which
+// lag badly): every loadout is a six-slot set for TrueWarfarerSkillSwapper
+// (Nexus #1532), slot 1 always Rearmament, ids from the mod's own
+// WeaponValidSkillMap so nothing here is un-settable.
+const CONF_CHIP = { sourced: 'ok', inference: 'warn', conflict: 'bad', untested: 'warn' };
+const WARF_CHIP = { yes: ['ok', 'works on Warfarer'], no: ['bad', 'not on Warfarer'],
+  conflict: ['warn', 'sources disagree'], untested: ['warn', 'untested'] };
+
+add('builds', 'Builds', async () => {
+  const b = await load('builds.json');
+  if (!b || !b.vocations) return `<h1>Builds</h1><div class="empty">builds.json did not load.</div>`;
+  const w = b.warfarer || {};
+  const nBuilds = b.vocations.reduce((n, v) => n + (v.builds || []).length, 0);
+  const nCore = b.vocations.reduce((n, v) => n + (v.core_skills || []).length, 0);
+  const rules = (w.rules || []).map(r => [esc(r.topic),
+    `${esc(r.text)}${(r.sources || []).length ? ` <span class="mono">[${r.sources.length} src]</span>` : ''}`,
+    chip(CONF_CHIP[r.confidence] || 'warn', r.confidence || '?')]);
+  const tests = (w.open_questions || []).map(q => [esc(q.question), `<span style="color:var(--ink2)">${esc(q.how_to_test)}</span>`]);
+  return `<h1>Builds</h1>
+  <p class="lede">Three six-slot loadouts per vocation, <strong>defensive, offensive and utility</strong>, written
+  for one Warfarer carrying every weapon and swapping sets with True Warfarer &amp; Skill Swapper. Every slot uses
+  the mod's own list of settable skills, so each set can be copied straight into its config. Core skills for each
+  vocation are underneath, with inputs and when to use them, so the Guild's preview videos never need opening.</p>
+  <div class="grid g4" style="margin-top:20px">
+    ${tile(String(b.vocations.length), 'weapon vocations', 'Warfarer runs all nine')}
+    ${tile(String(nBuilds), 'loadouts', 'slot 1 is always Rearmament')}
+    ${tile(String(nCore), 'core skills', 'how and when, per vocation')}
+    ${tile(esc(b.game_version || 'TU3.2'), 'researched against', esc(b.generated || ''))}
+  </div>
+  <div class="note"><strong>Read the verdicts, not just the lists.</strong> No source has published a six-slot Warfarer
+  build for TU3.2, so every loadout is assembled from sourced skill facts and marked <em>inference</em>. Two things
+  are genuinely unsettled and flagged wherever they matter: whether a Warfarer gets the held weapon's
+  <em>core</em> skills, and whether Maister skills forced in by the mod actually fire. The tests to settle both are
+  at the bottom of this page.</div>
+
+  <h2>Vocation</h2>
+  <div class="controls" id="bvoc">${b.vocations.map((v, i) =>
+    `<button class="ghost bvbtn" data-i="${i}">${esc(v.name)}</button>`).join('')}</div>
+  <div id="bview"></div>
+
+  <h2>Warfarer rules</h2>
+  <p class="lede">${esc(w.summary || '')}</p>
+  ${table(['Topic', 'What holds', 'Evidence'], rules)}
+  <h2>Augments that suit every set</h2>
+  <p class="lede">Augments are picked at a Vocation Guild, not per weapon, so one Warfarer runs one set of six across
+  every swap. These hold up whichever weapon is out.</p>
+  ${table(['Augment', 'Why'], (w.universal_augments || []).map(a => [esc(a.name), `<span style="color:var(--ink2)">${esc(a.why)}</span>`]))}
+  <h2>Settle these in game</h2>
+  ${table(['Open question', 'How to test'], tests)}
+  <h2>The preview-video lag</h2>
+  <div class="note">${esc(w.menu_lag || '')}</div>
+  <script type="application/json" id="brows">${JSON.stringify(b.vocations).replace(/</g, '\\u003c')}</script>`;
+});
+
+function wireBuilds() {
+  const holder = document.getElementById('brows');
+  if (!holder) return;
+  let voc = [];
+  try { voc = JSON.parse(holder.textContent); } catch { return; }
+  const out = document.getElementById('bview');
+  const btns = [...document.querySelectorAll('.bvbtn')];
+  const ROLE = { defensive: 'ok', offensive: 'bad', utility: 'warn' };
+
+  const card = (v, bd) => {
+    const ids = (bd.slots || []).map(s => s.id);
+    const slots = (bd.slots || []).map((s, i) =>
+      `<li><span class="mono">${i + 1} · ${s.id}</span> <strong>${esc(s.name)}</strong>
+       <span style="color:var(--ink2)"> — ${esc(s.why)}</span></li>`).join('');
+    const alt = bd.alternate ? `<p><span class="mono">swap-in · ${bd.alternate.id}</span>
+      <strong>${esc(bd.alternate.name)}</strong> <span style="color:var(--ink2)">— ${esc(bd.alternate.why)}</span></p>` : '';
+    const aug = (bd.augments || []).map(a => `<span class="chip" title="${esc(a.why)}">${esc(a.name)}</span>`).join(' ');
+    const flags = (bd.flags || []).map(f => `<li>${esc(f)}</li>`).join('');
+    return `<div class="card bcard">
+      <div class="bhead">${chip(ROLE[bd.role] || 'warn', bd.role)} <span class="qn">${esc(bd.name)}</span>
+        ${chip(CONF_CHIP[bd.confidence] || 'warn', bd.confidence || '?')}</div>
+      <ol class="bslots">${slots}</ol>${alt}
+      <div class="bcfg"><span class="mono" title="TrueWarfarerSkillSwapper.json, SkillSets entry ${v.job} of 10 (${esc(v.name)})">set ${v.job} · [${ids.join(', ')}]</span>
+        <button class="ghost bcopy" data-cfg="[${ids.join(', ')}]">copy</button></div>
+      <h4>Augments</h4><p>${aug || '<span class="empty">none listed</span>'}</p>
+      <h4>How to play it</h4><p>${esc(bd.rotation)}</p>
+      <h4>Weak to</h4><p style="color:var(--ink2)">${esc(bd.weaknesses)}</p>
+      ${flags ? `<h4>Check first</h4><ul class="bflags">${flags}</ul>` : ''}
+    </div>`;
+  };
+
+  const draw = (i) => {
+    const v = voc[i];
+    if (!v) return;
+    btns.forEach(b => b.setAttribute('aria-pressed', String(Number(b.dataset.i) === i)));
+    const core = (v.core_skills || []).map(c => {
+      const [cls, word] = WARF_CHIP[c.on_warfarer] || ['warn', c.on_warfarer || '?'];
+      return [`<strong>${esc(c.name)}</strong><div class="mono">${esc(c.internal || '')}</div>`,
+        esc(c.input), `<span style="color:var(--ink2)">${esc(c.when)}</span>`, chip(cls, word)];
+    });
+    const ns = (v.not_settable_via_mod || []).map(n => `<li><strong>${esc(n.name)}</strong> — ${esc(n.why_notable)}</li>`).join('');
+    const src = (v.sources || []).map(u => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join('');
+    out.innerHTML = `<h2>${esc(v.name)} <span class="mono">· ${esc(v.weapons)}</span></h2>
+      <p class="lede">${esc(v.summary)}</p>
+      <div class="grid g3b">${(v.builds || []).map(bd => card(v, bd)).join('')}</div>
+      <h3>Core skills</h3>
+      <p class="lede">These fire when you are actually ${esc(v.name)}. Whether a Warfarer holding the weapon gets them is
+      marked per skill.</p>
+      ${table(['Core skill', 'Input', 'When to use it', 'On Warfarer'], core)}
+      ${ns ? `<h3>Not settable through the mod</h3><ul>${ns}</ul>` : ''}
+      ${src ? `<details class="qrow"><summary><span class="qn">Sources</span></summary><div class="qbody"><ul class="qsrc">${src}</ul></div></details>` : ''}`;
+    out.querySelectorAll('.bcopy').forEach(bt => bt.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(bt.dataset.cfg); bt.textContent = 'copied'; }
+      catch { bt.textContent = 'select + copy'; }
+      setTimeout(() => { bt.textContent = 'copy'; }, 1400);
+    }));
+    try { localStorage.setItem('dd2forge.buildvoc', String(i)); } catch {}
+  };
+  btns.forEach(b => b.addEventListener('click', () => draw(Number(b.dataset.i))));
+  let start = 0;
+  try { start = Number(localStorage.getItem('dd2forge.buildvoc')) || 0; } catch {}
+  draw(Math.min(Math.max(start, 0), voc.length - 1));
+}
+
 add('log', 'Log', async () => {
   const entries = [
+    ['2026-09-26', 'Builds tab', '27 six-slot Warfarer loadouts (defensive / offensive / utility for all nine weapon vocations) plus every core skill with inputs, built so the Guild’s laggy preview videos never need opening. Slot ids come from TrueWarfarerSkillSwapper’s own settable list.'],
+    ['2026-09-26', 'Core skills: not a bug', 'All 35 core skills read enabled and HumanSkillAvailability calls them available. They need the real vocation plus its weapon (shield skills need the off hand); on Warfarer they were never going to fire. The “master switch” theory was disproved by probe.'],
+    ['2026-09-26', 'Autorun cleanup', '7 finished or unused scripts retired to _retired, obsolete buttons removed from grant, affinity and inventory, carry’s freeze-test button renamed to the reset it now is.'],
     ['2026-09-25', 'Nameplates v2', 'Rewritten on CharacterListHolder, getNPCData and the Head_0 joint after reading Name On Head — a mod that already did this and should have been read first.'],
     ['2026-09-25', 'Site refresh', 'suite.json was three days stale and still listing script names renamed away; rebuilt from the live folder by a script so it cannot drift again.'],
     ['2026-09-25', 'Loose files cleared', 'TU3.2 file-ID panic retracted: LooseFileLoader is on, 920 natives files log as loaded, faulty_files is empty.'],
@@ -601,6 +723,7 @@ async function show(id) {
   }
   if (t.id === 'items') wireItems();
   if (t.id === 'quests') wireQuests();
+  if (t.id === 'builds') wireBuilds();
   if (location.hash.slice(1) !== t.id) history.replaceState(null, '', '#' + t.id);
   window.scrollTo({ top: 0 });
 }

@@ -1,0 +1,2895 @@
+{
+  "generated": "2026-09-26",
+  "game_version": "TU3.2",
+  "mod": "True Warfarer & Skill Swapper 6 Skill (Nexus #1532)",
+  "warfarer": {
+    "summary": "Warfarer is the Arisen-only vocation whose single native weapon skill, Rearmament, swaps between up to 9 carried weapons; it can use any unlocked weapon skill of a vocation, but only while holding that vocation's weapon. TU3.2 (Sept 1-2, 2026) raised the weapon-skill cap from 4 to 6, so with Rearmament in slot 1 each weapon gets 5 real skills, and mod #1532 auto-loads a separate 6-skill set per weapon vocation on every swap. Warfarer has lower base stats (no vocation multipliers, only +20 Knockdown Power). Whether it gets other vocations' core skills and Maister skills is disputed between sources and must be tested in game.",
+    "rules": [
+      {
+        "topic": "Rearmament",
+        "text": "Warfarer's only native (Maister) weapon skill: instantly switches to the next weapon on your person, in the order set in the Equipment menu. It occupies a weapon-skill slot and costs a small ('minimal') amount of stamina; no numeric value published. Mod #1532 can remove the stamina cost and has an 'Apply rearm to all' shortcut that writes id 100 to slot 1 of every set. Unlocked via The Sotted Sage (3 Newt Liqueur to Lamond) then Grandmaster's Path.",
+        "confidence": "sourced",
+        "sources": [
+          "https://game8.co/games/Dragons-Dogma-2/archives/Warfarer",
+          "https://dragonsdogma2.wiki.fextralife.com/Rearmament",
+          "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+          "https://www.thegamer.com/dragons-dogma-2-warfarer-vocation-explained-strengths-skills-augments/"
+        ]
+      },
+      {
+        "topic": "Skipping Rearmament",
+        "text": "A Game8 commenter notes you can drop Rearmament and swap weapons manually in the Equipment menu to gain a sixth real skill; the mod's per-weapon auto-swap still triggers on weapon change (inference: its hook is on changeWeapon, not on the skill itself).",
+        "confidence": "inference",
+        "sources": [
+          "https://game8.co/games/Dragons-Dogma-2/archives/Warfarer",
+          "https://www.nexusmods.com/dragonsdogma2/mods/1532"
+        ]
+      },
+      {
+        "topic": "Slot count",
+        "text": "TU3.2 expanded assignable weapon skills from four to six in the base game. Launch-era guides that say 'three slots left after Rearmament' are superseded.",
+        "confidence": "sourced",
+        "sources": [
+          "https://www.rpgsite.net/news/21270-dragons-dogma-2-september-2026-new-title-update-performance-frame-rate-ps5-pro-xbox-series-x-s-pc-improvement",
+          "https://www.psu.com/news/dragons-dogma-2-update-3-2-now-due-sept-1-full-patch-notes-reveal-adjustments-to-pawns-ui-save-system-more/",
+          "https://mp1st.com/title-updates-and-patches/dragons-dogma-2-update-3-200-released-on-september-1-biggest-patch"
+        ]
+      },
+      {
+        "topic": "Skill access",
+        "text": "Warfarer can equip any weapon and armor and uses a vocation's weapon skills only while that vocation's weapon is in hand, and only skills already unlocked on that vocation.",
+        "confidence": "sourced",
+        "sources": [
+          "https://game8.co/games/Dragons-Dogma-2/archives/Warfarer",
+          "https://dragonsdogma2.wiki.fextralife.com/Warfarer"
+        ]
+      },
+      {
+        "topic": "Core skills of other vocations",
+        "text": "CONFLICT. Fextralife (Warfarer and Core Skills pages) and TheGamer say Warfarer uses the core skills of the held weapon that you unlocked (e.g. Levitate and Anodyne with a staff, Galvanize with an archistaff); Game8 says Warfarer's 'currently equipped core skill depends on the weapon equipped'. The #1585 author says Warfarer gets other skills 'without the core class traits' (e.g. Thief Footpad), and a user report on True Warfarer mentions 'core skills missing'. The likely reconciliation is that the basic moveset (light/heavy/vocation action) follows the weapon while some purchasable traits may not, but this is untested.",
+        "confidence": "conflict",
+        "sources": [
+          "https://dragonsdogma2.wiki.fextralife.com/Warfarer",
+          "https://dragonsdogma2.wiki.fextralife.com/Core_Skills",
+          "https://www.thegamer.com/dragons-dogma-2-warfarer-vocation-explained-strengths-skills-augments/",
+          "https://game8.co/games/Dragons-Dogma-2/archives/Warfarer",
+          "https://www.nexusmods.com/dragonsdogma2/mods/1585"
+        ]
+      },
+      {
+        "topic": "Maister skills of other vocations",
+        "text": "CONFLICT. Fextralife and TheGamer (2024) say Warfarer cannot use other vocations' Maister skills, yet mod #1532 lists Riotous Fury, Heavenly Shot, Celestial Paean, Blades of the Pyre, Formless Feint, Arc of Might, Meteoron, Maelstrom, Wild Furie, Martyr's Bolt and Dragon's Delusion as selectable. Whether they actually fire when forced into a Warfarer slot is untested; every build that uses one lists an alternate.",
+        "confidence": "conflict",
+        "sources": [
+          "https://dragonsdogma2.wiki.fextralife.com/Warfarer",
+          "https://www.thegamer.com/dragons-dogma-2-warfarer-vocation-explained-strengths-skills-augments/",
+          "https://www.nexusmods.com/dragonsdogma2/mods/1532"
+        ]
+      },
+      {
+        "topic": "Stats",
+        "text": "Warfarer has lower base stats than other vocations: no stat multipliers and only a +20 Knockdown Power adjustment (Mage is x1.4 Magick, Sorcerer x1.6). Damage builds should lean on Verve/Sagacity and high-stat weapons.",
+        "confidence": "sourced",
+        "sources": [
+          "https://dragonsdogma2.wiki.fextralife.com/Warfarer",
+          "https://game8.co/games/Dragons-Dogma-2/archives/Warfarer",
+          "https://pixeltwelve.com/articles/dragons-dogma-2-vocations-unlock-guide"
+        ]
+      },
+      {
+        "topic": "Weight",
+        "text": "CONFLICT. Game8 and Fextralife say only the heaviest carried weapon counts toward weight; Pixel Twelve says every carried weapon adds weight.",
+        "confidence": "conflict",
+        "sources": [
+          "https://game8.co/games/Dragons-Dogma-2/archives/Warfarer",
+          "https://dragonsdogma2.wiki.fextralife.com/Warfarer",
+          "https://pixeltwelve.com/articles/dragons-dogma-2-vocations-unlock-guide"
+        ]
+      },
+      {
+        "topic": "Augments",
+        "text": "Up to 6 augments equipped at once, changeable only at a Vocation Guild; any learned augment can be equipped on any vocation. Warfarer's own augments are Zeal (weapon-skill stamina -5%) and Dynamism (less weight slowdown). One source says equipped sets are saved per vocation; either way a single Warfarer set must serve every weapon you carry.",
+        "confidence": "sourced",
+        "sources": [
+          "https://game8.co/games/Dragons-Dogma-2/archives/447741",
+          "https://dragonsdogma2.wiki.fextralife.com/Augments",
+          "https://www.dexerto.com/gaming/every-dragons-dogma-2-augment-vocation-cost-effects-2609206/"
+        ]
+      },
+      {
+        "topic": "Shared staff spells",
+        "text": "High Flagration, High Levin and High Frigor (ids 24-26) belong to both staff and archistaff, so Rearmament between staff and archistaff keeps them available; swapping elemental staves can stand in for Affinity buffs.",
+        "confidence": "sourced",
+        "sources": [
+          "https://dragonsdogma2.wiki.fextralife.com/Warfarer"
+        ]
+      },
+      {
+        "topic": "TU3.2 Warfarer changes",
+        "text": "UI only: unequip weapons, change weapon order, swap/compare from the equipped-weapons list; shield stats show when only a shield is equipped. A bug where an enchantment persisted after re-enchanting plus Rearmament was fixed.",
+        "confidence": "sourced",
+        "sources": [
+          "https://mp1st.com/title-updates-and-patches/dragons-dogma-2-update-3-200-released-on-september-1-biggest-patch",
+          "https://www.psu.com/news/dragons-dogma-2-update-3-2-now-due-sept-1-full-patch-notes-reveal-adjustments-to-pawns-ui-save-system-more/",
+          "https://www.dragonsdogma.com/2/en-us/topics/update/"
+        ]
+      },
+      {
+        "topic": "Controls",
+        "text": "PS layout: L1 + face button fires weapon skills 1-4, R1 = Vocation Action. PC defaults (partial): LMB light, RMB vocation action, Ctrl switch skills, Space jump, V heavy (low confidence). TU3.2 added keyboard control types that fire or switch weapon skills with a single button. How slots 5-6 are bound on pad is not documented.",
+        "confidence": "sourced",
+        "sources": [
+          "https://dragonsdogma2.wiki.fextralife.com/Controls",
+          "https://www.shacknews.com/article/139209/dragons-dogma-2-pc-keybindings-controls",
+          "https://mp1st.com/title-updates-and-patches/dragons-dogma-2-update-3-200-released-on-september-1-biggest-patch"
+        ]
+      },
+      {
+        "topic": "Casting speed",
+        "text": "No source documents a Warfarer-specific incantation penalty. General rules apply: Quickspell (if active), Ring of Recitation/Articulacy, standing still.",
+        "confidence": "untested",
+        "sources": [
+          "https://dragonsdogma2.wiki.fextralife.com/Mage"
+        ]
+      },
+      {
+        "topic": "Trickster decoy on Warfarer",
+        "text": "TheGamer reports that as soon as a Warfarer swaps weapons the Trickster simulacrum begins disappearing, so censer kits that rely on the decoy should be run as a 'stay on censer' set.",
+        "confidence": "sourced",
+        "sources": [
+          "https://www.thegamer.com/dragons-dogma-2-best-trickster-build/"
+        ]
+      },
+      {
+        "topic": "Mod stacking",
+        "text": "#1532, #1142 (Enhanced Warfarer, replaces mismatched skills with Rearmament) and #1585 (TWINWV, swaps the real vocation so core traits work) all rewrite slots on weapon change; running more than one is likely to conflict.",
+        "confidence": "inference",
+        "sources": [
+          "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+          "https://www.nexusmods.com/dragonsdogma2/mods/1142",
+          "https://www.nexusmods.com/dragonsdogma2/mods/1585"
+        ]
+      },
+      {
+        "topic": "Dormant ids 101-120",
+        "text": "Id 101 (Job04_FakeMaster) is Blades of the Pyre. Ids 102-120 (two per vocation, three for Trickster) are unnamed and most likely Dark Arisen (Oct 9, 2026) skills shipped dormant; the mod excludes them.",
+        "confidence": "inference",
+        "sources": [
+          "https://pixeltwelve.com/articles/dragons-dogma-2-vocations-unlock-guide",
+          "https://dragonsdogma2.wiki.fextralife.com/Blades_of_the_Pyre"
+        ]
+      }
+    ],
+    "open_questions": [
+      {
+        "question": "Does Warfarer get the held weapon's core skills (True Deflect, Repulse, Levitate, Quickspell, Footpad, Quik Fot, Effigial Incense, etc.)?",
+        "how_to_test": "As Warfarer with the relevant skills unlocked on their vocation: (1) sword+shield, press guard (RMB/RB) the instant a goblin swing lands and look for the parry spark and stagger (True Deflect); (2) staff, jump then press Jump again and see if you float (Levitate); (3) daggers, jump at a wall then Jump again (Footpad); (4) duospear, hold RB 2 s, release, press Jump within 0.5 s of the hit (Quik Fot); (5) censer, press Vocation Action and see if a simulacrum appears."
+      },
+      {
+        "question": "Do Maister skills forced in by mod #1532 actually fire on Warfarer?",
+        "how_to_test": "Slot Riotous Fury (12), Arc of Might (61), Meteoron (68), Wild Furie (79), Martyr's Bolt (91) etc. into a set, rearm to that weapon, press the skill on a training target (e.g. a goblin camp). Note whether the animation plays, stamina/HP is consumed and damage lands, versus nothing happening or a greyed icon."
+      },
+      {
+        "question": "Does the TU3.2 Magick Barrier core skill work when a Warfarer holds a staff or archistaff?",
+        "how_to_test": "As Warfarer holding a staff, press Vocation Action while not incanting next to an attacking enemy; check for a barrier and whether hits are blocked and stamina drains."
+      },
+      {
+        "question": "Does the TU3.2 Formless Feint Vocation-Action timing (off-balance + stamina-drain pause) work under Warfarer?",
+        "how_to_test": "As Warfarer with daggers, activate Formless Feint (42) and press Vocation Action just as an enemy hit connects; watch whether the attacker staggers and the stamina drain pauses."
+      },
+      {
+        "question": "Does an Affinity / Ignited Blades enchant survive Rearmament to another weapon?",
+        "how_to_test": "Cast Fire Affinity (29) on yourself with the staff, Rearmament to a sword, and hit an enemy; check for fire damage numbers/burn and whether the enchant icon remains."
+      },
+      {
+        "question": "Is the Trickster simulacrum available on Warfarer at all, and how fast does it fade after a swap?",
+        "how_to_test": "Hold a censer as Warfarer, press Vocation Action to summon, then Rearmament once and count seconds until the decoy vanishes; also try Suffocating Shroud (95) to see whether aggro goes to the decoy or to you."
+      },
+      {
+        "question": "How are slots 5 and 6 bound on controller and keyboard when combined with the mod's hold-key second set?",
+        "how_to_test": "Open Options > Controls/Button Mapping after installing #1532, fill all 6 slots and the swap set, then press each slot input and the mod hotkey in a safe area; note any overlap or ignored input."
+      },
+      {
+        "question": "Do Vimtaking-nerf and Prescient Flare TU3.2 changes also apply to the upgraded Lifetaking Arrow and Augural Flare?",
+        "how_to_test": "Fire Lifetaking Arrow (86) through a pack once locked on a pawn and once not, comparing heal amount and range; for Augural Flare (67), note detonation timing and whether a second Flare amplifies the first."
+      }
+    ],
+    "universal_augments": [
+      {
+        "name": "Zeal",
+        "why": "Warfarer augment: -5% weapon-skill stamina; every build here is stamina-limited and Rearmament also costs stamina unless the mod removes it."
+      },
+      {
+        "name": "Endurance",
+        "why": "Archer augment: +150 max stamina; raises Heavenly Shot and Magike Speregonne ceilings and extends Formless Feint uptime."
+      },
+      {
+        "name": "Exaltation",
+        "why": "Mage augment: +10 stamina regen/s; the most-recommended augment across Fighter, Archer, Mage, Thief, Trickster and Warfarer guides."
+      },
+      {
+        "name": "Verve",
+        "why": "Thief augment: +Strength for sword, greatsword, dagger, bow and duospear sets, offsetting Warfarer's missing stat multipliers."
+      },
+      {
+        "name": "Sagacity",
+        "why": "Sorcerer augment: +30 Magick for staff, archistaff, magick bow and duospear magick damage."
+      },
+      {
+        "name": "Dynamism",
+        "why": "Warfarer augment: reduces weight slowdown; take it if you carry several heavy weapons (and if every weapon counts toward weight, which sources dispute)."
+      }
+    ],
+    "menu_lag": "The Vocation Guild slowdown comes from the paused menu rendering a second camera and a 3D character mockup, which is heavy at high settings or low VRAM (per the Dynamic Menu Overhaul #1641 description). Menu Performance Bug Fix #1608 (ArrythmiaFPS, v1.3, Sep 23, 2026, needs REFramework) disables character-model rendering in menus and 'completely eliminates' the loss 'including the Vocation Guild'; v1.2 fixed Guild interaction and v1.3 fixed the mockup reappearing after the Buy menu. Use #1608 OR #1641 (which already includes the fix), not both. A 'Menu Performance Fix.lua' hooking app.ui040101_00:update() (the Guild screen) is already in the user's REFramework autorun, so check that before adding another. No mod was found that disables the skill-preview videos themselves; if lag persists specifically while a preview video plays, #1608 may not fully cover it (inference)."
+  },
+  "vocations": [
+    {
+      "job": 1,
+      "name": "Fighter",
+      "weapons": "Sword + Shield",
+      "summary": "Shield tank whose damage comes from parry stuns, Shield Pummel knockdowns and heavy-attack follow-ups; TU3.2 made Burst Strike, Tusk Toss, Counter Slash and Riotous Fury more reliable.",
+      "core_skills": [
+        {
+          "name": "Defend / Deflect",
+          "internal": "Job01_HalfJustGuard (inferred)",
+          "input": "Hold Vocation Action (RB / R1) / Right Click",
+          "when": "Default guard; stamina regenerates slowly while guarding, each blocked hit costs stamina. Cannot block grabs or hits from behind. TU3.2 changed Deflect behaviour against ranged attacks.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "True Deflect",
+          "internal": "Job01_JustGuard (inferred)",
+          "input": "Press RB / R1 / Right Click the instant before an attack lands",
+          "when": "Main damage and stagger engine against melee bosses and humanoids; negates damage, staggers, and counters cost no stamina while it is active.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Tusk Toss",
+          "internal": "Job01_TuskToss",
+          "input": "Hold light attack (LMB / X / Square) to charge, release",
+          "when": "Launch goblins and wolves; follow-up after Onslaught flinches a target. TU3.2 made it less likely to fail and easier to chain into.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Steeled Foundation",
+          "internal": "Job01_FallGuard (inferred)",
+          "input": "Guard while falling",
+          "when": "When thrown off an ogre or griffin, or to take cliff shortcuts that would otherwise be lethal.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Enchanted Counter",
+          "internal": "Job01_EnchantGuard (inferred)",
+          "input": "Guard while your weapon is enchanted (passive)",
+          "when": "With a Mage Affinity or elemental sword, every block hits the attacker with the element and builds burn/frost.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Onslaught / Empale",
+          "internal": "basic moveset",
+          "input": "Light attack / heavy attack",
+          "when": "Heavy becomes a powerful successive strike on downed, off-balance or unaware targets; use after every Shield Pummel knockdown.",
+          "on_warfarer": "yes",
+          "confidence": "inference"
+        }
+      ],
+      "builds": [
+        {
+          "role": "defensive",
+          "name": "Aegis Warden",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 9,
+              "name": "Flawless Guard",
+              "why": "Block usable even while staggered, cheaper than Impeccable Guard"
+            },
+            {
+              "id": 10,
+              "name": "Vengeful Slash",
+              "why": "Counter that works on bosses; TU3.2 makes it target the enemy just deflected"
+            },
+            {
+              "id": 3,
+              "name": "Shield Pummel",
+              "why": "Guard-breaks and knockdowns that set up heavy successive strikes"
+            },
+            {
+              "id": 6,
+              "name": "Shield Drum",
+              "why": "Area aggro that pulls enemies off the backline"
+            },
+            {
+              "id": 11,
+              "name": "Divine Defense",
+              "why": "Spinning block with small AoE when surrounded; fails if guard-broken"
+            }
+          ],
+          "alternate": {
+            "id": 1,
+            "name": "Burst Strike",
+            "why": "Swap in over Divine Defense for mobility and gap closing"
+          },
+          "augments": [
+            {
+              "name": "Mettle",
+              "why": "+physical defense"
+            },
+            {
+              "name": "Vitality",
+              "why": "+200 HP"
+            },
+            {
+              "name": "Provocation",
+              "why": "more likely to be targeted"
+            },
+            {
+              "name": "Intrepidity",
+              "why": "slower loss-gauge buildup"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen for blocking"
+            },
+            {
+              "name": "Endurance",
+              "why": "max stamina (swap for Zeal if Rearmament cost hurts)"
+            }
+          ],
+          "rotation": "Open with Shield Drum to pull aggro, then hold guard and fish for True Deflect parries if core skills are active, otherwise Flawless Guard. Answer blocked strings with Vengeful Slash, Shield Pummel the staggered target and heavy-attack for the successive strike. Divine Defense when swarmed.",
+          "weaknesses": "Low damage and heavy stamina drain from blocking (guard breaks); cannot block grabs or rear hits and has no anti-air.",
+          "flags": [
+            "True Deflect / Enchanted Counter synergy depends on Warfarer getting Fighter core skills (conflict)"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "offensive",
+          "name": "Riot Blade",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 12,
+              "name": "Riotous Fury",
+              "why": "Maister flurry that melts small enemies and downed bosses; TU3.2 added steering, reach and lift"
+            },
+            {
+              "id": 7,
+              "name": "Gutting Skewer",
+              "why": "Standout damage skill; TU3.2 adjusted blowback"
+            },
+            {
+              "id": 1,
+              "name": "Burst Strike",
+              "why": "Gap closer and AoE escape; TU3.2 made it hit more reliably"
+            },
+            {
+              "id": 3,
+              "name": "Shield Pummel",
+              "why": "Knockdown setup for successive strikes"
+            },
+            {
+              "id": 4,
+              "name": "Full Moon Slash",
+              "why": "Wide double-slash AoE for groups"
+            }
+          ],
+          "alternate": {
+            "id": 10,
+            "name": "Vengeful Slash",
+            "why": "Replaces Riotous Fury if Maister skills do not fire on Warfarer"
+          },
+          "augments": [
+            {
+              "name": "Verve",
+              "why": "+Strength"
+            },
+            {
+              "name": "Dominance",
+              "why": "+knockdown power"
+            },
+            {
+              "name": "Lethality",
+              "why": "bonus damage on vitals"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper weapon skills"
+            },
+            {
+              "name": "Pertinacity",
+              "why": "breaks guards"
+            }
+          ],
+          "rotation": "Burst Strike in, Shield Pummel to knock down, then heavy attack or Gutting Skewer on the downed target. Riotous Fury on packs or a downed boss, steering it with the stick. Full Moon Slash when surrounded.",
+          "weaknesses": "Stamina-hungry, Riotous Fury's finisher leaves you exposed and guard uptime is lower; no anti-air.",
+          "flags": [
+            "uses a Maister skill (Riotous Fury) - untested on Warfarer"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "utility",
+          "name": "Vanguard Lift",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 5,
+              "name": "Launchboard",
+              "why": "Launches allies onto large monsters or up ledges"
+            },
+            {
+              "id": 6,
+              "name": "Shield Drum",
+              "why": "Keeps aggro off climbing or casting allies"
+            },
+            {
+              "id": 2,
+              "name": "Cloudward Slash",
+              "why": "Hits flying enemies and heads of tall ones"
+            },
+            {
+              "id": 1,
+              "name": "Burst Strike",
+              "why": "Mobility and repositioning"
+            },
+            {
+              "id": 9,
+              "name": "Flawless Guard",
+              "why": "Safety block"
+            }
+          ],
+          "alternate": {
+            "id": 3,
+            "name": "Shield Pummel",
+            "why": "More knockdown if the party lacks control"
+          },
+          "augments": [
+            {
+              "name": "Vigor",
+              "why": "less stamina while clinging"
+            },
+            {
+              "name": "Avidity",
+              "why": "faster climbing"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Mettle",
+              "why": "defense"
+            },
+            {
+              "name": "Thew",
+              "why": "carry weight"
+            }
+          ],
+          "rotation": "Shield Drum, then Launchboard a pawn onto a cyclops or griffin. Cloudward Slash fliers or heads, Burst Strike to reposition and Flawless Guard when pressured. Out of combat, Launchboard reaches ledge treasure.",
+          "weaknesses": "Low damage; Launchboard depends on pawn positioning and the build is a weaker tank without Vengeful Slash or Shield Pummel.",
+          "flags": [],
+          "confidence": "inference"
+        }
+      ],
+      "not_settable_via_mod": [
+        {
+          "name": "Base-tier skills (Blink Strike, Airward Slash, Shield Bash, Compass Slash, Springboard, Shield Summons, Gouging Skewer, Hindsight Slash, Impeccable Guard, Counter Slash, Perfect Defense)",
+          "why_notable": "Superseded by the upgraded versions in ids 1-11; nothing lost."
+        },
+        {
+          "name": "True Deflect, Tusk Toss, Steeled Foundation, Enchanted Counter",
+          "why_notable": "Core skills, not slottable; they are the Fighter's damage engine and may not work on Warfarer (conflict)."
+        }
+      ],
+      "sources": [
+        "https://www.rpgsite.net/news/21270-dragons-dogma-2-september-2026-new-title-update-performance-frame-rate-ps5-pro-xbox-series-x-s-pc-improvement",
+        "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+        "https://dragonsdogma2.wiki.fextralife.com/Fighter",
+        "https://fextralife.com/dragons-dogma-2-fighter-vocation-beginner-build-guide/",
+        "https://www.pcgamesn.com/dragons-dogma-2/fighter-skills",
+        "https://www.gamerguides.com/dragons-dogma-2/guide/vocations/fighter/fighter-overview-skills-augments-and-more",
+        "https://steamcommunity.com/app/2054970/discussions/0/4352240417150183076",
+        "https://dragonsdogma2.wiki.fextralife.com/True+Deflect",
+        "https://game8.co/games/Dragons-Dogma-2/archives/447741"
+      ]
+    },
+    {
+      "job": 2,
+      "name": "Archer",
+      "weapons": "Bow",
+      "summary": "Physical ranged damage with Archer-exclusive Tarred and Drenched statuses; TU3.2 buffed Dire/Deathly Arrow and sped up nocking for the special-arrow shots.",
+      "core_skills": [
+        {
+          "name": "Loose",
+          "internal": "basic moveset",
+          "input": "Light attack (LMB / Square)",
+          "when": "Auto-targeting chip damage while moving; stabs while clinging.",
+          "on_warfarer": "yes",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Steady Shot",
+          "internal": "basic moveset",
+          "input": "Hold Vocation Action (RMB / R1), release to fire",
+          "when": "Weak-point hits; weapon skills can be fired while drawing for precision.",
+          "on_warfarer": "yes",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Swift Nock",
+          "internal": "Job02_QuickLoose",
+          "input": "Passive",
+          "when": "Always on; Game8's 5-star 'best core skill' for overall DPS.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Puncture Dart",
+          "internal": "Job02_FullBend",
+          "input": "Keep holding Steady Shot past full draw (inferred)",
+          "when": "Charged piercing weak-point sniping.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Leaping Punt",
+          "internal": "Job02_DashJumpAttack",
+          "input": "Heavy attack from a dash or jump (inferred); TU3.2 adds a ground backward launch via button input",
+          "when": "Primary disengage when melee closes in; knocks foes off balance and launches you backward.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Parting Shot",
+          "internal": "Job02_AirShootAfterMeleeAttack",
+          "input": "Attack during the backward launch after Leaping Punt / mid-air Front Kick (inferred)",
+          "when": "Punish while disengaging; strong for monster-climbing play.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        }
+      ],
+      "builds": [
+        {
+          "role": "defensive",
+          "name": "Warden's Line",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 15,
+              "name": "Deathly Arrow",
+              "why": "Knocks down or pins approaching small foes; TU3.2 buff; replaces missing Leaping Punt as peel"
+            },
+            {
+              "id": 14,
+              "name": "Cascade Shot",
+              "why": "Wide wedge to thin packs"
+            },
+            {
+              "id": 22,
+              "name": "Spiral Arrow",
+              "why": "Multi-hit that overwhelms small targets, usable while moving"
+            },
+            {
+              "id": 17,
+              "name": "Erupting Shot",
+              "why": "Sticky explosive that knocks foes off balance; faster nock in TU3.2"
+            },
+            {
+              "id": 13,
+              "name": "Manifold Shot",
+              "why": "Mobile 5-star single-target damage that hits fliers"
+            }
+          ],
+          "alternate": {
+            "id": 16,
+            "name": "Lyncean Sight",
+            "why": "Safe long-range opener"
+          },
+          "augments": [
+            {
+              "name": "Subtlety",
+              "why": "-15% aggro"
+            },
+            {
+              "name": "Endurance",
+              "why": "+150 stamina"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Sustainment",
+              "why": "pawn defenses so the front line holds"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            },
+            {
+              "name": "Athleticism",
+              "why": "cheaper dashing for kiting"
+            }
+          ],
+          "rotation": "Open with Cascade into the pack while backing off and Deathly Arrow anything that breaks the pawn line. Plant Erupting on a cluster or weak point and pop it with Manifold; Spiral Arrow while strafing. Keep about 30% stamina to sprint away.",
+          "weaknesses": "No Leaping Punt disengage if core skills do not carry over; Erupting consumes Explosive Arrows and burst on big bosses is low.",
+          "flags": [],
+          "confidence": "inference"
+        },
+        {
+          "role": "offensive",
+          "name": "Stormdraw",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 13,
+              "name": "Manifold Shot",
+              "why": "5-star sustained, mobile damage"
+            },
+            {
+              "id": 21,
+              "name": "Tempest Shot",
+              "why": "Highest sustained stationary DPS; fire rate climbs with presses"
+            },
+            {
+              "id": 15,
+              "name": "Deathly Arrow",
+              "why": "Buffed heavy hit plus knockdown"
+            },
+            {
+              "id": 17,
+              "name": "Erupting Shot",
+              "why": "Weak-point burst"
+            },
+            {
+              "id": 23,
+              "name": "Heavenly Shot",
+              "why": "Maister stamina-dump nuke; potency scales with remaining stamina"
+            }
+          ],
+          "alternate": {
+            "id": 20,
+            "name": "Nocuous Shot",
+            "why": "Blight DoT for long fights; replaces Heavenly Shot if Maister skills fail"
+          },
+          "augments": [
+            {
+              "name": "Lethality",
+              "why": "vitals damage"
+            },
+            {
+              "name": "Verve",
+              "why": "+Strength"
+            },
+            {
+              "name": "Endurance",
+              "why": "raises Heavenly Shot ceiling"
+            },
+            {
+              "name": "Exaltation",
+              "why": "refill for the next Heavenly Shot"
+            },
+            {
+              "name": "Ambuscade",
+              "why": "damage vs targets not in battle stance"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            }
+          ],
+          "rotation": "At full stamina, open with Heavenly Shot on the weak point (before battle stance for Ambuscade). Stick Erupting on the weak point and detonate with Manifold; commit Tempest when the boss is staggered or down. Deathly Arrow in gaps and drink stamina while exhausted (instant since TU3.2).",
+          "weaknesses": "Tempest roots you; Heavenly Shot leaves 0 stamina; arrow costs and poor mob clearing.",
+          "flags": [
+            "uses a Maister skill (Heavenly Shot) - untested on Warfarer"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "utility",
+          "name": "Quartermaster",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 18,
+              "name": "Deluging Shot",
+              "why": "Drenched status, Archer-exclusive; pairs with lightning"
+            },
+            {
+              "id": 19,
+              "name": "Incendiary Shot",
+              "why": "Tarred status, Archer-exclusive; pairs with fire"
+            },
+            {
+              "id": 20,
+              "name": "Nocuous Shot",
+              "why": "Blight DoT"
+            },
+            {
+              "id": 14,
+              "name": "Cascade Shot",
+              "why": "AoE filler"
+            },
+            {
+              "id": 16,
+              "name": "Lyncean Sight",
+              "why": "Scouting and stabilised sniping"
+            }
+          ],
+          "alternate": {
+            "id": 17,
+            "name": "Erupting Shot",
+            "why": "Burst when needed"
+          },
+          "augments": [
+            {
+              "name": "Ambuscade",
+              "why": "opener damage"
+            },
+            {
+              "name": "Endurance",
+              "why": "stamina"
+            },
+            {
+              "name": "Sustainment",
+              "why": "pawn defenses"
+            },
+            {
+              "name": "Ascendancy",
+              "why": "pawn Strength/Magick"
+            },
+            {
+              "name": "Avidity",
+              "why": "climbing"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            }
+          ],
+          "rotation": "Scout with Lyncean Sight, then tar (fire party) or drench (lightning party) the target and blight bosses early. Cascade the adds, and Rearmament to a burst weapon once statuses are up.",
+          "weaknesses": "Needs stocked special arrows (Blighting is expensive); low personal damage and party-element dependent.",
+          "flags": [],
+          "confidence": "inference"
+        }
+      ],
+      "not_settable_via_mod": [
+        {
+          "name": "Base tiers (Barrage, Sweep, Dire, Keen Sight, Exploding, Drenching, Tarring, Blighting, Torrent, Whirling)",
+          "why_notable": "Superseded by ids 13-22; TU3.2 buffs to Dire Arrow and nocking carry into the upgrades (inference)."
+        },
+        {
+          "name": "Swift Nock, Puncture Dart, Leaping Punt, Parting Shot",
+          "why_notable": "Core skills; losing Leaping Punt on Warfarer removes the Archer's best disengage."
+        }
+      ],
+      "sources": [
+        "https://www.dragonsdogma.com/2/en-us/topics/update/",
+        "https://www.rpgsite.net/news/21270-dragons-dogma-2-september-2026-new-title-update-performance-frame-rate-ps5-pro-xbox-series-x-s-pc-improvement",
+        "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+        "https://game8.co/games/Dragons-Dogma-2/archives/Archer",
+        "https://www.gameleap.com/articles/dragon-s-dogma-2-archer-guide-all-skills-list",
+        "https://dragonsdogma2.wiki.fextralife.com/Archer",
+        "https://deltiasgaming.com/dragons-dogma-2-archer-vocation-class-guide/",
+        "https://dragonsdogma2.wiki.fextralife.com/Controls",
+        "https://www.shacknews.com/article/139209/dragons-dogma-2-pc-keybindings-controls"
+      ]
+    },
+    {
+      "job": 3,
+      "name": "Mage",
+      "weapons": "Staff",
+      "summary": "The party's healer, cleanser and enchanter; on Warfarer it loses the x1.4 Magick multiplier, so it shines as a buff-then-swap support set. TU3.2 added the Magick Barrier core skill and made Anodyne cancellable.",
+      "core_skills": [
+        {
+          "name": "Magick Bolt",
+          "internal": "basic moveset",
+          "input": "Light attack (Square / X; Left Click)",
+          "when": "Filler that changes with enchantment; finish fliers.",
+          "on_warfarer": "yes",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Focused Bolt",
+          "internal": "Job03_PowerShot (inferred)",
+          "input": "Hold light / Left Click, release",
+          "when": "Safer charged single-target damage while waiting for stamina.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Anodyne",
+          "internal": "unmapped",
+          "input": "Heavy (Triangle / Y; V key)",
+          "when": "Channel the healing sigil between waves; TU3.2 lets you cancel it with a button. Fextralife says a Warfarer with a staff gets it.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Quickspell",
+          "internal": "Job03_Concentrate (inferred)",
+          "input": "Hold Vocation Action (R1 / RB; Right Click) while incanting",
+          "when": "Emergency heals and buffs; drains stamina; no effect on Meteoron/Maelstrom.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Levitate",
+          "internal": "Job03_Levitate",
+          "input": "While jumping press Jump again; hold to rise; press again to cancel",
+          "when": "Dodge ground attacks, reach ledges, cast from height. Fextralife says a Warfarer with a staff gets it.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Magick Barrier (TU3.2)",
+          "internal": "unmapped",
+          "input": "Vocation Action while not incanting (inferred)",
+          "when": "Block telegraphed hits when enemies are close; stamina cost varies by weapon.",
+          "on_warfarer": "untested",
+          "confidence": "sourced"
+        }
+      ],
+      "builds": [
+        {
+          "role": "defensive",
+          "name": "Bulwark Cleric",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 28,
+              "name": "High Palladium",
+              "why": "Blocks 3 hits, party-wide at High tier"
+            },
+            {
+              "id": 35,
+              "name": "Argent Succor",
+              "why": "Full heal plus heal-over-time on one target"
+            },
+            {
+              "id": 33,
+              "name": "High Halidom",
+              "why": "Cures 10 debilitations including blight and ice-bound"
+            },
+            {
+              "id": 37,
+              "name": "Celestial Paean",
+              "why": "Maister: haste, stamina regen and damage reduction for allies; costs all stamina and knocks you down"
+            },
+            {
+              "id": 27,
+              "name": "High Spellhold",
+              "why": "Bank Argent Succor or Paean for an instant emergency cast"
+            }
+          ],
+          "alternate": {
+            "id": 34,
+            "name": "High Celerity",
+            "why": "Area haste; replaces Paean if Maister skills fail"
+          },
+          "augments": [
+            {
+              "name": "Apotropaism",
+              "why": "+Magick Defense"
+            },
+            {
+              "name": "Constancy",
+              "why": "knockdown resistance keeps casts going"
+            },
+            {
+              "name": "Intervention",
+              "why": "-30% debilitation duration"
+            },
+            {
+              "name": "Beatitude",
+              "why": "+10% self healing"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Subtlety",
+              "why": "less aggro"
+            }
+          ],
+          "rotation": "Before the fight, bank Argent Succor in High Spellhold and open with High Palladium. Drop High Halidom when fire, blight or frost appears, fire Paean before a burst window and Rearmament to your damage weapon while buffs run. Release the stored Succor if knocked down or silenced.",
+          "weaknesses": "Low damage; Paean leaves you at 0 stamina on the ground; Warfarer's missing Magick multiplier weakens heals.",
+          "flags": [
+            "uses a Maister skill (Celestial Paean) - untested on Warfarer"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "offensive",
+          "name": "Storm Staff",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 25,
+              "name": "High Levin",
+              "why": "Long-range damage; extra bolts for stamina; 5-star"
+            },
+            {
+              "id": 26,
+              "name": "High Frigor",
+              "why": "Big AoE plus cold wave"
+            },
+            {
+              "id": 24,
+              "name": "High Flagration",
+              "why": "Ignores Defense, pierces several targets, move while it runs"
+            },
+            {
+              "id": 32,
+              "name": "High Empyrean",
+              "why": "360-degree holy burst that lights dark areas"
+            },
+            {
+              "id": 27,
+              "name": "High Spellhold",
+              "why": "Bank a High Frigor for instant release"
+            }
+          ],
+          "alternate": {
+            "id": 28,
+            "name": "High Palladium",
+            "why": "Safety if you are getting focused"
+          },
+          "augments": [
+            {
+              "name": "Sagacity",
+              "why": "+30 Magick"
+            },
+            {
+              "name": "Catalysis",
+              "why": "+5% weakness damage"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Endurance",
+              "why": "stamina"
+            },
+            {
+              "name": "Subtlety",
+              "why": "less aggro"
+            },
+            {
+              "name": "Constancy",
+              "why": "knockdown resistance"
+            }
+          ],
+          "rotation": "Bank High Frigor, open with High Levin from behind pawns, High Flagration when enemies close and High Empyrean when surrounded. Release the stored Frigor at a stagger. Ids 24-26 stay usable if you Rearmament to an archistaff.",
+          "weaknesses": "Lower ceiling than Sorcerer with no Maister nuke; stamina hungry.",
+          "flags": [],
+          "confidence": "inference"
+        },
+        {
+          "role": "utility",
+          "name": "Elemental Enchanter",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 29,
+              "name": "Fire Affinity",
+              "why": "Long-lasting fire enchant"
+            },
+            {
+              "id": 30,
+              "name": "Ice Affinity",
+              "why": "Long-lasting ice enchant"
+            },
+            {
+              "id": 31,
+              "name": "Lightning Affinity",
+              "why": "Long-lasting lightning enchant"
+            },
+            {
+              "id": 34,
+              "name": "High Celerity",
+              "why": "Longer-lasting area haste"
+            },
+            {
+              "id": 36,
+              "name": "High Solemnity",
+              "why": "Long-range silence for enemy casters"
+            }
+          ],
+          "alternate": {
+            "id": 33,
+            "name": "High Halidom",
+            "why": "Cleanse if no dedicated healer"
+          },
+          "augments": [
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            },
+            {
+              "name": "Subtlety",
+              "why": "less aggro"
+            },
+            {
+              "name": "Intervention",
+              "why": "shorter debilitations"
+            },
+            {
+              "name": "Athleticism",
+              "why": "cheaper dashing"
+            },
+            {
+              "name": "Ascendancy",
+              "why": "+30 pawn Strength/Magick"
+            }
+          ],
+          "rotation": "Enchant frontline pawns with the enemy's weakness, lay High Celerity and silence mage-type enemies. Fighter pawns' Enchanted Counter synergises with Affinities. Then Rearmament to a melee weapon (enchant persistence across the swap is unverified).",
+          "weaknesses": "Almost no direct damage; three Affinity slots are redundant if you carry elemental weapons.",
+          "flags": [
+            "enchant persistence across Rearmament untested"
+          ],
+          "confidence": "inference"
+        }
+      ],
+      "not_settable_via_mod": [
+        {
+          "name": "Base-tier spells and Argent Tonic",
+          "why_notable": "Superseded by the High versions and Argent Succor in ids 24-37."
+        },
+        {
+          "name": "Anodyne, Quickspell, Levitate, Magick Barrier (TU3.2)",
+          "why_notable": "Core skills; Magick Barrier is the TU3.2 caster-survivability tool and its Warfarer status is untested."
+        }
+      ],
+      "sources": [
+        "https://www.psu.com/news/dragons-dogma-2-update-3-2-now-due-sept-1-full-patch-notes-reveal-adjustments-to-pawns-ui-save-system-more/",
+        "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+        "https://dragonsdogma2.wiki.fextralife.com/Mage",
+        "https://game8.co/games/Dragons-Dogma-2/archives/Mage",
+        "https://www.gamerguides.com/dragons-dogma-2/guide/vocations/mage/supportive-mage-build",
+        "https://dragonsdogma2.wiki.fextralife.com/Warfarer",
+        "https://dragonsdogma2.wiki.fextralife.com/Augments",
+        "https://www.thegamer.com/dragons-dogma-2-sorcerer-build-guide-skills-augments-gear/"
+      ]
+    },
+    {
+      "job": 4,
+      "name": "Thief",
+      "weapons": "Daggers",
+      "summary": "Agile climber whose damage peaks on large-monster weak points (Skull Splitter, Draw and Quarter); TU3.2 made Formless Feint costlier but added a Vocation-Action timing that off-balances attackers and pauses its drain.",
+      "core_skills": [
+        {
+          "name": "Carve / Twin Fangs",
+          "internal": "basic moveset",
+          "input": "Light (LMB) / heavy (V); hold heavy on landing to cling or pin",
+          "when": "Twin Fangs every time something is downed; hold to cling to large targets.",
+          "on_warfarer": "yes",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Swift Step",
+          "internal": "basic moveset",
+          "input": "Vocation Action (RMB / RB / R1)",
+          "when": "Main defense: dodge, then punish recovery.",
+          "on_warfarer": "yes",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Scarlet Kisses",
+          "internal": "Job04_LoopAttack (inferred)",
+          "input": "Not found in sources",
+          "when": "Stamina-free forward flurry, rated 5 stars; great on sleeping or pinned targets.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Controlled Fall",
+          "internal": "Job04_BreakFall (inferred)",
+          "input": "Timed input on landing after knockdown (exact input not found)",
+          "when": "Regain footing faster and take less impact after being knocked down.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Footpad",
+          "internal": "Job04_KickWall (inferred)",
+          "input": "Likely jump toward a wall, then Jump again (unverified)",
+          "when": "Traversal and repositioning; the #1585 author names it as a trait Warfarer loses.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Bump and Lift",
+          "internal": "Job04_PickPocket (inferred)",
+          "input": "Passive on Carve hits",
+          "when": "Low-rate item theft for farming sellables.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        }
+      ],
+      "builds": [
+        {
+          "role": "defensive",
+          "name": "Phantom Blade",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 42,
+              "name": "Formless Feint",
+              "why": "Maister auto-evade; TU3.2 Vocation-Action press off-balances attackers"
+            },
+            {
+              "id": 41,
+              "name": "Masterful Kill",
+              "why": "Parry into a throat slit, usable mid-air"
+            },
+            {
+              "id": 45,
+              "name": "Smoke Shroud",
+              "why": "Large blinding smoke; works mid-air and clinging; panic button"
+            },
+            {
+              "id": 47,
+              "name": "Concussive Leap",
+              "why": "Blast-retreat that flinches light foes; steerable mid-air after TU3.2"
+            },
+            {
+              "id": 39,
+              "name": "Skull Splitter",
+              "why": "Keeps real damage in the kit"
+            }
+          ],
+          "alternate": {
+            "id": 48,
+            "name": "Shadow Veil",
+            "why": "Disengage/reset and less aggro; first swap if Formless Feint fails"
+          },
+          "augments": [
+            {
+              "name": "Constancy",
+              "why": "knockdown resistance"
+            },
+            {
+              "name": "Mettle",
+              "why": "defense"
+            },
+            {
+              "name": "Vitality",
+              "why": "+200 HP"
+            },
+            {
+              "name": "Subtlety",
+              "why": "less aggro"
+            },
+            {
+              "name": "Gratification",
+              "why": "heal on kill"
+            },
+            {
+              "name": "Poise",
+              "why": "grip-struggle stamina"
+            }
+          ],
+          "rotation": "Open with Smoke Shroud on packs and fight inside Formless Feint, tapping Vocation Action on incoming hits to off-balance attackers and pause the drain. Masterful Kill the parry windows, Concussive Leap out when grabbed or surrounded, and Skull Splitter downed targets.",
+          "weaknesses": "Lower damage and a real timing skill floor; a missed timing on thin armor hurts.",
+          "flags": [
+            "uses a Maister skill (Formless Feint) - untested on Warfarer",
+            "Feint's TU3.2 Vocation-Action input may be overridden on Warfarer - untested"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "offensive",
+          "name": "Pyre Dancer",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 39,
+              "name": "Skull Splitter",
+              "why": "Top big-target and weak-point damage; stronger from height"
+            },
+            {
+              "id": 38,
+              "name": "Cutting Wind",
+              "why": "Spammable gap-closer and 5-star core damage"
+            },
+            {
+              "id": 101,
+              "name": "Blades of the Pyre",
+              "why": "Maister: strongest fire enchant; self-burn offset by Feint"
+            },
+            {
+              "id": 42,
+              "name": "Formless Feint",
+              "why": "Maister: negates Pyre self-damage and auto-evades"
+            },
+            {
+              "id": 43,
+              "name": "Draw and Quarter",
+              "why": "Highest cling burst on weak points"
+            }
+          ],
+          "alternate": {
+            "id": 44,
+            "name": "Ignited Blades",
+            "why": "No self-burn; use if Pyre/Feint do not fire on Warfarer"
+          },
+          "augments": [
+            {
+              "name": "Verve",
+              "why": "+Strength"
+            },
+            {
+              "name": "Lethality",
+              "why": "vitals damage"
+            },
+            {
+              "name": "Vigor",
+              "why": "cling stamina"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Dominance",
+              "why": "knockdown power"
+            }
+          ],
+          "rotation": "Light Pyre, then Formless Feint, and close with Cutting Wind. On large foes hold heavy to cling, climb to the weak point and Draw and Quarter out; re-engage with an aerial Skull Splitter steered mid-air. Drop Feint before stamina bottoms out.",
+          "weaknesses": "Very stamina hungry after TU3.2; Pyre punishes you if Feint lapses and fire-resistant foes blunt it.",
+          "flags": [
+            "uses two Maister skills (Blades of the Pyre, Formless Feint) - untested on Warfarer"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "utility",
+          "name": "Cutpurse",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 49,
+              "name": "Plunder",
+              "why": "Steals curatives and rare items from off-balance or unaware targets"
+            },
+            {
+              "id": 40,
+              "name": "Implicate",
+              "why": "Pulls flyers down and topples staggered large foes"
+            },
+            {
+              "id": 48,
+              "name": "Shadow Veil",
+              "why": "Stealth with less stamina drain"
+            },
+            {
+              "id": 46,
+              "name": "Powder Blast",
+              "why": "Remote explosive traps; usable while clinging"
+            },
+            {
+              "id": 38,
+              "name": "Cutting Wind",
+              "why": "Baseline damage and mobility"
+            }
+          ],
+          "alternate": {
+            "id": 45,
+            "name": "Smoke Shroud",
+            "why": "Crowd safety while plundering"
+          },
+          "augments": [
+            {
+              "name": "Prolificity",
+              "why": "more drops"
+            },
+            {
+              "name": "Opulence",
+              "why": "more gold"
+            },
+            {
+              "name": "Ambuscade",
+              "why": "stealth-opener damage"
+            },
+            {
+              "name": "Avidity",
+              "why": "climbing"
+            },
+            {
+              "name": "Subtlety",
+              "why": "less aggro"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            }
+          ],
+          "rotation": "Shadow Veil on the approach, Plunder unaware targets and open with an Ambuscade-boosted hit. Implicate flyers into your pawns, set Powder Blast at chokepoints before pulling, and Plunder large foes once downed.",
+          "weaknesses": "Low sustained DPS; Plunder works on large targets only while downed and Shadow Veil breaks when you attack or dash.",
+          "flags": [],
+          "confidence": "inference"
+        }
+      ],
+      "not_settable_via_mod": [
+        {
+          "name": "Base tiers (Biting Wind, Helm Splitter, Ensnare, Easy Kill, Gut and Run, Enkindled Blades, Smoke Screen, Powder Charge, Concussive Step, Shadow Cloak, Pilfer)",
+          "why_notable": "Superseded by ids 38-49."
+        },
+        {
+          "name": "Scarlet Kisses, Footpad, Controlled Fall, Bump and Lift",
+          "why_notable": "Core skills; Scarlet Kisses is the 5-star stamina-free flurry and Footpad the wall-kick traversal."
+        }
+      ],
+      "sources": [
+        "https://mp1st.com/title-updates-and-patches/dragons-dogma-2-update-3-200-released-on-september-1-biggest-patch",
+        "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+        "https://game8.co/games/Dragons-Dogma-2/archives/Thief",
+        "https://dragonsdogma2.wiki.fextralife.com/Thief",
+        "https://www.thegamer.com/dragons-dogma-2-thief-best-builds/",
+        "https://www.dexerto.com/gaming/every-dragons-dogma-2-augment-vocation-cost-effects-2609206/",
+        "https://primagames.com/gaming/best-thief-build-in-dragons-dogma-2-skills-augments-and-gear",
+        "https://www.shacknews.com/article/139209/dragons-dogma-2-pc-keybindings-controls",
+        "https://dragonsdogma2.wiki.fextralife.com/Footpad"
+      ]
+    },
+    {
+      "job": 5,
+      "name": "Warrior",
+      "weapons": "Two-handed sword (greatsword)",
+      "summary": "Charge-based two-hander that turns telegraphed hits into knockdowns and huge stagger; TU3.2 buffed Savage Lash damage, sweep/lash reach and the Tidal Fury counter window.",
+      "core_skills": [
+        {
+          "name": "Mighty Sweep / Stonesplitter / Barge",
+          "internal": "basic moveset",
+          "input": "Light (hold to charge) / heavy / Vocation Action (RB / R1)",
+          "when": "Charge through small-enemy strings; Stonesplitter is the successive strike on off-balance targets; Barge flinches and resists flinch. TU3.2 keeps Mighty Sweep's charge through Barge.",
+          "on_warfarer": "yes",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Bulwark",
+          "internal": "Job05_StrongBody (inferred)",
+          "input": "Passive while charging",
+          "when": "Reduces damage taken during charged attacks: pre-charge through enemy strings then release.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Breakneck Strike",
+          "internal": "Job05_JustRelease (inferred)",
+          "input": "Release a charged attack the instant it flashes fully charged",
+          "when": "On every charged skill and charged basic attack; holding past the flash adds nothing.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Chain of Blows",
+          "internal": "Job05_SpeedCombo (inferred)",
+          "input": "Press light again right at the end of the previous swing",
+          "when": "Extra faster Mighty Sweep for small-enemy pressure; TU3.2 made the timing consistent.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Repulse",
+          "internal": "Job05_Parry (inferred)",
+          "input": "Release any charged attack just before an enemy hit lands",
+          "when": "Pre-charge while baiting a telegraphed hit, release into it to parry and knock the target off balance.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        }
+      ],
+      "builds": [
+        {
+          "role": "defensive",
+          "name": "Iron Bulwark",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 55,
+              "name": "Tidal Wrath",
+              "why": "Weapon block that counters; TU3.2 opened the window sooner and cut failed-counter recovery"
+            },
+            {
+              "id": 56,
+              "name": "Roar",
+              "why": "Aggro draw that strengthens with repeated presses"
+            },
+            {
+              "id": 59,
+              "name": "Inspirit",
+              "why": "Cures fire, frostbite, sleep, silence and unconscious"
+            },
+            {
+              "id": 51,
+              "name": "Razing Sweep",
+              "why": "5-star AoE crowd clear that scales with charge"
+            },
+            {
+              "id": 57,
+              "name": "Mountain Breaker",
+              "why": "Staggers large enemies such as cyclopes"
+            }
+          ],
+          "alternate": {
+            "id": 52,
+            "name": "Heavenward Sunder",
+            "why": "More knockdown against tall enemies"
+          },
+          "augments": [
+            {
+              "name": "Vitality",
+              "why": "+200 HP"
+            },
+            {
+              "name": "Mettle",
+              "why": "defense"
+            },
+            {
+              "name": "Intrepidity",
+              "why": "slower loss gauge"
+            },
+            {
+              "name": "Constancy",
+              "why": "+30% knockdown resistance"
+            },
+            {
+              "name": "Provocation",
+              "why": "aggro"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            }
+          ],
+          "rotation": "Roar to take aggro, Tidal Wrath into telegraphed hits and charge Razing Sweep through small-enemy pressure. Mountain Breaker to stagger large enemies; Inspirit when burned, frozen or silenced.",
+          "weaknesses": "No shield block outside Tidal Wrath; slow and weak against fliers and ranged casters.",
+          "flags": [
+            "Bulwark / Repulse value depends on Warfarer core-skill access (conflict)"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "offensive",
+          "name": "Giantfeller",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 58,
+              "name": "Indomitable Lash",
+              "why": "Top boss damage; TU3.2 buffed Savage Lash damage and reach"
+            },
+            {
+              "id": 57,
+              "name": "Mountain Breaker",
+              "why": "Staggers or knocks out big enemies"
+            },
+            {
+              "id": 52,
+              "name": "Heavenward Sunder",
+              "why": "High knockdown on heads of tall enemies"
+            },
+            {
+              "id": 53,
+              "name": "Windstorm Slash",
+              "why": "Finisher on toppled enemies; cancellable to save stamina"
+            },
+            {
+              "id": 61,
+              "name": "Arc of Might",
+              "why": "Maister all-stamina almighty blow"
+            }
+          ],
+          "alternate": {
+            "id": 51,
+            "name": "Razing Sweep",
+            "why": "Replaces Arc of Might for mixed packs or if Maister skills fail"
+          },
+          "augments": [
+            {
+              "name": "Verve",
+              "why": "+Strength"
+            },
+            {
+              "name": "Dominance",
+              "why": "knockdown power"
+            },
+            {
+              "name": "Pertinacity",
+              "why": "guard break"
+            },
+            {
+              "name": "Lethality",
+              "why": "vitals damage"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            }
+          ],
+          "rotation": "Charge Heavenward Sunder or Mountain Breaker at the head, releasing on the flash, to topple. On the downed target use Stonesplitter's successive strike, then Indomitable Lash or Windstorm Slash. Save Arc of Might for a guaranteed knockdown window at full stamina; drink stamina items when exhausted (instant since TU3.2).",
+          "weaknesses": "Poor against hordes and fliers; Arc of Might drains all stamina and whiffs are punished.",
+          "flags": [
+            "uses a Maister skill (Arc of Might) - untested on Warfarer",
+            "#1585 notes no safe direct-cast path for Arc of Might"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "utility",
+          "name": "Siege Engine",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 60,
+              "name": "Catapult Launch",
+              "why": "Flings allies further and higher onto large monsters"
+            },
+            {
+              "id": 50,
+              "name": "Ravening Lunge",
+              "why": "Long charge that skewers small or ranged foes; wall bonus fixed in TU3.2"
+            },
+            {
+              "id": 51,
+              "name": "Razing Sweep",
+              "why": "AoE clear"
+            },
+            {
+              "id": 56,
+              "name": "Roar",
+              "why": "Peel enemies off pawns"
+            },
+            {
+              "id": 59,
+              "name": "Inspirit",
+              "why": "Status cleanse"
+            }
+          ],
+          "alternate": {
+            "id": 54,
+            "name": "Diluvian Strike",
+            "why": "Plunge from height with bonus hits on flinching small enemies"
+          },
+          "augments": [
+            {
+              "name": "Vigor",
+              "why": "cling stamina"
+            },
+            {
+              "name": "Avidity",
+              "why": "faster climbing"
+            },
+            {
+              "name": "Impact",
+              "why": "push/pull while grabbing"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Vitality",
+              "why": "HP"
+            }
+          ],
+          "rotation": "Ravening Lunge archers and casters into walls, Razing Sweep the melee pack and Roar to peel enemies off pawns. Catapult Launch a pawn onto a drake or griffin; Inspirit after status hits.",
+          "weaknesses": "Modest boss damage; Catapult Launch needs pawn positioning and there is no large-enemy stagger tool.",
+          "flags": [
+            "#1585 notes no safe direct-cast path for Catapult Launch; test it under #1532"
+          ],
+          "confidence": "inference"
+        }
+      ],
+      "not_settable_via_mod": [
+        {
+          "name": "Base-tier skills (Goring Lunge, Rending Sweep, Skyward Sunder, Gale Slash, Surging Strike, Tidal Fury, Bellow, Knoll Breaker, Savage Lash, Revivify, Ladder Launch)",
+          "why_notable": "Superseded by ids 50-60; TU3.2 buffs to the base names carry into the upgrades (inference)."
+        },
+        {
+          "name": "Bulwark, Breakneck Strike, Chain of Blows, Repulse",
+          "why_notable": "Core skills that define Warrior timing; availability on Warfarer is disputed."
+        }
+      ],
+      "sources": [
+        "https://www.rpgsite.net/news/21270-dragons-dogma-2-september-2026-new-title-update-performance-frame-rate-ps5-pro-xbox-series-x-s-pc-improvement",
+        "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+        "https://game8.co/games/Dragons-Dogma-2/archives/Warrior",
+        "https://www.pcgamesn.com/dragons-dogma-2/warrior-skills",
+        "https://fextralife.com/dragons-dogma-2-warrior-build-guide/",
+        "https://www.thegamer.com/dragons-dogma-2-best-warrior-build/",
+        "https://game8.co/games/Dragons-Dogma-2/archives/447741"
+      ]
+    },
+    {
+      "job": 6,
+      "name": "Sorcerer",
+      "weapons": "Archistaff",
+      "summary": "Highest magick burst in the game (Meteoron, Maelstrom, Augural Flare) but with very long incants; on Warfarer the x1.6 Magick multiplier is gone, so Sagacity and a 345-Magick archistaff matter. TU3.2 reworked Prescient Flare orbs.",
+      "core_skills": [
+        {
+          "name": "Magick Bolt",
+          "internal": "basic moveset",
+          "input": "Light attack (Left Click)",
+          "when": "Filler while stamina refills.",
+          "on_warfarer": "yes",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Bursting Bolt",
+          "internal": "Job06_BurstShot",
+          "input": "Hold light / Left Click, release",
+          "when": "Delayed-explosion chip damage between big casts.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Galvanize",
+          "internal": "unmapped",
+          "input": "Hold heavy (Triangle / Y; V key)",
+          "when": "Rapid stamina recovery between Maister casts; Fextralife says an archistaff Warfarer gets it.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Quickspell",
+          "internal": "Job03_Concentrate (inferred, shared)",
+          "input": "Hold Vocation Action while incanting",
+          "when": "Speed up High spells; does not affect Meteoron or Maelstrom.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Levitate",
+          "internal": "Job03_Levitate (shared)",
+          "input": "While jumping press Jump again",
+          "when": "Float over ground attacks, cast from height.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Magick Barrier (TU3.2)",
+          "internal": "unmapped",
+          "input": "Vocation Action while not incanting (inferred)",
+          "when": "Block telegraphed hits during long incants.",
+          "on_warfarer": "untested",
+          "confidence": "sourced"
+        }
+      ],
+      "builds": [
+        {
+          "role": "defensive",
+          "name": "Warded Channeler",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 65,
+              "name": "High Decanter",
+              "why": "Life-drain heal to the caster; stand still"
+            },
+            {
+              "id": 64,
+              "name": "High Thundermine",
+              "why": "Mine that knocks down small foes who get close"
+            },
+            {
+              "id": 63,
+              "name": "High Hagol",
+              "why": "Frostbite blizzard zone"
+            },
+            {
+              "id": 26,
+              "name": "High Frigor",
+              "why": "Knocks back small foes; pillar gives high ground"
+            },
+            {
+              "id": 27,
+              "name": "High Spellhold",
+              "why": "Keep an escape Frigor or Hagol banked"
+            }
+          ],
+          "alternate": {
+            "id": 62,
+            "name": "High Salamander",
+            "why": "Lingering ground flame"
+          },
+          "augments": [
+            {
+              "name": "Apotropaism",
+              "why": "Magick Defense"
+            },
+            {
+              "name": "Constancy",
+              "why": "knockdown resistance"
+            },
+            {
+              "name": "Vitality",
+              "why": "+200 HP"
+            },
+            {
+              "name": "Mettle",
+              "why": "defense"
+            },
+            {
+              "name": "Subtlety",
+              "why": "less aggro"
+            },
+            {
+              "name": "Intervention",
+              "why": "shorter debilitations"
+            }
+          ],
+          "rotation": "Drop Thundermine at your feet then Hagol around your position, and channel Decanter on the biggest nearby target to top up HP. If rushed, release the banked Frigor to knock enemies back.",
+          "weaknesses": "Decanter roots you; low burst.",
+          "flags": [],
+          "confidence": "inference"
+        },
+        {
+          "role": "offensive",
+          "name": "Cataclysm",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 68,
+              "name": "Meteoron",
+              "why": "Maister: 4 meteors over a huge area, best in the open; staggers drakes"
+            },
+            {
+              "id": 69,
+              "name": "Maelstrom",
+              "why": "Maister: tornado, best indoors and in caves"
+            },
+            {
+              "id": 67,
+              "name": "Augural Flare",
+              "why": "Orb that multiplies explosions as it is hit; TU3.2 Prescient Flare tuning may carry over"
+            },
+            {
+              "id": 27,
+              "name": "High Spellhold",
+              "why": "Store a Maister spell for instant cast; persists even after resting"
+            },
+            {
+              "id": 25,
+              "name": "High Levin",
+              "why": "Fast filler that hits fliers"
+            }
+          ],
+          "alternate": {
+            "id": 66,
+            "name": "High Seism",
+            "why": "Physical damage vs magick-resistant targets; first swap if Maister skills fail"
+          },
+          "augments": [
+            {
+              "name": "Sagacity",
+              "why": "+30 Magick"
+            },
+            {
+              "name": "Catalysis",
+              "why": "+5% weakness damage"
+            },
+            {
+              "name": "Asperity",
+              "why": "+20% debilitation"
+            },
+            {
+              "name": "Subtlety",
+              "why": "less aggro"
+            },
+            {
+              "name": "Constancy",
+              "why": "keeps incants from being interrupted"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            }
+          ],
+          "rotation": "Bank a Meteoron in Spellhold before the fight, tag the boss with Augural Flare and let pawns detonate it. Release Meteoron at a stagger, then incant Maelstrom or another Meteoron behind your tanks (Quickspell does not help these). High Levin while stamina refills.",
+          "weaknesses": "Very long incants with no movement; Meteoron can vaporize loot; stamina heavy.",
+          "flags": [
+            "uses two Maister skills (Meteoron, Maelstrom) - untested on Warfarer"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "utility",
+          "name": "Hexweaver",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 63,
+              "name": "High Hagol",
+              "why": "Frostbite zone"
+            },
+            {
+              "id": 62,
+              "name": "High Salamander",
+              "why": "Lingering burn line across the approach"
+            },
+            {
+              "id": 66,
+              "name": "High Seism",
+              "why": "Physical area damage vs golems and magick-resistant foes"
+            },
+            {
+              "id": 64,
+              "name": "High Thundermine",
+              "why": "Knockdown mine at chokepoints"
+            },
+            {
+              "id": 26,
+              "name": "High Frigor",
+              "why": "Ice pillar for high ground and climbing"
+            }
+          ],
+          "alternate": {
+            "id": 65,
+            "name": "High Decanter",
+            "why": "Self-sustain"
+          },
+          "augments": [
+            {
+              "name": "Asperity",
+              "why": "+20% debilitation"
+            },
+            {
+              "name": "Catalysis",
+              "why": "weakness damage"
+            },
+            {
+              "name": "Sagacity",
+              "why": "Magick"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Endurance",
+              "why": "stamina"
+            },
+            {
+              "name": "Subtlety",
+              "why": "less aggro"
+            }
+          ],
+          "rotation": "Salamander a line across the enemies' approach and Thundermine the chokepoints, Hagol clustered packs and Seism golems. Use Frigor pillars for high ground or climbing.",
+          "weaknesses": "Low single-target damage; zone spells are weak against fliers.",
+          "flags": [],
+          "confidence": "inference"
+        }
+      ],
+      "not_settable_via_mod": [
+        {
+          "name": "Prescient Flare and base-tier spells",
+          "why_notable": "Prescient Flare is the lower tier of Augural Flare (67); base tiers superseded."
+        },
+        {
+          "name": "Galvanize, Bursting Bolt, Quickspell, Levitate, Magick Barrier",
+          "why_notable": "Core skills; Galvanize is the Sorcerer stamina engine for Maister casting."
+        }
+      ],
+      "sources": [
+        "https://www.psu.com/news/dragons-dogma-2-update-3-2-now-due-sept-1-full-patch-notes-reveal-adjustments-to-pawns-ui-save-system-more/",
+        "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+        "https://dragonsdogma2.wiki.fextralife.com/Sorcerer",
+        "https://game8.co/games/Dragons-Dogma-2/archives/Sorcerer",
+        "https://www.thegamer.com/dragons-dogma-2-sorcerer-build-guide-skills-augments-gear/",
+        "https://dragonsdogma2.wiki.fextralife.com/Meteoron",
+        "https://dragonsdogma2.wiki.fextralife.com/Maelstrom",
+        "https://dragonsdogma2.wiki.fextralife.com/Warfarer",
+        "https://dragonsdogma2.wiki.fextralife.com/Augments"
+      ]
+    },
+    {
+      "job": 7,
+      "name": "Mystic Spearhand",
+      "weapons": "Duospear",
+      "summary": "Hybrid STR/MAG duospear built around the party-wide Mirour Shelde barrier, crowd control and a stamina-scaled nuke; its signature mobility (Quik Fot off Forbeding Bolt) is a core skill that may not work on Warfarer.",
+      "core_skills": [
+        {
+          "name": "Twein Cut / Magike Cut",
+          "internal": "basic moveset",
+          "input": "Light / heavy attack",
+          "when": "Magike Cut has a follow-up on off-balance foes; use on flinched or downed targets.",
+          "on_warfarer": "yes",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Redouted Bolt / Forbeding Bolt",
+          "internal": "basic moveset",
+          "input": "Tap Vocation Action (RB) for a flinch; hold about 2 s until the hand pulses blue for Forbeding Bolt",
+          "when": "Forbeding Bolt roots targets (longer charge, longer root); charge constantly, even while moving or attacking.",
+          "on_warfarer": "yes",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Quik Fot",
+          "internal": "Job07_MagicBindJustLeap",
+          "input": "Press Jump within about 0.5 s after a Forbeding/Scatering Bolt hits",
+          "when": "Teleport gap-closer onto archers, casters and flyers.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Scatering Bolt",
+          "internal": "Job07_MagicBindJustExplosion",
+          "input": "Likely Vocation Action again while the released Forbeding Bolt is in flight (inferred)",
+          "when": "Disperse the bolt to root a crowd before Devout Offringe or Seching Storm.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Winding Cut",
+          "internal": "Job07_SpiralSlash",
+          "input": "Repeated attack presses (exact button unsourced); usable while walking",
+          "when": "Filler between skills; Game8 says it costs no stamina, PCGamesN says it lasts for your stamina bar (conflict).",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Ferrene Bolt",
+          "internal": "Job07_MagicBindLong",
+          "input": "Passive",
+          "when": "Extends Redouted Bolt range so you can tag distant targets for Quik Fot.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        }
+      ],
+      "builds": [
+        {
+          "role": "defensive",
+          "name": "Mirror Warden",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 74,
+              "name": "Mirour Shelde",
+              "why": "Party barrier that nullifies all attacks; recast before expiry to keep 100% uptime"
+            },
+            {
+              "id": 72,
+              "name": "Ravinour's Hond",
+              "why": "Saps vitality as Stamina and hastens recovery to fund barrier recasts"
+            },
+            {
+              "id": 76,
+              "name": "Skiedragoun's Feste",
+              "why": "Evasive dive that deals more damage if it evades"
+            },
+            {
+              "id": 70,
+              "name": "Devout Offringe",
+              "why": "Hurls objects and flinching small foes; crowd control"
+            },
+            {
+              "id": 78,
+              "name": "Moment's Charge",
+              "why": "Instant max Forbeding Bolt for an instant root; costs HP so use while shielded"
+            }
+          ],
+          "alternate": {
+            "id": 71,
+            "name": "Unto Heven",
+            "why": "Deletes small adds (no XP or loot from them)"
+          },
+          "augments": [
+            {
+              "name": "Sustainment",
+              "why": "pawn defenses"
+            },
+            {
+              "name": "Endurance",
+              "why": "stamina"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Voracity",
+              "why": "stamina on kill"
+            },
+            {
+              "name": "Athleticism",
+              "why": "cheaper dashing"
+            }
+          ],
+          "rotation": "Pre-charge RB and cast Mirour Shelde as enemies commit (its window also lets you revive safely). Root a group with Forbeding/Scatering Bolt, then Devout Offringe, and recast the barrier just before it expires. Ravinour's Hond a corporeal target when stamina drops; Feste as a timed evade.",
+          "weaknesses": "Low damage, stamina hungry, Hond fails on incorporeal foes and there is no true guard.",
+          "flags": [
+            "Moment's Charge is only useful if Forbeding Bolt/Scatering Bolt work on Warfarer (conflict)"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "offensive",
+          "name": "Skydragoon Burst",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 76,
+              "name": "Skiedragoun's Feste",
+              "why": "Rated best damage skill, with an evade bonus"
+            },
+            {
+              "id": 77,
+              "name": "Magike Speregonne",
+              "why": "Stamina-scaled long-range blast"
+            },
+            {
+              "id": 79,
+              "name": "Wild Furie",
+              "why": "Maister flurry extended with Stamina"
+            },
+            {
+              "id": 73,
+              "name": "Dragoun's Foin",
+              "why": "Gap-closing magick jab that hits flyers"
+            },
+            {
+              "id": 74,
+              "name": "Mirour Shelde",
+              "why": "Safety window to trade freely"
+            }
+          ],
+          "alternate": {
+            "id": 72,
+            "name": "Ravinour's Hond",
+            "why": "Swap in over Wild Furie if Maister skills fail or stamina is the bottleneck"
+          },
+          "augments": [
+            {
+              "name": "Verve",
+              "why": "+Strength"
+            },
+            {
+              "name": "Sagacity",
+              "why": "+30 Magick"
+            },
+            {
+              "name": "Polarity",
+              "why": "STR by day, MAG by night"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Endurance",
+              "why": "feeds Speregonne"
+            }
+          ],
+          "rotation": "Foin in, raise the barrier and time Feste through an enemy swing for the evade bonus. Magike Cut flinched or downed targets, Wild Furie on a downed target, then Speregonne from range while it recovers.",
+          "weaknesses": "Very stamina heavy and little crowd control.",
+          "flags": [
+            "uses a Maister skill (Wild Furie) - untested on Warfarer"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "utility",
+          "name": "Binder",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 75,
+              "name": "Seching Storm",
+              "why": "Homing magick blades castable while moving"
+            },
+            {
+              "id": 70,
+              "name": "Devout Offringe",
+              "why": "Long-range AoE throw"
+            },
+            {
+              "id": 71,
+              "name": "Unto Heven",
+              "why": "Launches small foes out of the fight (no XP or loot)"
+            },
+            {
+              "id": 73,
+              "name": "Dragoun's Foin",
+              "why": "Anti-air, and stamina-efficient traversal"
+            },
+            {
+              "id": 78,
+              "name": "Moment's Charge",
+              "why": "Instant Forbeding Bolt, then Scatering Bolt or Quik Fot"
+            }
+          ],
+          "alternate": {
+            "id": 74,
+            "name": "Mirour Shelde",
+            "why": "Swap in for boss areas"
+          },
+          "augments": [
+            {
+              "name": "Athleticism",
+              "why": "less dash stamina"
+            },
+            {
+              "name": "Conveyance",
+              "why": "carry speed"
+            },
+            {
+              "name": "Opulence",
+              "why": "more gold"
+            },
+            {
+              "name": "Refulgence",
+              "why": "rift crystals"
+            },
+            {
+              "name": "Endurance",
+              "why": "stamina"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            }
+          ],
+          "rotation": "Seching Storm up, Moment's Charge then Scatering Bolt on the pack and Devout Offringe the rooted group. Unto Heven stragglers; Foin or Quik Fot to flyers.",
+          "weaknesses": "Weak vs large single targets; Unto Heven forfeits loot/XP and Moment's Charge costs HP.",
+          "flags": [
+            "Unto Heven removes XP and loot from launched targets",
+            "Moment's Charge value depends on Warfarer core-skill access (conflict)"
+          ],
+          "confidence": "inference"
+        }
+      ],
+      "not_settable_via_mod": [
+        {
+          "name": "Base tiers (Dragoun's Stabbe, Seching Blade, Humble Offringe, Thef's Hond, Mirour Vesture, Skiedragoun's Fangtooth, Unto Skie, Magike Sperepelote, Swift Charge)",
+          "why_notable": "Superseded by upgraded ids 70-78."
+        },
+        {
+          "name": "Quik Fot, Scatering Bolt, Winding Cut, Ferrene Bolt",
+          "why_notable": "Core skills; Quik Fot is the Spearhand's signature gap-closer."
+        }
+      ],
+      "sources": [
+        "https://game8.co/games/Dragons-Dogma-2/archives/Mystic-Spearhand",
+        "https://www.pcgamesn.com/dragons-dogma-2/mystic-spearhand-skills",
+        "https://www.rpgsite.net/guide/15659-dragons-dogma-2-mystic-spearhand-how-to-unlock-vocation-guide",
+        "https://dotesports.com/dragons-dogma/news/dragons-dogma-2-how-to-use-the-quik-fot-ability",
+        "https://game8.co/games/Dragons-Dogma-2/archives/Warfarer",
+        "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+        "https://pixeltwelve.com/articles/dragons-dogma-2-vocations-unlock-guide"
+      ]
+    },
+    {
+      "job": 8,
+      "name": "Magick Archer",
+      "weapons": "Magick bow",
+      "summary": "Lock-on magick archery that mixes no-aim AoE (Sagittate Avalanche), the HP-for-damage Martyr's Bolt and ranged revives; TU3.2 made lock-on stickier but nerfed Vimtaking when not locked on a pawn.",
+      "core_skills": [
+        {
+          "name": "Quickfire",
+          "internal": "basic moveset",
+          "input": "Light attack (inferred)",
+          "when": "Stamina-free spread filler; used almost constantly.",
+          "on_warfarer": "yes",
+          "confidence": "inference"
+        },
+        {
+          "name": "Pinpoint Volley / Rivet Shot (Conversion)",
+          "internal": "basic moveset",
+          "input": "Vocation Action to aim and lock; Conversion toggles mode",
+          "when": "Pinpoint Volley for distant large enemies (faster charge, hits all parts); Rivet Shot for single-point focus.",
+          "on_warfarer": "yes",
+          "confidence": "inference"
+        },
+        {
+          "name": "Climactic Arrow",
+          "internal": "Job08_JustArrow",
+          "input": "Release Vocation Action exactly at full draw",
+          "when": "Every aimed volley for bonus damage.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Scopic Sight",
+          "internal": "Job08_WideLockOn",
+          "input": "Passive",
+          "when": "Longer lock-on range for fliers and far targets.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Tracker's Sight",
+          "internal": "Job08_AddMultiCount",
+          "input": "Passive",
+          "when": "More lock-on targets for mobs and multi-weak-point bosses.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Protracting Arrow",
+          "internal": "Job08_RemainArrow",
+          "input": "Passive",
+          "when": "After a fire/ice/lightning skill, basic shots carry that element briefly: open with Candescent or Frosthunter matching the weakness, then basic-fire.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        }
+      ],
+      "builds": [
+        {
+          "role": "defensive",
+          "name": "Bastion Bow",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 88,
+              "name": "Fortalice",
+              "why": "Ally barrier that blocks and counterattacks; lasts longer than Bartizan"
+            },
+            {
+              "id": 87,
+              "name": "Recovery Arrow",
+              "why": "Early release heals, full charge revives pawns"
+            },
+            {
+              "id": 86,
+              "name": "Lifetaking Arrow",
+              "why": "Drains a pack to heal pawns; lock on a pawn (TU3.2 nerf otherwise)"
+            },
+            {
+              "id": 89,
+              "name": "Soporific Bolt",
+              "why": "Sleep buildup on a dangerous add"
+            },
+            {
+              "id": 83,
+              "name": "Arctic Bolt",
+              "why": "Charged ice clump with decent knockdown for peel"
+            }
+          ],
+          "alternate": {
+            "id": 82,
+            "name": "Frosthunter Bolt",
+            "why": "Homing frostbite slow"
+          },
+          "augments": [
+            {
+              "name": "Amelioration",
+              "why": "faster pawn revive"
+            },
+            {
+              "name": "Sustainment",
+              "why": "pawn defenses"
+            },
+            {
+              "name": "Subtlety",
+              "why": "less aggro"
+            },
+            {
+              "name": "Endurance",
+              "why": "stamina"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            }
+          ],
+          "rotation": "Pre-cast Fortalice on the tank before contact and sleep the secondary threat with 2-3 Soporific Bolts. When HP dips, fire Lifetaking through clustered enemies while locked on a pawn. Arctic Bolt anything that dives you and keep Recovery Arrow ready to charge for a fallen pawn.",
+          "weaknesses": "Low kill speed, Lifetaking nerfed, no status cures, and Fortalice self-targeting is unverified.",
+          "flags": [
+            "Vimtaking TU3.2 nerf assumed to apply to Lifetaking - untested"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "offensive",
+          "name": "Skyfall",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 90,
+              "name": "Sagittate Avalanche",
+              "why": "Highest-rated no-aim AoE; benefits from TU3.2 sticky targeting"
+            },
+            {
+              "id": 91,
+              "name": "Martyr's Bolt",
+              "why": "Maister: strongest single hit, paid with about 75% HP and max HP"
+            },
+            {
+              "id": 85,
+              "name": "Ricochet Hunter",
+              "why": "Huge in caves and corridors; charge for more ricochets"
+            },
+            {
+              "id": 81,
+              "name": "Candescent Orb",
+              "why": "Sticky fire orb and DoT"
+            },
+            {
+              "id": 82,
+              "name": "Frosthunter Bolt",
+              "why": "Homing ice for elemental coverage"
+            }
+          ],
+          "alternate": {
+            "id": 84,
+            "name": "Boltchain Stake",
+            "why": "Outdoor lightning zone; replaces Martyr's Bolt if Maister skills fail"
+          },
+          "augments": [
+            {
+              "name": "Sagacity",
+              "why": "+30 Magick"
+            },
+            {
+              "name": "Asperity",
+              "why": "+20% debilitation chance"
+            },
+            {
+              "name": "Lethality",
+              "why": "vitals damage (magick application unconfirmed)"
+            },
+            {
+              "name": "Endurance",
+              "why": "stamina"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            }
+          ],
+          "rotation": "Stick Candescent on a large enemy (Frosthunter if fire-resistant), then chain Sagittate Avalanche without re-aiming. Indoors, open with a fully charged Ricochet Hunter. For a boss finish, charge Martyr's Bolt then drink an Allheal Elixir to restore max HP.",
+          "weaknesses": "Martyr's Bolt leaves you fragile and builds loss gauge; Ricochet is weak in the open and the kit has no sustain.",
+          "flags": [
+            "uses a Maister skill (Martyr's Bolt) - untested on Warfarer",
+            "#1585 notes no safe direct-cast path for Sagittate Avalanche; test under #1532"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "utility",
+          "name": "Pathfinder's Aid",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 87,
+              "name": "Recovery Arrow",
+              "why": "Long-range pawn revival"
+            },
+            {
+              "id": 81,
+              "name": "Candescent Orb",
+              "why": "Lights dark areas plus fire DoT"
+            },
+            {
+              "id": 89,
+              "name": "Soporific Bolt",
+              "why": "Sleep for control or stealth"
+            },
+            {
+              "id": 84,
+              "name": "Boltchain Stake",
+              "why": "Arcing lightning web at chokepoints"
+            },
+            {
+              "id": 90,
+              "name": "Sagittate Avalanche",
+              "why": "Reliable no-aim damage so the build still kills"
+            }
+          ],
+          "alternate": {
+            "id": 88,
+            "name": "Fortalice",
+            "why": "Swap in for boss areas"
+          },
+          "augments": [
+            {
+              "name": "Amelioration",
+              "why": "faster revives"
+            },
+            {
+              "name": "Ascendancy",
+              "why": "pawn Strength/Magick"
+            },
+            {
+              "name": "Sustainment",
+              "why": "pawn defenses"
+            },
+            {
+              "name": "Prolificity",
+              "why": "more drops"
+            },
+            {
+              "name": "Radiance",
+              "why": "lantern efficiency"
+            },
+            {
+              "name": "Voracity",
+              "why": "stamina on kill"
+            }
+          ],
+          "rotation": "In the dark, fire Candescent onto a wall or enemy for light and damage. Lay 2-3 Boltchain Stakes at a chokepoint, sleep elites and let Avalanche clean up. Revive fallen pawns from range with a full-charge Recovery Arrow.",
+          "weaknesses": "Moderate damage; Soporific needs several hits and stakes are slow against mobile foes.",
+          "flags": [],
+          "confidence": "inference"
+        }
+      ],
+      "not_settable_via_mod": [
+        {
+          "name": "Base tiers (Flamefang, Irradiant Orb, Frostseeker, Hailstone, Sparkchain, Ricochet Seeker, Vimtaking, Remedy, Bartizan, Sedative, Sagittate Downpour)",
+          "why_notable": "Superseded by ids 80-90."
+        },
+        {
+          "name": "Protracting Arrow, Climactic Arrow, Scopic/Tracker's Sight",
+          "why_notable": "Core skills; Protracting Arrow is the elemental-basic-shot engine and may not follow the bow onto Warfarer."
+        }
+      ],
+      "sources": [
+        "https://www.dragonsdogma.com/2/en-us/topics/update/",
+        "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+        "https://www.gameleap.com/articles/dragon-s-dogma-2-magick-archer-guide-all-skills-list",
+        "https://www.thegamer.com/dragons-dogma-2-best-magick-archer-builds/",
+        "https://dotesports.com/dragons-dogma/news/dragons-dogma-2-best-magick-archer-build-augments-abilities-and-gear",
+        "https://fextralife.com/dragons-dogma-2-magick-archer-build-guide/"
+      ]
+    },
+    {
+      "job": 9,
+      "name": "Trickster",
+      "weapons": "Censer",
+      "summary": "Illusion support/aggro vocation built around a simulacrum decoy summoned by a core action, which starts fading as soon as a Warfarer swaps weapons; run it as a stay-on-censer set. TU3.2 added Buoyant Brume and buffed several illusions.",
+      "core_skills": [
+        {
+          "name": "Beveiling Fumes",
+          "internal": "basic moveset",
+          "input": "Light attack (inferred)",
+          "when": "Censer swing that engulfs targets in smoke and pulls aggro to you.",
+          "on_warfarer": "yes",
+          "confidence": "inference"
+        },
+        {
+          "name": "Effigial Incense",
+          "internal": "basic moveset",
+          "input": "Vocation Action (RMB / RB / R1)",
+          "when": "Summon the simulacrum and keep it up at all times; enemies attack it first. On Warfarer it fades after a weapon swap.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        },
+        {
+          "name": "Invoking Essence / Effigial Snuff / Enthralling Aroma",
+          "internal": "unmapped",
+          "input": "Not found in sources",
+          "when": "Recall the decoy (also while clinging), dispel it, or possess an enemy so foes fight each other.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Mending Vapor",
+          "internal": "Job09_DecoyRegeneration",
+          "input": "Not found in sources",
+          "when": "Repair the decoy while beckoning it back when it is about to break.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Drifting Brume",
+          "internal": "Job09_ThrowSmoke",
+          "input": "Not found in sources",
+          "when": "Ranged taunt: smoke travels to nearby targets and draws attention.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Effigial Quickburn",
+          "internal": "Job09_DecoyFastSummon",
+          "input": "Passive",
+          "when": "Faster decoy creation; 5-star priority unlock.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Trailing Aroma",
+          "internal": "Job09_DecoyRangeUp",
+          "input": "Passive",
+          "when": "Lets the decoy stray further from you.",
+          "on_warfarer": "conflict",
+          "confidence": "inference"
+        },
+        {
+          "name": "Buoyant Brume (TU3.2)",
+          "internal": "Job09_Levitate",
+          "input": "While jumping, press Jump again",
+          "when": "Float across gaps and ledges or control fights from above.",
+          "on_warfarer": "conflict",
+          "confidence": "sourced"
+        }
+      ],
+      "builds": [
+        {
+          "role": "defensive",
+          "name": "Smoke Warden",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 95,
+              "name": "Suffocating Shroud",
+              "why": "Main wide taunt; sends aggro to the decoy if one is out"
+            },
+            {
+              "id": 96,
+              "name": "Binding Effigy",
+              "why": "Launches the decoy to possess a target so enemies fight each other"
+            },
+            {
+              "id": 92,
+              "name": "Illusive Divider",
+              "why": "Two walls block movement and vision; ranged pawns shoot through after TU3.2"
+            },
+            {
+              "id": 99,
+              "name": "Dragon's Delusion",
+              "why": "Maister: fear, trips and fleeing; Golems flinch after TU3.2"
+            },
+            {
+              "id": 93,
+              "name": "Tricky Terrace",
+              "why": "Platforms that lure enemies into falls; wolves flinch after TU3.2"
+            }
+          ],
+          "alternate": {
+            "id": 97,
+            "name": "Aromatic Resurgence",
+            "why": "Party offense buff; replaces Dragon's Delusion if Maister skills fail"
+          },
+          "augments": [
+            {
+              "name": "Provocation",
+              "why": "aggro onto you/decoy"
+            },
+            {
+              "name": "Mettle",
+              "why": "defense"
+            },
+            {
+              "name": "Vitality",
+              "why": "HP"
+            },
+            {
+              "name": "Constancy",
+              "why": "knockdown resistance"
+            },
+            {
+              "name": "Sustainment",
+              "why": "pawn defenses"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            }
+          ],
+          "rotation": "Summon the decoy if available, Suffocating Shroud the pack onto it and wall off flankers with Illusive Divider. Dragon's Delusion to scatter when overwhelmed, Binding Effigy the biggest threat. Do not Rearmament mid-fight.",
+          "weaknesses": "Almost no personal damage; the kit depends on a decoy that dies on a weapon swap.",
+          "flags": [
+            "uses a Maister skill (Dragon's Delusion) - untested on Warfarer",
+            "Binding Effigy is dead weight if the decoy cannot be summoned on Warfarer"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "offensive",
+          "name": "Rally Conductor",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 97,
+              "name": "Aromatic Resurgence",
+              "why": "Ally offense buff; allies fight on at 0 HP but drain HP"
+            },
+            {
+              "id": 95,
+              "name": "Suffocating Shroud",
+              "why": "Fixates enemies so pawns hit from behind"
+            },
+            {
+              "id": 99,
+              "name": "Dragon's Delusion",
+              "why": "Trips and flinches open burst windows"
+            },
+            {
+              "id": 96,
+              "name": "Binding Effigy",
+              "why": "Infighting adds damage"
+            },
+            {
+              "id": 92,
+              "name": "Illusive Divider",
+              "why": "Split packs; pawns shoot through post-TU3.2"
+            }
+          ],
+          "alternate": {
+            "id": 93,
+            "name": "Tricky Terrace",
+            "why": "Cliff-drop kills; replaces Dragon's Delusion if Maister skills fail"
+          },
+          "augments": [
+            {
+              "name": "Ascendancy",
+              "why": "+30 pawn Strength/Magick"
+            },
+            {
+              "name": "Sustainment",
+              "why": "pawn defenses"
+            },
+            {
+              "name": "Perpetuation",
+              "why": "longer invigoration (untested on Resurgence)"
+            },
+            {
+              "name": "Zeal",
+              "why": "cheaper skills"
+            },
+            {
+              "name": "Exaltation",
+              "why": "stamina regen"
+            },
+            {
+              "name": "Provocation",
+              "why": "aggro"
+            }
+          ],
+          "rotation": "Shroud first so enemies are fixated, then Aromatic Resurgence on the pawns and Dragon's Delusion to trip the target for a burst window. Re-apply Rally only while a Mage pawn is healing.",
+          "weaknesses": "Rally drains pawn HP, the build is pawn-dependent and weak vs single bosses.",
+          "flags": [
+            "uses a Maister skill (Dragon's Delusion) - untested on Warfarer"
+          ],
+          "confidence": "inference"
+        },
+        {
+          "role": "utility",
+          "name": "Wayfinder",
+          "slots": [
+            {
+              "id": 100,
+              "name": "Rearmament",
+              "why": "Mod requirement: weapon swap / cycle; mod can remove its stamina cost"
+            },
+            {
+              "id": 94,
+              "name": "Visitant Aura",
+              "why": "Out-of-body scouting spirit, cheaper than Espial Incense"
+            },
+            {
+              "id": 98,
+              "name": "Fragrant Alarum",
+              "why": "Wide-radius hostile detection"
+            },
+            {
+              "id": 93,
+              "name": "Tricky Terrace",
+              "why": "Two platforms, even mid-air, to reach ledges"
+            },
+            {
+              "id": 99,
+              "name": "Dragon's Delusion",
+              "why": "Scares roaming enemies off while exploring"
+            },
+            {
+              "id": 95,
+              "name": "Suffocating Shroud",
+              "why": "Emergency aggro"
+            }
+          ],
+          "alternate": {
+            "id": 92,
+            "name": "Illusive Divider",
+            "why": "Block a chasing pack"
+          },
+          "augments": [
+            {
+              "name": "Detection",
+              "why": "finds Seeker's Tokens / Wakestones"
+            },
+            {
+              "name": "Fugacity",
+              "why": "fewer camp and oxcart ambushes"
+            },
+            {
+              "name": "Obfuscation",
+              "why": "stealth"
+            },
+            {
+              "name": "Enlightenment",
+              "why": "bonus crafting"
+            },
+            {
+              "name": "Opulence",
+              "why": "more gold"
+            },
+            {
+              "name": "Avidity",
+              "why": "climbing"
+            }
+          ],
+          "rotation": "Alarum on while travelling, Visitant Aura to scout camps and Tricky Terrace to reach ledges. Dragon's Delusion to scatter anything that engages, then Rearmament to a real weapon for fights; no decoy is lost here.",
+          "weaknesses": "Not a combat build; Alarum and Aura drain stamina and Buoyant Brume is likely unavailable.",
+          "flags": [
+            "uses a Maister skill (Dragon's Delusion) - untested on Warfarer"
+          ],
+          "confidence": "inference"
+        }
+      ],
+      "not_settable_via_mod": [
+        {
+          "name": "Base tiers (Delusory Screen, Fickle Floor, Espial Incense, Sweeping Shroud, Latching Effigy, Aromatic Rally, Scented Alarum)",
+          "why_notable": "Superseded by ids 92-98."
+        },
+        {
+          "name": "Buoyant Brume (TU3.2) and Effigial Incense",
+          "why_notable": "Core skills: the best new traversal tool and the decoy that most censer skills depend on."
+        }
+      ],
+      "sources": [
+        "https://mp1st.com/title-updates-and-patches/dragons-dogma-2-update-3-200-released-on-september-1-biggest-patch",
+        "https://www.nexusmods.com/dragonsdogma2/mods/1532",
+        "https://game8.co/games/Dragons-Dogma-2/archives/Trickster",
+        "https://www.thegamer.com/dragons-dogma-2-best-trickster-build/",
+        "https://www.dexerto.com/gaming/every-dragons-dogma-2-augment-vocation-cost-effects-2609206/",
+        "https://www.shacknews.com/article/139209/dragons-dogma-2-pc-keybindings-controls"
+      ]
+    }
+  ]
+}

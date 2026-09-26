@@ -18,6 +18,7 @@ into `data/`. That means the pages reflect a real save rather than hand-written 
 | Saves | Slot state (scanner not yet wired) |
 | Mods | Every script, how each one works, and what is still wrong with it |
 | Quests | 84 researched quests, searchable, read-only by design |
+| Builds | 27 six-slot Warfarer loadouts (defensive / offensive / utility per vocation) for TrueWarfarerSkillSwapper, plus every core skill with inputs and when to use it. `data/builds.json` is hand-researched, not copied from the game |
 | Log | What changed and what it cost to learn |
 
 ## Refreshing the data
