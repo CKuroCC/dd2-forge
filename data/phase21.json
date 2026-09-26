@@ -1,20 +1,22 @@
 {
     "build": "phase 21 - DUPLICATE SWEEP 2026-09-21",
-    "calls": 4,
+    "calls": 12,
     "failures": null,
     "ownersBelow4": {
-        "2891076981": 1
+        "2283028347": 3
     },
     "raisedItems": [
-        "Cinderspine (sid 1449)"
+        "Wooden Staff (sid 743)",
+        "Missionary's Robe (sid 744)",
+        "Pilgrim's Tights (sid 745)"
     ],
-    "scanReachedId": 5450,
+    "scanReachedId": 4748,
     "stats": {
-        "candidates": 1,
+        "candidates": 3,
         "failed": 0,
-        "items": 1,
-        "raised": 4,
-        "records": 1151,
-        "scanned": 5450
+        "items": 3,
+        "raised": 12,
+        "records": 745,
+        "scanned": 4748
     }
 }

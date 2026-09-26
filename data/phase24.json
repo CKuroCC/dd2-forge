@@ -2,8 +2,8 @@
     "build": "phase 24 - NG+ WRITE 2026-09-21",
     "failures": null,
     "stats": {
-        "already": 1,
-        "done": 351,
+        "already": 0,
+        "done": 352,
         "failed": 0
     },
     "written": [
@@ -236,6 +236,7 @@
         "ARISEN core skill Job02_QuickLoose",
         "ARISEN core skill Job01_FallGuard",
         "ARISEN core skill Job01_TuskToss",
+        "ARISEN core skill Job01_JustGuard",
         "ARISEN core skill Job03_PowerShot",
         "ARISEN core skill Job01_EnchantGuard",
         "ARISEN core skill Job02_AirShootAfterMeleeAttack",

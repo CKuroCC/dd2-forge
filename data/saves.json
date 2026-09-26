@@ -1,5 +1,5 @@
 ﻿{
-    "generated":  "2026-09-25T18:33:47",
+    "generated":  "2026-09-26T16:40:25",
     "steamAppId":  "2054970",
     "saveDir":  "C:\\Program Files (x86)\\Steam\\userdata\\\u003caccount\u003e\\2054970\\remote\\win64_save",
     "vaultDir":  "D:\\Modding\\DD2-SaveVault",
@@ -8,17 +8,17 @@
                     "fileCount":  10,
                     "backupCount":  1,
                     "lastBackup":  "2026-09-25T11:26:50",
-                    "totalBytes":  9084056,
-                    "unprotectedSlots":  0
+                    "totalBytes":  7996376,
+                    "unprotectedSlots":  3
                 },
     "slots":  [
                   {
                       "label":  "data00-1.bin",
                       "file":  "data00-1.bin",
                       "bytes":  428780,
-                      "modified":  "2026-09-25T02:48:33",
+                      "modified":  "2026-09-26T16:39:38",
                       "isSlot":  false,
-                      "backedUp":  true
+                      "backedUp":  false
                   },
                   {
                       "label":  "data000.bin",
@@ -71,26 +71,26 @@
                   {
                       "label":  "Slot 10",
                       "file":  "data010Slot.bin",
-                      "bytes":  560380,
-                      "modified":  "2026-09-25T02:48:24",
+                      "bytes":  197820,
+                      "modified":  "2026-09-26T16:39:38",
                       "isSlot":  true,
-                      "backedUp":  true
+                      "backedUp":  false
                   },
                   {
                       "label":  "Slot 11",
                       "file":  "data011Slot.bin",
-                      "bytes":  560380,
-                      "modified":  "2026-09-25T02:48:23",
+                      "bytes":  197820,
+                      "modified":  "2026-09-26T16:26:34",
                       "isSlot":  true,
-                      "backedUp":  true
+                      "backedUp":  false
                   },
                   {
                       "label":  "Slot 14",
                       "file":  "data014Slot.bin",
-                      "bytes":  560380,
-                      "modified":  "2026-09-25T02:48:33",
+                      "bytes":  197820,
+                      "modified":  "2026-09-26T16:35:53",
                       "isSlot":  true,
-                      "backedUp":  true
+                      "backedUp":  false
                   }
               ],
     "backups":  [

@@ -1,0 +1,4431 @@
+﻿[
+    {
+        "group":  "third-party script",
+        "name":  "AffinityBar.lua",
+        "path":  "AffinityBar.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  107688,
+        "modified":  "1980-01-01 00:00",
+        "purpose":  "local modName = \"AffinityBar\"",
+        "buttons":  [
+                        "Teleport",
+                        "Summon"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "CarryMeSenpai.lua",
+        "path":  "CarryMeSenpai.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  6261,
+        "modified":  "2024-04-02 00:17",
+        "purpose":  "local sdk = sdk",
+        "buttons":  [
+
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "CharacterManager.lua",
+        "path":  "CharacterManager.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  67235,
+        "modified":  "2026-09-04 19:47",
+        "purpose":  "CharacterManager  --  save and load character appearance presets",
+        "buttons":  [
+                        "Save",
+                        "Confirm Override",
+                        "Delete",
+                        "Confirm Delete",
+                        "Refresh",
+                        "Load",
+                        "Refresh",
+                        "Refresh"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "content_editor.lua",
+        "path":  "content_editor.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  378,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "print(\u0027Initializing content database...\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_curves.lua",
+        "path":  "dd2forge_1on_curves.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  44291,
+        "modified":  "2026-09-24 17:12",
+        "purpose":  "dd2-forge :: CURVES (boobs + butt) -- Julian\u0027s replacement for Big Boobs.",
+        "buttons":  [
+                        "Create New Preset"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_pawnquiet.lua",
+        "path":  "dd2forge_1on_pawnquiet.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  4909,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PAWN QUIET -- stray pawns stop walking over to sell themselves",
+        "buttons":  [
+                        "reset the counter"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_pawnspec.lua",
+        "path":  "dd2forge_1on_pawnspec.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  2319,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PAWN SPECIALISATIONS -- every pawn counts as holding all nine",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_plague.lua",
+        "path":  "dd2forge_1on_plague.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6399,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2forge_plague.lua  ::  Dragonsplague removal",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_refill.lua",
+        "path":  "dd2forge_1on_refill.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  15319,
+        "modified":  "2026-09-24 20:55",
+        "purpose":  "dd2-forge :: CONSTANT REFILLS -- curatives, gold, rift crystals",
+        "buttons":  [
+                        "\u003e\u003e\u003e TOP UP NOW  (one pass, ignores the toggle) \u003c\u003c\u003c",
+                        "ABORT the running top-up"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_stacks.lua",
+        "path":  "dd2forge_1on_stacks.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5074,
+        "modified":  "2026-09-22 11:32",
+        "purpose":  "dd2forge_stacks.lua -- 2026-09-20",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_uiunlocks.lua",
+        "path":  "dd2forge_1on_uiunlocks.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5381,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: UI TRADE UNLOCKS -- 2026-09-22",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_warfarer.lua",
+        "path":  "dd2forge_1on_warfarer.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  8067,
+        "modified":  "2026-09-23 19:46",
+        "purpose":  "dd2-forge :: WARFARER SKILL FREEDOM -- any skill, any weapon",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_affinity.lua",
+        "path":  "dd2forge_2do_affinity.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  38934,
+        "modified":  "2026-09-26 13:05",
+        "purpose":  "dd2-forge :: AFFINITY -- targeted, because \"everyone\" is a trap",
+        "buttons":  [
+                        "\u003e\u003e\u003e ULRIKA ONLY \u003c\u003c\u003c",
+                        "SET ",
+                        "EVERY FEMALE NPC  (526-name list, incomplete by nature)",
+                        "READ my pawn  (read only)",
+                        "\u003e\u003e\u003e SET MAIN PAWN FAVOURABILITY \u003c\u003c\u003c",
+                        "REPORT -- who is where, and are there ties?  (read only)",
+                        "name map: what resolves, and what holders report"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_carry.lua",
+        "path":  "dd2forge_2do_carry.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  9053,
+        "modified":  "2026-09-26 13:05",
+        "purpose":  "dd2-forge :: CARRY + STAMINA, ABSOLUTE -- the Level 1 fix",
+        "buttons":  [
+                        "\u003e\u003e\u003e SET CARRY AND STAMINA \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e RESET TO VANILLA (all three back to 0) \u003c\u003c\u003c",
+                        "REVERT to the captured originals"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_grant.lua",
+        "path":  "dd2forge_2do_grant.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  145794,
+        "modified":  "2026-09-26 13:04",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "\u003e\u003e\u003e GRANT THE WAR CHEST  (curated) \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e EVERY WEAPON + ARMOUR  (491, verified) \u003c\u003c\u003c",
+                        "  RINGS + CLOAKS (98) -\u003e STORAGE",
+                        "  RINGS + CLOAKS (98) -\u003e MY INVENTORY",
+                        "ALL WEAPONS  (138)",
+                        "ALL ARMOUR   (258: head + body + legs)",
+                        "ALL CLOAKS   (49: capes, mantles, shawls, neck wraps)",
+                        "ALL RINGS    (49)",
+                        "  Swords + Maces + Shields",
+                        "  Greatswords + Hammers",
+                        "  Daggers + Bows",
+                        "  Staves + Archistaves + Magick Bows",
+                        "  Duospears + Censers",
+                        "ALL HERBS  (15: Greenwarish, Sunbloom, Goldthistle...) x99",
+                        "ALL FOOD   (58: Harspud, fruit, meat, fish, roborants) x20",
+                        "ALL CURATIVES (18) x99",
+                        "ALL MATERIALS (71: ores, gems, monster parts) x99",
+                        "ALL KEYS + QUEST ITEMS (72: gaol keys, permits, letters)",
+                        "ALL MAISTER BOOKS (24) + SPELLBOOKS (19)",
+                        "ALL PAWN TOMES (14)",
+                        "REVIVAL + TRAVEL (8: Wakestone, Ferrystone, Portcrystal) x99",
+                        "CAMPING + LANTERNS (14) x20",
+                        "ARROWS (6) + DYES (5) x99",
+                        "BOTH BEETLES (Golden Trove + Golden Stove) x20",
+                        "COUNTERFEIT ITEMS (11: Wokestone, Ferristone, Partcrystal...)",
+                        "\u003e\u003e\u003e ABORT THE RUNNING ITEM QUEUE \u003c\u003c\u003c",
+                        "READ my gear upgrade levels",
+                        "DUMP the item catalog to JSON  (rebuilds item_catalog.json)"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_inventory.lua",
+        "path":  "dd2forge_2do_inventory.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  21404,
+        "modified":  "2026-09-26 13:05",
+        "purpose":  "dd2-forge :: INVENTORY -- capacity, duplicates, and the quest-herb grant",
+        "buttons":  [
+                        "1. CAPACITY  (read-only -- can anything land right now?)",
+                        "2. SCAN every record  (read-only)",
+                        "3a. PLAN duplicates in MY INVENTORY  (read-only)",
+                        "3b. PLAN duplicates in STORAGE  (read-only)",
+                        "\u003e\u003e\u003e 4. EXECUTE THE PLAN (deletes the surplus) \u003c\u003c\u003c",
+                        "STOP"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng1_progress.lua",
+        "path":  "dd2forge_3ng1_progress.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  9704,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PHASE 24 -- NG+ WRITE: ranks, skills, augments",
+        "buttons":  [
+                        "\u003e\u003e\u003e UNLOCK SKILLS, AUGMENTS AND RANKS \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng2_wealth.lua",
+        "path":  "dd2forge_3ng2_wealth.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6608,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PHASE 26 -- NG+ WRITE: gold to max, every map area opened",
+        "buttons":  [
+                        "\u003e\u003e\u003e MAX GOLD AND OPEN THE MAP \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng3_dcp.lua",
+        "path":  "dd2forge_3ng3_dcp.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7594,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PHASE 30 -- DCP (Discipline Points), Arisen AND pawn",
+        "buttons":  [
+                        "(read-only) SHOW MY CURRENT DCP",
+                        "\u003e\u003e\u003e SET DCP ON ARISEN AND PAWN \u003c\u003c\u003c",
+                        "REVERT to the captured originals"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng4_affinity.lua",
+        "path":  "dd2forge_3ng4_affinity.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  8239,
+        "modified":  "2026-09-23 02:01",
+        "purpose":  "dd2-forge :: PHASE 28 -- MAX AFFINITY with every NPC (reversible)",
+        "buttons":  [
+                        "\u003e\u003e\u003e MAX AFFINITY WITH EVERYONE \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng5_upgrade.lua",
+        "path":  "dd2forge_3ng5_upgrade.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  8955,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PHASE 21 -- DUPLICATE SWEEP (max every COPY to +4)",
+        "buttons":  [
+                        "\u003e\u003e\u003e MAX EVERY DUPLICATE COPY \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_4read_questguide.lua",
+        "path":  "dd2forge_4read_questguide.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  296752,
+        "modified":  "2026-09-24 13:01",
+        "purpose":  "local QUESTS = {",
+        "buttons":  [
+                        "unpin from map##",
+                        "refresh markers##",
+                        "pin on map##",
+                        "not this one##",
+                        "initialise the map hooks",
+                        "unpin##d",
+                        "unpin##p",
+                        "clear every pin",
+                        "pin every ongoing quest",
+                        "reset ticks##",
+                        "collapse all",
+                        "force journal refresh",
+                        "clear name cache",
+                        "re-sweep completed",
+                        "run the audit",
+                        "jump to the full quest list",
+                        "clear this error"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_5item_browser.lua",
+        "path":  "dd2forge_5item_browser.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  34308,
+        "modified":  "2026-09-24 21:06",
+        "purpose":  "dd2-forge  ::  ITEM BROWSER          v1  2026-09-24",
+        "buttons":  [
+                        "GIVE IT TO ME NOW",
+                        "add to cart",
+                        "every item in this category -\u003e cart",
+                        "\u003e\u003e\u003e GIVE ME EVERYTHING IN THE CART \u003c\u003c\u003c",
+                        "empty the cart",
+                        "give me all my favourites",
+                        "send them all to the cart",
+                        "rebuild the index from the live game",
+                        "clear",
+                        "abort it",
+                        "clear this error"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_6see_nameplates.lua",
+        "path":  "dd2forge_6see_nameplates.lua",
+        "state":  "active",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  16223,
+        "modified":  "2026-09-25 10:55",
+        "purpose":  "dd2-forge  ::  NAMEPLATES          v2  2026-09-25",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_9probe_coreskills.lua",
+        "path":  "dd2forge_9probe_coreskills.lua",
+        "state":  "active",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  13544,
+        "modified":  "2026-09-26 12:44",
+        "purpose":  "dd2-forge :: PROBE -- CORE SKILLS (D0 from \"DD2 core skill unlock gating\")",
+        "buttons":  [
+                        "\u003e\u003e\u003e RUN CORE SKILL PROBE \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "devtools.lua",
+        "path":  "devtools.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  9510,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor_ai.lua",
+        "path":  "editor_ai.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  12351,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor_chests.lua",
+        "path":  "editor_chests.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  4705,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor_enemy.lua",
+        "path":  "editor_enemy.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  7584,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor_events.lua",
+        "path":  "editor_events.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  215,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "require(\u0027editors.events.events_main\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor_human_params.lua",
+        "path":  "editor_human_params.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  12090,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local udb = require(\u0027content_editor.database\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor_items.lua",
+        "path":  "editor_items.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  1449,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor_npc.lua",
+        "path":  "editor_npc.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  14099,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor_shops.lua",
+        "path":  "editor_shops.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  13453,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor_sound_viewer.lua",
+        "path":  "editor_sound_viewer.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  5080,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor_weathers.lua",
+        "path":  "editor_weathers.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  71,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "require(\u0027editors.weathers.main\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "ExtendedCharacterEditor.lua",
+        "path":  "ExtendedCharacterEditor.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  65949,
+        "modified":  "2026-09-10 21:32",
+        "purpose":  "local fs = fs",
+        "buttons":  [
+                        "Save",
+                        "Undo",
+                        "Create New Preset"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "FogRemover.lua",
+        "path":  "FogRemover.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  5053,
+        "modified":  "2026-09-14 14:31",
+        "purpose":  "FogRemover_EN.lua â€” Dragon\u0027s Dogma 2: Clear Fog of War",
+        "buttons":  [
+                        "Clear World Map Fog (permanent)",
+                        "Clear Region Map / Minimap Fog (permanent)"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "gibbed_RiddleOfRuminationMarker.lua",
+        "path":  "gibbed_RiddleOfRuminationMarker.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  26282,
+        "modified":  "2024-03-25 22:01",
+        "purpose":  "Riddle of Rumination Marker",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "Menu Performance Fix.lua",
+        "path":  "Menu Performance Fix.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  36933,
+        "modified":  "2026-09-23 01:36",
+        "purpose":  "Menu Performance Fix.lua v1.2",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "MeshModEnabler.lua",
+        "path":  "MeshModEnabler.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  23269,
+        "modified":  "2026-09-26 16:14",
+        "purpose":  "Mesh Mod Enabler",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "MeshModEnabler.lua.pakbridge-original",
+        "path":  "MeshModEnabler.lua.pakbridge-original",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  21759,
+        "modified":  "2026-09-26 16:14",
+        "purpose":  "Mesh Mod Enabler",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "NoSpaCensor.lua",
+        "path":  "NoSpaCensor.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  2373,
+        "modified":  "2024-04-09 04:00",
+        "purpose":  "local modname = \"NoSpaCensor\"",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "Nudify.lua",
+        "path":  "Nudify.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  18139,
+        "modified":  "2026-09-20 13:06",
+        "purpose":  "local modname = \"Nudify\"",
+        "buttons":  [
+                        "Add NPC",
+                        "X##"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "quest_data_loader.lua",
+        "path":  "quest_data_loader.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  1910,
+        "modified":  "2026-09-14 13:35",
+        "purpose":  "local DATA_PATH = \"quest_tracker_data.json\"",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "SetVocationAnywhere.lua",
+        "path":  "SetVocationAnywhere.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  4321,
+        "modified":  "2024-05-13 18:35",
+        "purpose":  "local re = re",
+        "buttons":  [
+                        "Set Arisen Vocation",
+                        "Unlock All Arisen Vocations",
+                        "Set Pawn Vocation",
+                        "Unlock All Pawn Vocations"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "TrueWarfarerSkillSwapper.lua",
+        "path":  "TrueWarfarerSkillSwapper.lua",
+        "state":  "active",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  15284,
+        "modified":  "2026-09-11 09:58",
+        "purpose":  "local re = re",
+        "buttons":  [
+                        "Apply"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "callbacks.lua",
+        "path":  "content_editor\\callbacks.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  4630,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "core.lua",
+        "path":  "content_editor\\core.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  7228,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "database.lua",
+        "path":  "content_editor\\database.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  50764,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "definitions.lua",
+        "path":  "content_editor\\definitions.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  7695,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "editor.lua",
+        "path":  "content_editor\\editor.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  17863,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "enums.lua",
+        "path":  "content_editor\\enums.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  16326,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "events.lua",
+        "path":  "content_editor\\events.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  4587,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "generic_types.lua",
+        "path":  "content_editor\\generic_types.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  6831,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "helpers.lua",
+        "path":  "content_editor\\helpers.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  27219,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "import_handlers.lua",
+        "path":  "content_editor\\import_handlers.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  25150,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "injection_cache.lua",
+        "path":  "content_editor\\injection_cache.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  4040,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "object_presets.lua",
+        "path":  "content_editor\\object_presets.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  2688,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "prefabs.lua",
+        "path":  "content_editor\\prefabs.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  1453,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "setup.lua",
+        "path":  "content_editor\\setup.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  3629,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "@class ContentEditorGameController",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "typecache.lua",
+        "path":  "content_editor\\typecache.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  30682,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "utils.lua",
+        "path":  "content_editor\\utils.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  30109,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "_internal.lua",
+        "path":  "content_editor\\_internal.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  222,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "_load_order_handler.lua",
+        "path":  "content_editor\\_load_order_handler.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  2056,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "@param udb UserdataDB",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "_types.lua",
+        "path":  "content_editor\\_types.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  4631,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "@class DBEntity",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "console.lua",
+        "path":  "content_editor\\editors\\console.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  19154,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if usercontent == nil then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "custom_scripts.lua",
+        "path":  "content_editor\\editors\\custom_scripts.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  10728,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if usercontent == nil then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "data_bundles.lua",
+        "path":  "content_editor\\editors\\data_bundles.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  10173,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "messages.lua",
+        "path":  "content_editor\\editors\\messages.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  15239,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if usercontent == nil then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "sounds.lua",
+        "path":  "content_editor\\features\\sounds.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  1822,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "per_field_singleton.lua",
+        "path":  "content_editor\\helpers\\per_field_singleton.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  4830,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "effects_main.lua",
+        "path":  "content_editor\\script_effects\\effects_main.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  9794,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if usercontent == nil then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "init.lua",
+        "path":  "content_editor\\script_effects\\init.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  2092,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if usercontent == nil then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "script_effects_ui.lua",
+        "path":  "content_editor\\script_effects\\script_effects_ui.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  4644,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local udb = require(\u0027content_editor.database\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "common.lua",
+        "path":  "content_editor\\ui\\common.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  18907,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "context.lua",
+        "path":  "content_editor\\ui\\context.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  7711,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "ext.lua",
+        "path":  "content_editor\\ui\\ext.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  18273,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "handlers.lua",
+        "path":  "content_editor\\ui\\handlers.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  69873,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "imgui_wrappers.lua",
+        "path":  "content_editor\\ui\\imgui_wrappers.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  10503,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "init.lua",
+        "path":  "content_editor\\ui\\init.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  719,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "translation.lua",
+        "path":  "content_editor\\ui\\translation.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  4510,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "_extensions.lua",
+        "path":  "content_editor\\ui\\_extensions.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  34633,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "definitions.lua",
+        "path":  "editors\\core\\definitions.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  123970,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "setup.lua",
+        "path":  "editors\\core\\setup.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  3985,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local events = require(\u0027content_editor.events\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "utils.lua",
+        "path":  "editors\\core\\utils.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  6529,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local utils = require(\u0027content_editor.utils\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "domain_generate_tables.lua",
+        "path":  "editors\\events\\domain_generate_tables.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  5981,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "events_controller.lua",
+        "path":  "editors\\events\\events_controller.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  2910,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_events_controller) ~= \u0027nil\u0027 then return _events_controller end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "events_editor.lua",
+        "path":  "editors\\events\\events_editor.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  13177,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "events_gamedata.lua",
+        "path":  "editors\\events\\events_gamedata.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  6113,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local udb = require(\u0027content_editor.database\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "events_main.lua",
+        "path":  "editors\\events\\events_main.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  7829,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local udb = require(\u0027content_editor.database\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "scripted_events.lua",
+        "path":  "editors\\events\\scripted_events.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  678,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_scripted_events) ~= \u0027nil\u0027 then return _scripted_events end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "armor_catalogs.lua",
+        "path":  "editors\\items\\armor_catalogs.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  19079,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "item_combinations.lua",
+        "path":  "editors\\items\\item_combinations.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  10521,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "item_data.lua",
+        "path":  "editors\\items\\item_data.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  33637,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local udb = require(\u0027content_editor.database\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "item_tools.lua",
+        "path":  "editors\\items\\item_tools.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  1877,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(usercontent) == \u0027nil\u0027 then usercontent = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "styles.lua",
+        "path":  "editors\\items\\styles.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  33891,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local udb = require(\u0027content_editor.database\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "weapons.lua",
+        "path":  "editors\\items\\weapons.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  16688,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "database.lua",
+        "path":  "editors\\quests\\database.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  28793,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "enums.lua",
+        "path":  "editors\\quests\\enums.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  5159,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "exporter.lua",
+        "path":  "editors\\quests\\exporter.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  9257,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "gamedb.lua",
+        "path":  "editors\\quests\\gamedb.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  19483,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "importer.lua",
+        "path":  "editors\\quests\\importer.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  6465,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "quests_config.lua",
+        "path":  "editors\\quests\\quests_config.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  1093,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "quest_editor.lua",
+        "path":  "editors\\quests\\quest_editor.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  4741,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+                        "Dump raw quest catalog data: "
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "quest_processors.lua",
+        "path":  "editors\\quests\\quest_processors.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  15350,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local questdb = require(\u0027editors.quests.database\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "quest_type_overrides.lua",
+        "path":  "editors\\quests\\quest_type_overrides.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  74640,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "quest_ui.lua",
+        "path":  "editors\\quests\\quest_ui.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  6751,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "quest_utils.lua",
+        "path":  "editors\\quests\\quest_utils.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  6311,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "status.lua",
+        "path":  "editors\\quests\\status.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  3422,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "if type(_quest_DB) == \u0027nil\u0027 then _quest_DB = {} end",
+        "buttons":  [
+                        "Toggle window"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "talk_events.lua",
+        "path":  "editors\\quests\\talk_events.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  39269,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "_debugging.lua",
+        "path":  "editors\\quests\\_debugging.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  3969,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "things that might be useful to check if the game crashes",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "_types.lua",
+        "path":  "editors\\quests\\_types.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  1879,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "@alias EntityType \u0027event\u0027|\u0027event_context\u0027",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "effects.lua",
+        "path":  "editors\\weathers\\effects.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  3875,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "main.lua",
+        "path":  "editors\\weathers\\main.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  6870,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local core = require(\u0027content_editor.core\u0027)",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "weather_utils.lua",
+        "path":  "editors\\weathers\\weather_utils.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  2423,
+        "modified":  "2026-09-13 06:10",
+        "purpose":  "local WeatherManager = sdk.get_managed_singleton(\u0027app.WeatherManager\u0027) ---@type app.WeatherManager",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "Hotkeys.lua",
+        "path":  "Hotkeys\\Hotkeys.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  23874,
+        "modified":  "2026-09-02 09:53",
+        "purpose":  "/////////////////////////////////////--",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "BigBoobs.lua.disabled",
+        "path":  "_backups\\BigBoobs.lua.disabled",
+        "state":  "backup",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  32738,
+        "modified":  "2026-09-21 11:33",
+        "purpose":  "Big Boobs v3.1 - ComplexRobot",
+        "buttons":  [
+                        "Create New Preset"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_4read_questguide.v1.bak-20260923.lua",
+        "path":  "_backups\\dd2forge_4read_questguide.v1.bak-20260923.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  208503,
+        "modified":  "2026-09-23 20:03",
+        "purpose":  "local QUESTS = {",
+        "buttons":  [
+                        "refresh journal"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.p3bak",
+        "path":  "_backups\\dd2forge_apply.lua.p3bak",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  42835,
+        "modified":  "2026-09-20 02:08",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "S. PROBE STATS (changes nothing)",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.p3bbak",
+        "path":  "_backups\\dd2forge_apply.lua.p3bbak",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  45814,
+        "modified":  "2026-09-20 11:24",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "S. PROBE STATS (changes nothing)",
+                        "S2. DRILL STATS (changes nothing)",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.p3cbak",
+        "path":  "_backups\\dd2forge_apply.lua.p3cbak",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  48208,
+        "modified":  "2026-09-20 11:40",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "S. PROBE STATS (changes nothing)",
+                        "S2. DRILL STATS (changes nothing)",
+                        "S3. DRILL DEEPER (changes nothing)",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.phase2bak",
+        "path":  "_backups\\dd2forge_apply.lua.phase2bak",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  37691,
+        "modified":  "2026-09-20 01:59",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "A. Snapshot sliders -- MOD ON",
+                        "B. Snapshot sliders -- MOD OFF",
+                        "C. READ bust joints (changes nothing)",
+                        "C2. PROBE ALL scale fields (changes nothing)",
+                        "G1. FIND bust joints - step 1",
+                        "G2. FIND bust joints - step 2",
+                        "D. Scale bust x2",
+                        "E. Scale bust x3",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.prebasestats",
+        "path":  "_backups\\dd2forge_apply.lua.prebasestats",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  56058,
+        "modified":  "2026-09-20 15:44",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "\u003e\u003e\u003e RUN DEEP PROBE \u003c\u003c\u003c",
+                        "W1. STAMINA x25 + HOLD  (selected pawn)",
+                        "W2. CARRY WEIGHT x25  (global growth param)",
+                        "W3. INVENTORY 140 -\u003e 3500  (EXPERIMENTAL)",
+                        "W4. READ STAMINA BACK  (changes nothing)",
+                        "W0. REVERT ALL WRITES",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.prehold",
+        "path":  "_backups\\dd2forge_apply.lua.prehold",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  52566,
+        "modified":  "2026-09-20 12:27",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "\u003e\u003e\u003e RUN DEEP PROBE \u003c\u003c\u003c",
+                        "W1. STAMINA x25  (selected pawn, live)",
+                        "W2. CARRY WEIGHT x25  (global growth param)",
+                        "W3. INVENTORY 140 -\u003e 3500  (EXPERIMENTAL)",
+                        "W0. REVERT ALL WRITES",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.preitems",
+        "path":  "_backups\\dd2forge_apply.lua.preitems",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  63156,
+        "modified":  "2026-09-20 17:06",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "\u003e\u003e\u003e RUN DEEP PROBE \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e W5. 25x STAMINA + CARRY -- THE REAL ONE \u003c\u003c\u003c",
+                        "[DEAD] W1. STAMINA x25 + HOLD -- wrote a derived cache",
+                        "[DEAD] W2. CARRY WEIGHT x25 -- wrote the level-up table",
+                        "W3. INVENTORY 140 -\u003e 3500  (EXPERIMENTAL)",
+                        "W4. READ STAMINA BACK  (changes nothing)",
+                        "W0. REVERT ALL WRITES",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.preonebtn",
+        "path":  "_backups\\dd2forge_apply.lua.preonebtn",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  54261,
+        "modified":  "2026-09-20 12:50",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "\u003e\u003e\u003e RUN DEEP PROBE \u003c\u003c\u003c",
+                        "W1. STAMINA x25  (selected pawn, live)",
+                        "W1H. TOGGLE STAMINA HOLD  (press after W1)",
+                        "W2. CARRY WEIGHT x25  (global growth param)",
+                        "W3. INVENTORY 140 -\u003e 3500  (EXPERIMENTAL)",
+                        "W0. REVERT ALL WRITES",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.prephase12",
+        "path":  "_backups\\dd2forge_apply.lua.prephase12",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  85469,
+        "modified":  "2026-09-21 00:20",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "\u003e\u003e\u003e RUN DEEP PROBE \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e W5. 25x STAMINA + CARRY -- THE REAL ONE \u003c\u003c\u003c",
+                        "[DEAD] W1. STAMINA x25 + HOLD -- wrote a derived cache",
+                        "[DEAD] W2. CARRY WEIGHT x25 -- wrote the level-up table",
+                        "W3. INVENTORY 140 -\u003e 3500  (EXPERIMENTAL)",
+                        "W4. READ STAMINA BACK  (changes nothing)",
+                        "W0. REVERT ALL WRITES",
+                        "\u003e\u003e\u003e GRANT THE WAR CHEST  (curated, to STORAGE) \u003c\u003c\u003c",
+                        "BULK: one of every item in the game (slow, risky)",
+                        "(read-only) Dump item catalog to JSON",
+                        "ABORT the running item queue",
+                        "TEST: curatives only at 99 each (volume probe)",
+                        "TEST: Dragonsbaulk Draught, ONE unit",
+                        "\u003e\u003e\u003e READ MY GEAR UPGRADE LEVELS  (read-only, safe) \u003c\u003c\u003c",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.prephase13",
+        "path":  "_backups\\dd2forge_apply.lua.prephase13",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  93518,
+        "modified":  "2026-09-21 00:35",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "\u003e\u003e\u003e RUN DEEP PROBE \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e W5. 25x STAMINA + CARRY -- THE REAL ONE \u003c\u003c\u003c",
+                        "[DEAD] W1. STAMINA x25 + HOLD -- wrote a derived cache",
+                        "[DEAD] W2. CARRY WEIGHT x25 -- wrote the level-up table",
+                        "W3. INVENTORY 140 -\u003e 3500  (EXPERIMENTAL)",
+                        "W4. READ STAMINA BACK  (changes nothing)",
+                        "W0. REVERT ALL WRITES",
+                        "\u003e\u003e\u003e GRANT THE WAR CHEST  (curated, to STORAGE) \u003c\u003c\u003c",
+                        "BULK: one of every item in the game (slow, risky)",
+                        "(read-only) Dump item catalog to JSON",
+                        "ABORT the running item queue",
+                        "TEST: curatives only at 99 each (volume probe)",
+                        "TEST: Dragonsbaulk Draught, ONE unit",
+                        "\u003e\u003e\u003e READ MY GEAR UPGRADE LEVELS  (read-only, safe) \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e READ THE UPGRADE API AND MY STORAGE BOX  (read-only, safe) \u003c\u003c\u003c",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.prephase14",
+        "path":  "_backups\\dd2forge_apply.lua.prephase14",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  93518,
+        "modified":  "2026-09-21 00:35",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "\u003e\u003e\u003e RUN DEEP PROBE \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e W5. 25x STAMINA + CARRY -- THE REAL ONE \u003c\u003c\u003c",
+                        "[DEAD] W1. STAMINA x25 + HOLD -- wrote a derived cache",
+                        "[DEAD] W2. CARRY WEIGHT x25 -- wrote the level-up table",
+                        "W3. INVENTORY 140 -\u003e 3500  (EXPERIMENTAL)",
+                        "W4. READ STAMINA BACK  (changes nothing)",
+                        "W0. REVERT ALL WRITES",
+                        "\u003e\u003e\u003e GRANT THE WAR CHEST  (curated, to STORAGE) \u003c\u003c\u003c",
+                        "BULK: one of every item in the game (slow, risky)",
+                        "(read-only) Dump item catalog to JSON",
+                        "ABORT the running item queue",
+                        "TEST: curatives only at 99 each (volume probe)",
+                        "TEST: Dragonsbaulk Draught, ONE unit",
+                        "\u003e\u003e\u003e READ MY GEAR UPGRADE LEVELS  (read-only, safe) \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e READ THE UPGRADE API AND MY STORAGE BOX  (read-only, safe) \u003c\u003c\u003c",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.prereadback",
+        "path":  "_backups\\dd2forge_apply.lua.prereadback",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  54206,
+        "modified":  "2026-09-20 13:51",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "\u003e\u003e\u003e RUN DEEP PROBE \u003c\u003c\u003c",
+                        "W1. STAMINA x25 + HOLD  (selected pawn)",
+                        "W2. CARRY WEIGHT x25  (global growth param)",
+                        "W3. INVENTORY 140 -\u003e 3500  (EXPERIMENTAL)",
+                        "W0. REVERT ALL WRITES",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua.prewrite",
+        "path":  "_backups\\dd2forge_apply.lua.prewrite",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  48040,
+        "modified":  "2026-09-20 11:48",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "1. Refresh roster",
+                        "2. Probe write API",
+                        "3. Test write",
+                        "4. APPLY preset",
+                        "\u003e\u003e\u003e RUN DEEP PROBE \u003c\u003c\u003c",
+                        "A. Snapshot sliders",
+                        "C. READ bust joints",
+                        "F. REVERT bust"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_bigbutt.lua.disabled",
+        "path":  "_backups\\dd2forge_bigbutt.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  8924,
+        "modified":  "2026-09-21 11:25",
+        "purpose":  "dd2-forge :: BIG BUTT -- the Big Boobs approach, applied to the butt",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_butt.lua.disabled",
+        "path":  "_backups\\dd2forge_butt.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7663,
+        "modified":  "2026-09-21 11:07",
+        "purpose":  "dd2-forge :: MAX BUTT -- every female character, kept applied",
+        "buttons":  [
+
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_creatorprobe.lua.disabled",
+        "path":  "_backups\\dd2forge_creatorprobe.lua.disabled",
+        "state":  "backup",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  6047,
+        "modified":  "2026-09-21 12:28",
+        "purpose":  "dd2-forge :: CREATOR PROBE -- READ ONLY. What does the character creator",
+        "buttons":  [
+                        "\u003e\u003e\u003e READ THE CREATOR \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_creatortest.lua.disabled",
+        "path":  "_backups\\dd2forge_creatortest.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5546,
+        "modified":  "2026-09-21 12:42",
+        "purpose":  "dd2-forge :: CREATOR SLIDER TEST -- one visible nudge, auto-reverted.",
+        "buttons":  [
+                        "\u003e\u003e\u003e TEST ONE SLIDER \u003c\u003c\u003c"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase14.lua.disabled",
+        "path":  "_backups\\dd2forge_phase14.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5322,
+        "modified":  "2026-09-21 01:56",
+        "purpose":  "dd2-forge :: PHASE 14 -- REFLECTION ONLY",
+        "buttons":  [
+                        "\u003e\u003e\u003e RUN PHASE 14  (safe, read-only) \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase15.lua.disabled",
+        "path":  "_backups\\dd2forge_phase15.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6333,
+        "modified":  "2026-09-21 09:42",
+        "purpose":  "dd2-forge :: PHASE 15 -- ONE UPGRADE STEP, ONE CHEAP ITEM",
+        "buttons":  [
+                        "\u003e\u003e\u003e UPGRADE THE SCARF ONE STEP \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase16.lua.disabled",
+        "path":  "_backups\\dd2forge_phase16.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6139,
+        "modified":  "2026-09-21 09:44",
+        "purpose":  "dd2-forge :: PHASE 16 -- GETTER SURVEY (no writes)",
+        "buttons":  [
+                        "\u003e\u003e\u003e RUN PHASE 16 SURVEY \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase17.lua.disabled",
+        "path":  "_backups\\dd2forge_phase17.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5594,
+        "modified":  "2026-09-21 09:48",
+        "purpose":  "dd2-forge :: PHASE 17 -- ONE UPGRADE STEP on Avril\u0027s Epiphanic Waistguard",
+        "buttons":  [
+                        "\u003e\u003e\u003e UPGRADE THE WAISTGUARD ONE STEP \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase18.lua.disabled",
+        "path":  "_backups\\dd2forge_phase18.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7247,
+        "modified":  "2026-09-21 09:50",
+        "purpose":  "dd2-forge :: PHASE 18 -- ONE UPGRADE STEP on the MAIN PAWN\u0027s gear",
+        "buttons":  [
+                        "\u003e\u003e\u003e UPGRADE ONE PAWN PIECE ONE STEP \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase19.lua.disabled",
+        "path":  "_backups\\dd2forge_phase19.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6942,
+        "modified":  "2026-09-21 09:54",
+        "purpose":  "dd2-forge :: PHASE 19 -- PROVE enhanceEquip ON A THROWAWAY HOOD",
+        "buttons":  [
+                        "\u003e\u003e\u003e UPGRADE A WANDERER\u0027S HOOD ONE STEP \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase20.lua.done",
+        "path":  "_backups\\dd2forge_phase20.lua.done",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  10560,
+        "modified":  "2026-09-21 09:57",
+        "purpose":  "dd2-forge :: PHASE 20 -- MAX ALL GEAR TO +4",
+        "buttons":  [
+                        "\u003e\u003e\u003e MAX ALL GEAR \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase22.lua.disabled",
+        "path":  "_backups\\dd2forge_phase22.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6744,
+        "modified":  "2026-09-21 10:25",
+        "purpose":  "dd2-forge :: PHASE 22 -- NG+ READ (vocations, DCP, skills, augments)",
+        "buttons":  [
+                        "\u003e\u003e\u003e RUN PHASE 22 READ \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase23.lua.disabled",
+        "path":  "_backups\\dd2forge_phase23.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6599,
+        "modified":  "2026-09-21 10:33",
+        "purpose":  "dd2-forge :: PHASE 23 -- NG+ READ, part 2. READS ONLY.",
+        "buttons":  [
+                        "\u003e\u003e\u003e RUN PHASE 23 READ \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase25.lua.disabled",
+        "path":  "_backups\\dd2forge_phase25.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5830,
+        "modified":  "2026-09-21 10:40",
+        "purpose":  "dd2-forge :: PHASE 25 -- NG+ READ for the last four asks. READS ONLY.",
+        "buttons":  [
+                        "\u003e\u003e\u003e RUN PHASE 25 READ \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase27.lua.disabled",
+        "path":  "_backups\\dd2forge_phase27.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5514,
+        "modified":  "2026-09-21 10:46",
+        "purpose":  "dd2-forge :: PHASE 27 -- READ: where NPC affinity lives, and the last fog.",
+        "buttons":  [
+                        "\u003e\u003e\u003e RUN PHASE 27 READ \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase29.lua.disabled",
+        "path":  "_backups\\dd2forge_phase29.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6348,
+        "modified":  "2026-09-21 10:55",
+        "purpose":  "dd2-forge :: PHASE 29 -- READ: what is under the last map cloud. READS ONLY.",
+        "buttons":  [
+                        "\u003e\u003e\u003e RUN PHASE 29 READ \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_recon.lua.disabled",
+        "path":  "_backups\\dd2forge_recon.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  2907,
+        "modified":  "2026-09-17 16:08",
+        "purpose":  "dd2-forge :: param reconnaissance dumper",
+        "buttons":  [
+                        "Force re-dump"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_recon2.lua.disabled",
+        "path":  "_backups\\dd2forge_recon2.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  3596,
+        "modified":  "2026-09-17 16:48",
+        "purpose":  "dd2-forge :: recon pass 2",
+        "buttons":  [
+                        "Force re-dump"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_slider_dump.lua.disabled",
+        "path":  "_backups\\dd2forge_slider_dump.lua.disabled",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  21542,
+        "modified":  "2026-09-18 22:01",
+        "purpose":  "dd2-forge :: character-edit slider dumper",
+        "buttons":  [
+                        "Dump sliders"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "dd2_ShutUpPawns.lua.superseded",
+        "path":  "_backups\\dd2_ShutUpPawns.lua.superseded",
+        "state":  "backup",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  39137,
+        "modified":  "2026-09-22 02:35",
+        "purpose":  "DragonsDogma2 ShutUpPawns! script by emoose",
+        "buttons":  [
+                        "X",
+                        "Save Config",
+                        "Reload Config",
+                        "Reset Config",
+                        "Clear Blocklist",
+                        "Clear History",
+                        "Unblock##",
+                        "Block##",
+                        "Dump to dd2_ShutUpPawns_idlog.json"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "LargerInventory.lua.disabled",
+        "path":  "_backups\\LargerInventory.lua.disabled",
+        "state":  "backup",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  1641,
+        "modified":  "2026-09-02 18:05",
+        "purpose":  "local modname=\"LargerInventory\"",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_curves.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_1on_curves.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  44291,
+        "modified":  "2026-09-24 17:12",
+        "purpose":  "dd2-forge :: CURVES (boobs + butt) -- Julian\u0027s replacement for Big Boobs.",
+        "buttons":  [
+                        "Create New Preset"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_pawnhush.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_1on_pawnhush.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  12347,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PAWN HUSH -- party pawns stop narrating, and stop high-fiving",
+        "buttons":  [
+                        "SAVE the block list",
+                        "RELOAD it from disk",
+                        "CLEAR the block list (does not save)",
+                        "clear the heard list"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_pawnquiet.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_1on_pawnquiet.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  4909,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PAWN QUIET -- stray pawns stop walking over to sell themselves",
+        "buttons":  [
+                        "reset the counter"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_pawnspec.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_1on_pawnspec.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  2319,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PAWN SPECIALISATIONS -- every pawn counts as holding all nine",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_plague.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_1on_plague.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6399,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2forge_plague.lua  ::  Dragonsplague removal",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_refill.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_1on_refill.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  15319,
+        "modified":  "2026-09-24 20:55",
+        "purpose":  "dd2-forge :: CONSTANT REFILLS -- curatives, gold, rift crystals",
+        "buttons":  [
+                        "\u003e\u003e\u003e TOP UP NOW  (one pass, ignores the toggle) \u003c\u003c\u003c",
+                        "ABORT the running top-up"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_stacks.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_1on_stacks.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5074,
+        "modified":  "2026-09-22 11:32",
+        "purpose":  "dd2forge_stacks.lua -- 2026-09-20",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_uiunlocks.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_1on_uiunlocks.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5381,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: UI TRADE UNLOCKS -- 2026-09-22",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_warfarer.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_1on_warfarer.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  8067,
+        "modified":  "2026-09-23 19:46",
+        "purpose":  "dd2-forge :: WARFARER SKILL FREEDOM -- any skill, any weapon",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_affinity.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_2do_affinity.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  38911,
+        "modified":  "2026-09-23 12:31",
+        "purpose":  "dd2-forge :: AFFINITY -- targeted, because \"everyone\" is a trap",
+        "buttons":  [
+                        "\u003e\u003e\u003e ULRIKA ONLY \u003c\u003c\u003c",
+                        "SET ",
+                        "EVERY FEMALE NPC  (526-name list, incomplete by nature)",
+                        "READ my pawn  (read only)",
+                        "\u003e\u003e\u003e SET MAIN PAWN FAVOURABILITY \u003c\u003c\u003c",
+                        "REPORT -- who is where, and are there ties?  (read only)",
+                        "re-check the 199 clamp",
+                        "dump MainPawnDataContext + every Pawn method",
+                        "name map: what resolves, and what holders report"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_carry.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_2do_carry.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  8820,
+        "modified":  "2026-09-23 19:34",
+        "purpose":  "dd2-forge :: CARRY + STAMINA, ABSOLUTE -- the Level 1 fix",
+        "buttons":  [
+                        "\u003e\u003e\u003e SET CARRY AND STAMINA \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e VANILLA: ZERO ALL THREE (freeze test) \u003c\u003c\u003c",
+                        "REVERT to the captured originals"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_decayfix.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_2do_decayfix.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  9395,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: DECAY REPAIR -- 2026-09-22",
+        "buttons":  [
+                        "1. SCAN (read-only, changes nothing)",
+                        "STOP"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_grant.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_2do_grant.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  147810,
+        "modified":  "2026-09-24 21:05",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "\u003e\u003e\u003e GRANT THE WAR CHEST  (curated) \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e EVERY WEAPON + ARMOUR  (491, verified) \u003c\u003c\u003c",
+                        "  RINGS + CLOAKS (98) -\u003e STORAGE",
+                        "  RINGS + CLOAKS (98) -\u003e MY INVENTORY",
+                        "ALL WEAPONS  (138)",
+                        "ALL ARMOUR   (258: head + body + legs)",
+                        "ALL CLOAKS   (49: capes, mantles, shawls, neck wraps)",
+                        "ALL RINGS    (49)",
+                        "  Swords + Maces + Shields",
+                        "  Greatswords + Hammers",
+                        "  Daggers + Bows",
+                        "  Staves + Archistaves + Magick Bows",
+                        "  Duospears + Censers",
+                        "ALL HERBS  (15: Greenwarish, Sunbloom, Goldthistle...) x99",
+                        "ALL FOOD   (58: Harspud, fruit, meat, fish, roborants) x20",
+                        "ALL CURATIVES (18) x99",
+                        "ALL MATERIALS (71: ores, gems, monster parts) x99",
+                        "ALL KEYS + QUEST ITEMS (72: gaol keys, permits, letters)",
+                        "ALL MAISTER BOOKS (24) + SPELLBOOKS (19)",
+                        "ALL PAWN TOMES (14)",
+                        "REVIVAL + TRAVEL (8: Wakestone, Ferrystone, Portcrystal) x99",
+                        "CAMPING + LANTERNS (14) x20",
+                        "ARROWS (6) + DYES (5) x99",
+                        "BOTH BEETLES (Golden Trove + Golden Stove) x20",
+                        "COUNTERFEIT ITEMS (11: Wokestone, Ferristone, Partcrystal...)",
+                        "\u003e\u003e\u003e ABORT THE RUNNING ITEM QUEUE \u003c\u003c\u003c",
+                        "1. TEST GRANT  (sword + apple + curative -\u003e my inventory)",
+                        "2. READ BACK   (ask the game where they went)",
+                        "3. OVERLOADS + OPTION FIELDS  (read-only)",
+                        "4. CENSUS  (what is in every container, and whose?)",
+                        "REVERT ALL CHARACTER WRITES  (undoes the old x25 button)",
+                        "READ my gear upgrade levels",
+                        "VERIFY all 491 weapons + armour resolve",
+                        "DUMP the item catalog to JSON",
+                        "READ stamina back",
+                        "DEEP PROBE (stats research dump)",
+                        "BULK: one of every item in the game",
+                        "refresh roster"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_inventory.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_2do_inventory.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  22285,
+        "modified":  "2026-09-23 15:09",
+        "purpose":  "dd2-forge :: INVENTORY -- capacity, duplicates, and the quest-herb grant",
+        "buttons":  [
+                        "1. CAPACITY  (read-only -- can anything land right now?)",
+                        "2. SCAN every record  (read-only)",
+                        "3a. PLAN duplicates in MY INVENTORY  (read-only)",
+                        "3b. PLAN duplicates in STORAGE  (read-only)",
+                        "\u003e\u003e\u003e 4. EXECUTE THE PLAN (deletes the surplus) \u003c\u003c\u003c",
+                        "STOP",
+                        "\u003e\u003e\u003e GRANT THE QUEST HERBS \u003c\u003c\u003c",
+                        "SEARCH the catalog"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_kit.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_2do_kit.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7479,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PROLOGUE KIT -- grants to YOUR PERSON, not storage",
+        "buttons":  [
+                        "\u003e\u003e\u003e GRANT THE PROLOGUE KIT \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng1_progress.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_3ng1_progress.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  9704,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PHASE 24 -- NG+ WRITE: ranks, skills, augments",
+        "buttons":  [
+                        "\u003e\u003e\u003e UNLOCK SKILLS, AUGMENTS AND RANKS \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng2_wealth.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_3ng2_wealth.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6608,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PHASE 26 -- NG+ WRITE: gold to max, every map area opened",
+        "buttons":  [
+                        "\u003e\u003e\u003e MAX GOLD AND OPEN THE MAP \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng3_dcp.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_3ng3_dcp.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7594,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PHASE 30 -- DCP (Discipline Points), Arisen AND pawn",
+        "buttons":  [
+                        "(read-only) SHOW MY CURRENT DCP",
+                        "\u003e\u003e\u003e SET DCP ON ARISEN AND PAWN \u003c\u003c\u003c",
+                        "REVERT to the captured originals"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng4_affinity.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_3ng4_affinity.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  8239,
+        "modified":  "2026-09-23 02:01",
+        "purpose":  "dd2-forge :: PHASE 28 -- MAX AFFINITY with every NPC (reversible)",
+        "buttons":  [
+                        "\u003e\u003e\u003e MAX AFFINITY WITH EVERYONE \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng5_upgrade.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_3ng5_upgrade.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  8955,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PHASE 21 -- DUPLICATE SWEEP (max every COPY to +4)",
+        "buttons":  [
+                        "\u003e\u003e\u003e MAX EVERY DUPLICATE COPY \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_4read_questguide.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_4read_questguide.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  296752,
+        "modified":  "2026-09-24 13:01",
+        "purpose":  "local QUESTS = {",
+        "buttons":  [
+                        "unpin from map##",
+                        "refresh markers##",
+                        "pin on map##",
+                        "not this one##",
+                        "initialise the map hooks",
+                        "unpin##d",
+                        "unpin##p",
+                        "clear every pin",
+                        "pin every ongoing quest",
+                        "reset ticks##",
+                        "collapse all",
+                        "force journal refresh",
+                        "clear name cache",
+                        "re-sweep completed",
+                        "run the audit",
+                        "jump to the full quest list",
+                        "clear this error"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_4read_vocations.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_4read_vocations.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  11890,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2forge_vocations.lua  ::  READ ONLY DIAGNOSTICS",
+        "buttons":  [
+                        "read state"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_5item_browser.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_5item_browser.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  34308,
+        "modified":  "2026-09-24 21:06",
+        "purpose":  "dd2-forge  ::  ITEM BROWSER          v1  2026-09-24",
+        "buttons":  [
+                        "GIVE IT TO ME NOW",
+                        "add to cart",
+                        "every item in this category -\u003e cart",
+                        "\u003e\u003e\u003e GIVE ME EVERYTHING IN THE CART \u003c\u003c\u003c",
+                        "empty the cart",
+                        "give me all my favourites",
+                        "send them all to the cart",
+                        "rebuild the index from the live game",
+                        "clear",
+                        "abort it",
+                        "clear this error"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_6see_nameplates.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_6see_nameplates.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  16223,
+        "modified":  "2026-09-25 10:55",
+        "purpose":  "dd2-forge  ::  NAMEPLATES          v2  2026-09-25",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_9probe_chain.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_9probe_chain.lua",
+        "state":  "backup",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  9229,
+        "modified":  "2026-09-24 17:08",
+        "purpose":  "dd2-forge :: BUST CHAIN -- live tuning bench",
+        "buttons":  [
+                        "restart the chain",
+                        "REVERT EVERYTHING",
+                        "read current values"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_9probe_coreskills.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_9probe_coreskills.lua",
+        "state":  "backup",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  13544,
+        "modified":  "2026-09-26 12:44",
+        "purpose":  "dd2-forge :: PROBE -- CORE SKILLS (D0 from \"DD2 core skill unlock gating\")",
+        "buttons":  [
+                        "\u003e\u003e\u003e RUN CORE SKILL PROBE \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_9probe_questtext.lua",
+        "path":  "_backups\\20260926-cleanup\\dd2forge_9probe_questtext.lua",
+        "state":  "backup",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  15421,
+        "modified":  "2026-09-23 20:03",
+        "purpose":  "dd2-forge :: PROBE -- can we read DD2\u0027s OWN quest objective text?",
+        "buttons":  [
+                        "RUN PROBE",
+                        "copy log to clipboard"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_apply.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_apply.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  121827,
+        "modified":  "2026-09-22 16:13",
+        "purpose":  "dd2-forge :: preset applier (real slider layer)",
+        "buttons":  [
+                        "\u003e\u003e\u003e 25x STAMINA + CARRY  (works at Lv 1) \u003c\u003c\u003c",
+                        "REVERT ALL CHARACTER WRITES",
+                        "\u003e\u003e\u003e GRANT THE WAR CHEST  (curated) \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e EVERY WEAPON + ARMOUR  (491, verified) \u003c\u003c\u003c",
+                        "  RINGS + CLOAKS (98) -\u003e STORAGE",
+                        "  RINGS + CLOAKS (98) -\u003e MY INVENTORY",
+                        "ALL WEAPONS  (138)",
+                        "ALL ARMOUR   (258: head + body + legs)",
+                        "ALL CLOAKS   (49: capes, mantles, shawls, neck wraps)",
+                        "ALL RINGS    (49)",
+                        "  Swords + Maces + Shields",
+                        "  Greatswords + Hammers",
+                        "  Daggers + Bows",
+                        "  Staves + Archistaves + Magick Bows",
+                        "  Duospears + Censers",
+                        "ALL HERBS  (15: Greenwarish, Sunbloom, Goldthistle...) x99",
+                        "ALL FOOD   (58: Harspud, fruit, meat, fish, roborants) x20",
+                        "ALL CURATIVES (18) x99",
+                        "ALL MATERIALS (71: ores, gems, monster parts) x99",
+                        "ALL KEYS + QUEST ITEMS (72: gaol keys, permits, letters)",
+                        "ALL MAISTER BOOKS (24) + SPELLBOOKS (19)",
+                        "ALL PAWN TOMES (14)",
+                        "REVIVAL + TRAVEL (8: Wakestone, Ferrystone, Portcrystal) x99",
+                        "CAMPING + LANTERNS (14) x20",
+                        "ARROWS (6) + DYES (5) x99",
+                        "RIFT INCENSE (6) + RIFT CRYSTAL HUNKS (2) x50",
+                        "BOTH BEETLES (Golden Trove + Golden Stove) x20",
+                        "COUNTERFEIT ITEMS (11: Wokestone, Ferristone, Partcrystal...)",
+                        "\u003e\u003e\u003e ABORT THE RUNNING ITEM QUEUE \u003c\u003c\u003c",
+                        "READ my gear upgrade levels",
+                        "VERIFY all 491 weapons + armour resolve",
+                        "DUMP the item catalog to JSON",
+                        "READ stamina back",
+                        "DEEP PROBE (stats research dump)",
+                        "BULK: one of every item in the game",
+                        "refresh roster"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_carry.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_carry.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7738,
+        "modified":  "2026-09-21 21:43",
+        "purpose":  "dd2-forge :: CARRY + STAMINA, ABSOLUTE -- the Level 1 fix",
+        "buttons":  [
+                        "\u003e\u003e\u003e SET CARRY AND STAMINA \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e VANILLA: ZERO ALL THREE (freeze test) \u003c\u003c\u003c",
+                        "REVERT to the captured originals"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_curves.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_curves.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  40220,
+        "modified":  "2026-09-22 15:02",
+        "purpose":  "dd2-forge :: CURVES (boobs + butt) -- Julian\u0027s replacement for Big Boobs.",
+        "buttons":  [
+                        "Create New Preset"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_decayfix.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_decayfix.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  9390,
+        "modified":  "2026-09-22 11:32",
+        "purpose":  "dd2-forge :: DECAY REPAIR -- 2026-09-22",
+        "buttons":  [
+                        "1. SCAN (read-only, changes nothing)",
+                        "STOP"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_kit.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_kit.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7466,
+        "modified":  "2026-09-21 13:54",
+        "purpose":  "dd2-forge :: PROLOGUE KIT -- grants to YOUR PERSON, not storage",
+        "buttons":  [
+                        "\u003e\u003e\u003e GRANT THE PROLOGUE KIT \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_pawnhush.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_pawnhush.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  12342,
+        "modified":  "2026-09-22 02:50",
+        "purpose":  "dd2-forge :: PAWN HUSH -- party pawns stop narrating, and stop high-fiving",
+        "buttons":  [
+                        "SAVE the block list",
+                        "RELOAD it from disk",
+                        "CLEAR the block list (does not save)",
+                        "clear the heard list"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_pawnquiet.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_pawnquiet.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  4908,
+        "modified":  "2026-09-22 02:45",
+        "purpose":  "dd2-forge :: PAWN QUIET -- stray pawns stop walking over to sell themselves",
+        "buttons":  [
+                        "reset the counter"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_pawnspec.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_pawnspec.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  2306,
+        "modified":  "2026-09-21 10:42",
+        "purpose":  "dd2-forge :: PAWN SPECIALISATIONS -- every pawn counts as holding all nine",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase21.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_phase21.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  8953,
+        "modified":  "2026-09-21 10:20",
+        "purpose":  "dd2-forge :: PHASE 21 -- DUPLICATE SWEEP (max every COPY to +4)",
+        "buttons":  [
+                        "\u003e\u003e\u003e MAX EVERY DUPLICATE COPY \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase24.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_phase24.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  9710,
+        "modified":  "2026-09-21 10:36",
+        "purpose":  "dd2-forge :: PHASE 24 -- NG+ WRITE: ranks, skills, augments",
+        "buttons":  [
+                        "\u003e\u003e\u003e UNLOCK SKILLS, AUGMENTS AND RANKS \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase26.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_phase26.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6611,
+        "modified":  "2026-09-21 10:42",
+        "purpose":  "dd2-forge :: PHASE 26 -- NG+ WRITE: gold to max, every map area opened",
+        "buttons":  [
+                        "\u003e\u003e\u003e MAX GOLD AND OPEN THE MAP \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase28.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_phase28.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7410,
+        "modified":  "2026-09-21 10:49",
+        "purpose":  "dd2-forge :: PHASE 28 -- MAX AFFINITY with every NPC (reversible)",
+        "buttons":  [
+                        "\u003e\u003e\u003e MAX AFFINITY WITH EVERYONE \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase29.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_phase29.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  10404,
+        "modified":  "2026-09-22 09:55",
+        "purpose":  "dd2-forge :: PHASE 29 -- DCP probe. READ-ONLY. Writes nothing.",
+        "buttons":  [
+                        "\u003e\u003e\u003e PROBE DCP / JobPoint  (read-only) \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase30.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_phase30.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7584,
+        "modified":  "2026-09-22 09:59",
+        "purpose":  "dd2-forge :: PHASE 30 -- DCP (Discipline Points), Arisen AND pawn",
+        "buttons":  [
+                        "(read-only) SHOW MY CURRENT DCP",
+                        "\u003e\u003e\u003e SET DCP ON ARISEN AND PAWN \u003c\u003c\u003c",
+                        "REVERT to the captured originals"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase31.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_phase31.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  12419,
+        "modified":  "2026-09-22 10:08",
+        "purpose":  "dd2-forge :: PHASE 31 -- AFFINITY, BY NAME. Ulrika question.",
+        "buttons":  [
+                        "\u003e\u003e\u003e WHO IS NOT AT MAX?  (read-only, names them) \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e CHECK ULRIKA BY NAME  (read-only) \u003c\u003c\u003c",
+                        "RETRY the stragglers, setter flag = false",
+                        "RETRY the stragglers, setter flag = TRUE  (untested)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_plague.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_plague.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  6394,
+        "modified":  "2026-09-22 20:02",
+        "purpose":  "dd2forge_plague.lua  ::  Dragonsplague removal",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_questguide.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_questguide.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  206795,
+        "modified":  "2026-09-22 22:17",
+        "purpose":  "local QUESTS = {",
+        "buttons":  [
+                        "refresh journal"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_refill.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_refill.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  13273,
+        "modified":  "2026-09-22 02:11",
+        "purpose":  "dd2-forge :: CONSTANT REFILLS -- curatives, gold, rift crystals",
+        "buttons":  [
+                        "\u003e\u003e\u003e TOP UP NOW  (one pass, ignores the toggle) \u003c\u003c\u003c",
+                        "ABORT the running top-up"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_stacks.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_stacks.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5074,
+        "modified":  "2026-09-22 11:32",
+        "purpose":  "dd2forge_stacks.lua -- 2026-09-20",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_uiunlocks.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_uiunlocks.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  5370,
+        "modified":  "2026-09-22 14:26",
+        "purpose":  "dd2-forge :: UI TRADE UNLOCKS -- 2026-09-22",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_vocations.lua",
+        "path":  "_backups\\pre-menu-rename\\dd2forge_vocations.lua",
+        "state":  "backup",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  11875,
+        "modified":  "2026-09-22 19:47",
+        "purpose":  "dd2forge_vocations.lua  ::  READ ONLY DIAGNOSTICS",
+        "buttons":  [
+                        "read state"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_1on_pawnhush.lua.retired-20260926",
+        "path":  "_retired\\dd2forge_1on_pawnhush.lua.retired-20260926",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  12347,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PAWN HUSH -- party pawns stop narrating, and stop high-fiving",
+        "buttons":  [
+                        "SAVE the block list",
+                        "RELOAD it from disk",
+                        "CLEAR the block list (does not save)",
+                        "clear the heard list"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_decayfix.lua.retired-20260926",
+        "path":  "_retired\\dd2forge_2do_decayfix.lua.retired-20260926",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  9395,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: DECAY REPAIR -- 2026-09-22",
+        "buttons":  [
+                        "1. SCAN (read-only, changes nothing)",
+                        "STOP"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_2do_kit.lua.retired-20260926",
+        "path":  "_retired\\dd2forge_2do_kit.lua.retired-20260926",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7479,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PROLOGUE KIT -- grants to YOUR PERSON, not storage",
+        "buttons":  [
+                        "\u003e\u003e\u003e GRANT THE PROLOGUE KIT \u003c\u003c\u003c",
+                        "ABORT (stops at the next frame)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_3ng3_dcp.lua.retired-20260926",
+        "path":  "_retired\\dd2forge_3ng3_dcp.lua.retired-20260926",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7594,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2-forge :: PHASE 30 -- DCP (Discipline Points), Arisen AND pawn",
+        "buttons":  [
+                        "(read-only) SHOW MY CURRENT DCP",
+                        "\u003e\u003e\u003e SET DCP ON ARISEN AND PAWN \u003c\u003c\u003c",
+                        "REVERT to the captured originals"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_4read_vocations.lua.retired-20260926",
+        "path":  "_retired\\dd2forge_4read_vocations.lua.retired-20260926",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  11890,
+        "modified":  "2026-09-22 22:32",
+        "purpose":  "dd2forge_vocations.lua  ::  READ ONLY DIAGNOSTICS",
+        "buttons":  [
+                        "read state"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_9probe_chain.lua.retired-20260926",
+        "path":  "_retired\\dd2forge_9probe_chain.lua.retired-20260926",
+        "state":  "retired",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  9229,
+        "modified":  "2026-09-24 17:08",
+        "purpose":  "dd2-forge :: BUST CHAIN -- live tuning bench",
+        "buttons":  [
+                        "restart the chain",
+                        "REVERT EVERYTHING",
+                        "read current values"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_9probe_questtext.lua.retired-20260926",
+        "path":  "_retired\\dd2forge_9probe_questtext.lua.retired-20260926",
+        "state":  "retired",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  15421,
+        "modified":  "2026-09-23 20:03",
+        "purpose":  "dd2-forge :: PROBE -- can we read DD2\u0027s OWN quest objective text?",
+        "buttons":  [
+                        "RUN PROBE",
+                        "copy log to clipboard"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_bustcheck.lua",
+        "path":  "_retired\\dd2forge_bustcheck.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  4694,
+        "modified":  "2026-09-21 11:19",
+        "purpose":  "dd2-forge :: BUST CHECK -- READ ONLY. Which layer is making a chest big?",
+        "buttons":  [
+                        "\u003e\u003e\u003e CHECK EVERY FEMALE NEARBY \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_chainprobe.lua",
+        "path":  "_retired\\dd2forge_chainprobe.lua",
+        "state":  "retired",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  9929,
+        "modified":  "2026-09-22 14:44",
+        "purpose":  "dd2-forge :: CHAIN PROBE -- READ ONLY. Writes nothing. Auto-runs.",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_decayprobe.lua",
+        "path":  "_retired\\dd2forge_decayprobe.lua",
+        "state":  "retired",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  7938,
+        "modified":  "2026-09-22 11:26",
+        "purpose":  "dd2-forge :: DECAY PROBE -- READ ONLY. Grants nothing. Auto-runs.",
+        "buttons":  [
+                        "DUMP THE DECAY LIST AGAIN (read-only)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_deepdump.lua",
+        "path":  "_retired\\dd2forge_deepdump.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  13648,
+        "modified":  "2026-09-18 22:11",
+        "purpose":  "dd2-forge :: EXHAUSTIVE character dumper",
+        "buttons":  [
+                        "Deep dump"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_foodbisect.lua",
+        "path":  "_retired\\dd2forge_foodbisect.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  17119,
+        "modified":  "2026-09-22 12:15",
+        "purpose":  "dd2-forge :: FOOD BISECT -- find the item that freezes ALL FOOD",
+        "buttons":  [
+                        "\u003e\u003e\u003e START THE FOOD BISECT \u003c\u003c\u003c",
+                        "ABORT"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_mapprobe.lua",
+        "path":  "_retired\\dd2forge_mapprobe.lua",
+        "state":  "retired",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  10559,
+        "modified":  "2026-09-22 16:22",
+        "purpose":  "dd2-forge :: MAP DISCOVERY PROBE -- READ ONLY. Writes nothing. Auto-runs.",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_maptorch.lua",
+        "path":  "_retired\\dd2forge_maptorch.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  11446,
+        "modified":  "2026-09-22 17:59",
+        "purpose":  "dd2-forge :: MAP TORCH -- reveals the map. 2026-09-22.",
+        "buttons":  [
+                        "\u003e\u003e\u003e DRY RUN -- report only, changes nothing \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e LIGHT THE TORCH  (writes to your save) \u003c\u003c\u003c"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_maskident.lua",
+        "path":  "_retired\\dd2forge_maskident.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7803,
+        "modified":  "2026-09-22 18:03",
+        "purpose":  "dd2-forge :: MASK IDENTITY -- READ ONLY. Writes nothing. Auto-runs.",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_maskoracle.lua",
+        "path":  "_retired\\dd2forge_maskoracle.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  14578,
+        "modified":  "2026-09-22 18:24",
+        "purpose":  "dd2forge_maskoracle.lua",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_maskpolarity.lua",
+        "path":  "_retired\\dd2forge_maskpolarity.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  10277,
+        "modified":  "2026-09-22 16:49",
+        "purpose":  "dd2-forge :: MASK POLARITY PROBE -- READ ONLY. Writes nothing. Auto-runs.",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_maskpolarity2.lua",
+        "path":  "_retired\\dd2forge_maskpolarity2.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  10698,
+        "modified":  "2026-09-22 16:55",
+        "purpose":  "dd2-forge :: MASK POLARITY v3 -- READ ONLY. Writes nothing. Auto-runs.",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase29.lua",
+        "path":  "_retired\\dd2forge_phase29.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  10404,
+        "modified":  "2026-09-22 09:55",
+        "purpose":  "dd2-forge :: PHASE 29 -- DCP probe. READ-ONLY. Writes nothing.",
+        "buttons":  [
+                        "\u003e\u003e\u003e PROBE DCP / JobPoint  (read-only) \u003c\u003c\u003c"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_phase31.lua",
+        "path":  "_retired\\dd2forge_phase31.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  12419,
+        "modified":  "2026-09-22 10:08",
+        "purpose":  "dd2-forge :: PHASE 31 -- AFFINITY, BY NAME. Ulrika question.",
+        "buttons":  [
+                        "\u003e\u003e\u003e WHO IS NOT AT MAX?  (read-only, names them) \u003c\u003c\u003c",
+                        "\u003e\u003e\u003e CHECK ULRIKA BY NAME  (read-only) \u003c\u003c\u003c",
+                        "RETRY the stragglers, setter flag = false",
+                        "RETRY the stragglers, setter flag = TRUE  (untested)"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_plague2.lua",
+        "path":  "_retired\\dd2forge_plague2.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  14242,
+        "modified":  "2026-09-22 19:16",
+        "purpose":  "dd2forge_plague2.lua",
+        "buttons":  [
+                        "run probe"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_plagueprobe.lua",
+        "path":  "_retired\\dd2forge_plagueprobe.lua",
+        "state":  "retired",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  8440,
+        "modified":  "2026-09-22 14:37",
+        "purpose":  "dd2-forge :: DRAGONSPLAGUE PROBE -- READ ONLY. Writes nothing. Auto-runs.",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_sigprobe.lua",
+        "path":  "_retired\\dd2forge_sigprobe.lua",
+        "state":  "retired",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  5998,
+        "modified":  "2026-09-22 13:06",
+        "purpose":  "dd2-forge :: SIGNATURE PROBE -- READ ONLY. Grants nothing. Auto-runs.",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_skeletonprobe.lua",
+        "path":  "_retired\\dd2forge_skeletonprobe.lua",
+        "state":  "retired",
+        "kind":  "probe",
+        "ours":  true,
+        "bytes":  7278,
+        "modified":  "2026-09-22 14:54",
+        "purpose":  "dd2-forge :: SKELETON PROBE -- READ ONLY. Writes nothing. Auto-runs.",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "dd2-forge script",
+        "name":  "dd2forge_storagecheck.lua",
+        "path":  "_retired\\dd2forge_storagecheck.lua",
+        "state":  "retired",
+        "kind":  "tool",
+        "ours":  true,
+        "bytes":  7496,
+        "modified":  "2026-09-22 11:06",
+        "purpose":  "dd2-forge :: STORAGE CHECK v2 -- READ ONLY. Grants nothing. Cannot crash.",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "quest_tracker.lua.retired-20260923",
+        "path":  "_retired\\quest_tracker.lua.retired-20260923",
+        "state":  "retired",
+        "kind":  "third-party",
+        "ours":  false,
+        "bytes":  72612,
+        "modified":  "2026-09-14 16:54",
+        "purpose":  "DD2 Quest Tracker: in-game quest UI + map-marker pinning.",
+        "buttons":  [
+                        "Remove",
+                        "Copy cid",
+                        "Set as giver",
+                        "Bring back",
+                        "Copy cid",
+                        "Restore all##",
+                        "Clear override##",
+                        "Clear pos##",
+                        "Capture player pos as giver##",
+                        "Copy ID",
+                        "Copy Name",
+                        "Clear All Pins",
+                        "Export for Community"
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "Functions.lua",
+        "path":  "_SharedCore\\Functions.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  46618,
+        "modified":  "2026-09-02 09:35",
+        "purpose":  "/////////////////////////////////////--",
+        "buttons":  [
+
+                    ],
+        "writes":  true,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "third-party script",
+        "name":  "Imgui.lua",
+        "path":  "_SharedCore\\Imgui.lua",
+        "state":  "module",
+        "kind":  "library",
+        "ours":  false,
+        "bytes":  100838,
+        "modified":  "2026-02-28 14:49",
+        "purpose":  "/////////////////////////////////////--",
+        "buttons":  [
+                        "Pick File",
+                        "  Ok  ",
+                        "Cancel",
+                        "Refresh"
+                    ],
+        "writes":  false,
+        "route":  "reframework/autorun"
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "ClearDescriptions-314-1-0-1711853856",
+        "path":  "ClearDescriptions-314-1-0-1711853856",
+        "state":  "installed",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "pak (pak_mods)",
+        "filecount":  1,
+        "stalefiles":  0,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "CarryMeSenpai",
+        "path":  "CarryMeSenpai-301-1-2-2-1712006329 (1)",
+        "state":  "installed",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "lua script",
+        "filecount":  1,
+        "stalefiles":  0,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "DD2 Pak Bridge",
+        "path":  "DD2PakBridge",
+        "state":  "installed",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "loose natives",
+        "filecount":  3,
+        "stalefiles":  0,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "No Spa Censor",
+        "path":  "NoSpaCensor",
+        "state":  "installed",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "lua script",
+        "filecount":  1,
+        "stalefiles":  0,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "Riddle of Rumination Marker-161-1-0-1711422199",
+        "path":  "Riddle of Rumination Marker-161-1-0-1711422199",
+        "state":  "installed",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "lua script",
+        "filecount":  1,
+        "stalefiles":  0,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "Affinity Bar",
+        "path":  "Affinity Bar",
+        "state":  "installed",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "lua script",
+        "filecount":  5,
+        "stalefiles":  0,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "Female Nude Mod-5-2-4-1711247214",
+        "path":  "Female Nude Mod-5-2-4-1711247214",
+        "state":  "installed",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "pak (pak_mods)",
+        "filecount":  1,
+        "stalefiles":  0,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "Wilhemina - Brown Nips Version",
+        "path":  "NudeWilhelmina-v1.3-BrownNips",
+        "state":  "installed but inert",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "loose natives",
+        "filecount":  7,
+        "stalefiles":  4,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "Nudify for Latest Game Update 3.2 (September 2026)",
+        "path":  "Nudify Updated For September 2026 Game Update 3.2 1623 1 2026-09-20T11-09Z zfMOsfKeG",
+        "state":  "installed",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "lua script",
+        "filecount":  1,
+        "stalefiles":  0,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "Sphinx Nude Natural-424-1-0-0-1712191580",
+        "path":  "Sphinx Nude Natural-424-1-0-0-1712191580",
+        "state":  "installed",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "pak (pak_mods)",
+        "filecount":  1,
+        "stalefiles":  0,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "Fluffy mod",
+        "name":  "Nudify",
+        "path":  "Nudify",
+        "state":  "installed",
+        "kind":  "mod",
+        "ours":  false,
+        "bytes":  0,
+        "modified":  "",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "lua script",
+        "filecount":  1,
+        "stalefiles":  0,
+        "missingfiles":  [
+
+                         ]
+    },
+    {
+        "group":  "REFramework plugin",
+        "name":  "DD2MethodLibrary.dll",
+        "path":  "reframework/plugins",
+        "state":  "active",
+        "kind":  "plugin",
+        "ours":  false,
+        "bytes":  98304,
+        "modified":  "2026-09-12 20:24",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "native dll"
+    },
+    {
+        "group":  "REFramework plugin",
+        "name":  "DD2PakBridge.dll",
+        "path":  "reframework/plugins",
+        "state":  "active",
+        "kind":  "plugin",
+        "ours":  false,
+        "bytes":  608768,
+        "modified":  "2026-09-19 20:38",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "native dll"
+    },
+    {
+        "group":  "REFramework plugin",
+        "name":  "DD2PakBridge.ini",
+        "path":  "reframework/plugins",
+        "state":  "active",
+        "kind":  "plugin",
+        "ours":  false,
+        "bytes":  1398,
+        "modified":  "2026-09-18 21:23",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "native dll"
+    },
+    {
+        "group":  "REFramework plugin",
+        "name":  "DD2PakBridge.layouts",
+        "path":  "reframework/plugins",
+        "state":  "active",
+        "kind":  "plugin",
+        "ours":  false,
+        "bytes":  11879670,
+        "modified":  "2026-09-19 18:47",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "native dll"
+    },
+    {
+        "group":  "REFramework plugin",
+        "name":  "DD2PakBridge.manifest",
+        "path":  "reframework/plugins",
+        "state":  "active",
+        "kind":  "plugin",
+        "ours":  false,
+        "bytes":  121,
+        "modified":  "2026-09-26 16:15",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "native dll"
+    },
+    {
+        "group":  "REFramework plugin",
+        "name":  "reframework-io-extend.dll",
+        "path":  "reframework/plugins",
+        "state":  "active",
+        "kind":  "plugin",
+        "ours":  false,
+        "bytes":  356352,
+        "modified":  "2026-09-04 19:47",
+        "purpose":  "",
+        "buttons":  [
+
+                    ],
+        "writes":  false,
+        "route":  "native dll"
+    }
+]

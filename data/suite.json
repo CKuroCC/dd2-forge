@@ -1,5 +1,5 @@
 ﻿{
-    "generated":  "2026-09-26T13:42:10",
+    "generated":  "2026-09-26T16:40:24",
     "game":  "Dragon\u0027s Dogma 2",
     "build":  "3.2.0.0",
     "platform":  "Steam / PC",
@@ -901,6 +901,13 @@
                         "modified":  "2026-09-22T22:32:08"
                     },
                     {
+                        "name":  "dd2forge_3ng3_dcp.lua",
+                        "bytes":  7594,
+                        "state":  "active",
+                        "ours":  true,
+                        "modified":  "2026-09-22T22:32:08"
+                    },
+                    {
                         "name":  "dd2forge_3ng4_affinity.lua",
                         "bytes":  8239,
                         "state":  "active",
@@ -1049,10 +1056,17 @@
                     },
                     {
                         "name":  "MeshModEnabler.lua",
-                        "bytes":  21759,
+                        "bytes":  23269,
                         "state":  "active",
                         "ours":  false,
-                        "modified":  "2024-11-07T22:10:41"
+                        "modified":  "2026-09-26T16:14:11"
+                    },
+                    {
+                        "name":  "MeshModEnabler.lua.pakbridge-original",
+                        "bytes":  21759,
+                        "state":  "backup",
+                        "ours":  false,
+                        "modified":  "2026-09-26T16:14:11"
                     },
                     {
                         "name":  "NoSpaCensor.lua",
