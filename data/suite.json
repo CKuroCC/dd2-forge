@@ -1,5 +1,5 @@
 ﻿{
-    "generated":  "2026-09-26T16:40:24",
+    "generated":  "2026-09-26T18:03:17",
     "game":  "Dragon\u0027s Dogma 2",
     "build":  "3.2.0.0",
     "platform":  "Steam / PC",
@@ -192,6 +192,20 @@
                         "state":  "backup",
                         "ours":  true,
                         "modified":  "2026-09-23T20:03:14"
+                    },
+                    {
+                        "name":  "_backups/20260926-map-merge/dd2forge_3ng2_wealth.lua",
+                        "bytes":  6608,
+                        "state":  "backup",
+                        "ours":  true,
+                        "modified":  "2026-09-22T22:32:08"
+                    },
+                    {
+                        "name":  "_backups/20260926-map-merge/dd2forge_7map_torch.lua",
+                        "bytes":  11814,
+                        "state":  "backup",
+                        "ours":  true,
+                        "modified":  "2026-09-26T17:53:36"
                     },
                     {
                         "name":  "_backups/BigBoobs.lua.disabled",
@@ -628,6 +642,13 @@
                         "modified":  "2026-09-22T22:32:08"
                     },
                     {
+                        "name":  "_retired/dd2forge_7map_torch.lua.retired-20260926",
+                        "bytes":  11814,
+                        "state":  "backup",
+                        "ours":  true,
+                        "modified":  "2026-09-26T17:53:36"
+                    },
+                    {
                         "name":  "_retired/dd2forge_9probe_chain.lua.retired-20260926",
                         "bytes":  9229,
                         "state":  "backup",
@@ -895,10 +916,10 @@
                     },
                     {
                         "name":  "dd2forge_3ng2_wealth.lua",
-                        "bytes":  6608,
+                        "bytes":  4118,
                         "state":  "active",
                         "ours":  true,
-                        "modified":  "2026-09-22T22:32:08"
+                        "modified":  "2026-09-26T18:02:03"
                     },
                     {
                         "name":  "dd2forge_3ng3_dcp.lua",
@@ -941,6 +962,13 @@
                         "state":  "active",
                         "ours":  true,
                         "modified":  "2026-09-25T10:55:55"
+                    },
+                    {
+                        "name":  "dd2forge_7map.lua",
+                        "bytes":  14935,
+                        "state":  "active",
+                        "ours":  true,
+                        "modified":  "2026-09-26T18:01:03"
                     },
                     {
                         "name":  "dd2forge_9probe_coreskills.lua",
