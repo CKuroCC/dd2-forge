@@ -66,12 +66,23 @@ if ($leaks.Count) { $leaks | ForEach-Object { Write-Output "  ! $_" }; throw 'pr
 Write-Output '  clean'
 
 Step 6 'commit'
-& git add -A
-$staged = (& git diff --cached --name-only) -join "`n"
-if (-not $staged) { Write-Output '  nothing to commit'; exit 0 }
-Write-Output $staged
-& git commit -q -m $Message
-& git log --oneline -1
+# git writes ordinary progress to stderr ("LF will be replaced by CRLF", "To
+# https://github.com/..."). With $ErrorActionPreference = 'Stop' PowerShell turns
+# any native stderr line into a TERMINATING NativeCommandError, so on 2026-09-26
+# this script died silently at this step twice in a row when launched detached --
+# the console host swallowed it and the log just stopped after "=== 6. commit".
+# Git's real verdict is $LASTEXITCODE, never stderr. Suspend the preference here.
+$prevEAP = $ErrorActionPreference
+$ErrorActionPreference = 'Continue'
+try {
+    & git add -A 2>&1 | Out-String | Write-Verbose
+    $staged = (& git diff --cached --name-only) -join "`n"
+    if (-not $staged) { Write-Output '  nothing to commit'; exit 0 }
+    Write-Output $staged
+    & git commit -q -m $Message 2>&1 | Out-String | Write-Output
+    if ($LASTEXITCODE -ne 0) { throw 'git commit failed' }
+    & git log --oneline -1 2>&1 | Out-String | Write-Output
+} finally { $ErrorActionPreference = $prevEAP }
 
 if ($NoPush) {
     Write-Output ''
@@ -80,6 +91,11 @@ if ($NoPush) {
 }
 
 Step 7 'push -- Vercel redeploys on this'
-& git push -q
+# Same stderr trap as step 6: git prints "To https://github.com/..." to stderr
+# on every successful push.
+$prevEAP = $ErrorActionPreference
+$ErrorActionPreference = 'Continue'
+try { & git push 2>&1 | Out-String | Write-Output }
+finally { $ErrorActionPreference = $prevEAP }
 if ($LASTEXITCODE -ne 0) { throw 'push failed' }
 Write-Output '  pushed'
