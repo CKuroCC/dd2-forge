@@ -1,5 +1,5 @@
 ﻿{
-    "generated":  "2026-09-26T18:03:19",
+    "generated":  "2026-09-26T18:33:05",
     "steamAppId":  "2054970",
     "saveDir":  "C:\\Program Files (x86)\\Steam\\userdata\\\u003caccount\u003e\\2054970\\remote\\win64_save",
     "vaultDir":  "D:\\Modding\\DD2-SaveVault",
@@ -9,16 +9,16 @@
                     "backupCount":  2,
                     "lastBackup":  "2026-09-26T17:53:06",
                     "totalBytes":  8030200,
-                    "unprotectedSlots":  0
+                    "unprotectedSlots":  1
                 },
     "slots":  [
                   {
                       "label":  "data00-1.bin",
                       "file":  "data00-1.bin",
                       "bytes":  428780,
-                      "modified":  "2026-09-26T17:38:40",
+                      "modified":  "2026-09-26T18:14:35",
                       "isSlot":  false,
-                      "backedUp":  true
+                      "backedUp":  false
                   },
                   {
                       "label":  "data000.bin",
@@ -88,9 +88,9 @@
                       "label":  "Slot 14",
                       "file":  "data014Slot.bin",
                       "bytes":  214732,
-                      "modified":  "2026-09-26T17:38:40",
+                      "modified":  "2026-09-26T18:14:35",
                       "isSlot":  true,
-                      "backedUp":  true
+                      "backedUp":  false
                   }
               ],
     "backups":  [
