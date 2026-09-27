@@ -1,5 +1,5 @@
 ﻿{
-    "generated":  "2026-09-26T18:33:04",
+    "generated":  "2026-09-26T22:59:54",
     "game":  "Dragon\u0027s Dogma 2",
     "build":  "3.2.0.0",
     "platform":  "Steam / PC",
@@ -199,6 +199,13 @@
                         "state":  "backup",
                         "ours":  true,
                         "modified":  "2026-09-22T22:32:08"
+                    },
+                    {
+                        "name":  "_backups/20260926-map-merge/dd2forge_2do_carry.lua",
+                        "bytes":  9053,
+                        "state":  "backup",
+                        "ours":  true,
+                        "modified":  "2026-09-26T13:05:22"
                     },
                     {
                         "name":  "_backups/20260926-map-merge/dd2forge_3ng2_wealth.lua",
@@ -895,10 +902,10 @@
                     },
                     {
                         "name":  "dd2forge_2do_carry.lua",
-                        "bytes":  9053,
+                        "bytes":  17019,
                         "state":  "active",
                         "ours":  true,
-                        "modified":  "2026-09-26T13:05:22"
+                        "modified":  "2026-09-26T22:58:59"
                     },
                     {
                         "name":  "dd2forge_2do_grant.lua",
